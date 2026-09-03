@@ -79,7 +79,7 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
 .event-card{display:grid;grid-template-columns:auto 1fr auto;gap:4px;align-items:stretch;margin-top:8px;min-height:96px}
 .event-card .btn.ghost{align-self:center;transition:opacity .2s}
 .event-card .btn.ghost.hidden{visibility:hidden}
-.carousel{overflow:hidden;border-radius:12px;touch-action:pan-y;cursor:grab;position:relative}
+.carousel{overflow:hidden;border-radius:12px;touch-action:pan-y;cursor:grab;position:relative;-webkit-user-drag:none}
 .carousel.dragging{cursor:grabbing}
 .cards{display:flex;will-change:transform;transition:transform .32s cubic-bezier(.22,.8,.3,1)}
 .cards.dragging{transition:none}

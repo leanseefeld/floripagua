@@ -81,18 +81,22 @@ export function buildUI(ctx) {
   let dragging = false;
   function positionCards(dxPx = 0) { const i = idxAt(sim.t); cards.style.transform = `translateX(calc(${-i * 100}% + ${dxPx}px))`; }
   (() => {
-    let sx = 0, sy = 0, dx = 0, id = null, active = false, decided = false, lastX = 0, lastT = 0, vel = 0;
+    // One gesture controller, two input paths: touch events (iOS Safari cancels pointer streams once it decides to scroll,
+    // so we decide direction on the first touchmove and preventDefault from then on) and pointer events for mouse/pen.
+    let sx = 0, sy = 0, dx = 0, active = false, decided = false, lastX = 0, lastT = 0, vel = 0;
     const band = (d, limit) => Math.sign(d) * limit * (1 - Math.exp(-Math.abs(d) / limit));
-    carousel.addEventListener('pointerdown', e => { if (sim.scenario.events.length === 0) return; active = true; decided = false; id = e.pointerId; sx = lastX = e.clientX; sy = e.clientY; dx = 0; vel = 0; lastT = performance.now(); });
-    carousel.addEventListener('pointermove', e => {
-      if (!active || e.pointerId !== id) return; const ddx = e.clientX - sx, ddy = e.clientY - sy;
-      if (!decided) { if (Math.abs(ddx) < 8 && Math.abs(ddy) < 8) return; if (Math.abs(ddy) > Math.abs(ddx)) { active = false; return; } decided = true; dragging = true; carousel.classList.add('dragging'); cards.classList.add('dragging'); try { carousel.setPointerCapture(id); } catch (_) {} }
-      const now = performance.now(); vel = 0.7 * vel + 0.3 * ((e.clientX - lastX) / Math.max(1, now - lastT)); lastX = e.clientX; lastT = now; dx = ddx;
+    const begin = (x, y) => { if (sim.scenario.events.length === 0) return; active = true; decided = false; sx = lastX = x; sy = y; dx = 0; vel = 0; lastT = performance.now(); };
+    /** returns 'h' | 'v' | null (undecided) */
+    const move = (x, y) => {
+      if (!active) return null; const ddx = x - sx, ddy = y - sy;
+      if (!decided) { if (Math.abs(ddx) < 6 && Math.abs(ddy) < 6) return null; if (Math.abs(ddy) > Math.abs(ddx) * 1.2) { active = false; return 'v'; } decided = true; dragging = true; carousel.classList.add('dragging'); cards.classList.add('dragging'); }
+      const now = performance.now(); vel = 0.7 * vel + 0.3 * ((x - lastX) / Math.max(1, now - lastT)); lastX = x; lastT = now; dx = ddx;
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
       const blocked = (dx < 0 && i >= n) || (dx > 0 && i <= 0);
       positionCards(blocked ? band(dx, W * 0.12) : band(dx, W * 0.55)); // edge: stiff rubber band, never commits
-    });
-    const finish = () => {
+      return 'h';
+    };
+    const end = () => {
       if (!active) return; active = false; carousel.classList.remove('dragging'); cards.classList.remove('dragging');
       if (!decided) return; dragging = false;
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
@@ -101,9 +105,16 @@ export function buildUI(ctx) {
       if (commit) goto(i + dir); else positionCards(0); // snap back = cancel, nothing changes in the simulation
       dx = 0;
     };
-    carousel.addEventListener('pointerup', finish); carousel.addEventListener('pointercancel', finish); carousel.addEventListener('lostpointercapture', finish);
-    // Mobile browsers may hand a horizontal touch to native scrolling (and cancel the pointer stream); once we decided it's a swipe, keep it.
-    carousel.addEventListener('touchmove', e => { if (active && decided) e.preventDefault(); }, { passive: false });
+    // touch path
+    let tid = null;
+    carousel.addEventListener('touchstart', e => { if (e.touches.length !== 1) return; tid = e.touches[0].identifier; begin(e.touches[0].clientX, e.touches[0].clientY); }, { passive: true });
+    carousel.addEventListener('touchmove', e => { const t = [...e.touches].find(t => t.identifier === tid); if (!t) return; const r = move(t.clientX, t.clientY); if (r === 'h') e.preventDefault(); }, { passive: false });
+    carousel.addEventListener('touchend', end); carousel.addEventListener('touchcancel', end);
+    // mouse / pen path
+    let pid = null;
+    carousel.addEventListener('pointerdown', e => { if (e.pointerType === 'touch') return; pid = e.pointerId; begin(e.clientX, e.clientY); });
+    carousel.addEventListener('pointermove', e => { if (e.pointerType === 'touch' || e.pointerId !== pid) return; if (move(e.clientX, e.clientY) === 'h') { try { carousel.setPointerCapture(pid); } catch (_) {} } });
+    carousel.addEventListener('pointerup', e => { if (e.pointerType !== 'touch') end(); }); carousel.addEventListener('pointercancel', e => { if (e.pointerType !== 'touch') end(); });
   })();
   function flash() { const c = $('#eventCard'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
   let drag = false;
