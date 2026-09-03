@@ -102,6 +102,8 @@ export function buildUI(ctx) {
       dx = 0;
     };
     carousel.addEventListener('pointerup', finish); carousel.addEventListener('pointercancel', finish); carousel.addEventListener('lostpointercapture', finish);
+    // Mobile browsers may hand a horizontal touch to native scrolling (and cancel the pointer stream); once we decided it's a swipe, keep it.
+    carousel.addEventListener('touchmove', e => { if (active && decided) e.preventDefault(); }, { passive: false });
   })();
   function flash() { const c = $('#eventCard'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
   let drag = false;
@@ -117,14 +119,15 @@ export function buildUI(ctx) {
 
   function loadScenario(id) {
     const s = simLayer.scenarios.find(x => x.id === id); if (!s) return; sel.value = id;
-    sim.load(s, simLayer.model); sim.playing = false;
+    sim.off('tick', refresh); // rebuild the timeline DOM first, then load the engine
     const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
     cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
-    cards.classList.add('dragging'); positionCards(0); void cards.offsetWidth; cards.classList.remove('dragging');
+    cards.classList.add('dragging'); cards.style.transform = 'translateX(0px)'; void cards.offsetWidth; cards.classList.remove('dragging');
     $('#evDots').innerHTML = `<i data-i="0"></i>` + s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i + 1}"></i>`).join('');
     $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => goto(+d.dataset.i));
     marks.innerHTML = s.events.map((ev, i) => `<div class="mark ${ev.apply ? 'key' : ''}" style="left:${(100 * ev.t_h / s.duration_h).toFixed(2)}%" data-i="${i}" title="${fmtDay(evDate(s, ev))} ${fmtTime(evDate(s, ev))}"></div>`).join('');
     marks.querySelectorAll('.mark').forEach(m => m.addEventListener('pointerdown', (e) => { e.stopPropagation(); goto(+m.dataset.i + 1); }));
+    sim.load(s, simLayer.model); sim.playing = false; sim.on('tick', refresh); lastEv = null;
     $('#settingsBtn').style.display = /recarga|rompimento/.test(id) ? '' : 'none';
     if (id === 'rompimento_2026' || id.startsWith('recarga')) app.flyTo(app.pos(-48.64, -27.62), 20000, 48);
     refresh();
@@ -135,7 +138,7 @@ export function buildUI(ctx) {
     const d = sim.date(); $('#clockDay').textContent = fmtDay(d); $('#clockTime').textContent = fmtTime(d);
     $('#play').innerHTML = icon(sim.playing ? 'i-pause' : (t >= s.duration_h - 1e-6 ? 'i-reset' : 'i-play'));
     const f = t / s.duration_h; track.querySelector('.track-fill').style.width = (100 * f).toFixed(2) + '%'; track.querySelector('.track-head').style.left = (100 * f).toFixed(2) + '%';
-    marks.querySelectorAll('.mark').forEach((el, i) => el.classList.toggle('done', s.events[i].t_h <= t));
+    marks.querySelectorAll('.mark').forEach((el, i) => el.classList.toggle('done', !!s.events[i] && s.events[i].t_h <= t));
     const i = idxAt(t); const cur = i ? s.events[i - 1] : null;
     if (!dragging) positionCards(0);
     cards.querySelectorAll('.card').forEach((el, k) => el.classList.toggle('on', k === i));

@@ -83,10 +83,10 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
 .carousel.dragging{cursor:grabbing}
 .cards{display:flex;will-change:transform;transition:transform .32s cubic-bezier(.22,.8,.3,1)}
 .cards.dragging{transition:none}
-.card{flex:0 0 100%;min-width:0;padding:10px 12px;background:rgba(11,87,208,.1);border-radius:12px;user-select:none;-webkit-user-select:none}
+.card{flex:0 0 100%;min-width:0;padding:10px 12px;touch-action:pan-y;background:rgba(11,87,208,.1);border-radius:12px;user-select:none;-webkit-user-select:none}
 .card.key{background:rgba(217,48,37,.1)}
 .card.intro{background:rgba(15,26,43,.06)}
-.card .event-text{user-select:none;-webkit-user-select:none}
+.card .event-text{user-select:none;-webkit-user-select:none;touch-action:pan-y;overscroll-behavior:contain}
 .event-card.flash .card.on{animation:flash .7s ease-out}
 .event-dots{display:flex;gap:5px;justify-content:center;margin-top:6px}
 .event-dots i{width:6px;height:6px;border-radius:50%;background:rgba(15,26,43,.18)}
