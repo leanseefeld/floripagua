@@ -59,6 +59,17 @@ export class WaterModel {
     this.t = 0; this.stats = { popNone: 0, popLow: 0, popFull: this.totalPop, surge: 0 };
     this.surge = 0;
   }
+  /** cheap state snapshot/restore for seek checkpoints */
+  snapshot() {
+    return { t: this.t, surge: this.surge, edges: this.edges.map(e => [e.open, e.broken, e.ramp ? { ...e.ramp } : null, e.closedNow, e.flow]), res: this.reservoirs.map(r => r.level), zones: this.zones.map(z => [z.supply, z.served, z.hoursOut, z.alloc]), stats: { ...this.stats } };
+  }
+  restore(s) {
+    this.t = s.t; this.surge = s.surge;
+    this.edges.forEach((e, i) => { const a = s.edges[i]; e.open = a[0]; e.broken = a[1]; e.ramp = a[2] ? { ...a[2] } : null; e.closedNow = a[3]; e.flow = a[4]; });
+    this.reservoirs.forEach((r, i) => r.level = s.res[i]);
+    this.zones.forEach((z, i) => { const a = s.zones[i]; z.supply = a[0]; z.served = a[1]; z.hoursOut = a[2]; z.alloc = a[3]; });
+    this.stats = { ...s.stats };
+  }
   edge(id) { return this.edges.find(e => e.id === id); }
   /** multi-source shortest-path distances over all non-planned edges (static topology, used for priority ordering) */
   _staticDist() {

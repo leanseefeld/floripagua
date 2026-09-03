@@ -148,9 +148,9 @@ export const waterLayer = {
       + `<div class="row"><label><input type="checkbox" id="w_inter" ${this.model.params.interconnectOpen ? 'checked' : ''}> Abrir interligação Costeira ↔ Rio Tavares (manobra hipotética)</label></div>`
       + `<div class="row"><label style="flex:1">Produção (fator)<input type="range" id="w_prod" min="0.3" max="1.3" step="0.05" value="${this.model.params.productionFactor}"></label><b id="w_prodv">${this.model.params.productionFactor.toFixed(2)}</b></div>`;
     for (const key of ['zones', 'mains', 'connections', 'estimated', 'planned', 'labels']) el.querySelector('#w_' + key).onchange = (ev) => { o[key] = ev.target.checked; if (key === 'labels') for (const L of this.nodeLabels) L.visible = o.labels && this.group.visible; this.applyState(); };
-    el.querySelector('#w_emerg').onchange = ev => { this.model.params.emergencyIntakes = ev.target.checked; this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
-    el.querySelector('#w_inter').onchange = ev => { this.model.params.interconnectOpen = ev.target.checked; for (const e of this.model.edges) if (e.closed) e.closedNow = !ev.target.checked; this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
-    el.querySelector('#w_prod').oninput = ev => { this.model.params.productionFactor = +ev.target.value; el.querySelector('#w_prodv').textContent = (+ev.target.value).toFixed(2); this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
+    el.querySelector('#w_emerg').onchange = ev => { this.model.params.emergencyIntakes = ev.target.checked; this.ctx.sim.invalidate(); this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
+    el.querySelector('#w_inter').onchange = ev => { this.model.params.interconnectOpen = ev.target.checked; for (const e of this.model.edges) if (e.closed) e.closedNow = !ev.target.checked; this.ctx.sim.invalidate(); this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
+    el.querySelector('#w_prod').oninput = ev => { this.model.params.productionFactor = +ev.target.value; el.querySelector('#w_prodv').textContent = (+ev.target.value).toFixed(2); this.ctx.sim.invalidate(); this.ctx.sim.seek(this.ctx.sim.t); this.applyState(); };
   },
   legendHtml() {
     const sys = Object.entries(this.net.systems).map(([k, s]) => `<span class="ln" style="background:${s.color}"></span><span>${s.name}</span>`).join('');

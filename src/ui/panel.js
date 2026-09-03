@@ -47,15 +47,15 @@ export function buildUI(ctx) {
   function renderSettings() {
     const p = simLayer.model.params; p.rampHours ??= 8; p.rampStages ??= 4;
     $('#pop-settings').innerHTML = `<h2>Recarga gradual (após o reparo)</h2><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Duração da carga: <b id="rampHv">${p.rampHours}</b> h<input type="range" id="rampH" min="1" max="24" step="1" value="${p.rampHours}"></label></div><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Estágios de abertura: <b id="rampSv">${p.rampStages}</b><input type="range" id="rampS" min="1" max="8" step="1" value="${p.rampStages}"></label></div><div class="note">A adutora reparada é aberta em estágios (fração da capacidade) ao longo da duração escolhida; reservatórios reenchem com a sobra e as zonas mais altas só voltam quando o reservatório passa de 35 %.</div>`;
-    $('#rampH').oninput = e => { p.rampHours = +e.target.value; $('#rampHv').textContent = e.target.value; sim.seek(sim.t); };
-    $('#rampS').oninput = e => { p.rampStages = +e.target.value; $('#rampSv').textContent = e.target.value; sim.seek(sim.t); };
+    $('#rampH').oninput = e => { p.rampHours = +e.target.value; $('#rampHv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
+    $('#rampS').oninput = e => { p.rampStages = +e.target.value; $('#rampSv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
   }
 
   // ---------- story bar ----------
   const story = $('#story'), sel = $('#scenario'), track = $('#track'), marks = track.querySelector('.track-marks');
   sel.innerHTML = simLayer.scenarios.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
   sel.onchange = () => loadScenario(sel.value);
-  const setCollapsed = (c) => { story.classList.toggle('collapsed', c); $('#storyToggle').innerHTML = icon(c ? 'i-up' : 'i-down'); };
+  const setCollapsed = (c) => { story.classList.toggle('collapsed', c); story.classList.toggle('expanded', !c); $('#storyToggle').innerHTML = icon(c ? 'i-up' : 'i-down'); $('#storyToggle').setAttribute('aria-expanded', String(!c)); };
   $('#storyToggle').onclick = () => setCollapsed(!story.classList.contains('collapsed'));
   // play: tap toggles; press-and-hold runs at 5x while held
   (() => {
@@ -73,23 +73,33 @@ export function buildUI(ctx) {
   function togglePlay() { if (sim.t >= sim.scenario.duration_h - 1e-6) sim.seek(0); sim.playing = !sim.playing; refresh(); }
   /** card index: 0 = intro (t=0), i = i-th event (last event whose time <= t) */
   const idxAt = (t) => { const evs = sim.scenario.events; let i = 0; for (let k = 0; k < evs.length; k++) if (evs[k].t_h <= t + 1e-6) i = k + 1; return i; };
-  const goto = (i) => { const evs = sim.scenario.events; i = Math.max(0, Math.min(evs.length, i)); sim.playing = false; sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); };
+  /** jump to card i: dim the deck first, let the browser paint, then compute (seek can take tens of ms) */
+  let pendingGoto = null;
+  const goto = (i) => {
+    const evs = sim.scenario.events; i = Math.max(0, Math.min(evs.length, i)); sim.playing = false;
+    cards.classList.add('busy'); cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px))`; // optimistic: slide to the card now
+    pendingGoto = i;
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      if (pendingGoto !== i) return; pendingGoto = null;
+      sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); cards.classList.remove('busy');
+    }));
+  };
   /** step to the previous/next event card; does nothing at the ends */
   function stepEvent(dir) { const i = idxAt(sim.t) + dir; if (i < 0 || i > sim.scenario.events.length) return; goto(i); }
   // card carousel with weighted swipe: the finger has to travel ~35 % of the card width (or flick) to commit; otherwise it snaps back.
   const cards = $('#cards'), carousel = $('#carousel');
   let dragging = false;
-  function positionCards(dxPx = 0) { const i = idxAt(sim.t); cards.style.transform = `translateX(calc(${-i * 100}% + ${dxPx}px))`; }
+  function positionCards(dxPx = 0) { const i = idxAt(sim.t); cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px + ${dxPx}px))`; }
   (() => {
     // One gesture controller, two input paths: touch events (iOS Safari cancels pointer streams once it decides to scroll,
     // so we decide direction on the first touchmove and preventDefault from then on) and pointer events for mouse/pen.
     let sx = 0, sy = 0, dx = 0, active = false, decided = false, lastX = 0, lastT = 0, vel = 0;
     const band = (d, limit) => Math.sign(d) * limit * (1 - Math.exp(-Math.abs(d) / limit));
-    const begin = (x, y) => { if (sim.scenario.events.length === 0) return; active = true; decided = false; sx = lastX = x; sy = y; dx = 0; vel = 0; lastT = performance.now(); };
+    const begin = (x, y) => { if (sim.scenario.events.length === 0) return; carousel.classList.add('pressed'); active = true; decided = false; sx = lastX = x; sy = y; dx = 0; vel = 0; lastT = performance.now(); };
     /** returns 'h' | 'v' | null (undecided) */
     const move = (x, y) => {
       if (!active) return null; const ddx = x - sx, ddy = y - sy;
-      if (!decided) { if (Math.abs(ddx) < 6 && Math.abs(ddy) < 6) return null; if (Math.abs(ddy) > Math.abs(ddx) * 1.2) { active = false; return 'v'; } decided = true; dragging = true; carousel.classList.add('dragging'); cards.classList.add('dragging'); }
+      if (!decided) { if (Math.abs(ddx) < 6 && Math.abs(ddy) < 6) return null; if (Math.abs(ddy) > Math.abs(ddx) * 1.2) { active = false; carousel.classList.remove('pressed'); return 'v'; } decided = true; dragging = true; carousel.classList.add('dragging'); cards.classList.add('dragging'); }
       const now = performance.now(); vel = 0.7 * vel + 0.3 * ((x - lastX) / Math.max(1, now - lastT)); lastX = x; lastT = now; dx = ddx;
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
       const blocked = (dx < 0 && i >= n) || (dx > 0 && i <= 0);
@@ -97,6 +107,7 @@ export function buildUI(ctx) {
       return 'h';
     };
     const end = () => {
+      carousel.classList.remove('pressed');
       if (!active) return; active = false; carousel.classList.remove('dragging'); cards.classList.remove('dragging');
       if (!decided) return; dragging = false;
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
@@ -132,7 +143,7 @@ export function buildUI(ctx) {
     const s = simLayer.scenarios.find(x => x.id === id); if (!s) return; sel.value = id;
     sim.off('tick', refresh); // rebuild the timeline DOM first, then load the engine
     const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
-    cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
+    cards.setAttribute('aria-live', 'polite'); cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
     cards.classList.add('dragging'); cards.style.transform = 'translateX(0px)'; void cards.offsetWidth; cards.classList.remove('dragging');
     $('#evDots').innerHTML = `<i data-i="0"></i>` + s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i + 1}"></i>`).join('');
     $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => goto(+d.dataset.i));

@@ -40,5 +40,6 @@ const say = (t) => { const el = document.getElementById('loadingText'); if (el) 
     document.getElementById('loading').remove();
     app.start(dt => { ctx.sim.tick(dt); registry.onFrame(dt); });
     window.__ctx = ctx; // debugging hook
+    if (import.meta.env.PROD && 'serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
   } catch (err) { console.error('boot failed', err); say('Erro: ' + err.message); }
 })();
