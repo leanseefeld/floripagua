@@ -77,11 +77,13 @@ export function buildUI(ctx) {
   let pendingGoto = null;
   const goto = (i) => {
     const evs = sim.scenario.events; i = Math.max(0, Math.min(evs.length, i)); sim.playing = false;
-    cards.classList.add('busy'); cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px))`; // optimistic: slide to the card now
+    const leaving = cards.querySelector('.card.on'); const all = cards.querySelectorAll('.card');
+    all.forEach(el => { el.style.opacity = ''; el.classList.remove('leaving'); }); if (leaving) leaving.classList.add('leaving'); // the card swiped away fades
+    cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px))`; // optimistic: slide to the card now
     pendingGoto = i;
     requestAnimationFrame(() => requestAnimationFrame(() => {
       if (pendingGoto !== i) return; pendingGoto = null;
-      sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); cards.classList.remove('busy');
+      sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); all.forEach(el => el.classList.remove('leaving'));
     }));
   };
   /** step to the previous/next event card; does nothing at the ends */
@@ -104,6 +106,7 @@ export function buildUI(ctx) {
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
       const blocked = (dx < 0 && i >= n) || (dx > 0 && i <= 0);
       positionCards(blocked ? band(dx, W * 0.12) : band(dx, W * 0.55)); // edge: stiff rubber band, never commits
+      const on = cards.querySelector('.card.on'); if (on) on.style.opacity = blocked ? '' : String(1 - 0.35 * Math.min(1, Math.abs(dx) / (W * 0.35)));
       return 'h';
     };
     const end = () => {
@@ -113,7 +116,7 @@ export function buildUI(ctx) {
       const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
       const dir = dx < 0 ? 1 : -1; const blocked = (dir > 0 && i >= n) || (dir < 0 && i <= 0);
       const commit = !blocked && (Math.abs(dx) > W * 0.35 || (Math.abs(vel) > 0.6 && Math.abs(dx) > 40));
-      if (commit) goto(i + dir); else positionCards(0); // snap back = cancel, nothing changes in the simulation
+      if (commit) goto(i + dir); else { positionCards(0); const on = cards.querySelector('.card.on'); if (on) on.style.opacity = ''; } // snap back = cancel
       dx = 0;
     };
     // touch path
