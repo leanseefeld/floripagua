@@ -1,0 +1,2432 @@
+[
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.737075,
+  "lon": -48.756786,
+  "cap_m3": null,
+  "muni": null,
+  "line": 211
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.691847,
+  "lon": -48.705986,
+  "cap_m3": null,
+  "muni": null,
+  "line": 227
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.688478,
+  "lon": -48.703786,
+  "cap_m3": null,
+  "muni": null,
+  "line": 258
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.573917,
+  "lon": -48.489767,
+  "cap_m3": null,
+  "muni": null,
+  "line": 269
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.587297,
+  "lon": -48.477328,
+  "cap_m3": null,
+  "muni": null,
+  "line": 282
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.561839,
+  "lon": -48.489814,
+  "cap_m3": null,
+  "muni": null,
+  "line": 292
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.645303,
+  "lon": -48.506097,
+  "cap_m3": null,
+  "muni": null,
+  "line": 312
+ },
+ {
+  "src": "sia",
+  "name": "ERAT R1                                 Centro                                       Rua Major Costa",
+  "lat": -27.593033,
+  "lon": -48.539817,
+  "cap_m3": null,
+  "muni": null,
+  "line": 324
+ },
+ {
+  "src": "sia",
+  "name": "ERAT R1                                 Centro                                       Rua Major Costa",
+  "lat": -27.541056,
+  "lon": -48.5175,
+  "cap_m3": null,
+  "muni": null,
+  "line": 327
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Cacupé                             Cacupé",
+  "lat": -27.598489,
+  "lon": -48.578167,
+  "cap_m3": null,
+  "muni": null,
+  "line": 330
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Morro da Caixa                    Capoeiras                                    Avenida Ivo Silveira",
+  "lat": -27.602806,
+  "lon": -48.498111,
+  "cap_m3": null,
+  "muni": null,
+  "line": 333
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Aldo Krieger                   Córrego Grande                                    Krieger, ao lado",
+  "lat": -27.559642,
+  "lon": -48.514381,
+  "cap_m3": null,
+  "muni": null,
+  "line": 337
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Caiobig                          João Paulo",
+  "lat": -27.595342,
+  "lon": -48.536547,
+  "cap_m3": null,
+  "muni": null,
+  "line": 340
+ },
+ {
+  "src": "sia",
+  "name": "ERAT R8 (Pastinho)                  Saco dos Limões",
+  "lat": -27.616286,
+  "lon": -48.525653,
+  "cap_m3": null,
+  "muni": null,
+  "line": 343
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Servidão Catarina              Saco dos Limões",
+  "lat": -27.547842,
+  "lon": -48.5905,
+  "cap_m3": null,
+  "muni": null,
+  "line": 346
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Aldo Luz (Itaguaçu)               Itaguaçu                                     Rua Aldo Luz, 136",
+  "lat": -27.547842,
+  "lon": -48.494912,
+  "cap_m3": null,
+  "muni": null,
+  "line": 349
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Lot. Vila Cachoeira                                                               Rua Girassol",
+  "lat": -27.605722,
+  "lon": -48.585275,
+  "cap_m3": null,
+  "muni": null,
+  "line": 354
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Vila Aparecida                    Coqueiros                                    Rua Fermino Costa",
+  "lat": -27.576019,
+  "lon": -48.537261,
+  "cap_m3": null,
+  "muni": null,
+  "line": 357
+ },
+ {
+  "src": "sia",
+  "name": "Booster Joaquim Costa I               Agronômica",
+  "lat": -27.579319,
+  "lon": -48.534678,
+  "cap_m3": null,
+  "muni": null,
+  "line": 360
+ },
+ {
+  "src": "sia",
+  "name": "Booster Joaquim Costa II              Agronômica",
+  "lat": -27.535108,
+  "lon": -48.511094,
+  "cap_m3": null,
+  "muni": null,
+  "line": 364
+ },
+ {
+  "src": "sia",
+  "name": "Booster Cacupé SC-401                   Cacupé                                     Soares Glavan, trevo",
+  "lat": -27.53725,
+  "lon": -48.512667,
+  "cap_m3": null,
+  "muni": null,
+  "line": 369
+ },
+ {
+  "src": "sia",
+  "name": "Booster Tercasa                        Carvoeira                                   em frente ao número",
+  "lat": -27.583344,
+  "lon": -48.5396,
+  "cap_m3": null,
+  "muni": null,
+  "line": 389
+ },
+ {
+  "src": "sia",
+  "name": "Booster Ernesto Stodiek                 Centro",
+  "lat": -27.596458,
+  "lon": -48.539092,
+  "cap_m3": null,
+  "muni": null,
+  "line": 392
+ },
+ {
+  "src": "sia",
+  "name": "Booster Nova Descoberta                 Centro                                     Rua Nova Descoberta",
+  "lat": -27.586653,
+  "lon": -48.54035,
+  "cap_m3": null,
+  "muni": null,
+  "line": 395
+ },
+ {
+  "src": "sia",
+  "name": "Booster Morumbi                         Centro",
+  "lat": -27.606608,
+  "lon": -48.544597,
+  "cap_m3": null,
+  "muni": null,
+  "line": 399
+ },
+ {
+  "src": "sia",
+  "name": "Booster Mocotó                          Centro                                       Rua 13 de Maio",
+  "lat": -27.583306,
+  "lon": -48.538194,
+  "cap_m3": null,
+  "muni": null,
+  "line": 403
+ },
+ {
+  "src": "sia",
+  "name": "Booster Avenida do Antão                Centro                                     em frente ao número",
+  "lat": -27.587556,
+  "lon": -48.536528,
+  "cap_m3": null,
+  "muni": null,
+  "line": 407
+ },
+ {
+  "src": "sia",
+  "name": "Booster TV Cultura                      Centro                                      Avenida do Antão",
+  "lat": -27.609944,
+  "lon": -48.505417,
+  "cap_m3": null,
+  "muni": null,
+  "line": 411
+ },
+ {
+  "src": "sia",
+  "name": "Booster Maria Juliana Cordeiro      Córrego Grande                                  Cordeiro, em frente",
+  "lat": -27.599903,
+  "lon": -48.509169,
+  "cap_m3": null,
+  "muni": null,
+  "line": 416
+ },
+ {
+  "src": "sia",
+  "name": "Booster Capitão Américo             Córrego Grande                                  Américo, em frente",
+  "lat": -27.608372,
+  "lon": -48.504881,
+  "cap_m3": null,
+  "muni": null,
+  "line": 420
+ },
+ {
+  "src": "sia",
+  "name": "Booster Maestro Aldo Krieger        Córrego Grande                                 Krieger, em frente ao",
+  "lat": -27.601417,
+  "lon": -48.499694,
+  "cap_m3": null,
+  "muni": null,
+  "line": 425
+ },
+ {
+  "src": "sia",
+  "name": "Booster Maestro Aldo Krieger        Córrego Grande                                 Krieger, em frente ao",
+  "lat": -27.629764,
+  "lon": -48.523417,
+  "cap_m3": null,
+  "muni": null,
+  "line": 428
+ },
+ {
+  "src": "sia",
+  "name": "Booster Servidão Guarani",
+  "lat": -27.623186,
+  "lon": -48.525128,
+  "cap_m3": null,
+  "muni": null,
+  "line": 432
+ },
+ {
+  "src": "sia",
+  "name": "Booster Ana Maria Bernardo            Costeira do        Latitude: 27°37'23.47\"S",
+  "lat": -27.634167,
+  "lon": -48.522139,
+  "cap_m3": null,
+  "muni": null,
+  "line": 436
+ },
+ {
+  "src": "sia",
+  "name": "Booster Kumakola I",
+  "lat": -27.634278,
+  "lon": -48.521306,
+  "cap_m3": null,
+  "muni": null,
+  "line": 440
+ },
+ {
+  "src": "sia",
+  "name": "Booster Kumakola II                                                                Kumakola, em frente",
+  "lat": -27.596444,
+  "lon": -48.575083,
+  "cap_m3": null,
+  "muni": null,
+  "line": 445
+ },
+ {
+  "src": "sia",
+  "name": "Booster Jucelino Kubitschek             Estreito                                     Kubitschek de",
+  "lat": -27.58285,
+  "lon": -48.495897,
+  "cap_m3": null,
+  "muni": null,
+  "line": 449
+ },
+ {
+  "src": "sia",
+  "name": "Booster Quilombo                       Itacorubi",
+  "lat": -27.588483,
+  "lon": -48.494342,
+  "cap_m3": null,
+  "muni": null,
+  "line": 452
+ },
+ {
+  "src": "sia",
+  "name": "Booster Itacorubi I (Booster                             Latitude: 27°34'25.12\"S    Rua Coronel Luiz",
+  "lat": -27.573644,
+  "lon": -48.510956,
+  "cap_m3": null,
+  "muni": null,
+  "line": 472
+ },
+ {
+  "src": "sia",
+  "name": "Booster Itacorubi II (Booster                            Latitude: 27°34'42.66\"S",
+  "lat": -27.578517,
+  "lon": -48.504994,
+  "cap_m3": null,
+  "muni": null,
+  "line": 477
+ },
+ {
+  "src": "sia",
+  "name": "Booster Recanto Verde                    Itacorubi",
+  "lat": -27.58505,
+  "lon": -48.497139,
+  "cap_m3": null,
+  "muni": null,
+  "line": 482
+ },
+ {
+  "src": "sia",
+  "name": "Booster Recanto Verde                    Itacorubi",
+  "lat": -27.570933,
+  "lon": -48.512025,
+  "cap_m3": null,
+  "muni": null,
+  "line": 486
+ },
+ {
+  "src": "sia",
+  "name": "Booster Tecnópolis                      João Paulo",
+  "lat": -27.612086,
+  "lon": -48.544967,
+  "cap_m3": null,
+  "muni": null,
+  "line": 491
+ },
+ {
+  "src": "sia",
+  "name": "Booster Aníbal Nunes Pires             José Mendes                                    Nunes Pires, em",
+  "lat": -27.609428,
+  "lon": -48.516508,
+  "cap_m3": null,
+  "muni": null,
+  "line": 496
+ },
+ {
+  "src": "sia",
+  "name": "Booster Frederico Veras                  Pantanal                                     Frederico Veras,",
+  "lat": -27.608547,
+  "lon": -48.519306,
+  "cap_m3": null,
+  "muni": null,
+  "line": 500
+ },
+ {
+  "src": "sia",
+  "name": "Booster Antônio Francisco da                            Latitude: 27°36'30.77\"S        Rua Antônio",
+  "lat": -27.604511,
+  "lon": -48.515531,
+  "cap_m3": null,
+  "muni": null,
+  "line": 503
+ },
+ {
+  "src": "sia",
+  "name": "Booster Protenor Vidal                   Pantanal",
+  "lat": -27.610639,
+  "lon": -48.524056,
+  "cap_m3": null,
+  "muni": null,
+  "line": 507
+ },
+ {
+  "src": "sia",
+  "name": "Booster Cereja                           Pantanal                                  Antônio Edu Vieira,",
+  "lat": -27.615361,
+  "lon": -48.526306,
+  "cap_m3": null,
+  "muni": null,
+  "line": 511
+ },
+ {
+  "src": "sia",
+  "name": "Booster Servidão Catarina             Saco dos Limões",
+  "lat": -27.598278,
+  "lon": -48.532844,
+  "cap_m3": null,
+  "muni": null,
+  "line": 515
+ },
+ {
+  "src": "sia",
+  "name": "Booster Felicidade I                  Saco dos Limões",
+  "lat": -27.596197,
+  "lon": -48.532281,
+  "cap_m3": null,
+  "muni": null,
+  "line": 519
+ },
+ {
+  "src": "sia",
+  "name": "Booster Felicidade II (Transcaeira)       Centro",
+  "lat": -27.492119,
+  "lon": -48.504158,
+  "cap_m3": null,
+  "muni": null,
+  "line": 523
+ },
+ {
+  "src": "sia",
+  "name": "Booster Sc-401 I - Sambaqui            Saco Grande",
+  "lat": -27.492247,
+  "lon": -48.504253,
+  "cap_m3": null,
+  "muni": null,
+  "line": 527
+ },
+ {
+  "src": "sia",
+  "name": "Booster Sc-401- II – SIF               Saco Grande",
+  "lat": -27.489528,
+  "lon": -48.537575,
+  "cap_m3": null,
+  "muni": null,
+  "line": 531
+ },
+ {
+  "src": "sia",
+  "name": "Booster Rua das Ostras                   Sambaqui",
+  "lat": -27.488994,
+  "lon": -48.521539,
+  "cap_m3": null,
+  "muni": null,
+  "line": 535
+ },
+ {
+  "src": "sia",
+  "name": "Booster Isid Dutra I                     Sambaqui",
+  "lat": -27.490433,
+  "lon": -48.531747,
+  "cap_m3": null,
+  "muni": null,
+  "line": 539
+ },
+ {
+  "src": "sia",
+  "name": "Booster Isid Dutra                     Sambaqui",
+  "lat": -27.583369,
+  "lon": -48.527458,
+  "cap_m3": null,
+  "muni": null,
+  "line": 560
+ },
+ {
+  "src": "sia",
+  "name": "Booster Álvaro Ramos                   Trindade",
+  "lat": -27.599583,
+  "lon": -48.530028,
+  "cap_m3": null,
+  "muni": null,
+  "line": 563
+ },
+ {
+  "src": "sia",
+  "name": "Booster Serrinha                       Trindade                                     Homem, ao lado do",
+  "lat": -27.586336,
+  "lon": -48.528292,
+  "cap_m3": null,
+  "muni": null,
+  "line": 567
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório R9",
+  "lat": -27.585919,
+  "lon": -48.529956,
+  "cap_m3": null,
+  "muni": null,
+  "line": 570
+ },
+ {
+  "src": "sia",
+  "name": "Booster Servidão Solidariedade         Trindade                                     Solidariedade, frente",
+  "lat": -27.609989,
+  "lon": -48.538456,
+  "cap_m3": null,
+  "muni": null,
+  "line": 574
+ },
+ {
+  "src": "sia",
+  "name": "Booster Saco dos Limões (EEE                            Latitude: 27°36′35.960″S    Av. Pref. Waldemar",
+  "lat": -27.607356,
+  "lon": -48.513056,
+  "cap_m3": null,
+  "muni": null,
+  "line": 577
+ },
+ {
+  "src": "sia",
+  "name": "Booster Protenor Vidal 2 (Rua da                        Latitude: 27°36′26.482″S       Rua Protenor",
+  "lat": -27.607356,
+  "lon": -48.513056,
+  "cap_m3": null,
+  "muni": null,
+  "line": 580
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Pedregal                           Ipiranga",
+  "lat": -27.571239,
+  "lon": -48.643003,
+  "cap_m3": null,
+  "muni": null,
+  "line": 591
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Pedregal                           Ipiranga",
+  "lat": -27.600461,
+  "lon": -48.628661,
+  "cap_m3": null,
+  "muni": null,
+  "line": 595
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Morro Do Avaí                     São Luiz                                     em frente ao número",
+  "lat": -27.549072,
+  "lon": -48.636439,
+  "cap_m3": null,
+  "muni": null,
+  "line": 599
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Metropolitana                      Serraria",
+  "lat": -27.584564,
+  "lon": -48.625614,
+  "cap_m3": null,
+  "muni": null,
+  "line": 602
+ },
+ {
+  "src": "sia",
+  "name": "Erat Bosquinho (associação)                                                         Rua das Mangueiras",
+  "lat": -27.584867,
+  "lon": -48.628292,
+  "cap_m3": null,
+  "muni": null,
+  "line": 605
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque Das Mansões I                                                         Rua das Laranjeiras",
+  "lat": -27.588339,
+  "lon": -48.630344,
+  "cap_m3": null,
+  "muni": null,
+  "line": 608
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque Das Mansões II                                                        Rua das Laranjeiras",
+  "lat": -27.549072,
+  "lon": -48.636439,
+  "cap_m3": null,
+  "muni": null,
+  "line": 611
+ },
+ {
+  "src": "sia",
+  "name": "Booster Metropolitana                   Areias",
+  "lat": -27.613481,
+  "lon": -48.637453,
+  "cap_m3": null,
+  "muni": null,
+  "line": 614
+ },
+ {
+  "src": "sia",
+  "name": "Booster Irineu Comelli                  Centro                                       Rua Irineu Comelli",
+  "lat": -27.614869,
+  "lon": -48.63465,
+  "cap_m3": null,
+  "muni": null,
+  "line": 617
+ },
+ {
+  "src": "sia",
+  "name": "Booster Flamboyant                      Centro",
+  "lat": -27.586528,
+  "lon": -48.69925,
+  "cap_m3": null,
+  "muni": null,
+  "line": 620
+ },
+ {
+  "src": "sia",
+  "name": "Booster Santa Catarina                 Forquilhas                                  em frente ao número",
+  "lat": -27.579833,
+  "lon": -48.677411,
+  "cap_m3": null,
+  "muni": null,
+  "line": 642
+ },
+ {
+  "src": "sia",
+  "name": "Booster Aristides Schmitz              Forquilhas",
+  "lat": -27.593483,
+  "lon": -48.645261,
+  "cap_m3": null,
+  "muni": null,
+  "line": 646
+ },
+ {
+  "src": "sia",
+  "name": "Booster Forquilinhas                  Forquilinha                                   Silva, próximo ao",
+  "lat": -27.571217,
+  "lon": -48.629378,
+  "cap_m3": null,
+  "muni": "Florianópolis",
+  "line": 650
+ },
+ {
+  "src": "sia",
+  "name": "Booster Solemar                                                                      Rua Célio Veiga",
+  "lat": -27.590411,
+  "lon": -48.627392,
+  "cap_m3": null,
+  "muni": "Florianópolis",
+  "line": 653
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque Das Mansões I            Roçado",
+  "lat": -27.590972,
+  "lon": -48.629842,
+  "cap_m3": null,
+  "muni": "Florianópolis",
+  "line": 656
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque Das Mansões II           Roçado",
+  "lat": -27.585628,
+  "lon": -48.619669,
+  "cap_m3": null,
+  "muni": null,
+  "line": 659
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque das Mansões III                                                      Rua das Laranjeiras",
+  "lat": -27.585283,
+  "lon": -48.623169,
+  "cap_m3": null,
+  "muni": null,
+  "line": 662
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bosque das Mansões IV                                                        Rua das Azaleias",
+  "lat": -27.620794,
+  "lon": -48.635197,
+  "cap_m3": null,
+  "muni": null,
+  "line": 665
+ },
+ {
+  "src": "sia",
+  "name": "Booster Morro do Céu",
+  "lat": -27.543625,
+  "lon": -48.630247,
+  "cap_m3": null,
+  "muni": null,
+  "line": 668
+ },
+ {
+  "src": "sia",
+  "name": "Booster Canaã                           Serraria",
+  "lat": -27.542033,
+  "lon": -48.646589,
+  "cap_m3": null,
+  "muni": null,
+  "line": 671
+ },
+ {
+  "src": "sia",
+  "name": "Booster José Nitro                      Serraria",
+  "lat": -27.5665,
+  "lon": -48.653444,
+  "cap_m3": null,
+  "muni": null,
+  "line": 674
+ },
+ {
+  "src": "sia",
+  "name": "Booster Potecas                         Potecas",
+  "lat": -27.569126,
+  "lon": -48.688784,
+  "cap_m3": null,
+  "muni": null,
+  "line": 677
+ },
+ {
+  "src": "sia",
+  "name": "Booster Alto Forquilhas              Forquilhinhas                                  Rua Jovita Duarte",
+  "lat": -27.561278,
+  "lon": -48.652667,
+  "cap_m3": null,
+  "muni": null,
+  "line": 680
+ },
+ {
+  "src": "sia",
+  "name": "Booster Loteamento Alta Vista           Potecas",
+  "lat": -27.58411,
+  "lon": -48.718753,
+  "cap_m3": null,
+  "muni": null,
+  "line": 683
+ },
+ {
+  "src": "sia",
+  "name": "Booster Cecilia São Pia             Colônia Santana                                Rua Cecilia São Pia",
+  "lat": -27.590142,
+  "lon": -48.627412,
+  "cap_m3": null,
+  "muni": null,
+  "line": 687
+ },
+ {
+  "src": "sia",
+  "name": "Booster Altos de São José 1 (GSP      Bosque das        Latitude: 27°35′24.511″S     Rua Francelina",
+  "lat": -27.589265,
+  "lon": -48.627718,
+  "cap_m3": null,
+  "muni": null,
+  "line": 690
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Biguaçu (Janaína)                  Serraria                                    Rua das Hortências",
+  "lat": -27.520819,
+  "lon": -48.639572,
+  "cap_m3": null,
+  "muni": null,
+  "line": 711
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Biguaçu (Janaína)                  Serraria                                    Rua das Hortências",
+  "lat": -27.520925,
+  "lon": -48.641328,
+  "cap_m3": null,
+  "muni": null,
+  "line": 714
+ },
+ {
+  "src": "sia",
+  "name": "ERAT Chácara Fabiana                Jardim Janaína",
+  "lat": -27.464333,
+  "lon": -48.678444,
+  "cap_m3": null,
+  "muni": null,
+  "line": 717
+ },
+ {
+  "src": "sia",
+  "name": "Booster Saudade                         Saudade",
+  "lat": -27.511958,
+  "lon": -48.656667,
+  "cap_m3": null,
+  "muni": null,
+  "line": 720
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bela Vista I                   Bela Vista",
+  "lat": -27.516722,
+  "lon": -48.663944,
+  "cap_m3": null,
+  "muni": null,
+  "line": 723
+ },
+ {
+  "src": "sia",
+  "name": "Booster Bela Vista II                  Bela Vista",
+  "lat": -27.503558,
+  "lon": -48.661964,
+  "cap_m3": null,
+  "muni": null,
+  "line": 726
+ },
+ {
+  "src": "sia",
+  "name": "Booster Boa Vista                      Boa Vista",
+  "lat": -27.527972,
+  "lon": -48.646389,
+  "cap_m3": null,
+  "muni": null,
+  "line": 729
+ },
+ {
+  "src": "sia",
+  "name": "Booster Antônio Alberto Correa        Bom Viver",
+  "lat": -27.535342,
+  "lon": -48.635672,
+  "cap_m3": null,
+  "muni": null,
+  "line": 732
+ },
+ {
+  "src": "sia",
+  "name": "Booster Damásio                       Bom Viver",
+  "lat": -27.5396,
+  "lon": -48.648661,
+  "cap_m3": null,
+  "muni": null,
+  "line": 735
+ },
+ {
+  "src": "sia",
+  "name": "Booster Manoel Nunes Freitas           Bom viver",
+  "lat": -27.487522,
+  "lon": -48.652158,
+  "cap_m3": null,
+  "muni": null,
+  "line": 738
+ },
+ {
+  "src": "sia",
+  "name": "Booster Três Riachos                   Cachoeira",
+  "lat": -27.509778,
+  "lon": -48.661997,
+  "cap_m3": null,
+  "muni": null,
+  "line": 741
+ },
+ {
+  "src": "sia",
+  "name": "Booster Aldo Alfredo Fermiano           Fundos",
+  "lat": -27.527472,
+  "lon": -48.648778,
+  "cap_m3": null,
+  "muni": null,
+  "line": 745
+ },
+ {
+  "src": "sia",
+  "name": "Booster Barreira do Germano             Fundos                                       Miranda Gomes,",
+  "lat": -27.48165,
+  "lon": -48.660503,
+  "cap_m3": null,
+  "muni": null,
+  "line": 749
+ },
+ {
+  "src": "sia",
+  "name": "Booster Jardim Anápolis 1           Jardim Anápolis",
+  "lat": -27.478436,
+  "lon": -48.660861,
+  "cap_m3": null,
+  "muni": null,
+  "line": 752
+ },
+ {
+  "src": "sia",
+  "name": "Booster Jardim Anápolis 2           Jardim Anápolis",
+  "lat": -27.520567,
+  "lon": -48.650322,
+  "cap_m3": null,
+  "muni": null,
+  "line": 755
+ },
+ {
+  "src": "sia",
+  "name": "Booster Hilda Ana Machado           Jardim Janaína",
+  "lat": -27.485189,
+  "lon": -48.655756,
+  "cap_m3": null,
+  "muni": null,
+  "line": 758
+ },
+ {
+  "src": "sia",
+  "name": "Booster Tibúrcio                     Rio Caveiras",
+  "lat": -27.473944,
+  "lon": -48.664417,
+  "cap_m3": null,
+  "muni": null,
+  "line": 761
+ },
+ {
+  "src": "sia",
+  "name": "Booster Braulina                     Três Riachos",
+  "lat": -27.495336,
+  "lon": -48.663561,
+  "cap_m3": null,
+  "muni": null,
+  "line": 764
+ },
+ {
+  "src": "sia",
+  "name": "Booster Loteamento Cecília                              Latitude: 27°29'43.21\"S     Rua Arnaldo Bunn,",
+  "lat": -27.550311,
+  "lon": -48.663069,
+  "cap_m3": null,
+  "muni": null,
+  "line": 767
+ },
+ {
+  "src": "sia",
+  "name": "Booster Tarumã                          Potecas                                    Rua do Pau Brasil, 2",
+  "lat": -27.497469,
+  "lon": -48.719153,
+  "cap_m3": null,
+  "muni": null,
+  "line": 770
+ },
+ {
+  "src": "sia",
+  "name": "Booster Ecoville",
+  "lat": -27.49957,
+  "lon": -48.65851,
+  "cap_m3": null,
+  "muni": null,
+  "line": 773
+ },
+ {
+  "src": "sia",
+  "name": "Booster Ananias Martendal            Universitários",
+  "lat": -27.486883,
+  "lon": -48.650418,
+  "cap_m3": null,
+  "muni": null,
+  "line": 776
+ },
+ {
+  "src": "sia",
+  "name": "Booster Altos do Jardim                      Fundos",
+  "lat": -27.52809,
+  "lon": -48.651541,
+  "cap_m3": null,
+  "muni": null,
+  "line": 786
+ },
+ {
+  "src": "sia",
+  "name": "Booster São João                      Centro",
+  "lat": -27.684803,
+  "lon": -48.779975,
+  "cap_m3": null,
+  "muni": null,
+  "line": 801
+ },
+ {
+  "src": "sia",
+  "name": "Booster São João                      Centro",
+  "lat": -27.694269,
+  "lon": -48.777431,
+  "cap_m3": null,
+  "muni": null,
+  "line": 804
+ },
+ {
+  "src": "sia",
+  "name": "Booster Morro do Fabrício       Morro do Fabrício",
+  "lat": -27.640525,
+  "lon": -48.760406,
+  "cap_m3": null,
+  "muni": null,
+  "line": 807
+ },
+ {
+  "src": "sia",
+  "name": "Booster Pagará                        Pagará",
+  "lat": -27.684925,
+  "lon": -48.768861,
+  "cap_m3": null,
+  "muni": null,
+  "line": 810
+ },
+ {
+  "src": "sia",
+  "name": "Booster Embratel                   São Francisco                                           Rua João Jacinto Lohn",
+  "lat": -27.695533,
+  "lon": -48.75935,
+  "cap_m3": null,
+  "muni": null,
+  "line": 813
+ },
+ {
+  "src": "sia",
+  "name": "Booster Nossa Senhora das                                 Latitude: 27°41'43.92\"S         Rua Paulo Cesar Kloppel",
+  "lat": -27.690972,
+  "lon": -48.76675,
+  "cap_m3": null,
+  "muni": null,
+  "line": 816
+ },
+ {
+  "src": "sia",
+  "name": "Booster Morro Queimado            Morro Queimado",
+  "lat": -27.696264,
+  "lon": -48.788669,
+  "cap_m3": null,
+  "muni": null,
+  "line": 819
+ },
+ {
+  "src": "sia",
+  "name": "Booster Três Voltas                   Centro",
+  "lat": -27.676014,
+  "lon": -48.783787,
+  "cap_m3": null,
+  "muni": null,
+  "line": 822
+ },
+ {
+  "src": "sia",
+  "name": "Booster da Varginha                  Varginha                                               Rua Procópio Lohn",
+  "lat": -27.697089,
+  "lon": -48.779622,
+  "cap_m3": null,
+  "muni": null,
+  "line": 825
+ },
+ {
+  "src": "sia",
+  "name": "Booster Canto dos Mainofos           Fabrício                                             Rua Jacob José Ventura",
+  "lat": -27.68596,
+  "lon": -48.786893,
+  "cap_m3": null,
+  "muni": null,
+  "line": 828
+ },
+ {
+  "src": "sia",
+  "name": "Localizado na                                                                        Latitude: 27°41’16.01\"S",
+  "lat": -27.687781,
+  "lon": -48.702853,
+  "cap_m3": 7500.0,
+  "muni": "Florianópolis",
+  "line": 840
+ },
+ {
+  "src": "sia",
+  "name": "Pulmão                 7500 m³            Cubatão – SIA da Grande",
+  "lat": -27.687781,
+  "lon": -48.702853,
+  "cap_m3": 7500.0,
+  "muni": "Florianópolis",
+  "line": 845
+ },
+ {
+  "src": "sia",
+  "name": "Localizado na                                                                        Latitude: 27°41’16.01\"S",
+  "lat": -27.594219,
+  "lon": -48.538364,
+  "cap_m3": 500.0,
+  "muni": "Florianópolis",
+  "line": 849
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.593036,
+  "lon": -48.539542,
+  "cap_m3": 2000.0,
+  "muni": "Florianópolis",
+  "line": 852
+ },
+ {
+  "src": "sia",
+  "name": "R2 – Morro da                    Rua Clementino de Brito           Latitude:27°35’55.03\"S",
+  "lat": -27.598619,
+  "lon": -48.579492,
+  "cap_m3": 2000.0,
+  "muni": "Florianópolis",
+  "line": 861
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.588764,
+  "lon": -48.597642,
+  "cap_m3": 4000.0,
+  "muni": "Florianópolis",
+  "line": 872
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.600503,
+  "lon": -48.527353,
+  "cap_m3": 4000.0,
+  "muni": "Florianópolis",
+  "line": 875
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.599456,
+  "lon": -48.530103,
+  "cap_m3": 2000.0,
+  "muni": "Florianópolis",
+  "line": 878
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.595342,
+  "lon": -48.536547,
+  "cap_m3": 2000.0,
+  "muni": "Florianópolis",
+  "line": 881
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’21.39\"S",
+  "lat": -27.600186,
+  "lon": -48.528425,
+  "cap_m3": 200.0,
+  "muni": "Florianópolis",
+  "line": 884
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’21.39\"S",
+  "lat": -27.539275,
+  "lon": -48.517556,
+  "cap_m3": 5000.0,
+  "muni": "Florianópolis",
+  "line": 887
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’21.39\"S",
+  "lat": -27.541072,
+  "lon": -48.517558,
+  "cap_m3": 150.0,
+  "muni": "Florianópolis",
+  "line": 890
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’27.86\"S",
+  "lat": -27.560444,
+  "lon": -48.506875,
+  "cap_m3": 50.0,
+  "muni": "Florianópolis",
+  "line": 893
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Loteamento Caiobig (Saco          Latitude:27°33’37.60\"S",
+  "lat": -27.591022,
+  "lon": -48.528122,
+  "cap_m3": 200.0,
+  "muni": "Florianópolis",
+  "line": 896
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Sul                 Rua Doutor Percy João de          Latitude:27°35’27.68\"S",
+  "lat": -27.607683,
+  "lon": -48.528942,
+  "cap_m3": 100.0,
+  "muni": "Florianópolis",
+  "line": 899
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Rua Júlia D’Barreto               Latitude:27°36’27.66\"S",
+  "lat": -27.577431,
+  "lon": -48.493539,
+  "cap_m3": 100.0,
+  "muni": "Florianópolis",
+  "line": 902
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                                                       Latitude:27°34’38.75\"S",
+  "lat": -27.560939,
+  "lon": -48.490647,
+  "cap_m3": 75.0,
+  "muni": "Florianópolis",
+  "line": 905
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Monte                                                 Latitude:27°33’39.38\"S",
+  "lat": -27.560939,
+  "lon": -48.490647,
+  "cap_m3": 200.0,
+  "muni": "Florianópolis",
+  "line": 908
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Monte                                                 Latitude: 27°33'39.38\"S",
+  "lat": -27.599644,
+  "lon": -48.493253,
+  "cap_m3": 200.0,
+  "muni": "Florianópolis",
+  "line": 911
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Costa               Rua Admar Gonzaga                 Latitude:27°35’58.72\"S",
+  "lat": -27.604889,
+  "lon": -48.495639,
+  "cap_m3": 50.0,
+  "muni": "Florianópolis",
+  "line": 915
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório",
+  "lat": -27.604889,
+  "lon": -48.495639,
+  "cap_m3": 10.0,
+  "muni": "Florianópolis",
+  "line": 920
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Vila                Loteamento Parque da              Latitude:27°32’53.48\"S",
+  "lat": -27.548189,
+  "lon": -48.48895,
+  "cap_m3": 10.0,
+  "muni": "Florianópolis",
+  "line": 924
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Vila                Loteamento Parque da              Latitude:27°32’53.48\"S",
+  "lat": -27.586647,
+  "lon": -48.537358,
+  "cap_m3": 50.0,
+  "muni": "Florianópolis",
+  "line": 927
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório                     Avenida do Antão (Morro da        Latitude:27°35’11.93\"S",
+  "lat": -27.596433,
+  "lon": -48.535492,
+  "cap_m3": 50.0,
+  "muni": "São José",
+  "line": 930
+ },
+ {
+  "src": "sia",
+  "name": "Reservatório Caeira              Rua Custódio Fermino Vieira       Latitude:27°35’47.16\"S",
+  "lat": -27.612103,
+  "lon": -48.635467,
+  "cap_m3": 30.0,
+  "muni": "São José",
+  "line": 933
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.612103,
+  "lon": -48.635467,
+  "cap_m3": 1000.0,
+  "muni": "São José",
+  "line": 936
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.612103,
+  "lon": -48.635467,
+  "cap_m3": 1000.0,
+  "muni": "São José",
+  "line": 939
+ },
+ {
+  "src": "sia",
+  "name": "R2 – Centro                      Rua Vergílio Espíndola            Latitude: 27°36’50.00\"S",
+  "lat": -27.613889,
+  "lon": -48.628808,
+  "cap_m3": 500.0,
+  "muni": "São José",
+  "line": 949
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.594539,
+  "lon": -48.647647,
+  "cap_m3": 2500.0,
+  "muni": "São José",
+  "line": 960
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.575117,
+  "lon": -48.630908,
+  "cap_m3": 2500.0,
+  "muni": "São José",
+  "line": 963
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.59275,
+  "lon": -48.633028,
+  "cap_m3": 5000.0,
+  "muni": "São José",
+  "line": 966
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.581694,
+  "lon": -48.71575,
+  "cap_m3": 150.0,
+  "muni": "São José",
+  "line": 969
+ },
+ {
+  "src": "sia",
+  "name": "?",
+  "lat": -27.584194,
+  "lon": -48.716028,
+  "cap_m3": 150.0,
+  "muni": "Biguaçu",
+  "line": 972
+ },
+ {
+  "src": "sia",
+  "name": "R2 – Chácara                                                       Latitude: 27°31’16.79\"S",
+  "lat": -27.521331,
+  "lon": -48.641556,
+  "cap_m3": 80.0,
+  "muni": "Biguaçu",
+  "line": 975
+ },
+ {
+  "src": "sia",
+  "name": "R2 – Chácara                                                       Latitude: 27°31’16.79\"S",
+  "lat": -27.521331,
+  "lon": -48.641556,
+  "cap_m3": 2500.0,
+  "muni": "Biguaçu",
+  "line": 978
+ },
+ {
+  "src": "sia",
+  "name": "R2 – Chácara                                                       Latitude: 27°31’16.79\"S",
+  "lat": -27.503375,
+  "lon": -48.667675,
+  "cap_m3": 10.0,
+  "muni": "Biguaçu",
+  "line": 981
+ },
+ {
+  "src": "sia",
+  "name": "R3 – Morro Boa                   Rua Vidal Mendes (Morro           Latitude:27°30’12.15\"S",
+  "lat": -27.497708,
+  "lon": -48.717275,
+  "cap_m3": 30.0,
+  "muni": "Biguaçu",
+  "line": 984
+ },
+ {
+  "src": "sia",
+  "name": "Loteamento Santa                                                   Latitude: 27°29'51.75\"S",
+  "lat": -27.466464,
+  "lon": -48.685231,
+  "cap_m3": 100.0,
+  "muni": "Santo Amaro",
+  "line": 988
+ },
+ {
+  "src": "sia",
+  "name": "R1 – Centro          360 m³",
+  "lat": -27.691439,
+  "lon": -48.780964,
+  "cap_m3": 100.0,
+  "muni": "Santo Amaro",
+  "line": 992
+ },
+ {
+  "src": "sia",
+  "name": "R1 – Centro          360 m³",
+  "lat": -27.728422,
+  "lon": -48.811556,
+  "cap_m3": 360.0,
+  "muni": "Santo Amaro",
+  "line": 995
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.442969,
+  "lon": -48.395092,
+  "cap_m3": null,
+  "muni": null,
+  "line": 174
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.443378,
+  "lon": -48.394864,
+  "cap_m3": null,
+  "muni": null,
+  "line": 179
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.443378,
+  "lon": -48.394864,
+  "cap_m3": null,
+  "muni": null,
+  "line": 184
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.446767,
+  "lon": -48.394264,
+  "cap_m3": null,
+  "muni": null,
+  "line": 188
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.446672,
+  "lon": -48.394197,
+  "cap_m3": null,
+  "muni": null,
+  "line": 191
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.448978,
+  "lon": -48.3943,
+  "cap_m3": null,
+  "muni": null,
+  "line": 195
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.448981,
+  "lon": -48.395006,
+  "cap_m3": null,
+  "muni": null,
+  "line": 207
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.448997,
+  "lon": -48.396381,
+  "cap_m3": null,
+  "muni": null,
+  "line": 217
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.452319,
+  "lon": -48.394061,
+  "cap_m3": null,
+  "muni": null,
+  "line": 222
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.456603,
+  "lon": -48.393942,
+  "cap_m3": null,
+  "muni": null,
+  "line": 226
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.455,
+  "lon": -48.394167,
+  "cap_m3": null,
+  "muni": null,
+  "line": 230
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.466283,
+  "lon": -48.395653,
+  "cap_m3": null,
+  "muni": null,
+  "line": 232
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.465372,
+  "lon": -48.396294,
+  "cap_m3": null,
+  "muni": null,
+  "line": 234
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.466322,
+  "lon": -48.396683,
+  "cap_m3": null,
+  "muni": null,
+  "line": 236
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.466353,
+  "lon": -48.398844,
+  "cap_m3": null,
+  "muni": null,
+  "line": 238
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.470361,
+  "lon": -48.402633,
+  "cap_m3": null,
+  "muni": null,
+  "line": 240
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.470311,
+  "lon": -48.396672,
+  "cap_m3": null,
+  "muni": null,
+  "line": 242
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.470278,
+  "lon": -48.398881,
+  "cap_m3": null,
+  "muni": null,
+  "line": 244
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.472347,
+  "lon": -48.396386,
+  "cap_m3": null,
+  "muni": null,
+  "line": 246
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.474381,
+  "lon": -48.39705,
+  "cap_m3": null,
+  "muni": null,
+  "line": 249
+ },
+ {
+  "src": "norte",
+  "name": "Poço Jardim Rio",
+  "lat": -27.4589,
+  "lon": -48.394442,
+  "cap_m3": null,
+  "muni": null,
+  "line": 253
+ },
+ {
+  "src": "norte",
+  "name": "Poço Jardim Rio",
+  "lat": -27.458978,
+  "lon": -48.398922,
+  "cap_m3": null,
+  "muni": null,
+  "line": 255
+ },
+ {
+  "src": "norte",
+  "name": "Poço Jardim Rio",
+  "lat": -27.471167,
+  "lon": -48.397889,
+  "cap_m3": null,
+  "muni": null,
+  "line": 258
+ },
+ {
+  "src": "norte",
+  "name": "Poço Jardim Rio",
+  "lat": -27.475306,
+  "lon": -48.406861,
+  "cap_m3": null,
+  "muni": null,
+  "line": 261
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.47295,
+  "lon": -48.406817,
+  "cap_m3": null,
+  "muni": null,
+  "line": 264
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.480372,
+  "lon": -48.411525,
+  "cap_m3": null,
+  "muni": null,
+  "line": 266
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.504542,
+  "lon": -48.414003,
+  "cap_m3": null,
+  "muni": null,
+  "line": 268
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.478903,
+  "lon": -48.411514,
+  "cap_m3": null,
+  "muni": null,
+  "line": 281
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.485125,
+  "lon": -48.411428,
+  "cap_m3": null,
+  "muni": null,
+  "line": 289
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.490922,
+  "lon": -48.4124,
+  "cap_m3": null,
+  "muni": null,
+  "line": 294
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.490994,
+  "lon": -48.413786,
+  "cap_m3": null,
+  "muni": null,
+  "line": 299
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.500556,
+  "lon": -48.414139,
+  "cap_m3": null,
+  "muni": null,
+  "line": 303
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.449683,
+  "lon": -48.377558,
+  "cap_m3": null,
+  "muni": null,
+  "line": 306
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.452997,
+  "lon": -48.378744,
+  "cap_m3": null,
+  "muni": null,
+  "line": 310
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.448389,
+  "lon": -48.383556,
+  "cap_m3": null,
+  "muni": null,
+  "line": 313
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.463122,
+  "lon": -48.394825,
+  "cap_m3": null,
+  "muni": null,
+  "line": 316
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.477925,
+  "lon": -48.398339,
+  "cap_m3": null,
+  "muni": null,
+  "line": 318
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.450753,
+  "lon": -48.394194,
+  "cap_m3": null,
+  "muni": null,
+  "line": 320
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.445092,
+  "lon": -48.3942,
+  "cap_m3": null,
+  "muni": null,
+  "line": 322
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.443306,
+  "lon": -48.395042,
+  "cap_m3": null,
+  "muni": null,
+  "line": 334
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.454881,
+  "lon": -48.449336,
+  "cap_m3": null,
+  "muni": null,
+  "line": 373
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.400911,
+  "lon": -48.416339,
+  "cap_m3": null,
+  "muni": null,
+  "line": 386
+ },
+ {
+  "src": "norte",
+  "name": "?",
+  "lat": -27.425164,
+  "lon": -48.426008,
+  "cap_m3": null,
+  "muni": null,
+  "line": 398
+ },
+ {
+  "src": "norte",
+  "name": "ERAT ETA Ingleses",
+  "lat": -27.434869,
+  "lon": -48.515686,
+  "cap_m3": null,
+  "muni": null,
+  "line": 426
+ },
+ {
+  "src": "norte",
+  "name": "Booster                                Bairro                Coordenadas                      Rua",
+  "lat": -27.425164,
+  "lon": -48.426008,
+  "cap_m3": null,
+  "muni": null,
+  "line": 435
+ },
+ {
+  "src": "norte",
+  "name": "Booster Cachoeira do Bom          Cachoeira do Bom       Latitude: 27°25'30.59\"S",
+  "lat": -27.436383,
+  "lon": -48.465161,
+  "cap_m3": null,
+  "muni": null,
+  "line": 439
+ },
+ {
+  "src": "norte",
+  "name": "Booster Pracinha                                         Latitude: 27°26'10.98\"S",
+  "lat": -27.438744,
+  "lon": -48.481558,
+  "cap_m3": null,
+  "muni": null,
+  "line": 443
+ },
+ {
+  "src": "norte",
+  "name": "Booster Canajurê                     Canasvieiras",
+  "lat": -27.440892,
+  "lon": -48.465006,
+  "cap_m3": null,
+  "muni": null,
+  "line": 446
+ },
+ {
+  "src": "norte",
+  "name": "Booster Caixa D’água                 Canasvieiras                                     Servidão São Patrício",
+  "lat": -27.440328,
+  "lon": -48.415722,
+  "cap_m3": null,
+  "muni": null,
+  "line": 449
+ },
+ {
+  "src": "norte",
+  "name": "Booster Três Marias                                                                   Servidão Três Marias",
+  "lat": -27.448753,
+  "lon": -48.408819,
+  "cap_m3": null,
+  "muni": null,
+  "line": 452
+ },
+ {
+  "src": "norte",
+  "name": "Booster Três Marias                                                                   Servidão Três Marias",
+  "lat": -27.456756,
+  "lon": -48.408869,
+  "cap_m3": null,
+  "muni": null,
+  "line": 454
+ },
+ {
+  "src": "norte",
+  "name": "Booster Pico da Neblina",
+  "lat": -27.397142,
+  "lon": -48.424897,
+  "cap_m3": null,
+  "muni": null,
+  "line": 457
+ },
+ {
+  "src": "norte",
+  "name": "Booster Praia Prava                  Praia Brava",
+  "lat": -27.484278,
+  "lon": -48.495611,
+  "cap_m3": null,
+  "muni": null,
+  "line": 461
+ },
+ {
+  "src": "norte",
+  "name": "Booster Ratones                        Ratones           Latitude: 27°29'03.4\"S",
+  "lat": -27.443289,
+  "lon": -48.380575,
+  "cap_m3": null,
+  "muni": null,
+  "line": 465
+ },
+ {
+  "src": "norte",
+  "name": "Booster Santinho                      Santinho                                        Rua dos Tubarões, 100",
+  "lat": -27.454889,
+  "lon": -48.449361,
+  "cap_m3": null,
+  "muni": null,
+  "line": 468
+ },
+ {
+  "src": "norte",
+  "name": "Booster ETA Vargem Grande          Vargem Grande",
+  "lat": -27.481767,
+  "lon": -48.463472,
+  "cap_m3": null,
+  "muni": null,
+  "line": 472
+ },
+ {
+  "src": "norte",
+  "name": "Booster ETA Daniela",
+  "lat": -27.451208,
+  "lon": -48.5174,
+  "cap_m3": null,
+  "muni": null,
+  "line": 476
+ },
+ {
+  "src": "norte",
+  "name": "Booster ETA Daniela",
+  "lat": -27.451231,
+  "lon": -48.466561,
+  "cap_m3": null,
+  "muni": null,
+  "line": 479
+ },
+ {
+  "src": "norte",
+  "name": "Booster Vargem Pequena             Vargem Pequena",
+  "lat": -27.468856,
+  "lon": -48.415711,
+  "cap_m3": null,
+  "muni": null,
+  "line": 482
+ },
+ {
+  "src": "norte",
+  "name": "Reservatórios               Capacidade (m³)           Logradouro/Bairro                  Coordenadas",
+  "lat": -27.439239,
+  "lon": -48.419519,
+  "cap_m3": null,
+  "muni": null,
+  "line": 502
+ },
+ {
+  "src": "norte",
+  "name": "Reservatórios               Capacidade (m³)           Logradouro/Bairro                  Coordenadas",
+  "lat": -27.439239,
+  "lon": -48.419519,
+  "cap_m3": null,
+  "muni": null,
+  "line": 505
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Ingleses II         1.000",
+  "lat": -27.439239,
+  "lon": -48.419519,
+  "cap_m3": null,
+  "muni": null,
+  "line": 508
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Ingleses III        3.000",
+  "lat": -27.442944,
+  "lon": -48.39525,
+  "cap_m3": null,
+  "muni": null,
+  "line": 511
+ },
+ {
+  "src": "norte",
+  "name": "Tanque de Contato                                     Servidão Cisne Real           Latitude: 27°26'34.6\"S",
+  "lat": -27.440503,
+  "lon": -48.466664,
+  "cap_m3": null,
+  "muni": null,
+  "line": 514
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório                                             Servidão São              Latitude: 27°26'25.81\"S",
+  "lat": -27.401289,
+  "lon": -48.417586,
+  "cap_m3": null,
+  "muni": null,
+  "line": 517
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Praia Brava         400",
+  "lat": -27.435544,
+  "lon": -48.517222,
+  "cap_m3": null,
+  "muni": null,
+  "line": 520
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Praia do                                 Rua do Forte/Jurerê           Latitude: 27°26'7.96\"S",
+  "lat": -27.435544,
+  "lon": -48.517222,
+  "cap_m3": null,
+  "muni": null,
+  "line": 523
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Praia do                                                               Latitude: 27°26'7.96\"S",
+  "lat": -27.446358,
+  "lon": -48.481172,
+  "cap_m3": null,
+  "muni": null,
+  "line": 526
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Jurerê              1.000",
+  "lat": -27.446972,
+  "lon": -48.521667,
+  "cap_m3": null,
+  "muni": null,
+  "line": 529
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Daniela I           200",
+  "lat": -27.446972,
+  "lon": -48.521667,
+  "cap_m3": null,
+  "muni": null,
+  "line": 532
+ },
+ {
+  "src": "norte",
+  "name": "Reservatório Daniela II          175",
+  "lat": -27.451389,
+  "lon": -48.5175,
+  "cap_m3": null,
+  "muni": null,
+  "line": 535
+ },
+ {
+  "src": "norte",
+  "name": "Daniela Tanque de                                 Rodovia Francisco Arcanjo         Latitude: 27°27'05.0\"S",
+  "lat": -27.451389,
+  "lon": -48.5175,
+  "cap_m3": null,
+  "muni": null,
+  "line": 538
+ },
+ {
+  "src": "sul",
+  "name": "?",
+  "lat": -27.729619,
+  "lon": -48.509161,
+  "cap_m3": null,
+  "muni": null,
+  "line": 223
+ },
+ {
+  "src": "sul",
+  "name": "Poços                   Bairro               Coordenadas                      Rua",
+  "lat": -27.694706,
+  "lon": -48.499094,
+  "cap_m3": null,
+  "muni": null,
+  "line": 242
+ },
+ {
+  "src": "sul",
+  "name": "Poço Torre                     Campeche                                     Rua Tereza Lopes",
+  "lat": -27.703642,
+  "lon": -48.504361,
+  "cap_m3": null,
+  "muni": null,
+  "line": 246
+ },
+ {
+  "src": "sul",
+  "name": "Poço Areias I                  Campeche",
+  "lat": -27.702314,
+  "lon": -48.504097,
+  "cap_m3": null,
+  "muni": null,
+  "line": 250
+ },
+ {
+  "src": "sul",
+  "name": "Poço Areias III                Campeche",
+  "lat": -27.699469,
+  "lon": -48.503536,
+  "cap_m3": null,
+  "muni": null,
+  "line": 259
+ },
+ {
+  "src": "sul",
+  "name": "Poço Coruja Dourada            Campeche                                    Rua Coruja Dourada",
+  "lat": -27.695956,
+  "lon": -48.502022,
+  "cap_m3": null,
+  "muni": null,
+  "line": 267
+ },
+ {
+  "src": "sul",
+  "name": "Poço Coruja Dourada            Campeche                                    Rua Coruja Dourada",
+  "lat": -27.693522,
+  "lon": -48.502694,
+  "cap_m3": null,
+  "muni": null,
+  "line": 271
+ },
+ {
+  "src": "sul",
+  "name": "?",
+  "lat": -27.693083,
+  "lon": -48.505167,
+  "cap_m3": null,
+  "muni": null,
+  "line": 275
+ },
+ {
+  "src": "sul",
+  "name": "?",
+  "lat": -27.693778,
+  "lon": -48.503722,
+  "cap_m3": null,
+  "muni": null,
+  "line": 279
+ },
+ {
+  "src": "sul",
+  "name": "?",
+  "lat": -27.694111,
+  "lon": -48.506389,
+  "cap_m3": null,
+  "muni": null,
+  "line": 283
+ },
+ {
+  "src": "sul",
+  "name": "Poços                Bairro               Coordenadas                     Rua",
+  "lat": -27.663844,
+  "lon": -48.481467,
+  "cap_m3": null,
+  "muni": null,
+  "line": 298
+ },
+ {
+  "src": "sul",
+  "name": "Poços                Bairro               Coordenadas                     Rua",
+  "lat": -27.644467,
+  "lon": -48.470444,
+  "cap_m3": null,
+  "muni": null,
+  "line": 301
+ },
+ {
+  "src": "sul",
+  "name": "Poço Isidoro Garcez           Rio Tavares                                Rua Isidoro Garcez, 576",
+  "lat": -27.607906,
+  "lon": -48.472967,
+  "cap_m3": null,
+  "muni": null,
+  "line": 304
+ },
+ {
+  "src": "sul",
+  "name": "Poço Village",
+  "lat": -27.658039,
+  "lon": -48.487797,
+  "cap_m3": null,
+  "muni": null,
+  "line": 307
+ },
+ {
+  "src": "sul",
+  "name": "Poço Pamplona 1               Rio Tavares",
+  "lat": -27.656449,
+  "lon": -48.485345,
+  "cap_m3": null,
+  "muni": null,
+  "line": 310
+ },
+ {
+  "src": "sul",
+  "name": "Poço Pamplona 2               Rio Tavares",
+  "lat": -27.643705,
+  "lon": -48.475596,
+  "cap_m3": null,
+  "muni": null,
+  "line": 313
+ },
+ {
+  "src": "sul",
+  "name": "Poço Cruz de Malta            Rio Tavares",
+  "lat": -27.673129,
+  "lon": -48.485196,
+  "cap_m3": null,
+  "muni": null,
+  "line": 316
+ },
+ {
+  "src": "sul",
+  "name": "Poço Pau de Canela             Campeche                                 R. Pau de Canela",
+  "lat": -27.701105,
+  "lon": -48.496622,
+  "cap_m3": null,
+  "muni": null,
+  "line": 319
+ },
+ {
+  "src": "sul",
+  "name": "Booster Barra da Lagoa         Barra da Lagoa",
+  "lat": -27.610156,
+  "lon": -48.441033,
+  "cap_m3": null,
+  "muni": null,
+  "line": 343
+ },
+ {
+  "src": "sul",
+  "name": "Booster Barra da Lagoa         Barra da Lagoa",
+  "lat": -27.638775,
+  "lon": -48.474006,
+  "cap_m3": null,
+  "muni": null,
+  "line": 348
+ },
+ {
+  "src": "sul",
+  "name": "Booster Canto da Lagoa        Canto da Lagoa",
+  "lat": -27.599014,
+  "lon": -48.468911,
+  "cap_m3": null,
+  "muni": null,
+  "line": 353
+ },
+ {
+  "src": "sul",
+  "name": "Booster Lagoa da                                   Latitude: 27°35'56.42\"S    Servidão Antônio",
+  "lat": -27.599006,
+  "lon": -48.470425,
+  "cap_m3": null,
+  "muni": null,
+  "line": 358
+ },
+ {
+  "src": "sul",
+  "name": "Booster Lagoa da                                   Latitude: 27°35'56.42\"S    Servidão Antônio",
+  "lat": -27.587847,
+  "lon": -48.477692,
+  "cap_m3": null,
+  "muni": null,
+  "line": 362
+ },
+ {
+  "src": "sul",
+  "name": "Booster Estrada do                                 Latitude: 27°35'16.25\"S    Estrada Sertão do",
+  "lat": -27.703786,
+  "lon": -48.529422,
+  "cap_m3": null,
+  "muni": null,
+  "line": 366
+ },
+ {
+  "src": "sul",
+  "name": "Booster Bandeirante           Ribeirão da Ilha",
+  "lat": -27.743814,
+  "lon": -48.557744,
+  "cap_m3": null,
+  "muni": null,
+  "line": 370
+ },
+ {
+  "src": "sul",
+  "name": "Booster Sertão do                                  Latitude: 27°44'37.73\"S    Estrada Francisco",
+  "lat": -27.585597,
+  "lon": -48.432258,
+  "cap_m3": null,
+  "muni": null,
+  "line": 374
+ },
+ {
+  "src": "sul",
+  "name": "Booster Fortaleza da                               Latitude: 27°35'8.15\"S     Rua Laurindo José de",
+  "lat": -27.689508,
+  "lon": -48.560342,
+  "cap_m3": null,
+  "muni": null,
+  "line": 378
+ },
+ {
+  "src": "sul",
+  "name": "Booster Tapera                     Tapera                                     Rodovia Açoriana.",
+  "lat": -27.706444,
+  "lon": -48.556806,
+  "cap_m3": null,
+  "muni": null,
+  "line": 382
+ },
+ {
+  "src": "sul",
+  "name": "Booster Paulo Avelino                               Latitude: 27°42'23.2\"S    Servidão Paulo Avelino",
+  "lat": -27.617194,
+  "lon": -48.484083,
+  "cap_m3": null,
+  "muni": null,
+  "line": 386
+ },
+ {
+  "src": "sul",
+  "name": "ERAT                     Bairro              Coordenadas                    Rua",
+  "lat": -27.729317,
+  "lon": -48.508972,
+  "cap_m3": null,
+  "muni": null,
+  "line": 396
+ },
+ {
+  "src": "sul",
+  "name": "ERAT ETA Lagoa do             ETA Lagoa         Latitude: 27°43'45.54\"S;",
+  "lat": -27.694706,
+  "lon": -48.499094,
+  "cap_m3": null,
+  "muni": null,
+  "line": 400
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Unidade de                       Rua Tereza Lopes /              Latitude: 27°41'40.94\"S",
+  "lat": -27.729636,
+  "lon": -48.508714,
+  "cap_m3": null,
+  "muni": null,
+  "line": 424
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Unidade de                       Rua Tereza Lopes /              Latitude: 27°41'40.94\"S",
+  "lat": -27.694706,
+  "lon": -48.499094,
+  "cap_m3": null,
+  "muni": null,
+  "line": 428
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Unidade de                       Rua Tereza Lopes /              Latitude: 27°41'40.94\"S",
+  "lat": -27.709931,
+  "lon": -48.511161,
+  "cap_m3": null,
+  "muni": null,
+  "line": 431
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Morro das                        Rua Ambrósio João               Latitude: 27°42'35.75\"S",
+  "lat": -27.702669,
+  "lon": -48.547564,
+  "cap_m3": null,
+  "muni": null,
+  "line": 434
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Ribeirão da                      Rua Projetada / Ribeirão        Latitude: 27°42'9.61\"S",
+  "lat": -27.633508,
+  "lon": -48.474928,
+  "cap_m3": null,
+  "muni": null,
+  "line": 437
+ },
+ {
+  "src": "sul",
+  "name": "Reservatório Canto da                         Servidão Pedro José             Latitude: 27°38'0.63\"S",
+  "lat": -27.596539,
+  "lon": -48.435733,
+  "cap_m3": null,
+  "muni": null,
+  "line": 440
+ }
+]

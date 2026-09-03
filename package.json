@@ -1,0 +1,22 @@
+{
+  "name": "floripa-water-viz",
+  "version": "0.1.0",
+  "description": "3D visualisation and simulation of the Greater Florianópolis water supply system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "routes": "node scripts/route_network.mjs src/layers/water/network.json public/data/water_routes.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.3"
+  }
+}

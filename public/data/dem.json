@@ -1,0 +1,13 @@
+{
+ "width": 896,
+ "height": 1152,
+ "bounds": {
+  "north": -27.29368922485239,
+  "south": -27.99440141104615,
+  "west": -48.955078125,
+  "east": -48.33984375
+ },
+ "encoding": "uint16 le, meters = v/4 - 100",
+ "proj": "web-mercator tile grid z12",
+ "source": "AWS Terrain Tiles (terrarium) - SRTM/ALOS composite"
+}

@@ -1,0 +1,4319 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-02T23:45:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 90200226,
+  "lat": -27.5973002,
+  "lon": -48.5496098,
+  "tags": {
+    "alt_name": "Floripa",
+    "capital": "4",
+    "ele": "3",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bandeira_de_Florian%C3%B3polis.svg",
+    "loc_name": "Floripa",
+    "name": "Florianópolis",
+    "name:ar": "فلوريانوبوليس",
+    "name:be": "Фларыянопаліс",
+    "name:bg": "Флорианополис",
+    "name:de": "Florianópolis",
+    "name:en": "Florianópolis",
+    "name:eo": "Florianopolo",
+    "name:fa": "فلرینو پولیس",
+    "name:he": "פלוריאנופוליס",
+    "name:hy": "Ֆլորիանոպոլիս",
+    "name:ja": "フロリアノーポリス",
+    "name:ka": "ფლორიანოპოლისი",
+    "name:ko": "플로리아노폴리스",
+    "name:la": "Florianopolis",
+    "name:lt": "Florianopolis",
+    "name:lv": "Florjanopolisa",
+    "name:mk": "Флорианополис",
+    "name:mr": "फ्लोरियानोपोलिस",
+    "name:os": "Флорианополис",
+    "name:pl": "Florianópolis",
+    "name:pt": "Florianópolis",
+    "name:ru": "Флорианополис",
+    "name:sr": "Флоријанополис",
+    "name:tg": "Флорианополис",
+    "name:th": "โฟลเรียนอโปลิส",
+    "name:uk": "Флоріанополіс",
+    "name:uz": "Florianopolis",
+    "name:zh": "弗洛里亚诺波利斯",
+    "old_name": "Nossa Senhora do Desterro;Desterro",
+    "place": "city",
+    "population": "537211",
+    "population:date": "2023-08-31",
+    "reg_name": "Ilha da Magia",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "state_capital": "yes",
+    "website": "https://www.pmf.sc.gov.br",
+    "wikidata": "Q132997",
+    "wikimedia_commons": "Category:Florianópolis",
+    "wikipedia": "pt:Florianópolis"
+  }
+},
+{
+  "type": "node",
+  "id": 415523569,
+  "lat": -27.4192360,
+  "lon": -48.9487800,
+  "tags": {
+    "name": "Major Gercino",
+    "place": "village",
+    "population": "3214",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023"
+  }
+},
+{
+  "type": "node",
+  "id": 415523571,
+  "lat": -27.5168462,
+  "lon": -48.7684715,
+  "tags": {
+    "name": "Antônio Carlos",
+    "old_name": "Alto Biguaçu;Louro",
+    "place": "town",
+    "population": "11224",
+    "population:date": "2023-08-31",
+    "population:municipality": "7458",
+    "source:population": "IBGE, DOU de 31/08/2023"
+  }
+},
+{
+  "type": "node",
+  "id": 415523573,
+  "lat": -27.6447774,
+  "lon": -48.6646323,
+  "tags": {
+    "name": "Palhoça",
+    "place": "city",
+    "population": "222598",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q973513"
+  }
+},
+{
+  "type": "node",
+  "id": 415523574,
+  "lat": -27.6157733,
+  "lon": -48.6276491,
+  "tags": {
+    "name": "São José",
+    "place": "city",
+    "population": "270299",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q173849"
+  }
+},
+{
+  "type": "node",
+  "id": 415523575,
+  "lat": -27.4961076,
+  "lon": -48.6541110,
+  "tags": {
+    "name": "Biguaçu",
+    "place": "town",
+    "population": "76773",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q1754582"
+  }
+},
+{
+  "type": "node",
+  "id": 415523576,
+  "lat": -27.3171610,
+  "lon": -48.5576080,
+  "tags": {
+    "name": "Governador Celso Ramos",
+    "place": "town",
+    "population": "16915",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q1765043",
+    "wikipedia": "pt:Governador Celso Ramos"
+  }
+},
+{
+  "type": "node",
+  "id": 415523577,
+  "lat": -27.9009070,
+  "lon": -48.9326080,
+  "tags": {
+    "name": "São Bonifácio",
+    "place": "village",
+    "population": "2946",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023"
+  }
+},
+{
+  "type": "node",
+  "id": 415523581,
+  "lat": -27.6963160,
+  "lon": -48.8247831,
+  "tags": {
+    "name": "Águas Mornas",
+    "place": "village",
+    "population": "6743",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023"
+  }
+},
+{
+  "type": "node",
+  "id": 415523584,
+  "lat": -27.6865324,
+  "lon": -48.7769405,
+  "tags": {
+    "ele": "18",
+    "name": "Santo Amaro da Imperatriz",
+    "place": "town",
+    "population": "27272",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q327210",
+    "wikipedia": "pt:Santo Amaro da Imperatriz"
+  }
+},
+{
+  "type": "node",
+  "id": 416646632,
+  "lat": -27.7737756,
+  "lon": -48.6332171,
+  "tags": {
+    "name": "Enseada de Brito",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 416646672,
+  "lat": -27.6032376,
+  "lon": -48.4653948,
+  "tags": {
+    "name": "Lagoa da Conceição",
+    "place": "suburb",
+    "population": "12468"
+  }
+},
+{
+  "type": "node",
+  "id": 416646673,
+  "lat": -27.5045161,
+  "lon": -48.4903989,
+  "tags": {
+    "name": "Ratones",
+    "place": "village",
+    "population": "3925"
+  }
+},
+{
+  "type": "node",
+  "id": 416646674,
+  "lat": -27.4511672,
+  "lon": -48.6340707,
+  "tags": {
+    "name": "Guaporanga",
+    "place": "suburb",
+    "population": "4690"
+  }
+},
+{
+  "type": "node",
+  "id": 416646676,
+  "lat": -27.6824506,
+  "lon": -48.4905604,
+  "tags": {
+    "name": "Campeche",
+    "old_name": "Vila do Pontal",
+    "place": "suburb",
+    "population": "30934"
+  }
+},
+{
+  "type": "node",
+  "id": 416646677,
+  "lat": -27.5735341,
+  "lon": -48.6071380,
+  "tags": {
+    "name": "Barreiros",
+    "place": "suburb",
+    "population": "104200"
+  }
+},
+{
+  "type": "node",
+  "id": 416646678,
+  "lat": -27.7798797,
+  "lon": -48.5072329,
+  "tags": {
+    "name": "Pântano do Sul",
+    "place": "suburb",
+    "population": "4432"
+  }
+},
+{
+  "type": "node",
+  "id": 416646679,
+  "lat": -27.7090030,
+  "lon": -48.5586078,
+  "tags": {
+    "name": "Ribeirão da Ilha",
+    "place": "suburb",
+    "population": "4434"
+  }
+},
+{
+  "type": "node",
+  "id": 416646686,
+  "lat": -27.4265307,
+  "lon": -48.4236749,
+  "tags": {
+    "name": "Cachoeira do Bom Jesus",
+    "place": "suburb",
+    "population": "6616"
+  }
+},
+{
+  "type": "node",
+  "id": 416646687,
+  "lat": -27.4537409,
+  "lon": -48.3791116,
+  "tags": {
+    "IBGE:GEOCODIGO": "420540720",
+    "alt_name": "Aranha dos Ingleses;Costão do Santinho",
+    "name": "Santinho",
+    "place": "suburb",
+    "population": "4993"
+  }
+},
+{
+  "type": "node",
+  "id": 595583199,
+  "lat": -27.4838064,
+  "lon": -48.4096375,
+  "tags": {
+    "name": "São João do Rio Vermelho",
+    "place": "suburb",
+    "population": "30675"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891085,
+  "lat": -27.5973329,
+  "lon": -48.5900084,
+  "tags": {
+    "name": "Capoeiras",
+    "place": "suburb",
+    "population": "17278"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891086,
+  "lat": -27.5867969,
+  "lon": -48.5862206,
+  "tags": {
+    "name": "Canto",
+    "place": "suburb",
+    "population": "6509"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891087,
+  "lat": -27.5795963,
+  "lon": -48.5811379,
+  "tags": {
+    "name": "Balneário",
+    "place": "suburb",
+    "population": "5674"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891088,
+  "lat": -27.6085776,
+  "lon": -48.5211424,
+  "tags": {
+    "name": "Pantanal",
+    "place": "suburb",
+    "population": "7690"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891089,
+  "lat": -27.5595039,
+  "lon": -48.4961059,
+  "tags": {
+    "name": "Monte Verde",
+    "place": "suburb",
+    "population": "7525"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891090,
+  "lat": -27.5996063,
+  "lon": -48.5065558,
+  "tags": {
+    "name": "Córrego Grande",
+    "place": "suburb",
+    "population": "12812",
+    "wikidata": "Q10263313",
+    "wikipedia": "pt:Córrego Grande"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891091,
+  "lat": -27.5907313,
+  "lon": -48.5779700,
+  "tags": {
+    "name": "Estreito",
+    "place": "suburb",
+    "population": "9290"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891092,
+  "lat": -27.6341752,
+  "lon": -48.5227973,
+  "tags": {
+    "name": "Costeira do Pirajubaé",
+    "place": "suburb",
+    "population": "8535"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891093,
+  "lat": -27.5781447,
+  "lon": -48.5357168,
+  "tags": {
+    "name": "Agronômica",
+    "place": "suburb",
+    "population": "18675",
+    "wikidata": "Q16482479",
+    "wikipedia": "pt:Agronômica (Florianópolis)"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891094,
+  "lat": -27.5815804,
+  "lon": -48.5044255,
+  "tags": {
+    "name": "Itacorubi",
+    "place": "suburb",
+    "population": "23600"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891095,
+  "lat": -27.5803898,
+  "lon": -48.5965753,
+  "tags": {
+    "name": "Jardim Atlântico",
+    "place": "suburb",
+    "population": "12773"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891096,
+  "lat": -27.5899277,
+  "lon": -48.5097027,
+  "tags": {
+    "name": "Santa Mônica",
+    "place": "suburb",
+    "population": "1372"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891097,
+  "lat": -27.6074043,
+  "lon": -48.5814917,
+  "tags": {
+    "name": "Coqueiros",
+    "place": "suburb",
+    "population": "13396"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891098,
+  "lat": -27.6113488,
+  "lon": -48.5960791,
+  "tags": {
+    "name": "Bom Abrigo",
+    "place": "suburb",
+    "population": "1339"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891099,
+  "lat": -27.5893834,
+  "lon": -48.5224004,
+  "tags": {
+    "name": "Trindade",
+    "place": "suburb",
+    "population": "17865",
+    "wikidata": "Q10384790",
+    "wikipedia": "pt:Trindade (Florianópolis)"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891100,
+  "lat": -27.6122607,
+  "lon": -48.5462739,
+  "tags": {
+    "name": "José Mendes",
+    "place": "suburb",
+    "population": "3492"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891101,
+  "lat": -27.6082677,
+  "lon": -48.5343435,
+  "tags": {
+    "name": "Saco dos Limões",
+    "place": "suburb",
+    "population": "11469"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891102,
+  "lat": -27.6146564,
+  "lon": -48.5915496,
+  "tags": {
+    "name": "Itaguaçu",
+    "place": "suburb",
+    "population": "1761"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891103,
+  "lat": -27.5428005,
+  "lon": -48.5005262,
+  "tags": {
+    "name": "Saco Grande",
+    "place": "suburb",
+    "population": "9331"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891104,
+  "lat": -27.6063282,
+  "lon": -48.5935237,
+  "tags": {
+    "name": "Abraão",
+    "place": "suburb",
+    "population": "7717"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891105,
+  "lat": -27.5906209,
+  "lon": -48.6013611,
+  "tags": {
+    "name": "Monte Cristo",
+    "place": "suburb",
+    "population": "11219"
+  }
+},
+{
+  "type": "node",
+  "id": 1249891106,
+  "lat": -27.5890981,
+  "lon": -48.5935081,
+  "tags": {
+    "name": "Coloninha",
+    "place": "suburb",
+    "population": "4517"
+  }
+},
+{
+  "type": "node",
+  "id": 1254099599,
+  "lat": -27.5967024,
+  "lon": -48.5270263,
+  "tags": {
+    "name": "Serrinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1254099612,
+  "lat": -27.6035661,
+  "lon": -48.5280992,
+  "tags": {
+    "name": "Carvoeira",
+    "place": "suburb",
+    "population": "10740"
+  }
+},
+{
+  "type": "node",
+  "id": 1254208423,
+  "lat": -27.5935266,
+  "lon": -48.4982301,
+  "tags": {
+    "name": "Parque São Jorge",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1346009066,
+  "lat": -27.4489537,
+  "lon": -48.5312504,
+  "tags": {
+    "name": "Daniela",
+    "place": "suburb",
+    "population": "1088"
+  }
+},
+{
+  "type": "node",
+  "id": 1434799697,
+  "lat": -27.6034334,
+  "lon": -48.4370072,
+  "tags": {
+    "alt_name": "UEP-80",
+    "name": "Praia Mole",
+    "name:en": "Mole Beach",
+    "place": "neighbourhood",
+    "population": "108"
+  }
+},
+{
+  "type": "node",
+  "id": 1434799701,
+  "lat": -27.6308416,
+  "lon": -48.4728810,
+  "tags": {
+    "alt_name": "UEP-85",
+    "name": "Porto da Lagoa",
+    "place": "neighbourhood",
+    "population": "1200"
+  }
+},
+{
+  "type": "node",
+  "id": 1434799702,
+  "lat": -27.6128504,
+  "lon": -48.4854351,
+  "tags": {
+    "alt_name": "UEP-81",
+    "name": "Canto da Lagoa",
+    "place": "neighbourhood",
+    "population": "854"
+  }
+},
+{
+  "type": "node",
+  "id": 1622153349,
+  "lat": -27.5972029,
+  "lon": -48.5494815,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb",
+    "population": "42308"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356651,
+  "lat": -27.4295668,
+  "lon": -48.4602439,
+  "tags": {
+    "name": "Canasvieiras",
+    "place": "suburb",
+    "population": "15979"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356654,
+  "lat": -27.3980879,
+  "lon": -48.4283065,
+  "tags": {
+    "name": "Ponta das Canas",
+    "place": "suburb",
+    "population": "5506"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356681,
+  "lat": -27.5061508,
+  "lon": -48.5188698,
+  "tags": {
+    "name": "Santo Antônio de Lisboa",
+    "place": "suburb",
+    "population": "2857"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356683,
+  "lat": -27.5601512,
+  "lon": -48.5112570,
+  "tags": {
+    "name": "João Paulo",
+    "place": "suburb",
+    "population": "6034"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356689,
+  "lat": -27.4435414,
+  "lon": -48.4968440,
+  "tags": {
+    "alt_name": "Jurerê Tradicional",
+    "name": "Jurerê",
+    "place": "suburb",
+    "population": "8134"
+  }
+},
+{
+  "type": "node",
+  "id": 1625356694,
+  "lat": -27.5372014,
+  "lon": -48.5245568,
+  "tags": {
+    "name": "Cacupé",
+    "place": "suburb",
+    "population": "1494"
+  }
+},
+{
+  "type": "node",
+  "id": 1625376451,
+  "lat": -27.7109292,
+  "lon": -48.5031163,
+  "tags": {
+    "name": "Morro das Pedras",
+    "old_name": "Mandú;Areias.",
+    "place": "suburb",
+    "population": "3222"
+  }
+},
+{
+  "type": "node",
+  "id": 1625376505,
+  "lat": -27.8136835,
+  "lon": -48.5594245,
+  "tags": {
+    "alt_name": "UEP-115",
+    "name": "Caieira da Barra do Sul",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1625376506,
+  "lat": -27.6616107,
+  "lon": -48.5389760,
+  "tags": {
+    "name": "Carianos",
+    "old_name": "Ressacada",
+    "place": "suburb",
+    "population": "9577"
+  }
+},
+{
+  "type": "node",
+  "id": 1625376520,
+  "lat": -27.7880641,
+  "lon": -48.5612752,
+  "tags": {
+    "alt_name": "Tapera do Sul;Taperinha;Tapera;Tapera da Barra do Sul;UEP-111",
+    "name": "Tapera do Ribeirão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1625376528,
+  "lat": -27.6863145,
+  "lon": -48.5612251,
+  "tags": {
+    "name": "Tapera da Base",
+    "place": "suburb",
+    "population": "13631"
+  }
+},
+{
+  "type": "node",
+  "id": 1709346516,
+  "lat": -27.5951118,
+  "lon": -48.6073479,
+  "tags": {
+    "name": "Campinas",
+    "place": "suburb",
+    "population": "13272"
+  }
+},
+{
+  "type": "node",
+  "id": 1709346523,
+  "lat": -27.6008766,
+  "lon": -48.6163479,
+  "tags": {
+    "name": "Kobrasol",
+    "place": "suburb",
+    "population": "12721"
+  }
+},
+{
+  "type": "node",
+  "id": 1792278656,
+  "lat": -27.5984377,
+  "lon": -48.6423669,
+  "tags": {
+    "alt_name": "Forquilhinhas;Conjnto Habitacional Forquilhinha",
+    "name": "Forquilhinha",
+    "place": "suburb",
+    "population": "13803",
+    "short_name": "CH Forquilhinha"
+  }
+},
+{
+  "type": "node",
+  "id": 1820933823,
+  "lat": -27.6095067,
+  "lon": -48.6446398,
+  "tags": {
+    "name": "Picadas do Sul",
+    "place": "suburb",
+    "population": "3833"
+  }
+},
+{
+  "type": "node",
+  "id": 2000784518,
+  "lat": -27.5761366,
+  "lon": -48.8093692,
+  "tags": {
+    "name": "Vila Junckes",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2000784519,
+  "lat": -27.5711533,
+  "lon": -48.7568650,
+  "tags": {
+    "name": "Santa Tereza",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2000784520,
+  "lat": -27.5648762,
+  "lon": -48.7880402,
+  "tags": {
+    "name": "Boa Parada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2000784522,
+  "lat": -27.5676985,
+  "lon": -48.8047973,
+  "tags": {
+    "name": "São Pedro de Alcântara",
+    "place": "village",
+    "population": "5776",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "website": "https://pmspa.sc.gov.br/",
+    "wikidata": "Q1750756",
+    "wikipedia": "pt:São Pedro de Alcântara"
+  }
+},
+{
+  "type": "node",
+  "id": 2229868238,
+  "lat": -27.5747780,
+  "lon": -48.4258352,
+  "tags": {
+    "name": "Barra da Lagoa",
+    "place": "village",
+    "population": "6537",
+    "wikidata": "Q2725309"
+  }
+},
+{
+  "type": "node",
+  "id": 2835005207,
+  "lat": -27.5850596,
+  "lon": -48.7162769,
+  "tags": {
+    "name": "Colônia Santana",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2900918166,
+  "lat": -27.4744795,
+  "lon": -48.4616756,
+  "tags": {
+    "name": "Vargem Pequena",
+    "place": "suburb",
+    "population": "1898"
+  }
+},
+{
+  "type": "node",
+  "id": 3139846394,
+  "lat": -27.5852588,
+  "lon": -48.5301009,
+  "tags": {
+    "name": "Morro da Penitenciária",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3139846396,
+  "lat": -27.5809859,
+  "lon": -48.5321569,
+  "tags": {
+    "name": "Morro do Horácio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3139846397,
+  "lat": -27.5976966,
+  "lon": -48.5420635,
+  "tags": {
+    "name": "Morro da Mariquinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3139846398,
+  "lat": -27.5965325,
+  "lon": -48.5352657,
+  "tags": {
+    "name": "Caieira da Vila Operária",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3139846399,
+  "lat": -27.5925669,
+  "lon": -48.5391989,
+  "tags": {
+    "name": "Santa Clara",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3154755711,
+  "lat": -27.4620820,
+  "lon": -48.4485196,
+  "tags": {
+    "name": "Vargem Grande",
+    "place": "suburb",
+    "population": "7412"
+  }
+},
+{
+  "type": "node",
+  "id": 3156385609,
+  "lat": -27.4485882,
+  "lon": -48.4306181,
+  "tags": {
+    "name": "Vargem do Bom Jesus",
+    "place": "suburb",
+    "population": "7900"
+  }
+},
+{
+  "type": "node",
+  "id": 3179933415,
+  "lat": -27.6525153,
+  "lon": -48.4782322,
+  "tags": {
+    "name": "Rio Tavares",
+    "place": "suburb",
+    "population": "14936",
+    "wikidata": "Q65305970"
+  }
+},
+{
+  "type": "node",
+  "id": 3228047338,
+  "lat": -27.5182234,
+  "lon": -48.4701574,
+  "tags": {
+    "alt_name": "UEP-72",
+    "name": "Canto do Moreira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3544963688,
+  "lat": -27.7490390,
+  "lon": -48.5076867,
+  "tags": {
+    "name": "Armação do Pântano do Sul",
+    "place": "suburb",
+    "population": "5133"
+  }
+},
+{
+  "type": "node",
+  "id": 3661638923,
+  "lat": -27.6874276,
+  "lon": -48.7776988,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3661717629,
+  "lat": -27.6909811,
+  "lon": -48.7831667,
+  "tags": {
+    "name": "Santana",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3661795119,
+  "lat": -27.6755207,
+  "lon": -48.7723698,
+  "tags": {
+    "name": "São Francisco de Assis",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3661799591,
+  "lat": -27.6851769,
+  "lon": -48.7886012,
+  "tags": {
+    "name": "São João",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663432803,
+  "lat": -27.6785494,
+  "lon": -48.7573403,
+  "tags": {
+    "name": "Vila Becker",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663444102,
+  "lat": -27.6697790,
+  "lon": -48.7482725,
+  "tags": {
+    "name": "Calemba",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663464223,
+  "lat": -27.6773797,
+  "lon": -48.7451689,
+  "tags": {
+    "name": "Santo Anjo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663493200,
+  "lat": -27.6970128,
+  "lon": -48.7727538,
+  "tags": {
+    "name": "Fabrício",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663497436,
+  "lat": -27.6801597,
+  "lon": -48.7409782,
+  "tags": {
+    "name": "Nossa Senhora de Lourdes",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663524005,
+  "lat": -27.6929080,
+  "lon": -48.7676733,
+  "tags": {
+    "name": "Morro dos Ventura",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663525792,
+  "lat": -27.7059200,
+  "lon": -48.7498492,
+  "tags": {
+    "name": "Vila Santana",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663569928,
+  "lat": -27.6943718,
+  "lon": -48.7354968,
+  "tags": {
+    "name": "Sul do Rio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3663602617,
+  "lat": -27.6877834,
+  "lon": -48.7309777,
+  "tags": {
+    "name": "Vargem Pinheiros",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3711142028,
+  "lat": -27.5968743,
+  "lon": -48.6817238,
+  "tags": {
+    "name": "Sertão do Maruim",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3787588936,
+  "lat": -27.6346568,
+  "lon": -48.6713562,
+  "tags": {
+    "name": "Passa Vinte",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4106931123,
+  "lat": -27.7198911,
+  "lon": -48.8831570,
+  "tags": {
+    "name": "Bairro do Rio dos Bugres",
+    "place": "neighbourhood",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 4114147296,
+  "lat": -27.8945742,
+  "lon": -48.7129799,
+  "tags": {
+    "name": "Sertão do Campo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4333175552,
+  "lat": -27.6653193,
+  "lon": -48.4776962,
+  "tags": {
+    "name": "Novo Campeche",
+    "name:en": "New Campeche",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4596888463,
+  "lat": -27.3301889,
+  "lon": -48.5399186,
+  "tags": {
+    "alt_name": "Palmas do Arvoredo",
+    "name": "Palmas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666471107,
+  "lat": -27.4901028,
+  "lon": -48.6493246,
+  "tags": {
+    "name": "Prado de Baixo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666473618,
+  "lat": -27.4832067,
+  "lon": -48.6574328,
+  "tags": {
+    "name": "Prado",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666477589,
+  "lat": -27.4733887,
+  "lon": -48.6641058,
+  "tags": {
+    "name": "Saudade",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666480491,
+  "lat": -27.4641520,
+  "lon": -48.6756699,
+  "tags": {
+    "name": "Encruzilhada",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666488310,
+  "lat": -27.4963318,
+  "lon": -48.6549060,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666491430,
+  "lat": -27.5047506,
+  "lon": -48.6417120,
+  "tags": {
+    "name": "Praia João Rosa",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666496272,
+  "lat": -27.5109592,
+  "lon": -48.6384287,
+  "tags": {
+    "name": "Saveiro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666501739,
+  "lat": -27.5166170,
+  "lon": -48.6358455,
+  "tags": {
+    "name": "Morro da Bina",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666505944,
+  "lat": -27.5250551,
+  "lon": -48.6336387,
+  "tags": {
+    "name": "Mar das Pedras",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666511319,
+  "lat": -27.5319832,
+  "lon": -48.6397191,
+  "tags": {
+    "name": "Bom Viver",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4666520377,
+  "lat": -27.5258282,
+  "lon": -48.6437554,
+  "tags": {
+    "name": "Jardim Janaína",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668084430,
+  "lat": -27.5160579,
+  "lon": -48.6579928,
+  "tags": {
+    "name": "Fundos",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668110181,
+  "lat": -27.5105560,
+  "lon": -48.6483953,
+  "tags": {
+    "name": "Rio Caveiras",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668150388,
+  "lat": -27.4995181,
+  "lon": -48.6581953,
+  "tags": {
+    "name": "Universitário",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668171880,
+  "lat": -27.5017751,
+  "lon": -48.6641940,
+  "tags": {
+    "name": "Boa Vista",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668204479,
+  "lat": -27.4941064,
+  "lon": -48.6653746,
+  "tags": {
+    "name": "Vendaval",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668218647,
+  "lat": -27.4833403,
+  "lon": -48.6679167,
+  "tags": {
+    "name": "Beira Rio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4668262332,
+  "lat": -27.4191687,
+  "lon": -48.6271487,
+  "tags": {
+    "name": "Tijuquinhas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669191493,
+  "lat": -27.5397505,
+  "lon": -48.6326310,
+  "tags": {
+    "name": "Serraria",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669277286,
+  "lat": -27.5550512,
+  "lon": -48.6312030,
+  "tags": {
+    "name": "Areias",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669323084,
+  "lat": -27.5523722,
+  "lon": -48.6177361,
+  "tags": {
+    "name": "Jardim Santiago",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669463109,
+  "lat": -27.5656757,
+  "lon": -48.6270470,
+  "tags": {
+    "name": "Ipiranga",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669557498,
+  "lat": -27.5662476,
+  "lon": -48.6403727,
+  "tags": {
+    "name": "Real Parque",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669688864,
+  "lat": -27.5709405,
+  "lon": -48.6259407,
+  "tags": {
+    "name": "Jardim Cidade de Florianópolis",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669783599,
+  "lat": -27.5731203,
+  "lon": -48.6208280,
+  "tags": {
+    "name": "Bela Vista",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4669859179,
+  "lat": -27.5792360,
+  "lon": -48.6182578,
+  "tags": {
+    "name": "Nossa Senhora do Rosário",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670063863,
+  "lat": -27.5932465,
+  "lon": -48.6204294,
+  "tags": {
+    "name": "Roçado",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670086184,
+  "lat": -27.5979635,
+  "lon": -48.6316406,
+  "tags": {
+    "name": "São Luiz",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670223564,
+  "lat": -27.6041963,
+  "lon": -48.6251912,
+  "tags": {
+    "name": "Praia Comprida",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670243629,
+  "lat": -27.6160000,
+  "lon": -48.6275277,
+  "tags": {
+    "alt_name": "Centro Histórico de São José",
+    "name": "Centro Histórico",
+    "old_name": "Centro",
+    "place": "suburb",
+    "population": "209804"
+  }
+},
+{
+  "type": "node",
+  "id": 4670251252,
+  "lat": -27.6199858,
+  "lon": -48.6384065,
+  "tags": {
+    "name": "Fazenda Santo Antônio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670254757,
+  "lat": -27.6348668,
+  "lon": -48.6349003,
+  "tags": {
+    "name": "Ponta de Baixo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670257963,
+  "lat": -27.6194919,
+  "lon": -48.6494359,
+  "tags": {
+    "name": "Distrito Industrial",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670266283,
+  "lat": -27.6052391,
+  "lon": -48.6447575,
+  "tags": {
+    "name": "Flor de Nápolis",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670334308,
+  "lat": -27.5845762,
+  "lon": -48.6276745,
+  "tags": {
+    "name": "Bosque das Mansões",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670336964,
+  "lat": -27.5796766,
+  "lon": -48.6413192,
+  "tags": {
+    "name": "Potecas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670346589,
+  "lat": -27.5760522,
+  "lon": -48.6703556,
+  "tags": {
+    "name": "Forquilhas Leste",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4670376761,
+  "lat": -27.5725284,
+  "lon": -48.6432245,
+  "tags": {
+    "name": "Pedregal",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4952577905,
+  "lat": -27.5814601,
+  "lon": -48.5918904,
+  "tags": {
+    "name": "Novo Estreito",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5016413325,
+  "lat": -27.6837388,
+  "lon": -48.6591199,
+  "tags": {
+    "fixme": "conferir posição",
+    "name": "Loteamento Vila Nova",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5251829891,
+  "lat": -27.4845670,
+  "lon": -48.5197031,
+  "tags": {
+    "alt_name": "UEP-63",
+    "name": "Barra do Sambaqui",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5840495280,
+  "lat": -27.5783145,
+  "lon": -48.6683393,
+  "tags": {
+    "alt_name": "Loteamento Lisboa",
+    "name": "Parque Residencial Lisboa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372806,
+  "lat": -27.7414288,
+  "lon": -48.5574031,
+  "tags": {
+    "alt_name": "UEP-104",
+    "name": "Costeira do Ribeirão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372807,
+  "lat": -27.7497467,
+  "lon": -48.5475433,
+  "tags": {
+    "name": "Sertão do Ribeirão",
+    "nickname": "Sertão do Peri",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372808,
+  "lat": -27.8335450,
+  "lon": -48.5619092,
+  "tags": {
+    "alt_name": "UEP-117",
+    "name": "Naufragados",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372809,
+  "lat": -27.7554625,
+  "lon": -48.4991670,
+  "tags": {
+    "alt_name": "UEP-107",
+    "name": "Matadeiro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372810,
+  "lat": -27.7608457,
+  "lon": -48.5705137,
+  "tags": {
+    "alt_name": "UEP-109",
+    "name": "Caiacanga",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186372812,
+  "lat": -27.7819635,
+  "lon": -48.5255867,
+  "tags": {
+    "alt_name": "Balneário dos Açores;UEP-112",
+    "name": "Açores",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186375264,
+  "lat": -27.7939650,
+  "lon": -48.5339284,
+  "tags": {
+    "alt_name": "Rio das Pacas",
+    "name": "Solidão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6186398452,
+  "lat": -27.6205584,
+  "lon": -48.4483042,
+  "tags": {
+    "name": "Joaquina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6190483987,
+  "lat": -27.8251742,
+  "lon": -48.6406932,
+  "tags": {
+    "alt_name": "Massiambu Pequeno",
+    "name": "Maciambu Pequeno",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6190483988,
+  "lat": -27.8296539,
+  "lon": -48.6156948,
+  "tags": {
+    "alt_name": "Passagem do Massiambu",
+    "name": "Passagem do Maciambu",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6190500315,
+  "lat": -27.8810560,
+  "lon": -48.6633827,
+  "tags": {
+    "name": "Albardão",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6190500316,
+  "lat": -27.8992459,
+  "lon": -48.6544350,
+  "tags": {
+    "name": "Três Barras",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6190562821,
+  "lat": -27.8043619,
+  "lon": -48.6376011,
+  "tags": {
+    "name": "Aldeia Indígena Morro dos Cavalos",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6190828829,
+  "lat": -27.8337062,
+  "lon": -48.5888386,
+  "tags": {
+    "alt_name": "Balneário Recanto do Sonho",
+    "name": "Praia do Sonho",
+    "place": "suburb",
+    "source:alt_name": "Brazilian Army Topographic Maps"
+  }
+},
+{
+  "type": "node",
+  "id": 6190828830,
+  "lat": -27.8666283,
+  "lon": -48.6084103,
+  "tags": {
+    "name": "Pinheira",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6190828831,
+  "lat": -27.9021238,
+  "lon": -48.5923662,
+  "tags": {
+    "name": "Guarda do Embaú",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6193469144,
+  "lat": -27.9425689,
+  "lon": -48.6713433,
+  "tags": {
+    "name": "Sorocaba",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6193639278,
+  "lat": -27.6789201,
+  "lon": -48.8402259,
+  "tags": {
+    "name": "Fazenda do Sacramento",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6193869867,
+  "lat": -27.4402665,
+  "lon": -48.5027484,
+  "tags": {
+    "name": "Jurerê Internacional",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6193909576,
+  "lat": -27.4892427,
+  "lon": -48.5308439,
+  "tags": {
+    "name": "Sambaqui",
+    "place": "suburb",
+    "population": "3700"
+  }
+},
+{
+  "type": "node",
+  "id": 6193944812,
+  "lat": -27.5431463,
+  "lon": -48.4609777,
+  "tags": {
+    "name": "Costa da Lagoa",
+    "place": "suburb",
+    "population": "954"
+  }
+},
+{
+  "type": "node",
+  "id": 6195858778,
+  "lat": -27.6090744,
+  "lon": -48.4542454,
+  "tags": {
+    "name": "Avenida das Rendeiras",
+    "place": "neighbourhood",
+    "population": "1274"
+  }
+},
+{
+  "type": "node",
+  "id": 6195881009,
+  "lat": -27.5857034,
+  "lon": -48.4320152,
+  "tags": {
+    "name": "Fortaleza da Barra da Lagoa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196587036,
+  "lat": -27.4996116,
+  "lon": -48.4281635,
+  "tags": {
+    "name": "Caminho do Sertão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640248,
+  "lat": -27.5076767,
+  "lon": -48.4205300,
+  "tags": {
+    "alt_name": "UEP-67",
+    "name": "Rio Vermelho Sul",
+    "name:en": "South Rio Vermelho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640249,
+  "lat": -27.4918648,
+  "lon": -48.4142804,
+  "tags": {
+    "alt_name": "UEP-68",
+    "name": "Rio Vermelho Norte",
+    "name:en": "North Rio Vermelho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640250,
+  "lat": -27.4695712,
+  "lon": -48.4100925,
+  "tags": {
+    "alt_name": "UEP-60",
+    "name": "Muquém",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640251,
+  "lat": -27.4223571,
+  "lon": -48.4048927,
+  "tags": {
+    "alt_name": "Balneário Gaivotas;UEP-42",
+    "name": "Ingleses Norte",
+    "name:en": "North Ingleses",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640252,
+  "lat": -27.4326513,
+  "lon": -48.4022212,
+  "tags": {
+    "alt_name": "UEP-43",
+    "name": "Ingleses Centro",
+    "name:en": "Central Ingleses",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640253,
+  "lat": -27.4430112,
+  "lon": -48.3820564,
+  "tags": {
+    "alt_name": "UEP-53",
+    "name": "Ingleses Sul",
+    "name:en": "South Ingleses",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640255,
+  "lat": -27.4483078,
+  "lon": -48.4064124,
+  "tags": {
+    "alt_name": "UEP-52",
+    "name": "Capivari",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6196640256,
+  "lat": -27.4380805,
+  "lon": -48.3973718,
+  "tags": {
+    "name": "Ingleses do Rio Vermelho",
+    "place": "suburb",
+    "population": "46320"
+  }
+},
+{
+  "type": "node",
+  "id": 6196728646,
+  "lat": -27.4326132,
+  "lon": -48.5168950,
+  "tags": {
+    "name": "Praia do Forte",
+    "place": "suburb",
+    "population": "170"
+  }
+},
+{
+  "type": "node",
+  "id": 6208526526,
+  "lat": -27.3902923,
+  "lon": -48.4256691,
+  "tags": {
+    "alt_name": "Lagoinha;Lagoinha de Ponta das Canas;UEP-38",
+    "name": "Lagoinha do Norte",
+    "place": "neighbourhood",
+    "population": "571",
+    "population:date": "2022",
+    "source:population": "https://pt.wikipedia.org/wiki/Lista_de_distritos_e_bairros_de_Florian%C3%B3polis#:~:text=Lagoinha%20do%20Norte,571"
+  }
+},
+{
+  "type": "node",
+  "id": 6208544285,
+  "lat": -27.3976128,
+  "lon": -48.4158254,
+  "tags": {
+    "name": "Praia Brava",
+    "place": "suburb",
+    "population": "349"
+  }
+},
+{
+  "type": "node",
+  "id": 6210783865,
+  "lat": -27.5037179,
+  "lon": -48.5110219,
+  "tags": {
+    "alt_name": "UEP-129",
+    "name": "Recanto dos Açores",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6719787837,
+  "lat": -27.6143647,
+  "lon": -48.6644446,
+  "tags": {
+    "name": "Brejaru",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6719912812,
+  "lat": -27.6242193,
+  "lon": -48.6623716,
+  "tags": {
+    "name": "Jardim Eldorado",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720165576,
+  "lat": -27.6468779,
+  "lon": -48.6830537,
+  "tags": {
+    "name": "Caminho Novo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720191541,
+  "lat": -27.6409637,
+  "lon": -48.6785150,
+  "tags": {
+    "name": "Pagani",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720244026,
+  "lat": -27.6418489,
+  "lon": -48.6988364,
+  "tags": {
+    "name": "Madri",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720274908,
+  "lat": -27.6425536,
+  "lon": -48.7155523,
+  "tags": {
+    "name": "São Sebastião",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720301442,
+  "lat": -27.6264004,
+  "lon": -48.6832459,
+  "tags": {
+    "name": "Cidade Universitária Pedra Branca",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720329591,
+  "lat": -27.6342227,
+  "lon": -48.6545505,
+  "tags": {
+    "name": "Ponte do Imaruim",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6720340929,
+  "lat": -27.6470135,
+  "lon": -48.6676051,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721055779,
+  "lat": -27.6640280,
+  "lon": -48.6571098,
+  "tags": {
+    "name": "Rio Grande",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721107995,
+  "lat": -27.6662346,
+  "lon": -48.6625027,
+  "tags": {
+    "name": "Nova Palhoça",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721117827,
+  "lat": -27.6757976,
+  "lon": -48.6495926,
+  "tags": {
+    "name": "Barra do Aririú",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721168087,
+  "lat": -27.6910736,
+  "lon": -48.6572696,
+  "tags": {
+    "name": "Aririú da Formiga",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721293399,
+  "lat": -27.6751197,
+  "lon": -48.6700073,
+  "tags": {
+    "name": "Pachecos",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721517433,
+  "lat": -27.6718829,
+  "lon": -48.6820225,
+  "tags": {
+    "name": "Aririú",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721622371,
+  "lat": -27.6896572,
+  "lon": -48.6840760,
+  "tags": {
+    "name": "Guarda do Cubatão",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721654940,
+  "lat": -27.6790168,
+  "lon": -48.7063480,
+  "tags": {
+    "name": "Alto Aririú",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6721678600,
+  "lat": -27.6560513,
+  "lon": -48.6916456,
+  "tags": {
+    "name": "Bela Vista",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854405182,
+  "lat": -27.7824875,
+  "lon": -48.8148069,
+  "tags": {
+    "name": "Vargem do Braço",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854405183,
+  "lat": -27.7138814,
+  "lon": -48.8074766,
+  "tags": {
+    "name": "Caldas da Imperatriz",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854405184,
+  "lat": -27.7005314,
+  "lon": -48.8062202,
+  "tags": {
+    "name": "Poço Fundo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854422850,
+  "lat": -27.6715725,
+  "lon": -48.7879408,
+  "tags": {
+    "name": "Varginha",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854422851,
+  "lat": -27.6655454,
+  "lon": -48.7565260,
+  "tags": {
+    "name": "Pagará",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6854431320,
+  "lat": -27.6328937,
+  "lon": -48.8068492,
+  "tags": {
+    "name": "Alto da Varginha",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6901416352,
+  "lat": -27.4659053,
+  "lon": -48.6406874,
+  "tags": {
+    "name": "São Miguel",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6901441304,
+  "lat": -27.3936383,
+  "lon": -48.6340335,
+  "tags": {
+    "name": "Cachoeiras",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6901441317,
+  "lat": -27.3801738,
+  "lon": -48.6349525,
+  "tags": {
+    "name": "Areias de Cima",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6901441329,
+  "lat": -27.3604172,
+  "lon": -48.6423658,
+  "tags": {
+    "name": "Estiva",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 6910244909,
+  "lat": -27.5901153,
+  "lon": -48.5945060,
+  "tags": {
+    "name": "Sapé",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7390551323,
+  "lat": -27.8455545,
+  "lon": -48.5901121,
+  "tags": {
+    "alt_name": "Balneário Papagaio",
+    "name": "Balneário Ponta do Papagaio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7481975673,
+  "lat": -27.3310631,
+  "lon": -48.8447204,
+  "tags": {
+    "name": "Fernandes",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7481975682,
+  "lat": -27.3229425,
+  "lon": -48.8333929,
+  "tags": {
+    "name": "Onça",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7482941033,
+  "lat": -27.3505934,
+  "lon": -48.8421586,
+  "tags": {
+    "name": "Vargem Pequena",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7482976438,
+  "lat": -27.3184834,
+  "lon": -48.8689864,
+  "tags": {
+    "name": "Colônia de Fora",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7504914415,
+  "lat": -27.8873267,
+  "lon": -48.6282619,
+  "tags": {
+    "name": "Morretes",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7508810677,
+  "lat": -27.3921697,
+  "lon": -48.8833890,
+  "tags": {
+    "name": "Arataca",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7515959031,
+  "lat": -27.3015149,
+  "lon": -48.9347507,
+  "tags": {
+    "name": "Ribeirão da Velha",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7742231045,
+  "lat": -27.5958609,
+  "lon": -48.5035287,
+  "tags": {
+    "name": "Jardim Anchieta",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8413731714,
+  "lat": -27.7107817,
+  "lon": -48.6493828,
+  "tags": {
+    "name": "Furadinho",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8413752422,
+  "lat": -27.7165503,
+  "lon": -48.6408809,
+  "tags": {
+    "name": "Praia do Pontal",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8413752435,
+  "lat": -27.7477582,
+  "lon": -48.6267997,
+  "tags": {
+    "name": "Praia de Fora",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8551917760,
+  "lat": -27.8903758,
+  "lon": -48.7266133,
+  "tags": {
+    "name": "Sertão do Campo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8607987693,
+  "lat": -27.7216073,
+  "lon": -48.8914937,
+  "tags": {
+    "name": "Santa Cruz da Figueira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8607995788,
+  "lat": -27.7091969,
+  "lon": -48.7102981,
+  "tags": {
+    "name": "Braço São João",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8607999247,
+  "lat": -27.5487134,
+  "lon": -48.4613776,
+  "tags": {
+    "name": "Praia Seca",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8608035783,
+  "lat": -27.6420660,
+  "lon": -48.7596751,
+  "tags": {
+    "name": "Colônia Santa Luzia",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8608045938,
+  "lat": -27.6883367,
+  "lon": -48.8194802,
+  "tags": {
+    "name": "Canto da Amizade",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8612634520,
+  "lat": -27.5759723,
+  "lon": -48.6729457,
+  "tags": {
+    "alt_name": "Loteamento Los Angeles",
+    "name": "Loteamento Jardim Los Angeles",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8612634523,
+  "lat": -27.6025026,
+  "lon": -48.6816339,
+  "tags": {
+    "name": "Loteamento Santos Dumont",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8612634524,
+  "lat": -27.5752897,
+  "lon": -48.6760300,
+  "tags": {
+    "name": "Loteamento Mello",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8612634525,
+  "lat": -27.5852214,
+  "lon": -48.6962633,
+  "tags": {
+    "name": "Núcleo Residencial da Granja Macedo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 8719902781,
+  "lat": -27.6657703,
+  "lon": -48.7757055,
+  "tags": {
+    "name": "Sítio de Dentro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8720200650,
+  "lat": -27.6707914,
+  "lon": -48.8049568,
+  "tags": {
+    "name": "Taquara",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8720200681,
+  "lat": -27.6525739,
+  "lon": -48.8487260,
+  "tags": {
+    "name": "Fazenda Bom Jesus",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8722980324,
+  "lat": -27.7166950,
+  "lon": -48.8554531,
+  "tags": {
+    "name": "Vargem Grande",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8740485417,
+  "lat": -27.3894433,
+  "lon": -48.6212449,
+  "tags": {
+    "name": "Loteamento Nova Governador Celso Ramos",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9161529490,
+  "lat": -27.9402179,
+  "lon": -48.6322873,
+  "tags": {
+    "name": "Ponta do Faísca",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9163224945,
+  "lat": -27.9401094,
+  "lon": -48.7236798,
+  "tags": {
+    "name": "Morro Grande",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9202960049,
+  "lat": -27.5721213,
+  "lon": -48.6808044,
+  "tags": {
+    "name": "Loteamento Lisboa III",
+    "place": "neighbourhood",
+    "source:name": "Lei Nº 6.061, de 2021-09-28"
+  }
+},
+{
+  "type": "node",
+  "id": 9202960263,
+  "lat": -27.5996687,
+  "lon": -48.6888173,
+  "tags": {
+    "alt_name": "Loteamento Bosque da Pedra",
+    "name": "Bosque da Pedra Residence Park",
+    "place": "neighbourhood",
+    "source:alt_name": "Lei n. 6.055, 2021-09-15"
+  }
+},
+{
+  "type": "node",
+  "id": 9264656944,
+  "lat": -27.4866038,
+  "lon": -48.6696911,
+  "tags": {
+    "name": "Loteamento Delta Ville",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9273228340,
+  "lat": -27.6050429,
+  "lon": -48.5036289,
+  "tags": {
+    "name": "Jardim Guarani",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9273228341,
+  "lat": -27.5986357,
+  "lon": -48.4985074,
+  "tags": {
+    "name": "Jardim Germânia",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9588505849,
+  "lat": -27.7111288,
+  "lon": -48.8536853,
+  "tags": {
+    "name": "Vargem Grande",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9663406046,
+  "lat": -27.6136387,
+  "lon": -48.6661274,
+  "tags": {
+    "name": "Vila Frei Damião",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9783968091,
+  "lat": -27.6038192,
+  "lon": -48.6881045,
+  "tags": {
+    "name": "Loteamento Seu Botinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9901889657,
+  "lat": -27.4430683,
+  "lon": -48.4910560,
+  "tags": {
+    "name": "Loteamento Praia do Forte",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 10635117005,
+  "lat": -27.6713285,
+  "lon": -48.6697179,
+  "tags": {
+    "name": "Parque Empresarial Lumis",
+    "place": "neighbourhood",
+    "source:name": "Lei 4.711/2019"
+  }
+},
+{
+  "type": "node",
+  "id": 11124222068,
+  "lat": -27.3482338,
+  "lon": -48.6152260,
+  "tags": {
+    "alt_name": "Inferninho",
+    "name": "Parque Industrial Norte",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124222076,
+  "lat": -27.3793172,
+  "lon": -48.6242589,
+  "tags": {
+    "name": "Areias de Cima",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124232206,
+  "lat": -27.3784950,
+  "lon": -48.6129684,
+  "tags": {
+    "name": "Areias do Meio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124232211,
+  "lat": -27.3919864,
+  "lon": -48.5987565,
+  "tags": {
+    "name": "Areias de Baixo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124232213,
+  "lat": -27.4275696,
+  "lon": -48.5883216,
+  "tags": {
+    "name": "Caieira do Norte",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124232215,
+  "lat": -27.4199034,
+  "lon": -48.5694099,
+  "tags": {
+    "name": "Praia do Antenor",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11124232216,
+  "lat": -27.3922398,
+  "lon": -48.5665903,
+  "tags": {
+    "name": "Costeira da Armação",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126392563,
+  "lat": -27.3643150,
+  "lon": -48.5614669,
+  "tags": {
+    "name": "Fazenda da Armação",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126392569,
+  "lat": -27.3599700,
+  "lon": -48.5480328,
+  "tags": {
+    "name": "Camboa",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126392570,
+  "lat": -27.3749462,
+  "lon": -48.5336926,
+  "tags": {
+    "name": "Armação da Piedade",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126392592,
+  "lat": -27.3076129,
+  "lon": -48.5456595,
+  "tags": {
+    "name": "Ganchos de Fora",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126398309,
+  "lat": -27.3143240,
+  "lon": -48.5531075,
+  "tags": {
+    "alt_name": "Centro",
+    "name": "Ganchos do Meio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126398321,
+  "lat": -27.3191360,
+  "lon": -48.5634758,
+  "tags": {
+    "name": "Calheiros",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126398333,
+  "lat": -27.3160475,
+  "lon": -48.5750673,
+  "tags": {
+    "name": "Canto dos Ganchos",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126398337,
+  "lat": -27.3420604,
+  "lon": -48.5936603,
+  "tags": {
+    "name": "Dona Lucinda",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11126398338,
+  "lat": -27.3626914,
+  "lon": -48.5983574,
+  "tags": {
+    "name": "Jordão",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 13111255083,
+  "lat": -27.7724383,
+  "lon": -48.4894748,
+  "tags": {
+    "alt_name": "UEP-110",
+    "name": "Lagoinha do Leste",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13113083994,
+  "lat": -27.5601740,
+  "lon": -48.6524716,
+  "tags": {
+    "name": "Loteamento Alta Vista",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 13113435722,
+  "lat": -27.4996098,
+  "lon": -48.4039930,
+  "tags": {
+    "name": "Moçambique",
+    "place": "suburb",
+    "population": "76"
+  }
+},
+{
+  "type": "node",
+  "id": 13113435731,
+  "lat": -27.4926004,
+  "lon": -48.5134789,
+  "tags": {
+    "alt_name": "UEP-64",
+    "name": "Rio do Viríssimo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13113435732,
+  "lat": -27.4847103,
+  "lon": -48.5362971,
+  "tags": {
+    "alt_name": "UEP-61",
+    "name": "Praia do Paulino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13123628313,
+  "lat": -27.5922072,
+  "lon": -48.4260710,
+  "tags": {
+    "alt_name": "UEP-77",
+    "name": "Galheta",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13143137273,
+  "lat": -27.5874589,
+  "lon": -48.6691392,
+  "tags": {
+    "name": "Centro Empresarial",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 13226475132,
+  "lat": -27.4710701,
+  "lon": -48.4056820,
+  "tags": {
+    "name": "Jardim Rio Vermelho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13240079372,
+  "lat": -27.6938011,
+  "lon": -48.4987966,
+  "tags": {
+    "alt_name": "Castanheiras",
+    "name": "Jardim Castanheiras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13240944771,
+  "lat": -27.5284513,
+  "lon": -48.6516046,
+  "tags": {
+    "name": "Altos do Jardim",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 13354282523,
+  "lat": -27.7821955,
+  "lon": -48.5353923,
+  "tags": {
+    "name": "Costa de Dentro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13354282524,
+  "lat": -27.7696463,
+  "lon": -48.5256291,
+  "tags": {
+    "name": "Costa de Cima",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13389888245,
+  "lat": -27.3919439,
+  "lon": -48.6243081,
+  "tags": {
+    "name": "Parque Industrial Sul",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 13390014089,
+  "lat": -27.3634157,
+  "lon": -48.5383267,
+  "tags": {
+    "name": "Praia Grande",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 13390015733,
+  "lat": -27.3741236,
+  "lon": -48.5797914,
+  "tags": {
+    "name": "Conjunto Central de Montanhas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 13442713755,
+  "lat": -27.5799000,
+  "lon": -48.6075000,
+  "tags": {
+    "name": "Barreiros",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 13513498694,
+  "lat": -27.7395849,
+  "lon": -48.5135663,
+  "tags": {
+    "alt_name": "Lagoa do Peri",
+    "name": "Porto do Contrato",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13513508788,
+  "lat": -27.6975602,
+  "lon": -48.4965875,
+  "tags": {
+    "name": "Jardim Campeche",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13513533617,
+  "lat": -27.6997308,
+  "lon": -48.5024038,
+  "tags": {
+    "name": "Areias do Campeche",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13513645453,
+  "lat": -27.5662575,
+  "lon": -48.4628282,
+  "tags": {
+    "name": "Vila Verde",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13515768980,
+  "lat": -27.7041729,
+  "lon": -48.5286167,
+  "tags": {
+    "alt_name": "Alto do Ribeirão;Alto Ribeirão da Ilha",
+    "name": "Alto Ribeirão",
+    "place": "suburb",
+    "population": "7395",
+    "population:date": "2022",
+    "source:population": "https://www.nsctotal.com.br/noticias/veja-os-bairros-mais-populosos-de-florianopolis-segundo-o-ibge"
+  }
+},
+{
+  "type": "node",
+  "id": 13515858334,
+  "lat": -27.6676057,
+  "lon": -48.5066121,
+  "tags": {
+    "alt_name": "UEP-95",
+    "name": "Fazenda do Rio Tavares",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13515892760,
+  "lat": -27.4319657,
+  "lon": -48.4762182,
+  "tags": {
+    "name": "Canajurê",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 13520792494,
+  "lat": -27.4507989,
+  "lon": -48.4589572,
+  "tags": {
+    "alt_name": "UEP-56",
+    "name": "Vargem de Fora",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13706780470,
+  "lat": -27.6109426,
+  "lon": -48.4462182,
+  "tags": {
+    "alt_name": "UEP-83",
+    "name": "Retiro",
+    "nickname": "Retiro;Retiro da Lagoa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13706780471,
+  "lat": -27.7084314,
+  "lon": -48.4996639,
+  "tags": {
+    "name": "Novo Morro das Pedras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13728138072,
+  "lat": -27.5979059,
+  "lon": -48.6028219,
+  "tags": {
+    "name": "Jardim Capoeiras",
+    "place": "suburb",
+    "population": "1545"
+  }
+},
+{
+  "type": "node",
+  "id": 13757747835,
+  "lat": -27.5869801,
+  "lon": -48.5798666,
+  "tags": {
+    "name": "Fátima",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13757747836,
+  "lat": -27.5915952,
+  "lon": -48.6032389,
+  "tags": {
+    "name": "Chico Mendes",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13796157075,
+  "lat": -27.3345450,
+  "lon": -48.6637299,
+  "tags": {
+    "name": "Aldeia indígena",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 13806888522,
+  "lat": -27.6502036,
+  "lon": -48.5225773,
+  "tags": {
+    "name": "Trevo da Seta",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13806888523,
+  "lat": -27.6082610,
+  "lon": -48.5482709,
+  "tags": {
+    "name": "Prainha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13806888524,
+  "lat": -27.4420919,
+  "lon": -48.4720854,
+  "tags": {
+    "alt_name": "UEP-48",
+    "name": "Canto do Lamim",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13806888525,
+  "lat": -27.8040957,
+  "lon": -48.5378961,
+  "tags": {
+    "alt_name": "Saco do Caldeirão",
+    "name": "Saquinho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815022288,
+  "lat": -27.7001290,
+  "lon": -48.4975252,
+  "tags": {
+    "name": "Ecovillas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815022289,
+  "lat": -27.6945693,
+  "lon": -48.4891295,
+  "tags": {
+    "name": "Lagoa da Chica",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815022290,
+  "lat": -27.6796900,
+  "lon": -48.4818871,
+  "tags": {
+    "name": "Riozinho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815022291,
+  "lat": -27.6419864,
+  "lon": -48.4863756,
+  "tags": {
+    "alt_name": "Pedrita",
+    "name": "Cova Funda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815041625,
+  "lat": -27.7056993,
+  "lon": -48.4983982,
+  "tags": {
+    "name": "Areias do Morro das Pedras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13815809624,
+  "lat": -27.6971748,
+  "lon": -48.4913780,
+  "tags": {
+    "name": "Lomba do Sabão",
+    "nickname": "Lomba",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13832837410,
+  "lat": -27.6132762,
+  "lon": -48.5176411,
+  "tags": {
+    "name": "Alto Pantanal",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13832837411,
+  "lat": -27.6141620,
+  "lon": -48.4336199,
+  "tags": {
+    "name": "Gravatá",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13832837412,
+  "lat": -27.6677399,
+  "lon": -48.5278346,
+  "tags": {
+    "alt_name": "Loteamento Santos Dumont;UEP-94",
+    "name": "Ressacada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963507699,
+  "lat": -27.7029377,
+  "lon": -48.4990730,
+  "tags": {
+    "name": "Loteamento Residencial Morro das Pedras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963554924,
+  "lat": -27.6597305,
+  "lon": -48.5389951,
+  "tags": {
+    "name": "Jardim Califórnia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963554925,
+  "lat": -27.6076607,
+  "lon": -48.4792576,
+  "tags": {
+    "name": "Jardim Saulo Ramos",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963554926,
+  "lat": -27.5724674,
+  "lon": -48.4322133,
+  "tags": {
+    "name": "Cidade da Barra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963554928,
+  "lat": -27.4407159,
+  "lon": -48.3907033,
+  "tags": {
+    "name": "Comunidade Angra dos Reis",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13963554930,
+  "lat": -27.5505013,
+  "lon": -48.4921085,
+  "tags": {
+    "name": "Sol Nascente",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13976358160,
+  "lat": -27.4411261,
+  "lon": -48.4824841,
+  "tags": {
+    "alt_name": "Jurerê, Jurerê Leste",
+    "name": "Jurerê Tradicional",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513050,
+  "lat": -27.5987754,
+  "lon": -48.5793763,
+  "tags": {
+    "name": "Morro da Caixa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513051,
+  "lat": -27.6220119,
+  "lon": -48.5279433,
+  "tags": {
+    "name": "Ferrujo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513052,
+  "lat": -27.6948971,
+  "lon": -48.5500765,
+  "tags": {
+    "alt_name": "UEP-124",
+    "name": "Pedregal",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513053,
+  "lat": -27.6871921,
+  "lon": -48.4890330,
+  "tags": {
+    "alt_name": "Jotas",
+    "name": "Baiá",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513054,
+  "lat": -27.6933120,
+  "lon": -48.5645946,
+  "tags": {
+    "alt_name": "Praia do Garcia",
+    "name": "Garcia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14016513055,
+  "lat": -27.7063499,
+  "lon": -48.5086597,
+  "tags": {
+    "name": "Trevo do Erasmo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14039906188,
+  "lat": -27.5529328,
+  "lon": -48.7015256,
+  "tags": {
+    "name": "Loteamento Orlando",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 14047571659,
+  "lat": -27.5475776,
+  "lon": -48.6979667,
+  "tags": {
+    "name": "Alto Forquilhas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 14047571681,
+  "lat": -27.5680185,
+  "lon": -48.6896862,
+  "tags": {
+    "name": "Forquilhas Oeste",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 14085644165,
+  "lat": -27.4658702,
+  "lon": -48.3783821,
+  "tags": {
+    "name": "Costão do Santinho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14085644166,
+  "lat": -27.5783236,
+  "lon": -48.4238005,
+  "tags": {
+    "name": "Morro do Torquato",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14085644167,
+  "lat": -27.5748461,
+  "lon": -48.4212050,
+  "tags": {
+    "alt_name": "Prainha;Prainha da Barra",
+    "name": "Prainha do Leste",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086211093,
+  "lat": -27.5949460,
+  "lon": -48.5951209,
+  "tags": {
+    "alt_name": "UEP-27",
+    "name": "Capoeiras Oeste",
+    "name:en": "West Capoeiras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086331603,
+  "lat": -27.5836448,
+  "lon": -48.6008711,
+  "tags": {
+    "alt_name": "UEP-20",
+    "name": "Jardim Atlântico Sul",
+    "name:en": "South Jardim Atlântico",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086331604,
+  "lat": -27.6050920,
+  "lon": -48.5862297,
+  "tags": {
+    "alt_name": "UEP-34",
+    "name": "Nossa Senhora Aparecida",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086331620,
+  "lat": -27.6009204,
+  "lon": -48.5754244,
+  "tags": {
+    "alt_name": "UEP-36",
+    "name": "Saco da Lama",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734122,
+  "lat": -27.6763718,
+  "lon": -48.5678686,
+  "tags": {
+    "alt_name": "UEP-92",
+    "name": "Base Aérea",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734167,
+  "lat": -27.6818258,
+  "lon": -48.5168166,
+  "tags": {
+    "alt_name": "UEP-132",
+    "name": "Lavouras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734168,
+  "lat": -27.6962093,
+  "lon": -48.5279884,
+  "tags": {
+    "alt_name": "UEP-133",
+    "name": "Fazenda Cordeiro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734170,
+  "lat": -27.6909902,
+  "lon": -48.5357299,
+  "tags": {
+    "alt_name": "UEP-125",
+    "name": "Morro do Peralta",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734171,
+  "lat": -27.6792584,
+  "lon": -48.5434356,
+  "tags": {
+    "alt_name": "UEP-121",
+    "name": "Campus",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14086734203,
+  "lat": -27.6553317,
+  "lon": -48.5252625,
+  "tags": {
+    "alt_name": "UEP-91",
+    "name": "Mangue do Aeroporto",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088541860,
+  "lat": -27.6492904,
+  "lon": -48.5198458,
+  "tags": {
+    "alt_name": "UEP-14",
+    "name": "Valerim",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088541896,
+  "lat": -27.6904036,
+  "lon": -48.5078179,
+  "tags": {
+    "alt_name": "UEP-122",
+    "name": "Autódromo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088570908,
+  "lat": -27.6971430,
+  "lon": -48.5127392,
+  "tags": {
+    "alt_name": "UEP-126",
+    "name": "Moenda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088570912,
+  "lat": -27.6577928,
+  "lon": -48.5062213,
+  "tags": {
+    "alt_name": "UEP-86",
+    "name": "Sertão da Costeira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088570958,
+  "lat": -27.6483645,
+  "lon": -48.4757625,
+  "tags": {
+    "alt_name": "UEP-88",
+    "name": "Rio Tavares Norte",
+    "name:en": "North Rio Tavares",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088677093,
+  "lat": -27.6770868,
+  "lon": -48.5028530,
+  "tags": {
+    "alt_name": "UEP-96",
+    "name": "Campeche Central",
+    "name:en": "Central Campeche",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088711334,
+  "lat": -27.6623392,
+  "lon": -48.4884442,
+  "tags": {
+    "alt_name": "UEP-89",
+    "name": "Rio Tavares Central",
+    "name:en": "Central Rio Tavares",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14088711348,
+  "lat": -27.6645788,
+  "lon": -48.4949244,
+  "tags": {
+    "alt_name": "UEP-131",
+    "name": "Morro do Lâmpião",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14090626208,
+  "lat": -27.4511738,
+  "lon": -48.4997922,
+  "tags": {
+    "alt_name": "UEP-118",
+    "name": "Jurerê Sul",
+    "name:en": "South Jurerê",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14090626209,
+  "lat": -27.4587563,
+  "lon": -48.4953380,
+  "tags": {
+    "alt_name": "UEP-119",
+    "name": "Mangue de Jurerê",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14090626227,
+  "lat": -27.4663555,
+  "lon": -48.4661067,
+  "tags": {
+    "alt_name": "UEP-57",
+    "name": "Rio da Palha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14090683260,
+  "lat": -27.5021718,
+  "lon": -48.4611204,
+  "tags": {
+    "alt_name": "UEP-66",
+    "name": "Canto da Cachoeira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14090828064,
+  "lat": -27.4726258,
+  "lon": -48.4898935,
+  "tags": {
+    "alt_name": "UEP-120",
+    "name": "Mangue de Ratones",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14091003219,
+  "lat": -27.5060443,
+  "lon": -48.5123390,
+  "tags": {
+    "alt_name": "UEP-130",
+    "name": "Santo Antônio de Lisboa Leste",
+    "name:en": "East Santo Antônio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14093099640,
+  "lat": -27.6258427,
+  "lon": -48.4457118,
+  "tags": {
+    "alt_name": "UEP-84",
+    "name": "Costão da Joaquina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14097433498,
+  "lat": -27.7373234,
+  "lon": -48.5435810,
+  "tags": {
+    "alt_name": "UEP-102",
+    "name": "Lagoa do Peri",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14097439930,
+  "lat": -27.8294304,
+  "lon": -48.5445508,
+  "tags": {
+    "alt_name": "UEP-116",
+    "name": "Saco da Baleia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14097439969,
+  "lat": -27.7630915,
+  "lon": -48.4789893,
+  "tags": {
+    "alt_name": "UEP-108",
+    "name": "Ponta do Facão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14099276239,
+  "lat": -27.7013552,
+  "lon": -48.5390534,
+  "tags": {
+    "alt_name": "UEP-100",
+    "name": "Alto Ribeirão Oeste",
+    "name:en": "West Alto Ribeirão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14111579376,
+  "lat": -27.5389670,
+  "lon": -48.5132498,
+  "tags": {
+    "alt_name": "UEP-15",
+    "name": "Saco Grande Oeste",
+    "name:en": "West Saco Grande",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14113932873,
+  "lat": -27.5045034,
+  "lon": -48.5076751,
+  "tags": {
+    "name": "Cachoeira de Santo Antônio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14116120892,
+  "lat": -27.5770805,
+  "lon": -48.5191387,
+  "tags": {
+    "alt_name": "UEP-5",
+    "name": "Manguezal do Itacorubi",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14116190142,
+  "lat": -27.4211860,
+  "lon": -48.4338249,
+  "tags": {
+    "alt_name": "UEP-50",
+    "name": "Cachoeira do Bom Jesus Oeste",
+    "name:en": "West Cachoeira do Bom Jesus",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14125567470,
+  "lat": -27.6533475,
+  "lon": -48.4737927,
+  "tags": {
+    "alt_name": "Reefifi",
+    "name": "Rififi",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 14125567471,
+  "lat": -27.6508632,
+  "lon": -48.4682291,
+  "tags": {
+    "name": "Pico da Cruz",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "relation",
+  "id": 296518,
+  "center": {
+    "lat": -27.4199981,
+    "lon": -49.0543475
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4210209",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Major Gercino",
+    "place": "municipality",
+    "population": "3214",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1765004",
+    "wikipedia": "pt:Major Gercino"
+  }
+},
+{
+  "type": "relation",
+  "id": 296529,
+  "center": {
+    "lat": -27.9584032,
+    "lon": -48.9380015
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4215901",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "São Bonifácio",
+    "place": "municipality",
+    "population": "2946",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1784638",
+    "wikipedia": "pt:São Bonifácio (Santa Catarina)"
+  }
+},
+{
+  "type": "relation",
+  "id": 296561,
+  "center": {
+    "lat": -27.6126379,
+    "lon": -48.4857964
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4205407",
+    "admin_level": "8",
+    "alt_name": "Floripa",
+    "boundary": "administrative",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Bandeira_de_Florian%C3%B3polis.svg",
+    "loc_name": "Floripa",
+    "name": "Florianópolis",
+    "name:ar": "فلوريانوبوليس",
+    "name:be": "Фларыянопаліс",
+    "name:bg": "Флорианополис",
+    "name:eo": "Florianopolo",
+    "name:fa": "فلرینو پولیس",
+    "name:he": "פלוריאנופוליס",
+    "name:hy": "Ֆլորիանոպոլիս",
+    "name:ja": "フロリアノーポリス",
+    "name:ka": "ფლორიანოპოლისი",
+    "name:ko": "플로리아노폴리스",
+    "name:la": "Florianopolis",
+    "name:lt": "Florianopolis",
+    "name:lv": "Florjanopolisa",
+    "name:mk": "Флорианополис",
+    "name:mr": "फ्लोरियानोपोलिस",
+    "name:os": "Флорианополис",
+    "name:pt": "Florianópolis",
+    "name:ru": "Флорианополис",
+    "name:sr": "Флоријанополис",
+    "name:tg": "Флорианополис",
+    "name:th": "โฟลเรียนอโปลิส",
+    "name:uk": "Флоріанополіс",
+    "name:uz": "Florianopolis",
+    "name:zh": "弗洛里亚诺波利斯",
+    "old_name": "Nossa Senhora do Desterro;Desterro",
+    "place": "municipality",
+    "population": "537211",
+    "population:date": "2023-08-31",
+    "reg_name": "Ilha da Magia",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "state_capital": "yes",
+    "type": "boundary",
+    "website": "https://www.pmf.sc.gov.br",
+    "wikidata": "Q132997",
+    "wikimedia_commons": "Category:Florianópolis",
+    "wikipedia": "pt:Florianópolis"
+  }
+},
+{
+  "type": "relation",
+  "id": 296567,
+  "center": {
+    "lat": -27.3286550,
+    "lon": -48.8642660
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4216305",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "São João Batista",
+    "place": "municipality",
+    "population": "32687",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q2023825",
+    "wikipedia": "pt:São João Batista (Santa Catarina)"
+  }
+},
+{
+  "type": "relation",
+  "id": 296576,
+  "center": {
+    "lat": -27.7450000,
+    "lon": -48.9204428
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4200606",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Águas Mornas",
+    "place": "municipality",
+    "population": "6743",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q249844",
+    "wikipedia": "pt:Águas Mornas"
+  }
+},
+{
+  "type": "relation",
+  "id": 296582,
+  "center": {
+    "lat": -27.7618658,
+    "lon": -48.6608173
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4211900",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Palhoça",
+    "place": "municipality",
+    "population": "222598",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q973513",
+    "wikipedia": "pt:Palhoça"
+  }
+},
+{
+  "type": "relation",
+  "id": 296598,
+  "center": {
+    "lat": -27.2440000,
+    "lon": -48.7017255
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4218004",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Tijucas",
+    "old_name": "Tiyuco",
+    "place": "municipality",
+    "population": "51592",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q951660",
+    "wikipedia": "pt:Tijucas"
+  }
+},
+{
+  "type": "relation",
+  "id": 296600,
+  "center": {
+    "lat": -27.3763909,
+    "lon": -48.5785915
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4206009",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Governador Celso Ramos",
+    "place": "municipality",
+    "population": "16915",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1765043",
+    "wikipedia": "pt:Governador Celso Ramos"
+  }
+},
+{
+  "type": "relation",
+  "id": 296626,
+  "center": {
+    "lat": -27.5890000,
+    "lon": -48.6570000
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4216602",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "São José",
+    "place": "municipality",
+    "population": "270299",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q173849",
+    "wikipedia": "pt:São José (Santa Catarina)"
+  }
+},
+{
+  "type": "relation",
+  "id": 296636,
+  "center": {
+    "lat": -27.9450398,
+    "lon": -48.7401251
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4212304",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Paulo Lopes",
+    "place": "municipality",
+    "population": "9063",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1750773",
+    "wikipedia": "pt:Paulo Lopes"
+  }
+},
+{
+  "type": "relation",
+  "id": 296641,
+  "center": {
+    "lat": -27.2470000,
+    "lon": -48.7984919
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4203709",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Canelinha",
+    "place": "municipality",
+    "population": "12821",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q957908",
+    "wikipedia": "pt:Canelinha"
+  }
+},
+{
+  "type": "relation",
+  "id": 296642,
+  "center": {
+    "lat": -27.7443078,
+    "lon": -48.7939678
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4215703",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Santo Amaro da Imperatriz",
+    "place": "municipality",
+    "population": "27272",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q327210",
+    "wikipedia": "pt:Santo Amaro da Imperatriz"
+  }
+},
+{
+  "type": "relation",
+  "id": 296684,
+  "center": {
+    "lat": -28.0309559,
+    "lon": -48.6607067
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4205704",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Garopaba",
+    "place": "municipality",
+    "population": "29959",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q612191",
+    "wikipedia": "pt:Garopaba"
+  }
+},
+{
+  "type": "relation",
+  "id": 296705,
+  "center": {
+    "lat": -27.4320000,
+    "lon": -48.7045869
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4202305",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Biguaçu",
+    "place": "municipality",
+    "population": "76773",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1754582",
+    "wikipedia": "pt:Biguaçu"
+  }
+},
+{
+  "type": "relation",
+  "id": 296711,
+  "center": {
+    "lat": -27.3035000,
+    "lon": -49.0461607
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4211504",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Nova Trento",
+    "place": "municipality",
+    "population": "13727",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1637513",
+    "wikipedia": "pt:Nova Trento"
+  }
+},
+{
+  "type": "relation",
+  "id": 296758,
+  "center": {
+    "lat": -27.5464613,
+    "lon": -49.0792632
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4200903",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Angelina",
+    "place": "municipality",
+    "population": "5358",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q22063988",
+    "wikipedia": "pt:Angelina (Santa Catarina)"
+  }
+},
+{
+  "type": "relation",
+  "id": 296766,
+  "center": {
+    "lat": -27.5853025,
+    "lon": -48.8428011
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4217253",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "São Pedro de Alcântara",
+    "place": "municipality",
+    "population": "5776",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q1750756",
+    "wikipedia": "pt:São Pedro de Alcântara"
+  }
+},
+{
+  "type": "relation",
+  "id": 296793,
+  "center": {
+    "lat": -27.4859685,
+    "lon": -48.8235150
+  },
+  "tags": {
+    "IBGE:GEOCODIGO": "4201208",
+    "admin_level": "8",
+    "boundary": "administrative",
+    "name": "Antônio Carlos",
+    "old_name": "Alto Biguaçu;Louro",
+    "place": "municipality",
+    "population": "11224",
+    "population:date": "2023-08-31",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "type": "boundary",
+    "wikidata": "Q22063985",
+    "wikipedia": "pt:Antônio Carlos (Santa Catarina)"
+  }
+}
+
+  ]
+}

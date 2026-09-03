@@ -1,0 +1,1829 @@
+                                                                    Pág. 01 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                       PLANO DE EMERGÊNCIA E
+                  CONTINGÊNCIA OPERACIONAL (PEC)
+
+                - SAA FLORIANÓPOLIS – COSTA NORTE -
+
+
+
+
+Revisão Nº    Data               Descrição            Responsável
+    00        2021               Elaboração        GPO/GOPS/SRM
+   01        04/2024         Revisão/atualização   GPO/GOPS/SRM
+
+
+
+
+                              Abril/2024
+
+
+
+
+                                                                    5
+                                                              SUMÁRIO
+
+1. INTRODUÇÃO .................................................................................................................... 3
+   1.1. Objetivo ........................................................................................................................... 3
+
+
+
+
+                                                                                                                                                  Pág. 02 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+     1.1.1. Objetivos Específicos ............................................................................................... 3
+     1.1.2. Relação deste Plano com Outros Planos Correlatos ................................................. 3
+   1.2. Descrição do SAA ............................................................................................................ 4
+   1.3. Localização/Descrição das Instalações do Sistema Costa Norte ................................... 4
+     1.3.1. Poços de Captação de Água Subterrânea (Ingleses do Rio Vermelho, São João do
+     Rio Vermelho e Santinho) .................................................................................................. 4
+     1.3.2. ETA – Bairro Ingleses .............................................................................................. 6
+     1.3.3. ETA Compacta – Bairro Daniela.............................................................................. 6
+     1.3.4. Poços de Captação de Água Subterrânea – Bairro Vargem Grande......................... 7
+     1.3.5. Poços de Captação de Água Subterrânea – Praia Brava ........................................... 7
+     1.3.6. Poços de Captação de Água Subterrânea – Cachoeira do Bom Jesus ...................... 7
+     1.3.7. Sistema de Bombeamento ........................................................................................ 7
+     1.3.8. Reservação ................................................................................................................ 9
+2. IDENTIFICAÇÃO DOS RESPONSÁVEIS ...................................................................... 9
+   2.1. Estação de Tratamento de Água (ETA) ........................................................................... 9
+   2.2. Redes de Abastecimento de Água .................................................................................. 10
+   2.3. Unidade Operacional Costa Norte ................................................................................ 10
+   2.4. Agência Regional de Florianópolis ............................................................................... 10
+   2.5. Gerente de Operação..................................................................................................... 10
+   2.6. Superintendente Regional – Grande Florianópolis....................................................... 10
+   2.7. Diretoria de Operação e Expansão (DO) ..................................................................... 11
+   2.8. Identificação do Representante Legal da CASAN ......................................................... 11
+3. METODOLOGIA............................................................................................................... 11
+4. PLANO DE EMERGÊNCIA E CONTINGÊNCIA ........................................................ 12
+   4.1. Riscos ............................................................................................................................. 12
+   4.2. Responsabilidades ......................................................................................................... 17
+     4.2.1. Lista de Contatos Internos ...................................................................................... 22
+     4.2.2. Lista de Contatos Externos ..................................................................................... 23
+   4.3. Estrutura Organizacional de Resposta ......................................................................... 23
+   4.4. Medidas de Racionamento de Água .............................................................................. 25
+     4.4.1. Diretrizes para Suspensão do Fornecimento de Água ............................................ 26
+   4.5. Pontos Críticos do SAA Costa Norte ............................................................................. 26
+   4.6. Relatório de Comunicação ............................................................................................ 27
+   4.7. Peças, Equipamentos e Contratos de Serviços .............................................................. 27
+5. RECOMENDAÇÕES......................................................................................................... 28
+6. GLOSSÁRIO ...................................................................................................................... 28
+7. APROVAÇÃO .................................................................................................................... 28
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                                                        2/28
+
+
+                                                                                                                                                  6
+1. INTRODUÇÃO
+
+Este documento apresenta um Plano de Emergência e Contingência (PEC) elaborado por
+técnicos da própria Companhia Catarinense de Águas e Saneamento (CASAN)
+
+
+
+
+                                                                                                Pág. 03 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+especificamente para o Sistema de Abastecimento de Água – SAA Costa Norte. A
+metodologia de construção do Plano, assim como todos os detalhes de sua implantação e
+manutenção, é também abordada neste trabalho. O Plano de Emergência e Contingência se
+justifica pela necessidade de haver uma orientação profissionalizada e planejada de situações
+reconhecidas pelos profissionais da CASAN como potenciais RISCOS ao funcionamento do
+sistema e ao meio ambiente.
+
+1.1. Objetivo
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atua na operação do SAA Costa Norte, subsidiando o processo de tomada de decisão com
+elementos previamente planejados. Desta forma, seu objetivo é fornecer um conjunto de
+diretrizes e informações visando a adoção de procedimentos lógicos, técnicos e
+administrativos, estruturados de forma a propiciar resposta rápida e eficiente em situações
+emergenciais.
+
+1.1.1. Objetivos Específicos
+
+   •   Restringir ao máximo os impactos dos riscos potenciais identificados;
+   •   Evitar que os aspectos ambientais se transformem em impactos e extrapolem os limites
+       de segurança estabelecidos;
+   •   Antecipar que situações externas ao evento contribuam para o seu agravamento;
+   •   Apresentar a estruturação dos procedimentos corretivos a serem tomados quando da
+       ocorrência de um evento.
+
+1.1.2. Relação deste Plano com Outros Planos Correlatos
+
+Este Plano de Emergência e Contingência está estritamente relacionado a outros instrumentos
+legais responsáveis pela garantia da prestação do serviço de abastecimento de água. Um
+destes instrumentos é o Plano Municipal Integrado de Saneamento Básico do município de
+Florianópolis, instituído pela Lei Ordinária n.° 9.400, de 25 de novembro de 2013. No PMSB
+estão instituídas as ações de emergências e contingências para conter eventos de ameaça, e
+estas ações por sua vez estão abordadas neste PEC, porém no formato específico na resolução
+156 da Agência Reguladora de Serviços Públicos de Santa Catarina.
+
+Desta forma, sempre que houver atualizações do PMSB de Florianópolis, este PEC deverá ser
+revisto a fim de atender as possíveis demandas do município.
+
+No âmbito municipal há outro importante instrumento legal, a Lei Ordinária 7.474, de 19 de
+novembro de 2007. Esta Lei dispões sobre a Política Municipal de Saneamento Básico. Esta
+Lei também criou o Conselho Municipal de Saneamento Básico.
+
+É importante ressaltar também que é necessário articulação entre o Plano Municipal de
+Saneamento Básico e o Plano Diretor vigente no município de Florianópolis.
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte        3/28
+
+
+                                                                                                7
+1.2. Descrição do SAA
+
+O presente estudo refere-se ao plano de emergência do Sistema de Abastecimento de Água do
+norte da Ilha de Florianópolis, denominado SAA Costa Norte. Este sistema abastece os
+
+
+
+
+                                                                                                            Pág. 04 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+bairros Canasvieiras, Daniela, Jurerê, Praia Brava, Cachoeira do Bom Jesus, Ingleses do Rio
+Vermelho, São João do Rio Vermelho, Ratones e Vargem Pequena.
+
+O SAA Costa Norte compreende as seguintes instalações, além de receber água proveniente
+do SIA Florianópolis:
+
+  •       Ingleses do Rio Vermelho, São João do Rio Vermelho e Santinho: 36 poços de
+          captação de água subterrânea;
+  •       Ingleses do Rio Vermelho: uma Estação de Tratamento de Água (ETA) com correção
+          de pH, remoção de ferro, cloração e fluoretação;
+  •       Daniela: uma ETA compacta – captação superficial;
+  •       Praia Brava - ETA compacta com captação de água subterrânea (8 poços);
+  •       Vargem Grande - 4 poços;
+  •       Cachoeira do Bom Jesus - 6 mini poços.
+
+Também fazem parte do SAA Costa Norte as estações de recalque de água tratada – ERAT,
+os boosters, os reservatórios, as adutoras e as redes de distribuição de água.
+
+1.3. Localização/Descrição das Instalações do Sistema Costa Norte
+
+1.3.1. Poços de Captação de Água Subterrânea (Ingleses do Rio Vermelho, São João do Rio
+Vermelho e Santinho)
+
+O Quadro 1 mostra a localização dos poços de captação de água subterrânea referente aos
+seguintes bairros: Ingleses do Rio Vermelho, São João do Rio Vermelho e Santinho.
+
+                                 Quadro 1 - Nomenclatura e localização dos poços.
+   Nº              Nome                      Bairro                Coordenadas               Rua
+
+                                                                                         Pátio ETA –
+      1         Poço ETA I               Ingleses do Rio      Latitude: 27°26’34.69"S
+                                                                                        Servidão João
+                                            Vermelho         Longitude: 48°23’42.33”O
+                                                                                            Patrício
+                                                                                        Atrás da ETA –
+      2         Poço ETA II              Ingleses do Rio      Latitude: 27°26’36.16"S
+                                                                                        Servidão João
+                                            Vermelho         Longitude: 48°23’41.51”O
+                                                                                            Patrício
+                                                                                        Atrás da ETA –
+      3         Poço ETA III             Ingleses do Rio      Latitude: 27°26’36.16"S
+                                                                                        Servidão João
+                                            Vermelho         Longitude: 48°23’41.51”O
+                                                                                            Patrício
+                                         Ingleses do Rio      Latitude: 27°26’48.36"S    Servidão José
+      4        Poço Oficina I
+                                           Vermelho          Longitude: 48°23’39.35”O   Domingos Ramos
+                                         Ingleses do Rio      Latitude: 27°26’48.02"S    Servidão José
+      5        Poço Oficina II
+                                           Vermelho          Longitude: 48°23’39.11”O   Domingos Ramos
+                                                                                        Servidão Ademir
+      6         Poço Didi I              Ingleses do Rio      Latitude: 27°26’56.32"S
+                                                                                         Domingos dos
+                                            Vermelho         Longitude: 48°23’39.48”O
+                                                                                            Santos
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                     4/28
+
+
+                                                                                                            8
+   Nº             Nome                  Bairro                Coordenadas                Rua
+
+                                                                                   Servidão Ademir
+   7           Poço Didi II         Ingleses do Rio      Latitude: 27°26’56.33"S
+                                                                                    Domingos dos
+                                       Vermelho         Longitude: 48°23’42.02”O
+
+
+
+
+                                                                                                           Pág. 05 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                                                                        Santos
+                                                                                   Servidão Ademir
+   8           Poço Didi III        Ingleses do Rio      Latitude: 27°26’56.39"S
+                                                                                    Domingos dos
+                                       Vermelho         Longitude: 48°23’46.97”O
+                                                                                        Santos
+                                                                                   Servidão Eduardo
+   9          Poço Ipanema          Ingleses do Rio      Latitude: 27°27’8.35"S
+                                                                                      Marques de
+                                       Vermelho         Longitude: 48°23’38.62”O
+                                                                                        Agapito
+                                    Ingleses do Rio      Latitude: 27°27’23.77"S    Servidão Luiz
+   10           Poço RBS
+                                       Vermelho         Longitude: 48°23’38.19”O    Roque da Cunha
+
+   11          Poço Cedro           Ingleses do Rio       Latitude: 27°27'18"S     Est. Dário Manoel
+                                       Vermelho          Longitude: 48°23'39"O           Cardoso
+   12        Poço Paulinho I        Ingleses do Rio      Latitude: 27°27’58.62"S      Rodovia João
+                                       Vermelho         Longitude: 48°23’44.35”O    Gualberto Soares
+   13        Poço Paulinho II       Ingleses do Rio      Latitude: 27°27’55.34"S      Rodovia João
+                                       Vermelho         Longitude: 48°23’46.66”O    Gualberto Soares
+   14        Poço Paulinho III      Ingleses do Rio      Latitude: 27°27’58.76"S      Rodovia João
+                                       Vermelho         Longitude: 48°23’48.06”O    Gualberto Soares
+   15        Poço Paulinho IV       Ingleses do Rio      Latitude: 27°27’58.87"S      Rodovia João
+                                       Vermelho         Longitude: 48°23’55.84”O    Gualberto Soares
+   16        Poço Edmundo I         São João do Rio      Latitude: 27°28’13.30"S      Rua Cândido
+                                       Vermelho         Longitude: 48°24’9.48”O     Pereira dos Anjos
+   17        Poço Edmundo II        São João do Rio      Latitude: 27°28’13.12"S      Rua Cândido
+                                       Vermelho         Longitude: 48°23’48.02”O    Pereira dos Anjos
+   18       Poço Edmundo III        São João do Rio      Latitude: 27°28’13.00"S      Rua Cândido
+                                       Vermelho         Longitude: 48°23’55.97”O    Pereira dos Anjos
+   19     Poço Novas Palmeiras      São João do Rio      Latitude: 27°28’20.45"S     Servidão Novas
+                                       Vermelho         Longitude: 48°23’46.99”O        Palmeiras
+                                                                                    Servidão Antenor
+   20           Poço Areal          São João do Rio      Latitude: 27°28’27.77"S
+                                                                                         de Souza
+                                       Vermelho         Longitude: 48°23’49.38”O
+                                                                                       Conceição
+   21       Poço Costão Golf I      Ingleses do Rio      Latitude: 27°27’32.04"S   Costão Golf Club –
+                                       Vermelho         Longitude: 48°23’39.99”O        rua lateral
+   22      Poço Costão Golf II      Ingleses do Rio      Latitude: 27°27’32.32"S   Rua Dário Manoel
+                                       Vermelho         Longitude: 48°23’56.12”O         Cardoso
+             Poço Jardim Rio
+   23                               São João Do Rio       Latitude: 27°28’16.2"S     Avenida das
+                Vermelho               Vermelho          Longitude: 48°23’52.4”O     Constelações
+
+   24         Poço Red Park         São João Do Rio      Latitude: 27°28’31.1"S
+                                                                                   Avenida Red Park
+                                       Vermelho         Longitude: 48°24’24.7”O
+   25       Poço Dunas Verdes       São João Do Rio      Latitude: 27°28’22.62"S    Servidão Dunas
+                                       Vermelho         Longitude: 48°24’24.54”O        Verdes
+   26           Poço Círio          São João do Rio      Latitude: 27°28’49.34"S     Rua Cândido
+                                       Vermelho         Longitude: 48°24’41.49”O   Pereira dos Anjos
+                                    São João do Rio      Latitude: 27°30’16.35"S
+   27       Poço Moçambique                                                        Rua Moçambique
+                                       Vermelho         Longitude: 48°24’50.41”O
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                    5/28
+
+
+                                                                                                           9
+   Nº             Nome                  Bairro                Coordenadas                 Rua
+
+   28    Poço Canto Das Corujas     São João do Rio      Latitude: 27°28’44.05"S       Rua Cândido
+                                       Vermelho         Longitude: 48°24’41.45”O    Pereira dos Anjos
+
+
+
+
+                                                                                                          Pág. 06 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                                                                       Condomínio
+   29          Poço Moinho          São João do Rio      Latitude: 27°29’6.45"S
+                                                                                     Moinhos do Rio
+                                       Vermelho         Longitude: 48°24’41.14”O
+                                                                                        Vermelho
+                                                                                      Servidão Luiz
+   30         Poço Creche I         São João do Rio      Latitude: 27°29’27.32"S
+                                                                                   Duarte Soares, em
+                                       Vermelho         Longitude: 48°24’44.64”O
+                                                                                     frente ao nº 758
+                                                                                    Rua Luiz Soares
+   31         Poço Creche II        São João do Rio      Latitude: 27°29’27.58"S
+                                                                                    Duarte, em frente
+                                       Vermelho         Longitude: 48°24’49.63”O
+                                                                                        ao nº 590
+   32         Poço Manacás          São João do Rio       Latitude: 27°30’02.0"S    Servidão Recanto
+                                       Vermelho          Longitude: 48°24’50.9”O       dos Manacás
+                                                                                       Servidão do
+   33        Poço Santinho I                             Latitude: 27°26’58.86"S
+                                        Santinho                                   Jornalista, ao lado
+                                                        Longitude: 48°22’39.21”O
+                                                                                           nº 73
+   34        Poço Santinho II                            Latitude: 27°27’10.79"S   Servidão Caminho
+                                        Santinho
+                                                        Longitude: 48°22’43.48”O          do Sol
+   35        Poço Santinho III                           Latitude: 27°26'54.20"S       R. LEONEL
+                                        Santinho
+                                                        Longitude: 48°23'0.80"O         PEREIRA
+   36        Poço Cartagena         Ingleses do Rio      Latitude: 27°27’47.24"S   Costão Golf Club -
+                                       Vermelho         Longitude: 48°23’41.37”O          fundos
+   37           Poço Joesi          São João do Rio      Latitude: 27°28'40.53"S       SERV. Joesi
+                                       Vermelho         Longitude: 48°23'54.02"O   Guimarães da Silva
+   38    Poço Leonardo da Vinci     Ingleses do Rio       Latitude: 27°27'2.71"S    SERV. Leonardo
+                                       Vermelho         Longitude: 48°23'39.10"O         Da Vinci
+   39          Poço Idalino         Ingleses do Rio      Latitude: 27°26’42.33"S    Servidão Idalino
+                                       Vermelho         Longitude: 48°23’39.12”O   Damázio Fernandes
+
+
+1.3.2. ETA – Bairro Ingleses
+
+A ETA do Bairro Ingleses localiza-se na Rua João Patrício, em um terreno cercado e
+monitorado por câmeras, ao qual o acesso é autorizado apenas a funcionários da CASAN.
+Esta ETA possui vazão de 460l/s.
+
+- Coordenadas Geográficas:
+
+   o    Latitude: 27°26'35.90"S
+   o    Longitude: 48°23'42.15"O
+
+O tratamento é composto por correção de pH através da adição de tratamento com geocálcio,
+desinfecção através de cloro gasoso, fluoretação por ácido fluossilícico e adição de
+ortopolifosfato (para remoção de ferro).
+
+Nesta ETA trabalham, 24h/dia, operadores da CASAN. O telefone de contato da ETA é (48)
+3269-2911.
+
+1.3.3. ETA Compacta – Bairro Daniela
+
+ETA compacta com tratamento convencional com vazão de projeto de 20 l/s. Sua localização
+é Rodovia Francisco Arcanjo Grillo (SC-400), sendo que esta só é acionada em períodos de
+alta demanda na temporada de verão.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                  6/28
+
+
+                                                                                                         10
+- Coordenadas Geográficas:
+
+   o   Latitude: 27°27'3.72"S
+
+
+
+
+                                                                                                 Pág. 07 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+   o   Longitude: 48°31'1.51"O
+
+1.3.4. Poços de Captação de Água Subterrânea – Bairro Vargem Grande
+
+O sistema complementar Vargem Grande, localizado na Servidão João Pacheco, Vargem
+Grande, capta água através da captação de 4 (quatro) poços (não pertence ao Sistema Aquífero
+Ingleses), perfazendo uma vazão total de exploração de 4,50 L/s e tratamento por desinfecção,
+sendo que estes só são acionados em períodos de alta demanda na temporada de verão.
+
+- Coordenadas Geográficas:
+
+   o   Latitude: 27°27'17.57"S
+   o   Longitude: 48°26'57.61"O
+
+1.3.5. Poços de Captação de Água Subterrânea – Praia Brava
+
+Localizado na Avenida Tom Traugott Wildi, Praia Brava, este sistema conta atualmente com
+a exploração de 1 (um) poço e 5 (cinco) ponteiras ativas que bombeiam água do manancial
+Aquífero Praia Brava. O tratamento da água é feito por uma ETA compacta com remoção de
+ferro e desinfecção e capacidade de 10 L/s, sendo que esta só é acionada em períodos de alta
+demanda na temporada de verão.
+
+- Coordenadas Geográficas:
+
+   o   Latitude: 27°24'3.28"S
+   o   Longitude: 48°24'58.82"O
+
+1.3.6. Poços de Captação de Água Subterrânea – Cachoeira do Bom Jesus
+
+Localizada na Rua Leonel Pereira, Cachoeira do Bom Jesus, a ETA Cachoeira do Bom
+Jesus possui captação de água subterrânea (06 mini poços), vazão de 8 L/s e tratamento por
+desinfecção, sendo que estes só são acionados em períodos de alta demanda na temporada
+de verão.
+
+- Coordenadas Geográficas:
+
+   o   Latitude: 27°25'30.59"S
+   o   Longitude: 48°25'33.63"O
+
+1.3.7. Sistema de Bombeamento
+
+O SAA Costa Norte possui 2 Estações de Recalque de Água Tratada - ERATs e boosters. Os
+Quadros 2 e 3 mostram, respectivamente, as informações das ERATs e dos boosters do
+Sistema de Abastecimento de Água Costa Norte.
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte        7/28
+
+
+                                                                                                11
+                            Quadro 2 – Informações das ERATs do SAA Costa Norte.
+
+ERAT                                      Bairro                Coordenadas                     Rua
+
+                                      Ingleses do Rio      Latitude: 27°26’35.90"S      Pátio ETA – Servidão
+
+
+
+
+                                                                                                                    Pág. 08 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+ERAT ETA Ingleses
+                                         Vermelho         Longitude: 48°23’42.15”O          João Patrício
+                                                                                           Servidão Nossa
+ERAT Praia do Forte                        Jurerê          Latitude: 27°26’5.53"S
+                                                                                            Senhora dos
+                                       Internacional      Longitude: 48°30’56.47”O
+                                                                                            Navegantes
+
+                          Quadro 3 – Informações dos boosters do SAA Costa Norte.
+
+Booster                                Bairro                Coordenadas                      Rua
+
+Booster Cachoeira do Bom          Cachoeira do Bom       Latitude: 27°25'30.59"S
+                                                                                     Rua Leonel Pereira, 913
+Jesus                                   Jesus           Longitude: 48°25'33.63"O
+                                                                                     Rodovia Tertuliano Brito
+Booster Pracinha                                         Latitude: 27°26'10.98"S
+                                     Canasvieiras                                      Xavier, próximo ao
+                                                        Longitude: 48°27'54.58"O
+                                                                                          número 662
+                                                         Latitude: 27°26'19.48"S     Rodovia Tertuliano Brito
+Booster Canajurê                     Canasvieiras
+                                                        Longitude: 48°28'53.61"O          Xavier, 3592
+                                                         Latitude: 27°26'27.21"S
+Booster Caixa D’água                 Canasvieiras                                     Servidão São Patrício
+                                                        Longitude: 48°27'54.02"O
+                                   Ingleses do Rio       Latitude: 27°26'25.18"S
+Booster Três Marias                                                                   Servidão Três Marias
+                                      Vermelho          Longitude: 48°24'56.60"O
+Booster Graciliano Manoel          Ingleses do Rio       Latitude: 27°26'55.51"S     Rua Graciliano Manoel
+Gomes                                 Vermelho          Longitude: 48°24'31.75"O          Gomes, 1039
+                                   Ingleses do Rio       Latitude: 27°27'24.32"S     Rua Graciliano Manoel
+Booster Pico da Neblina
+                                      Vermelho          Longitude: 48°24'31.93"O          Gomes, S/N.º
+                                                         Latitude: 27°23'49.71"S     Estrada Jornalista Jaime
+Booster Praia Prava                  Praia Brava
+                                                        Longitude: 48°25'29.63"O      de Arruda Ramos, 234
+                                                                                        Estrada Intendente
+Booster Ratones                        Ratones           Latitude: 27°29'03.4"S
+                                                                                      Antônio Damasco, em
+                                                        Longitude: 48°29'44.2"O
+                                                                                       frente ao número 88
+                                                         Latitude: 27°26'35.84"S
+Booster Santinho                      Santinho                                        Rua dos Tubarões, 100
+                                                        Longitude: 48°22'50.07"O
+                                                         Latitude: 27°27'17.60"S     Servidão João Pacheco,
+Booster ETA Vargem Grande          Vargem Grande
+                                                        Longitude: 48°26'57.70"O               185
+Booster Servidão Catarina                                                            Estrada Manoel Leôncio
+                                   Vargem Pequena        Latitude: 27°28'54.36"S
+                                                                                      de Souza, em frente ao
+Gonçalves                                               Longitude: 48°27'48.50"O
+                                                                                          número 2771
+                                        Jurerê           Latitude: 27°27'4.35"S         Rodovia Francisco
+Booster ETA Daniela
+                                    Internacional       Longitude: 48°31'2.64"O      Arcanjo Grillo (SC-400)
+                                                         Latitude: 27°27'4.43"S         Rodovia Francisco
+Booster Vargem Pequena             Vargem Pequena
+                                                        Longitude: 48°27'59.62"O      Germano da Costa, 91
+                                   São João do Rio       Latitude: 27°28'7.88"S      Rua Manoel Petronilho
+Booster Muquém
+                                      Vermelho          Longitude: 48°24'56.56"O         da Silveira, 196
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                            8/28
+
+
+                                                                                                                   12
+1.3.8. Reservação
+
+A reservação apresenta capacidade total de 9.355m³, sendo distribuídos conforme mostra o
+Quadro 4.
+
+
+
+
+                                                                                                               Pág. 09 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                  Quadro 4 - Informações dos reservatórios.
+Reservatórios               Capacidade (m³)           Logradouro/Bairro                  Coordenadas
+                                                 Rua Leonel Pereira/Cachoeira      Latitude: 27°26'21.26"S
+Reservatório Ingleses I          1.000
+                                                         do Bom Jesus            Longitude: 48°25'10.27"O
+                                                 Rua Leonel Pereira/Cachoeira      Latitude: 27°26'21.26"S
+Reservatório Ingleses II         1.000
+                                                         do Bom Jesus            Longitude: 48°25'10.27"O
+                                                 Rua Leonel Pereira/Cachoeira      Latitude: 27°26'21.26"S
+Reservatório Ingleses III        3.000
+                                                         do Bom Jesus            Longitude: 48°25'10.27"O
+Tanque de Contato                                     Servidão Cisne Real           Latitude: 27°26'34.6"S
+                                 500
+Ingleses                                                (Ingleses/ETA)             Longitude: 48°23'42.9"O
+Reservatório                                             Servidão São              Latitude: 27°26'25.81"S
+                                 2.000
+Canasvieiras                                          Patrício/Canasvieiras      Longitude: 48°27'59.99"O
+                                                 Rua Tom Traugott Wild/Praia        Latitude: 27°24'4.64"S
+Reservatório Praia Brava         400
+                                                             Brava                 Longitude: 48°25'3.31"O
+Reservatório Praia do                                 Rua do Forte/Jurerê           Latitude: 27°26'7.96"S
+                                  20
+Forte I                                                  Internacional             Longitude: 48°31'2.00"O
+Reservatório Praia do                                                               Latitude: 27°26'7.96"S
+                                  20                 Rua do Forte (Jurerê)
+Forte II                                                                           Longitude: 48°31'2.00"O
+                                                 Servidão Sebastião Bernardino     Latitude: 27°26'46.89"S
+Reservatório Jurerê              1.000
+                                                        da Silva /Jurerê         Longitude: 48°28'52.22"O
+                                                     Avenida das Palmeiras          Latitude: 27°26'49.1"S
+Reservatório Daniela I           200
+                                                           (Daniela)               Longitude: 48°31'18.0"O
+                                                     Avenida das Palmeiras          Latitude: 27°26'49.1"S
+Reservatório Daniela II          175
+                                                           (Daniela)               Longitude: 48°31'18.0"O
+Daniela Tanque de                                 Rodovia Francisco Arcanjo         Latitude: 27°27'05.0"S
+                                  20
+Contato I                                               Grillo (SC-400)            Longitude: 48°31'03.0"O
+Daniela Tanque de                                 Rodovia Francisco Arcanjo         Latitude: 27°27'05.0"S
+                                  20
+Contato II                                              Grillo (SC-400)            Longitude: 48°31'03.0"O
+
+
+
+2. IDENTIFICAÇÃO DOS RESPONSÁVEIS
+
+2.1. Estação de Tratamento de Água (ETA)
+
+O técnico responsável pelo setor de operação e manutenção de ETAs da SRM/SOMAG
+(incluindo o tratamento de água no SAA Costa Norte) é Leandro Valente Nicolau, que pode
+ser encontrado no seguinte endereço:
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                       9/28
+
+
+                                                                                                              13
+                           CASAN – SRM – GOPS - SOMAG
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                                Telefone: (48) 3221-5707
+                             E-mail: le107280@casan.com.br
+
+
+
+
+                                                                                              Pág. 10 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+2.2. Redes de Abastecimento de Água
+
+O técnico responsável pela operação e manutenção das redes de água do Sistema é Alisson da
+Silva, que pode ser encontrado no seguinte endereço:
+
+                        CASAN – Unidade Operacional Costa Norte
+                  Avenida das Nações, s/n.º, Canasvieiras – Florianópolis/SC
+                                 Telefone (48) 3266-1888
+                               E-mail: alsilva@casan.com.br
+
+2.3. Unidade Operacional Costa Norte
+
+O responsável pela coordenação da Unidade Operacional Costa Norte, em específico, é
+Alisson da Silva, que pode ser encontrado no seguinte endereço:
+
+                        CASAN – Unidade Operacional Costa Norte
+                  Avenida das Nações, s/n.º, Canasvieiras – Florianópolis/SC
+                                 Telefone (48) 3266-1888
+                               E-mail: alsilva@casan.com.br
+
+2.4. Agência Regional de Florianópolis
+
+O técnico responsável por coordenar a Agência Regional de Florianópolis é o Engenheiro
+Francisco José Guedes Pimentel, que pode ser encontrado no seguinte endereço:
+
+                         CASAN – SRM – Agência Florianópolis
+               Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                                Telefone (48) 3221-5710
+                             E-mail: fpimentel@casan.com.br
+
+2.5. Gerente de Operação
+
+O técnico responsável pela Gerência de Operação da SRM é o Engenheiro Guilherme
+Cardoso Vieira, que pode ser encontrado no seguinte endereço:
+
+                                 CASAN – SRM – GOPS
+               Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                        Telefone (48) 3221-5718 / (48) 98415-3090
+                              E-mail: gvieira@casan.com.br
+
+2.6. Superintendente Regional – Grande Florianópolis
+
+O atual Superintendente da Região Metropolitana da Grande Florianópolis, à qual pertence o
+SAA Costa Norte, é o Engenheiro Filipe Alcioni Silva, que pode ser encontrado no seguinte
+endereço:
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte    10/28
+
+
+                                                                                             14
+                                     CASAN – SRM
+               Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                        Telefone (48) 3221-5860 / (48) 98439-2338
+                              E-mail: fisilva@casan.com.br
+
+
+
+
+                                                                                                         Pág. 11 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+2.7. Diretoria de Operação e Expansão (DO)
+
+O atual Diretor de Operação e Expansão (DO) é o Engenheiro Pedro Joel Horstmann, que
+pode ser encontrado no seguinte endereço:
+
+                    CASAN - Diretoria de Operação e Meio Ambiente
+               Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                        Telefone (48) 3221-5880 / (48) 98407-9488
+                               E-mail: pjoel@casan.com.br
+
+2.8. Identificação do Representante Legal da CASAN
+
+O atual presidente da CASAN é Edson Moritz Martins da Silva, que pode ser encontrado no
+seguinte endereço:
+
+                          CASAN – Matriz - Diretoria da Presidência
+                       Rua Emílio Blum n.º 83, Centro – Florianópolis/SC
+                                   Telefone: (48) 3221-5000
+
+
+3. METODOLOGIA
+
+Foram identificados possíveis eventos ou situações de riscos potenciais no Sistema de
+Abastecimento de Água de Costa Norte, capazes de provocar prejuízos ao meio ambiente ou à
+comunidade local. Para tanto, técnicas de brainstorming e writestorming foram utilizadas.
+Estas técnicas consistem em um método no qual um grupo de pessoas se reúne e se utiliza de
+diferentes pensamentos e ideias para que possam chegar a um denominador comum, eficaz e
+com qualidade para levar o trabalho adiante. Desta forma, foi elencado o que cada membro
+identificou.
+
+Depois da identificação dos eventos foi realizada a Análise Quantitativa dos Riscos,
+utilizando-se escalas de probabilidade e impacto. A escala de probabilidade utilizada, que
+consiste nas chances de ocorrência, foi classificada utilizando-se o Quadro 5, considerando-se
+principalmente a experiência dos colaboradores envolvidos na operação.
+                                   Quadro 5 – Escala de Probabilidade
+
+    Classificação    Muito Baixa         Baixa           Média             Alta    Muito Alta
+        Peso              0,1             0,3              0,5             0,7        0,9
+
+Do mesmo modo a escala de impacto, utilizada para quantificar os efeitos dos eventos caso
+estes ocorram, foi classificada conforme o Quadro 6.
+                                      Quadro 6 - Escala de Impacto
+
+    Classificação    Muito Baixo         Baixo           Médio             Alto    Muito Alto
+        Peso             0,05             0,1              0,2              0,4       0,8
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                11/28
+
+
+                                                                                                        15
+Depois de realizada esta identificação, foi elaborada a Análise Qualitativa dos Riscos, sendo
+que esta análise tem como principal objetivo classificar todos os riscos mediante levantamento
+de probabilidade de ocorrência e o impacto destes, de forma a viabilizar a priorização
+individualizada ou de grupos afins em função dos objetivos do projeto. Isto permite o foco nos
+
+
+
+
+                                                                                                    Pág. 12 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+riscos prioritários, objetivando aumentar as chances de atendimento aos eventos relacionados
+neste trabalho. Com isto obteve-se a matriz de vulnerabilidade auxiliar (P x I), para a
+determinação dos patamares de graduação de riscos (3 patamares), conforme apresentado no
+Quadro 7. A partir destas determinações calculou-se o ranking de classificação dos riscos.
+
+                                  Quadro 7 – Matriz de Vulnerabilidade
+
+                                               Impactos
+                                                             Ameaças
+           Probabilidade
+                                    0,05           0,1          0,2           0,4   0,8
+                0,9                 0,05          0,09          0,18         0,36   0,72
+                0,7                 0,04          0,07          0,14         0,28   0,56
+                0,5                 0,03          0,05          0,10         0,20   0,40
+                0,3                 0,02          0,03          0,06         0,12   0,24
+                0,1                 0,01          0,01          0,02         0,04   0,08
+
+
+Após todas as análises foram elaboradas respostas para cada risco levantado, considerando-se
+nesta etapa apenas as medidas preventivas. Diante deste novo panorama, considerando-se as
+ações de prevenção, realizou-se uma nova Análise Qualitativa, utilizando-se as mesmas
+técnicas e ferramentas (a mesma matriz de vulnerabilidade).
+
+Por fim, após a nova Análise Qualitativa, são levantadas as ações corretivas a serem
+tomadas quando da ocorrência de um evento. Desta forma, conclui-se a metodologia de
+elaboração do plano.
+
+
+4. PLANO DE EMERGÊNCIA E CONTINGÊNCIA
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atuam na operação do SAA Costa Norte, subsidiando o processo de tomada de decisão
+com elementos previamente planejados.
+
+4.1. Riscos
+
+Os riscos estão associados a evento ou condição hipotética que proporciona efeitos negativos.
+No Quadro 8 será apresentada a identificação, a classificação qualitativa com e sem as ações
+preventivas (são 3 patamares de riscos, associados a 3 cores) e as respostas (preventivas e
+corretivas) aos riscos elencados para o SAA Costa Norte.
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte           12/28
+
+
+                                                                                                   16
+                                                                                                                    Quadro 8 - Identificação dos riscos.
+                                       Classificação Qualitativa dos Riscos                                                      Respostas aos Riscos – Ações Preventivas                                                      Contingência
+
+
+
+
+                                                                                                                                                                                                                                                                            Pág. 13 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                 Evento de Ameaça
+Rankº                                                                    Probab.                                                                                        Probab.
+                                                         Local                       Impacto   PxI                        Resposta                         Estratégia              Impacto   PxI                             Ações Corretivas
+           Incluindo Causa Raiz e Efeito                                   (%)                                                                                            (%)
+
+                                              ETA e Bombeamento               0,10    0,80     0,08                                                                         0,10    0,80     0,08
+
+           Invasão e vandalismos nas                                                                  Manter cercamento, placas, iluminação, vigilância                                             Acionar a equipe de vigilância e/ou Polícia – 190;
+  1                                           Reservatórios                   0,90    0,80     0,72                                                         Mitigar         0,30    0,80     0,24
+           unidades operacionais                                                                      e/ou sinalização.                                                                             Solicitar ao setor responsável a reparação do dano causado.
+                                              Captação                        0,70    0,80     0,56                                                                         0,30    0,80     0,24
+
+
+
+                                                                                                      Manter as fontes alternativas prontas para operar;                                            Divulgar através da mídia a situação em que o sistema se encontra;
+                                                                                                      Implantar ações de combate às perdas no sistema;                                              Solicitar economia de água à população;
+                                                                                                      Realizar campanhas de consumo consciente nas                                                  Realizar manobras operacionais e controlar as pressões;
+           Diminuição da disponibilidade de água bruta causando falta                                 mídias;
+  2                                                                           0,70    0,80     0,56                                                         Mitigar         0,30    0,80     0,24   Implantar sistema de rodízio de distribuição de água;
+           da água                                                                                    Buscar novas alternativas de abastecimento;
+                                                                                                                                                                                                    Acionar caminhões-pipa para o abastecimento conforme critérios de
+                                                                                                      Participar dos programas de Proteção dos                                                      prioridade e necessidade;
+                                                                                                      Mananciais a serem desenvolvidos pelo Órgão
+                                                                                                      Gestor da Água no estado.                                                                     Utilizar fontes de água alternativas.
+
+
+
+                                                                                                                                                                                                    Acionar GOPS/SOMAG ou responsável pela ETA;
+                                                                                                                                                                                                    Acionar GOPS para auxiliar no processo de correção estrutural, ou
+                                                                                                      Realizar vistorias/inspeções periódicas constantes                                            contratação;
+                                                                                                      nas unidades da ETE;                                                                          Execução de manutenção corretiva e reparo das instalações e
+                                                                                                      Realizar processos de correção de danos                                                       estruturas                                              danificadas;
+                                                                                                      estruturais sempre que necessário, mantendo as                                                Se necessário e possível, isolar tanque, acionando desvios com a
+           Fissuras, rachaduras e trincas nas unidades de tratamento e                                unidades em adequadas condições operacionais;         Evitar e                                finalidade de manter o tratamento;
+  3                                                                           0,50    0,80     0,40                                                                         0,10    0,80     0,08
+           outros prédios, comprometendo estrutura                                                    Manter política de treinamento dos empregados.        mitigar
+                                                                                                                                                                                                    Se necessário rodízio do abastecimento ou racionamento,
+                                                                                                      Avaliação das estruturas. Sempre que necessário,                                              providenciar abastecimento com caminhão pipa nos pontos críticos;
+                                                                                                      proceder a medidas de reforço estrutural .                                                    Acompanhar correções realizadas e sempre que necessário realizar
+                                                                                                                                                                                                    interferências nas unidades operacionais com o propósito de manter
+                                                                                                                                                                                                    as estruturas das unidades em boas condições operacionais.
+                                                                                                                                                                                                    Verificar se o PEC foi eficaz. Caso necessário propor melhorias.
+
+                                                                                                                                                                                                    Parar a captação de água do manancial afetado, descartar a água
+                                                                                                                                                                                                    bruta já captada (em adução);
+                                                                                                                                                                                                    Avaliar a possível contaminação (visita in loco, coleta de água para
+                                                                                                                                                                                                    análise);
+                                                                                                      Participar dos programas de Proteção dos                                                      Em caso de confirmação de contaminação informar as autoridades e
+                                                                                                      Mananciais a serem desenvolvidos pelo Órgão                                                   população;
+           Contaminação dos mananciais a montante da captação       de                                Gestor da Água no estado;
+ 4         água bruta
+                                                                              0,50    0,80     0,40                                                         Mitigar         0,50    0,80     0,40   Avaliar a possibilidade de realização de rodízio enquanto o
+                                                                                                      Implantar Sistema de Esgotamento Sanitário na                                                 manancial estiver comprometido;
+                                                                                                      região de captação.                                                                           Monitorar a sua qualidade até a recuperação total da qualidade da
+                                                                                                                                                                                                    água;
+                                                                                                                                                                                                    Acionar caminhões-pipa para o abastecimento conforme critérios de
+                                                                                                                                                                                                    prioridade e necessidade;
+                                                                                                                                                                                                    Utilizar fontes de água alternativas.
+
+
+                                                                                                      Manter a política de treinamento de servidores;
+           Falta de equipe de manutenção causando demora nos reparos                                                                                                                                Remanejar as equipes de trabalho, convocar servidores em folga
+  5                                                                           0,70    0,40     0,28   Escala de plantão e sobreaviso conforme               Mitigar         0,30    0,40     0,12
+           a serem executados                                                                                                                                                                       e/ou solicitar servidores de outros setores/agências.
+                                                                                                      temporada e demanda de serviço.
+
+
+
+
+        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                    13/28
+
+
+                                                                                                                                                                                                                                                                           17
+                                      Classificação Qualitativa dos Riscos                                                     Respostas aos Riscos – Ações Preventivas                                                      Contingência
+                Evento de Ameaça
+Rankº                                                                   Probab.                                                                                       Probab.
+                                                       Local                        Impacto   PxI                        Resposta                        Estratégia              Impacto   PxI                             Ações Corretivas
+
+
+
+
+                                                                                                                                                                                                                                                                           Pág. 14 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+           Incluindo Causa Raiz e Efeito                                  (%)                                                                                           (%)
+
+                                                                                                     Monitorar estruturas com frequência mínima                                                   Parar fluxo de água para a unidade e isolar;
+                                                                                                     anual, analisando possíveis danos estruturais;                                               Se possível, desviar unidade até que seja recuperada (interligação de
+                                                                                                     Sempre que identificado e necessário, realizar                                               chegada com saída);
+                                             Reservatórios de grande                          0,24   intervenções nas unidades para corrigir problemas                                            Comunicar órgãos externos necessários (defesa civil, corpo de
+                                                                        0,3           0,8                                                                 Mitigar         0,3      0,8     0,24
+                                             porte                                                   estruturais ou problemas que possam causar danos                                             bombeiros, polícia militar, dentre outros);
+                                                                                                     à unidade;
+                                                                                                                                                                                                  Se necessário, auxiliar na remoção da população atendida;
+                                                                                                     Acompanhar atividades próximas à unidade que
+                                                                                                     possam causar danos.                                                                         Levantar possíveis danos a terceiros causados pelo rompimento da
+                                                                                                                                                                                                  unidade e iniciar processo de indenização e outros apoios que forem
+                                                                                                                                                                                                  necessários à população atingida (limpeza e recuperação de
+                                                                                                     Monitorar estruturas com frequência mínima                                                   moradias afetadas);
+                                                                                                     anual, analisando possíveis danos estruturais;
+                                                                                                                                                                                                  Auxiliar na recuperação da área afetada;
+                                                                                                     Sempre que identificado e necessário, realizar
+                                             Reservatórios de pequeno                         0,12   intervenções nas unidades para corrigir problemas                                            Se necessário e possível, realizar rodízio no abastecimento; Se
+                                                                             0,3      0,4                                                                 Mitigar         0,3      0,4     0,12   necessário, acionar caminhões pipa para auxílio no abastecimento
+                                             porte                                                   estruturais ou problemas que possam causar danos
+                                                                                                     à unidade;                                                                                   prioritário;
+  6        Rompimento de reservatório
+                                                                                                     Acompanhar atividades próximas à unidade que                                                 Verificar a possibilidade de instalação provisória de unidade de
+                                                                                                     possam causar danos.                                                                         reservação, e iniciar processo de recuperação da unidade ou
+                                                                                                                                                                                                  instalação de nova unidade.
+                                                                                                                                                                                                  Parar fluxo de água para a unidade e isolar;
+                                                                                                                                                                                                  Se possível, desviar unidade até que seja recuperada (interligação de
+                                                                                                                                                                                                  chegada com saída);
+                                                                                                     Monitorar unidades;
+                                                                                                                                                                                                  Levantar danos e, caso necessário, prestar apoio a moradores
+                                                                                                     Se identificados danos à fibra, proceder reparo
+                                                                                                                                                                                                  afetados e auxiliar na recuperação de áreas afetadas;
+                                             Reservatórios de fibra                                  (quando possível) ou substituir;
+                                                                             0,5      0,1     0,05                                                        Mitigar         0,5      0,1     0,05   Se necessário e possível, realizar rodízio no abastecimento para
+                                             (até 25 m³ spray-up)                                    Sempre que possível, priorizar a instalação em
+                                                                                                                                                                                                  manter abastecimento; Se necessário, acionar caminhões pipa para
+                                                                                                     PRFVR e/ou outros materiais mais resistentes (aço
+                                                                                                                                                                                                  auxílio no abastecimento prioritário;
+                                                                                                     inox, dentre outros).
+                                                                                                                                                                                                  Verificar a possibilidade de instalação provisória de unidade de
+                                                                                                                                                                                                  reservação, e iniciar processo de recuperação da unidade ou
+                                                                                                                                                                                                  instalação de nova unidade.
+
+                                                                                                     Manter a política de treinamento de servidores;                                              Executar manutenção corretiva;
+                                                                                                     Manter estoque de materiais e peças mais                                                     Divulgar através da mídia a situação em que o sistema se encontra;
+                                                                                                     comumente empregados;                                                                        Solicitar economia de água à população;
+  7        Rompimento de adutora de água causando falta de água              0,30    0,80     0,24   Instalação de registros de manobras;                 Mitigar         0,10    0,80     0,08   Realizar manobras operacionais e controlar as pressões;
+                                                                                                     Manutenção preventiva em registros de manobras;                                              Implantar sistema de rodízio de distribuição de água;
+                                                                                                     Instalar sistema de supervisão e automação do                                                Acionar caminhões-pipa para o abastecimento conforme critérios de
+                                                                                                     SAA.                                                                                         prioridade e necessidade.
+
+                                                                                                                                                                                                  Estabelecer contato com o almoxarifado, para viabilizar o
+                                                                                                     Manter estoque material e equipamento para
+           Falta de equipamentos ou materiais impossibilitando a                                                                                                                                  equipamento ou material necessário;
+  8                                                                          0,50    0,40     0,20   manutenção mais comumente empregados;                Mitigar         0,10    0,40     0,04
+           manutenção do sistema                                                                                                                                                                  Realizar       contratação          direta       de       novos
+                                                                                                     Melhorar a gestão de contratos.
+                                                                                                                                                                                                  equipamentos/materiais/serviços em caráter de emergência.
+
+                                                                                                     Manter equipamentos em boas condições uso;                                                   Quando houver vazamento, avaliar ocasião e se necessário, vestir
+                                                                                                                                                                                                  EPI e realizar contenção do vazamento, conforme treinamento.
+                                                                                                     Manter kits de manutenção nos locais;
+                                                                                                                                                                                                  Ainda, quando houver, abrir portas e janelas para dispersar o gás;
+                                                                                                     Treinar operadores continuamento sobre a
+                                                                                                                                                                                                  Em caso de vítimas, acionar socorro médico e, quando possível,
+                                                                                                     operação dos sistemas;
+                                                                                                                                                                                                  afastar vítima do local;
+                                                                                                     Manter ventilação nas salas de cloração;
+  9        Acidente/vazamento cloro gás                                      0,3      0,8     0,24                                                        Mitigar         0,3      0,4     0,12   Após contido o vazamento, manter ventilação no local e monitorar
+                                                                                                     Dispor cilindros de forma adequada e conforme                                                dispersão do gás cloro. Se necessário, acionar corpo de bombeiros
+                                                                                                     orientação das FISPQs;                                                                       e/ou defesa civil (avaliar quantidade de gás vazado e dispersão, bem
+                                                                                                     Dispor de EPIs e EPCs (máscaras de respiração                                                como se há habitações próximas à ETA);
+                                                                                                     autônomas e alarmes de vazamentos, onde houver)                                              Avaliar o que foi atingido pelo vazamento e iniciar processo de
+                                                                                                     em boas condições de uso. Manter operadores                                                  recuperação;
+                                                                                                     treinados para agir em situações emergenciais;
+                                                                                                                                                                                                  Acionar empresa para checar equipamentos e corrigir problema para
+
+        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                  14/28
+
+
+                                                                                                                                                                                                                                                                          18
+                                       Classificação Qualitativa dos Riscos                                                     Respostas aos Riscos – Ações Preventivas                                                      Contingência
+                 Evento de Ameaça
+Rankº                                                                    Probab.                                                                                      Probab.
+                                                       Local                         Impacto   PxI                        Resposta                       Estratégia               Impacto   PxI                             Ações Corretivas
+
+
+
+
+                                                                                                                                                                                                                                                                           Pág. 15 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+           Incluindo Causa Raiz e Efeito                                   (%)                                                                                          (%)
+
+                                                                                                                                                                                                   reiniciar operação plena (se possível, manter operação parcial da
+                                                                                                                                                                                                   cloração por gás ou verificar se é possível dosar outro produto para
+                                                                                                                                                                                                   desinfecção);
+                                                                                                                                                                                                   Se necessário parar operação da ETA, executar plano de
+                                                                                                                                                                                                   comunicação com população e órgãos externos e observar possíveis
+                                                                                                                                                                                                   intermitências no sistema.
+                                                                                                                                                                                                   Na ocorrência de vazamentos ou rompimentos de tinas, observar se
+                                                                                                                                                                                                   há ou não contenção. No caso da existência da contenção, observar
+                                                                                                                                                                                                   se a bacia abrigou o volume vazado. Neste caso, manter dosagem do
+                                                                                                      Manter equipamentos em boas condições uso;                                                   produto químico e o tratamento, e iniciar processo de substituição
+                                                                                                      Implantar bacias de contenção para as tinas de                                               da tina rompida (se necessário, acionar caminhão autovácuo para
+                                                                                                      produtos químicos, bem como manter tinas                                                     transferência do produto, quando possível);
+                                                                                                      abrigadas do sol;                                                                            Em caso de não haver contenção ou esta for insuficiente, avaliar a
+                                                                                                      Onde houver bacia de contenção,                                                              possibilidade de manter dosagem, se possível, ou parar
+                                                                                                      observar/implantar drenos de fundo e manter                                                  momentaneamente. Em caso de parada, em que está sujeita a parada
+ 10        Acidente/vazamento com demais produtos químicos                    0,3      0,4     0,12   bacias esgotadas;                                    Mitigar         0,3      0,2     0,06   da ETA, iniciar processos de comunicação externa. Avaliar
+                                                                                                      Treinar operadores continuamente sobre dosagem                                               extensão do vazamento e, quando atingir solo e vegetação,
+                                                                                                      e preparação de soluções, evitando acidentes;                                                providenciar processo de recuperação, conforme orientação ou
+                                                                                                                                                                                                   acompanhamento de órgão ambiental. Caso atinja apenas áreas
+                                                                                                      Sempre que observadas fissuras ou outros danos                                               impermeáveis e/ou internas, iniciar processo de sucção do produto e
+                                                                                                      nas tinas, solicitar a imediata substituição;                                                limpeza das áreas atingidas. Repor tinas e produtos e retomar
+                                                                                                      Dispor de EPIs e EPCs em boas condições de uso e                                             dosagem;
+                                                                                                      treinar operadores sobre seu correto uso.                                                    Caso haja vítimas, acionar socorro médico e acompanhar
+                                                                                                                                                                                                   atendimento.
+
+
+                                                                                                      Manter a política de treinamento de servidores;
+                                                                                                      Manter estoque de materiais e peças mais
+                                             Diâmetro de até 150 mm           0,70    0,20     0,14   comumente empregados;                                                0,50    0,20     0,10   Executar manutenção corretiva;
+                                                                                                      Especificar materiais de boa qualidade durante                                               Dependendo do tempo de intermitência no abastecimento de água,
+           Rompimento de rede de
+                                                                                                      processo de aquisição;                                                                       informar sobre o ocorrido nos canais de comunicação da CASAN
+ 11        distribuição causando falta de                                                                                                                  Mitigar
+                                                                                                                                                                                                   (site e 0800), e/ou divulgar através das mídias (casos graves);
+           água                                                                                       Fiscalizar as obras em execução;
+                                                                                                                                                                                                   Acionar caminhões-pipa para o abastecimento conforme critérios de
+                                             Diâmetro de 150 a 300                                    Realizar o cadastro de rede;                                                                 prioridade e necessidade.
+                                                                              0,50    0,40     0,20                                                                        0,10    0,40     0,04
+                                             mm                                                       Instalar sistema de supervisão e automação do
+                                                                                                      SAA.
+
+
+                                                                                                                                                                                                   Se ocorrer no ambiente externo à CASAN: acionar a concessionária
+                                             Bombeamento e Rede de                                                                                                                                 de energia;
+                                                                              0,30    0,10     0,03                                                                        0,30    0,10     0,03
+                                             Distribuição                                                                                                                                          Se o problema ocasionado for no ambiente interno da CASAN:
+                                                                                                                                                                                                   executar manutenção;
+                                                                                                                                                                                                   Em casos prolongados de falta de energia, divulgar através da mídia
+                                                                                                      Manter equipe de manutenção;                                                                 a situação em que o sistema se encontra;
+           Interrupção do fornecimento de
+ 12        energia elétrica causando falta                                                            Instalação de geradores nas principais unidades;     Mitigar                                 Solicitar economia de água à população;
+           de água no Sistema                                                                         Ter gerador móvel.                                                                           Realizar manobras operacionais e controlar as pressões;
+                                                                                                                                                                                                   Implantar sistema de rodízio de distribuição de água;
+                                             Captação e ETA                   0,10    0,80     0,08                                                                        0,10    0,80     0,08   Acionar caminhões-pipa para o abastecimento conforme critérios de
+                                                                                                                                                                                                   prioridade e necessidade;
+                                                                                                                                                                                                   Buscar novas alternativas de abastecimento;
+                                                                                                                                                                                                   Contratar gerador.
+
+
+
+
+        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                    15/28
+
+
+                                                                                                                                                                                                                                                                          19
+                                      Classificação Qualitativa dos Riscos                                                   Respostas aos Riscos – Ações Preventivas                                                     Contingência
+                Evento de Ameaça
+Rankº                                                                   Probab.                                                                                    Probab.
+                                                      Local                         Impacto   PxI                      Resposta                       Estratégia               Impacto   PxI                            Ações Corretivas
+
+
+
+
+                                                                                                                                                                                                                                                                     Pág. 16 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+           Incluindo Causa Raiz e Efeito                                  (%)                                                                                        (%)
+
+
+                                                                                                                                                                                                Executar manutenção corretiva;
+                                                                                                                                                                                                Dependendo do tempo de intermitência no abastecimento de água,
+                                                                                                                                                                                                informar sobre o ocorrido nos canais de comunicação da CASAN
+                                            Bombeamento e Rede de
+           Falha de equipamentos                                             0,50    0,10     0,05   Manter equipe de manutenção;                                       0,10    0,10     0,01   (site e 0800), e/ou divulgar através das mídias (casos graves);
+                                            Distribuição
+           eletromecânicos causando falta                                                            Manter estoque de equipamentos mais comumente                                              Acionar caminhões-pipa para o abastecimento conforme critérios de
+ 13                                                                                                                                                     Mitigar
+           e/ou alteração da qualidade da                                                            empregados;                                                                                prioridade e necessidade;
+           água no Sistema                                                                           Ter equipamentos reservas.                                                                 Estabelecer contato com o almoxarifado, para viabilizar o
+                                                                                                                                                                                                equipamento ou material necessário;
+                                                                                                                                                                                                Realizar contratação direta de novos equipamentos / materiais/
+                                            Captação e ETA                   0,30    0,10     0,03                                                                      0,10    0,80     0,08   erviços em caráter de emergência.
+
+
+
+
+        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                  16/28
+
+
+                                                                                                                                                                                                                                                                    20
+4.2. Responsabilidades
+
+Apresenta-se para melhor visualização e funcionalidade do Plano de Emergência e
+
+
+
+
+                                                                                                      Pág. 17 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+Contingência, os fluxogramas com os grupos de eventos de modo a orientar a comunicação e
+as responsabilidades quando houver ocorrências. As Figuras 1 a 6 mostram, respectivamente,
+os fluxogramas referentes aos Grupos I a V.
+
+   •   Grupo I: respostas a falhas eletromecânicas;
+   •   Grupo II: respostas a problemas operacionais (vazamento de adutoras e redes de
+       distribuição, rompimentos de estruturas, comunicação com equipes eletromecânicas);
+   •   Grupo III: respostas a falhas no suprimento de materiais;
+   •   Grupo IV: respostas a falhas de contrato com terceiros (CELESC, caminhão-pipa, etc);
+   •   Grupo V: respostas a fatores extraordinários (estiagem, invasão e vandalismo, e
+       contaminação acidental);
+   •   Grupo VI: respostas a problemas estruturais.
+
+                 Fluxograma 1 - Grupo I – Respostas às falhas eletromecânicas (evento 10).
+
+                                                Ocorrência
+                                                 Grupo I
+
+
+
+
+                                                Operador /
+                                                 Servidor
+
+
+
+
+                                              Chefe do Setor
+                                            (SOMAG / SEOPA)
+
+
+
+
+                                                  GOPS
+
+
+
+
+                                                  Equipe
+                                             Eletromecânica
+
+
+
+
+                                                   Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte             17/28
+
+
+                                                                                                     21
+                         Fluxograma 2 – Grupo II - Respostas à problemas operacionais (eventos 5, 6 e 8).
+
+
+                                            Ocorrência
+                                                                                                          Ocorrência
+
+
+
+
+                                                                                                                                      Pág. 18 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                             Grupo II
+                                            (Adutora)
+                                                                                                            Grupo II
+                                                                                                    (Equipe de manutenção)
+                                      Controle de vazão
+                                        ou pressão ou
+                                      vazamento intenso
+
+
+
+                                                                                                        Chefe do setor
+                                     SRM / GOPS / SEOPA                                                (SEOPA/SOMAG)
+
+
+
+        Diretoria de                   Aciona equipe de
+        Operacional                      manutenção
+
+                                                                                                       Chefe da Agência
+
+  Procedimentos para
+      informar a                          Fechamento da                           Levantamento de
+      população                              adutora                                necessidades
+
+
+
+
+                                                                                                            SRM
+                                                    Precisa contratar
+                                      N                materiais e
+                                                     equipamentos?
+
+
+                                                                   S
+
+
+                                                          Contratação
+                                                          emergencial                                     Diretoria
+                                                                                                         Operacional
+
+                                                           Execução
+
+
+
+
+                                                                                                             Fim
+                                                        Verificação das
+                                                         unidades de
+                                                        abastecimento
+
+
+
+
+                                                               Fim
+
+
+                                           Ocorrência
+                                            Grupo II
+                                      (Rede de distribuição)
+
+
+
+
+     Central 0800
+                                                          Técnico da SEOPA
+         Site              Servidor da CASAN
+                                                              (triagem)
+Atendimento presencial
+
+
+
+
+                                     Aciona equipe de
+                                                                              Chefe da SEOPA
+                                       manutenção
+
+
+
+
+                                  Reparo foi executado?        S        Fim
+
+
+
+                                               N
+
+
+                                           Qual
+                                          motivo?
+
+
+
+
+                                     Chefe do SEOPA
+                                    Chefe da Agência
+                                   Gerente Operacional
+
+
+
+
+                                      Procedimento/
+                                     viabilização para
+                                   execução do serviço
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                                             18/28
+
+
+                                                                                                                                     22
+                 Fluxograma 3 - Grupo III – Respostas às falhas no suprimento (evento 7).
+
+
+                                   Ocorrência
+
+
+
+
+                                                                                                     Pág. 19 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                    Grupo III
+
+
+
+
+                                   Operador /
+                                    Servidor
+
+
+
+
+                                  Chefe do setor
+                                (SOMAG / SEOPA)
+
+
+
+
+                                    Tem no
+                                                               Almoxarifado
+                                 almoxarifado da     S
+                                                                  / GSU
+                                    CASAN?
+
+
+                                       N
+
+                                                           Realizar processo de
+                                   É possível                    compra /
+                                                    N
+                                   comprar?                 Providenciar junto
+                                                                   GSU
+
+                                       S
+
+
+                                 Realizar compra
+                                      direta
+
+
+
+
+                                      Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte            19/28
+
+
+                                                                                                    23
+            Fluxograma 4 – Grupo IV - Respostas às falhas de contrato com terceiros (evento 9).
+
+                                   Ocorrência
+                                    Grupo IV
+
+
+
+
+                                                                                                             Pág. 20 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                    Cliente                           Servidor
+
+
+
+
+                                                      SEOPA /              Informar quadro de
+                  0800 e site
+                                                      SOMAG                  avisos da CASAN
+
+
+
+
+                                                  Acionar a CELESC
+
+
+
+
+                                                   Acompanhar a
+                                                     correção
+
+
+
+
+                                                   Verificação nas
+                                                    unidades de
+                                                   bombeamento
+
+
+
+
+                                                                                Repassar a equipe
+                                                  Tudo funcionou?      N
+                                                                                 eletromecânica
+
+
+                                                         S
+
+
+                                                        Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                    20/28
+
+
+                                                                                                            24
+                             Fluxograma 5 – Grupo V - Respostas à fatores extraordinários (1, 2 e 4).
+
+
+                Ocorrência                                                                                                          Ocorrência
+
+
+
+
+                                                                                                                                                                                  Pág. 21 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                 Grupo V                                                                                                             Grupo V
+         (Estiagem / Precipitação
+                                                                                                                              (Invasão e vandalismo)
+                 intensa)
+
+
+
+
+               Operador /
+                Servidor
+                                                                                                                                                       Acionar a equipe de
+                                                                                                                                   Operador /
+                                                                                                                                                       vigilância 24 horas e
+                                                                                                                                    Servidor
+                                                                                                                                                              a polícia
+           Controle de Vazão e
+                pressão
+
+
+
+
+                Alterou                                                                                                          Chefia do setor
+     N        produção ou
+                                                                                                                                (SOMAG/SEOPA)
+              qualidade de
+                 água?
+
+
+                    S
+
+
+                                    Incluir no quadro de
+                  GOPS
+                                      avisos da CASAN
+                                                                                                                               Houve alteração na
+                                                                                    Providenciar ações
+                                                                                                               S               qualidade de água e
+                                                                                        corretivas
+                                                                                                                                 abastecimento?
+
+                                      Ativar sistemas
+                  SRM                  alternativos e
+                                      caminhões pipa                                                                                   N
+
+
+                                                                                                                                       Fim
+                                    Procedimentos para
+               Diretoria
+                                        informar a
+              Operacional
+                                        população.
+
+
+
+
+                   Fim
+
+
+                                                                                        Ocorrência
+                                                                                         Grupo V
+                                                                                     (Contaminação do
+                                                                                        manancial)
+
+
+
+
+                                                                                        Operador /
+                                                                                         Servidor
+
+
+
+
+                                                                                      Chefia do setor
+
+
+
+
+                                                                Ativar sistemas
+                                                                                                          Parar a captação
+                                                                 alternativos e           GOPS
+                                                                                                           imediatamente
+                                                                caminhões pipa
+
+
+
+
+                                                                                           SRM
+
+
+
+
+                                                                                                         Procedimentos para
+                                                               Procedimentos para
+                                                                                        Diretoria            informar a
+                                                                  avaliação do
+                                                                                       Operacional       população e órgãos
+                                                                   manancial
+                                                                                                                afins.
+
+
+
+                                                                   Manancial
+                                                           N       voltou às
+                                                                   condições
+                                                                   originais?
+
+
+
+
+                                                                           S               Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                                                                                         21/28
+
+
+                                                                                                                                                                                 25
+                        Figura 6 - Grupo VI – Respostas à problemas estruturais (3).
+
+
+
+
+                                                                                                               Pág. 22 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+4.2.1. Lista de Contatos Internos
+
+O Quadro 9 mostra a lista dos contatos telefônicos das unidades orgânicas da Companhia
+que atuam diretamente para a execução do Plano de Emergência e Contingência do SAA
+Costa Norte.
+                                 Quadro 9 - Contatos telefônicos internos.
+
+                      Unidades da CASAN                                      Telefones para contato
+
+ DO                                                                     (48) 3221-5880 (48) / 9-8407-9488
+
+ Superintendência Regional Metropolitana - SRM                          (48) 3221-5871 / (48) 98401-4494
+
+ Gerência Operacional SRM/GOPS                                          (48) 3221-5718 / (48) 98415-3090
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                      22/28
+
+
+                                                                                                              26
+                         Unidades da CASAN                                    Telefones para contato
+
+ Setor de Operação de Manutenção de Água GOPS/SOMAG                                (48) 3221-5707
+
+
+
+
+                                                                                                                Pág. 23 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+ Setor de Controle de Qualidade de Água e Esgoto GOPS/SEQAE                        (48) 3221-5728
+
+ Unidade Operacional Costa Norte                                                   (48) 3266-1888
+
+ Agência Florianópolis                                                  (48) 3221-5710/ (48) 9-9981-4675
+
+
+4.2.2. Lista de Contatos Externos
+
+O Quadro 10 mostra a lista das organizações e instituições oficiais que devem ser
+comunicadas no caso da ocorrência de algum evento identificado na matriz de riscos.
+
+                                 Quadro 10 - Contatos telefônicos externos.
+
+                            Contato externo                   Telefones para contato
+
+                  Defesa Civil                                    (48) 3664-7000
+
+                  CELESC                                          (48) 3271-8293
+
+                  Corpo de Bombeiros                                    193
+                                                                  (48) 3248-5888
+                                                                  (48) 9132-7527
+                  Empresa de Vigilância Embrasil                  (48) 7811-8899
+                                                                  (48) 9105-2376
+                                                                  (48) 7811-8699
+                  IMA                                             (48) 3216-1700
+                   VISA Florianópolis                             (48) 3212-3913
+
+                  Polícia Militar                               190/(48) 3229-6000
+
+                  Polícia Rodoviária Estadual                   198/(48) 3271 2300
+
+                  Polícia Rodoviária Federal                    191/(48) 3288 0250
+
+                  ARESC                                           (48) 3665-4350
+
+                  SAMU                                                  192
+
+                  UNIMED                                          0800-645 0550
+
+
+4.3. Estrutura Organizacional de Resposta
+
+A CASAN possui as seguintes entradas de ocorrência para os seus clientes:
+
+   a) Atendimento presencial nas unidades da CASAN;
+   b) Central telefônica (0800 643 0195). A central telefônica (Call Center) funciona 24
+      horas por dia, sete dias por semana;
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                       23/28
+
+
+                                                                                                               27
+   c) Sistema Fale Conosco (clientes são atendidos por e-mail);
+   d) Aplicativo de telefone celular.
+
+
+
+
+                                                                                                 Pág. 24 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+O atendimento presencial funciona nos seguintes endereços em Florianópolis:
+
+   •   CIAC Canasvieiras – Rua José Rosa, n.º 408 - Canasvieiras- Florianópolis;
+   •   CIAC Rio Tavares – Rod. Antônio Luiz Moura Gonzaga, n.º 4737 – Rio Tavares -
+       Florianópolis;
+   •   CIAC Continente – Rua João Evangelista da Costa, n.º 827 - Coloninha -
+       Florianópolis;
+   •   CIAC Lagoa da Conceição - Rua Crisógono Vieira da Cruz, s/n.º – Lagoa da
+       Conceição - Florianópolis;
+   •   Agência de Florianópolis - Rua Saldanha Marinho, n.º 374 - Centro - Florianópolis.
+
+Quando o cliente entra em contato com a CASAN em horário comercial, o atendente registra
+as ocorrências por região no sistema da CASAN SCI, que após são verificadas online pelo
+responsável na Agência/Unidade Operacional. As informações de vazamentos recebidas via
+aplicativo também são registradas no SCI. Além disso, quando ocorrerem outras reclamações
+da mesma área em um tempo relativamente curto, ou em outros casos de notável relevância,
+os atendentes além de registrarem a ocorrência informam ao seu coordenador, que tem
+autonomia para entrar diretamente em contato com o Chefe da Agência/Unidade Operacional
+ou do Setor de Operação.
+
+Em ambos os casos, após ciente do ocorrido, o Chefe da Agência/Unidade Operacional
+desloca a sua equipe de manutenção para o local para tentar solucionar o problema. Todas as
+equipes vão a campo com telefone celular para as comunicações que se fizerem necessárias.
+Ao chegar ao local, a equipe informa a gravidade da ocorrência ao Chefe da Agência/Unidade
+Operacional, que poderá fazer um registro no quadro de aviso, disponível online para todos os
+atendentes do Call Center. Assim, pode-se informar à população o problema ocorrido e o
+tempo necessário para saná-lo.
+
+Quando a equipe de manutenção não possui os recursos necessários para resolver o problema,
+informam-se as limitações ao Chefe da Agência/Unidade Operacional, que dará as orientações
+e tomará as devidas providências, inclusive avisar o ocorrido ao Call Center. Além disso, no
+caso de o Chefe da Agência/Unidade Operacional não possuir os recursos humanos, técnicos,
+e/ou estruturais necessários para a solução do problema, este solicitará apoio ao Gerente de
+Operação e/ou ao Superintendente Regional.
+
+Para o caso específico de problemas em equipamentos eletromecânicos, a equipe de
+manutenção irá informar o Chefe da Agência/Unidade Operacional e acionar os eletrotécnicos
+e os técnicos de mecânica. Há uma orientação para solicitar prioritariamente o eletrotécnico,
+visto que na grande maioria dos ocorridos o problema é elétrico. Há uma equipe de
+eletrotécnicos disponível 24h/dia.
+
+Em casos mais graves (como acidentes com adutoras, por exemplo), deve-se informar com
+urgência as chefias superiores, que tomarão as providencias para a adoção das medidas
+paliativas cabíveis, como aluguel de geradores, envio de caminhões pipa, informativos na
+mídia, entre outros.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte       24/28
+
+
+                                                                                                28
+Se o ocorrido for fora de horário comercial, o procedimento inicial será o mesmo na Central
+0800, mas o coordenador de Call Center acionará o técnico de Triagem de Plantão, que
+comunicará o Chefe da Agência/Unidade Operacional. Se o problema for constatado até as
+
+
+
+
+                                                                                                 Pág. 25 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+22h, aciona-se a equipe de manutenção. Caso contrário, o Chefe da Agência/Unidade
+Operacional desloca-se até o local da ocorrência, e se necessário procede a manobra de
+registros e/ou comunica o Gerente de Operação e/ou o Superintendente Regional, conforme a
+gravidade da ocorrência. No dia seguinte, a equipe de manutenção vai ao local para efetuar os
+reparos necessários, repetindo-se os procedimentos já descritos anteriormente.
+
+A Figura 1 mostra o organograma com a estrutura organizacional dos procedimentos de
+resposta do plano de emergências.
+                           Figura 1 - Organograma dos procedimentos-resposta.
+
+
+
+
+4.4. Medidas de Racionamento de Água
+
+Em alguns casos de diminuição da quantidade de água tratada disponível, seja por problemas
+na qualidade do tratamento de água ou mesmo por questões relacionadas à disponibilidade de
+água bruta, ações corretivas são tomadas conforme a disponibilidade de água para
+distribuição, entre essas:
+
+   •   Manobras operacionais com a finalidade de atender usuários com necessidades
+       prioritárias (hospitais, escolas, etc.) e controlar a pressão nas partes baixas para
+       viabilizar o abastecimento das zonas com cotas topográficas elevadas e pontas de rede;
+   •   Informes nas redes sociais, internet e demais meios de comunicação para a
+       colaboração da população no consumo consciente da água;
+   •   Rodízio no abastecimento de água 12 por 12 horas. A região um (1) seria composta
+       pelos bairros: Ingleses, Cachoeira do Bom Jesus, Ponta das Canas e Lagoinha e a
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte       25/28
+
+
+                                                                                                29
+       região dois (2) seria formada pelos bairros: Canasvieiras, Jurerê, Praia do Forte, Praia
+       da Daniela, Vargem Grande, Vargem Pequena e Ratones. Os bairros Rio Vermelho,
+       Santinho e Praia Brava possuem sistemas de abastecimento de água independentes.
+
+
+
+
+                                                                                                   Pág. 26 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+       Ressalva-se que dependendo da disponibilidade de água pode ser alterado a região de
+       abastecimento e/ou intervalo do rodízio.
+
+Assim sendo, e considerando-se que a NBR 5626/1998 - Instalação predial de água fria
+preconiza o emprego de reservação de água nas instalações prediais para no mínimo 1 (um)
+dia de consumo normal, pode-se mitigar ou mesmo não sofrer com problemas de falta de água
+em caso de diminuição da produção de água tratada.
+
+4.4.1. Diretrizes para Suspensão do Fornecimento de Água
+
+As suspensões no fornecimento de água podem ser ocasionadas por ocorrências programadas
+e não programados. Os fatores programados são aqueles necessários para a manutenção e
+melhoria do sistema de abastecimento de água. Os não programados, por sua vez, são aqueles
+advindos de eventos externos, como rompimentos de rede, defeitos nos bombeamentos,
+quedas de energia, dentre outros.
+
+Para os eventos programados, a suspensão deve ser comunicada previamente pelo quadro de
+avisos e informada à agência reguladora e à população com o motivo, horário previsto para
+início e fim das atividades, bem como o tempo médio previsto de duração e as regiões que
+serão afetadas. Após o procedimento, deverá ser emitido alerta de normalidade através dos
+canais oficiais da companhia.
+
+Sempre que possível e necessário, deverá ser adotada medidas que mitiguem os problemas de
+desabastecimento durante as atividades programadas, sobretudo em locais de extrema
+necessidade como unidades de saúde, presídios e unidades escolares. A necessidade da
+adoção destas medidas deverá ser avaliada em relação a duração da atividade e as
+possibilidades de atendimento do abastecimento alternativo.
+
+Os eventos não programados devem ser comunicados seguindo as diretrizes da Resolução 156
+da ARESC, dentro dos eventos elencados nesta mesma resolução, e devem ser avaliados pelos
+técnicos da companhia em relação a necessidade de suspensão do abastecimento.
+
+Todo evento não programado que gerar perturbações no abastecimento de água, como a total
+suspensão do abastecimento, deverá ser relatado e registrado em relatório de comunicação de
+evento que deverá ser posteriormente avaliado pelos técnicos da companhia para futuras
+revisões deste PEC e deverá, também, ser encaminhado à ARESC para apreciação deste órgão.
+A comunicação durante a suspensão do abastecimento por evento não programado deverá ser
+feita primeiramente à população, informando ao quadro de avisos com motivo da suspensão,
+tempo previsto para regularização do abastecimento e as localidades atingidas. Se possível e
+necessário, deverá ser feita comunicação em outros canais oficiais da companhia. Em seguida,
+deve ser comunicado a ARESC, com as mesmas informações. Após regularização, deve ser
+elaborado relatório sobre o evento e este também deverá ser encaminhado a ARESC.
+
+4.5. Pontos Críticos do SAA Costa Norte
+
+Consideraram-se como pontos críticos os estabelecimentos de saúde públicos localizados na
+área de abrangência do SAA Costa Norte. Sugere-se que estes pontos sejam priorizados no
+abastecimento com caminhão-pipa, em caso de falta d´água. Outros pontos de mesma
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte         26/28
+
+
+                                                                                                  30
+relevância poderão ser incluídos nesta listagem, conforme decisão das chefias imediatas. O
+Quadro 11 mostra a listagem de pontos críticos na área de abrangência do SAA Costa Norte.
+
+
+
+
+                                                                                                          Pág. 27 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+                                   Quadro 11 - Listagem de Pontos Críticos.
+
+                  Local                                    Endereço                    Contato
+                                                Rua Leonel Pereira, esquina com
+ Centro de Saúde Cachoeira do Bom Jesus                                             (48) 3284-6045
+                                                       Servidão Gabriel
+ Centro de Saúde Canasvieiras (UPA e            Rod. Francisco Faustino Martins,
+                                                                                    (48) 3269-6902
+ Policlínica)                                    confluências SC 401 e SC 403
+
+ Centro de Saúde Jurerê                            Rua Jurerê Tradicional, 242      (48) 3282-1670
+
+ Centro de Saúde Ponta das Canas                     Rua Alcides Bonatelli,         (48) 3284-1337
+
+ Centro de Saúde Ratones                         Estrada João Januário da Silva,    (48) 3266-8090
+
+ Centro de Saúde Rio Vermelho                 Rodovia João Gualberto Soares, 6471   (48) 3269-7100
+
+ Centro de Saúde Santinho                        Estrada Dom João Becker, 862       (48) 3369-5514
+
+                                                 Estrada Cristóvão Machado de
+ Centro de Saúde Vargem Grande                                                      (48) 3269-5034
+                                                         Campos, 2460
+                                               Rodovia Manoel Leôncio de Souza
+ Centro de Saúde Vargem Pequena                                                     (48) 3269-5898
+                                                         Brito, 1325
+
+ Centro de Saúde Ingleses                         Travessa dos Imigrantes, 135      (48) 3369-3229
+
+
+4.6. Relatório de Comunicação
+
+Do momento da ocorrência de eventos operacionais que venham a perturbar o funcionamento
+do SAA Costa Norte, deverá ser realizado o preenchimento do relatório de ocorrências,
+informando em detalhes a ocorrência do evento, o seu início e fim. É necessário também
+atentar-se aos períodos de comunicação apresentados na resolução n.° 156 de 15 de abril de
+2020 da ARESC.
+
+4.7. Peças, Equipamentos e Contratos de Serviços
+
+As peças e equipamentos em estoque são mantidos em diversos almoxarifados da CASAN,
+além dos mais próximos da Unidade Operacional Costa Norte. Assim sendo, todos os
+materiais virão do quantitativo geral da CASAN, que compreende materiais e equipamentos
+diversos e em grandes quantidades e que poderá ser disponibilizado para fins consultivos
+mediante solicitação formal da ARESC. Estes materiais ficam disponíveis à agência e
+passíveis de consulta através dos softwares de gerenciamento de estoque ou em consulta à
+Gerência de Suprimentos (GSU), através do telefone (48) 3381-2302, ou diretamente ao
+almoxarifado responsável pela Unidade Operacional Costa Norte, através do telefone (48)
+3258-9068.
+
+Os contratos para gerador de energia, caminhão-pipa, dentre outros, não são documentos fixos
+e mudam recorrentemente. Estes, assim como a listagem de materiais e equipamentos, podem
+ser solicitados pela ARESC através de solicitação formal sempre que entender necessário.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte                 27/28
+
+
+                                                                                                         31
+5. RECOMENDAÇÕES
+
+O Plano de Emergência e Contingência foi formulado com o objetivo de ser uma ferramenta
+
+
+
+
+                                                                                                   Pág. 28 de 28 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9.
+dinâmica. Portanto, este deve ser atualizado periodicamente, observando o prazo máximo de
+dois anos a partir da data de publicação da primeira versão e, na medida em que os
+equipamentos e procedimentos operacionais passarem por atualizações e ampliação da
+capacidade de atendimento. Após estas revisões, os colaboradores envolvidos na operação do
+SAA Costa Norte devem ser devidamente informados e treinados.
+
+
+6. GLOSSÁRIO
+
+Brainstorming – Técnica de dinâmica de grupo, desenvolvida para explorar a potencialidade
+criativa de um indivíduo ou de um grupo, colocando-a a serviço de objetivos pré-
+determinados.
+
+Contingência – Medida a ser tomada ou usada somente se certos eventos ocorrerem, desde
+que haja alertas suficientes para acioná-los.
+
+Emergência – Quando há uma situação crítica ou algo iminente, com ocorrência de perigo;
+incidente; imprevisto.
+
+Evento – Risco ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+
+Matriz de vulnerabilidade – Matriz de graduação da probabilidade versus impacto de risco.
+
+Impacto – Feito sobre o objetivo do trabalho, se o evento de risco ocorrer e/ou estimativa do
+que a ocorrência do risco vai produzir.
+
+Rank – Classificação dos riscos por ordem de grandeza do (PxI).
+
+Risco – Evento ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+
+Writestorming – Técnica semelhante ao brainstorming, mas cada participante escreve quais
+são as suas ideias, então os papéis são colocados juntos e todas as ideias pertencem ao grupo,
+evitando ou minimizando ao máximo a possibilidade de comentários inapropriados.
+
+
+7. APROVAÇÃO
+
+
+
+ EDSON MORITZ                                            Eng.º PEDRO JOEL HORSTMANN
+ Diretor-Presidente                                      Diretor de Operação e Expansão
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Norte          28/28
+
+
+                                                                                                  32
+                                 Assinaturas do documento
+
+
+                                      Código para verificação: AZ272YP9
+
+
+Este documento foi assinado digitalmente pelos seguintes signatários nas datas indicadas:
+
+
+     PEDRO JOEL HORSTMANN (CPF: 573.XXX.949-XX) em 11/04/2024 às 16:58:22
+     Emitido por: "SGP-e", emitido em 20/07/2021 - 08:54:07 e válido até 20/07/2121 - 08:54:07.
+     (Assinatura do sistema)
+
+
+
+     EDSON MORITZ MARTINS DA SILVA (CPF: 290.XXX.239-XX) em 15/04/2024 às 10:20:34
+     Emitido por: "SGP-e", emitido em 03/04/2023 - 08:42:46 e válido até 03/04/2123 - 08:42:46.
+     (Assinatura do sistema)
+
+
+
+
+Para verificar a autenticidade desta cópia, acesse o link https://sgpe.casan.com.br/portal-externo/conferencia-
+documento/Q0FTQU5fMV8wMDAzMjA4NV8zMjA4NV8yMDI0X0FaMjcyWVA5 ou o site
+https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código AZ272YP9 ou
+aponte a câmera para o QR Code presente nesta página para realizar a conferência.
+

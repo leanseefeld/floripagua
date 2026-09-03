@@ -1,0 +1,1757 @@
+                                                                      Pág. 01 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                          PLANO DE EMERGÊNCIA E
+                 CONTINGÊNCIA OPERACIONAL (PEC)
+
+              - SAA FLORIANÓPOLIS – COSTA SUL/LESTE -
+
+
+
+
+Revisão N.º      Data               Descrição          Responsável
+    00           2021               Elaboração        GPO/GOPS/SRM
+    01          04/2024         Revisão/atualização   GPO/GOPS/SRM
+
+
+
+
+                                 Abril/2024
+
+
+
+
+                                                                     33
+                                                              SUMÁRIO
+
+1. INTRODUÇÃO .................................................................................................................... 3
+
+
+
+
+                                                                                                                                                   Pág. 02 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+   1.1. Objetivo ........................................................................................................................... 3
+     1.1.1. Objetivos Específicos .............................................................................................. 3
+     1.1.2. Relação deste Plano com Outros Planos Correlatos ................................................. 3
+   1.2. Descrição do SAA ............................................................................................................ 4
+   1.3. Localização/Descrição das Instalações do Sistema Costa Sul Leste .............................. 5
+     1.3.1. ETA Lagoa do Peri ................................................................................................... 5
+     1.3.2. Unidade de Tratamento do Campeche...................................................................... 5
+     1.3.3. Poços Complementares de Captação de Água Subterrânea ..................................... 6
+     1.3.4. Sistema de Bombeamento ........................................................................................ 6
+     1.3.5. Reservação ................................................................................................................ 7
+2. IDENTIFICAÇÃO DOS RESPONSÁVEIS ...................................................................... 8
+   2.1. Estação de Tratamento de Água (ETA) ........................................................................... 8
+   2.2. Redes de Abastecimento de Água .................................................................................... 8
+   2.3. Unidade Operacional Costa Sul/Leste ............................................................................ 8
+   2.4. Agência Regional de Florianópolis ................................................................................. 9
+   2.5. Gerente de Operação....................................................................................................... 9
+   2.6. Superintendente Regional – Grande Florianópolis......................................................... 9
+   2.7. Diretoria de Operação e Expansão (DO) ....................................................................... 9
+   2.8. Identificação do Representante Legal da CASAN ........................................................... 9
+3. METODOLOGIA............................................................................................................... 10
+4. PLANO DE EMERGÊNCIA E CONTINGÊNCIA ........................................................ 11
+   4.1. Riscos ............................................................................................................................. 11
+   4.2. Responsabilidades ......................................................................................................... 18
+     4.2.1. Lista de Contatos Internos ...................................................................................... 23
+     4.2.2. Lista de Contatos Externos ..................................................................................... 23
+   4.3. Estrutura Organizacional de Resposta ......................................................................... 23
+   4.4. Medidas de Racionamento de Água .............................................................................. 25
+     4.4.1. Diretrizes para Suspensão do Fornecimento de Água ............................................ 26
+   4.5. Pontos Críticos do Sistema Costa Sul/Leste .................................................................. 26
+   4.6. Relatório de Comunicação ............................................................................................ 27
+   4.7. Peças, Equipamentos e Contratos de Serviços .............................................................. 27
+5. RECOMENDAÇÕES......................................................................................................... 28
+6. GLOSSÁRIO ...................................................................................................................... 28
+7. APROVAÇÃO .................................................................................................................... 28
+8. ANEXOS ............................................................................................................................. 29
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                                                    2/32
+
+
+                                                                                                                                                  34
+1. INTRODUÇÃO
+
+Este documento apresenta um Plano de Emergência e Contingência (PEC) elaborado por
+
+
+
+
+                                                                                                 Pág. 03 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+técnicos da própria Companhia Catarinense de Águas e Saneamento (CASAN)
+especificamente para o Sistema de Abastecimento de Água – SAA Costa Sul/Leste. A
+metodologia de construção do Plano, assim como todos os detalhes de sua implantação e
+manutenção, é também abordada neste trabalho. O Plano de Emergência e Contingência se
+justifica pela necessidade de haver uma orientação profissionalizada e planejada de situações
+reconhecidas pelos profissionais da CASAN como potenciais RISCOS ao funcionamento do
+sistema e ao meio ambiente.
+
+1.1. Objetivo
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atua na operação do SAA Costa Sul/Leste, subsidiando o processo de tomada de decisão
+com elementos previamente planejados. Desta forma, seu objetivo é fornecer um conjunto de
+diretrizes e informações visando à adoção de procedimentos lógicos, técnicos e
+administrativos, estruturados de forma a propiciar resposta rápida e eficiente em situações
+emergenciais.
+
+1.1.1. Objetivos Específicos
+
+   •   Restringir ao máximo os impactos dos riscos potenciais identificados;
+   •   Evitar que os aspectos ambientais se transformem em impactos e extrapolem os
+       limites de segurança estabelecidos;
+   •   Antecipar que situações externas ao evento contribuam para o seu agravamento;
+   •   Apresentar a estruturação dos procedimentos corretivos a serem tomados quando da
+       ocorrência de um evento.
+
+1.1.2. Relação deste Plano com Outros Planos Correlatos
+
+Este Plano de Emergência e Contingência está estritamente relacionado a outros instrumentos
+legais responsáveis pela garantia da prestação do serviço de abastecimento de água. Um
+destes instrumentos é o Plano Municipal Integrado de Saneamento Básico do município de
+Florianópolis, instituído pela Lei Ordinária n.° 9.400, de 25 de novembro de 2013. No PMSB
+estão instituídas as ações de emergências e contingências para conter eventos de ameaça, e
+estas ações por sua vez estão abordadas neste PEC, porém no formato específico na resolução
+156 da Agência Reguladora de Serviços Públicos de Santa Catarina.
+
+Desta forma, sempre que houver atualizações do PMSB de Florianópolis este PEC deverá ser
+revisto a fim de atender as possíveis demandas do município.
+
+No âmbito municipal há outro importante instrumento legal, a Lei Ordinária 7.474, de 19 de
+novembro de 2007. Esta Lei dispõe sobre a Política Municipal de Saneamento Básico. Esta
+Lei também criou o Conselho Municipal de Saneamento Básico.
+
+É importante ressaltar também que é necessário articulação entre o Plano Municipal de
+Saneamento Básico e o Plano Diretor vigente no município de Florianópolis.
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste    3/32
+
+
+                                                                                                35
+1.2. Descrição do SAA
+
+O presente estudo refere-se ao Plano de Emergência do Sistema de Abastecimento de Água
+
+
+
+
+                                                                                                         Pág. 04 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+(SAA) do Leste e Sul da Ilha de Florianópolis, denominado SAA Costa Sul/Leste. As áreas de
+atendimento deste sistema são os distritos da Barra da Lagoa, Lagoa da Conceição,
+Campeche, Ribeirão da Ilha e Pântano do Sul. De acordo com o Censo realizado pelo Instituto
+Brasileiro de Geografia e Estatística – IBGE, no ano de 2020 a população estimada do
+Município de Florianópolis é de 508.826 pessoas. Deste valor, aproximadamente 96% da
+população de Florianópolis encontra-se em zona urbana e, aproximadamente, 4% em zona
+rural. Convém ressaltar que estas porcentagens são baseadas no Censo realizado pelo próprio
+IBGE no ano de 2010.
+
+O Sistema de Abastecimento de Água Costa Sul Leste, por sua vez, atende aproximadamente
+100.000 habitantes, dos quais, aproximadamente, 95% estão localizados em zona urbana e,
+aproximadamente, 5% localizados em zona rural. Durante os meses do ano, sem levar em
+consideração meses de veraneio, nos quais há elevação considerável no consumo de água na
+região, a demanda média de água é de, aproximadamente, 300 litros por segundo. O SAA
+Costa Sul/Leste compreende as seguintes captações:
+
+   •   Lagoa do Peri: ETA convencional com flotação;
+   •   Unidade de Tratamento de Água do Campeche: sistema de captação de água
+       subterrânea (9 poços no Campeche);
+   •   Poços de captação de água subterrânea: 7 poços localizados no Campeche, no Rio
+       Tavares e na Lagoa da Conceição.
+
+Além disso, há complementação de vazão por meio de novas iniciativas executadas pela
+Companhia Catarinense de Águas e Saneamento, visando atender a demanda de água tratada
+no Sistema de Abastecimento de Água Costa Sul Leste. O Quadro 1 mostra o fornecimento
+médio de água atual por fonte de captação de água.
+
+                              Quadro 1 – Vazão média por fonte de captação.
+                        Fonte de Captação                     Vazão Média (litros por segundo)
+
+        Captação Lagoa do Peri                                                185,00
+
+        Captação Poços Campeche (UT Campeche)                                 50,00
+
+        Captação Poços Complementares (Eros, Isidoro
+        Garcez, Pamplona I, Pamplona II, Pau de Canela,                       45,00
+        Cruz e Malta, Ecovila e Village)
+
+        Proveniente do Sistema Integrado                                      40,00
+
+        Total                                                                 300,00
+
+
+Entretanto, é importante ressaltar que, deve-se levar em consideração que o consumo de
+água na temporada de veraneio eleva-se em Florianópolis. Considerando-se os meses da
+temporada de verão, a demanda de água para atendimento do sistema, é de
+aproximadamente 370 litros por segundo. O Quadro 2 mostra a capacidade máxima de
+fornecimento por fonte de captação de água.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste             4/32
+
+
+                                                                                                        36
+                     Quadro 2 – Capacidade máxima de fornecimento por fonte de captação.
+                     Fonte de captação                     Capacidade máxima (litros por segundo)
+  Captação Lagoa do Peri                                                      200,00
+
+
+
+
+                                                                                                                  Pág. 05 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+  Captação Poços Campeche (UT Campeche)                                       100,00
+  Captação Poços Complementares (Eros Isidoro Garcez,
+  Pamplona I, Pamplona II, Pau de Canela, Cruz e Malta,                       72,00
+  Ecovila e Village)
+  Proveniente do Sistema Integrado                                            55,00
+
+Também fazem parte do SAA Costa Sul Leste os boosters, as estações de recalque de água
+tratada – ERAT, os reservatórios, as adutoras e as redes de distribuição de água.
+
+1.3. Localização/Descrição das Instalações do Sistema Costa Sul Leste
+
+1.3.1. ETA Lagoa do Peri
+
+A ETA Lagoa do Peri está a aproximadamente 160 metros da captação na Lagoa do Peri e se
+localiza na Rodovia SC-406, em um terreno cercado, onde também está instalado o
+Laboratório de Biologia e Cultivo de Peixes de Água Doce – LAPAD - da Universidade
+Federal de Santa Catarina – UFSC. O acesso à ETA é autorizado apenas a funcionários da
+CASAN. Esta ETA possui vazão de projeto de 200 L/s.
+
+- Coordenadas Geográficas:
+
+   o Latitude: 27°43'46.63"S
+   o Longitude: 48°30'32.98"O
+
+O tratamento é do tipo ciclo completo, com flotação. O telefone de contato da ETA é (48)
+3389-5543.
+
+1.3.2. Unidade de Tratamento do Campeche
+
+A Unidade de Tratamento – UT de água, localizada no bairro Campeche, recebe água de nove
+poços de captação. O tratamento é do tipo simplificado, seguido de tanque de contato.
+Convém ressaltar que a UT Campeche está localizada no mesmo terreno do Poço Torre, e
+todos os poços estão situados na região do Campeche. Atualmente, a UT Campeche possui
+operação contínua, com vazão máxima de 100 litros por segundo. O Quadro 3 mostra as
+informações relativas aos poços de captação da Unidade de Tratamento Campeche.
+
+                             Quadro 3 - Informações dos poços da UT Campeche.
+
+             Poços                   Bairro               Coordenadas                      Rua
+
+                                                    Latitude: 27°41'40.94"S
+    Poço Torre                     Campeche                                     Rua Tereza Lopes
+                                                   Longitude: 48°29'56.74"O
+
+                                                    Latitude: 27°42'13.11"S     Servidão Olindina Maria
+    Poço Areias I                  Campeche
+                                                   Longitude: 48°30'15.70"O     Lopes
+
+                                                    Latitude: 27°42'8.33"S      Servidão Olindina Maria
+    Poço Areias II                 Campeche
+                                                   Longitude: 48°30'14.75"O     Lopes
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                      5/32
+
+
+                                                                                                                 37
+                                                    Latitude: 27°41'58.09"S    Servidão Olindina Maria
+    Poço Areias III                Campeche
+                                                   Longitude: 48°30'12.73"O    Lopes
+
+
+
+
+                                                                                                                 Pág. 06 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                                   Latitude: 27°41'45.44"S
+    Poço Coruja Dourada            Campeche                                    Rua Coruja Dourada
+                                                   Longitude: 48°30'7.28"O
+
+                                                   Latitude: 27°41'36.68"S     Servidão Revoar das
+    Perdizes                       Campeche
+                                                   Longitude: 48°30'9.70"O     Perdizes
+
+                                                    Latitude: 27°41'35.1"S     Servidão Revoar das
+    Perdizes II                    Campeche
+                                                   Longitude: 48°30'18.6"O     Perdizes
+
+                                                    Latitude: 27°41'37.6"S     Servidão Canto das
+    Pérola                         Campeche
+                                                   Longitude: 48°30'13.4"O     Pérolas
+
+                                                    Latitude: 27°41'38.8"S
+    Araçás                         Campeche
+                                                   Longitude: 48°30'23.0"O     Rua Bacupari
+
+
+1.3.3. Poços Complementares de Captação de Água Subterrânea
+
+Os poços de captação complementares Eros, Isidoro Garcez e Village estão localizados nos
+seguintes bairros: Campeche, Rio Tavares e Lagoa da Conceição. Convém ressaltar que os
+mesmos contribuem com vazão média de 25 a 35 litros por segundo. O Quadro 4 mostra as
+informações dos poços de captação complementares do Sistema de Abastecimento Costa
+Sul/Leste.
+                                     Quadro 4 - Informações dos poços.
+
+               Poços                Bairro               Coordenadas                     Rua
+                                                   Latitude: 27°39'49.84"S
+    Poço Eros                      Campeche                                  Avenida Campeche
+                                                  Longitude: 48°28'53.28"O
+                                                   Latitude: 27°38'40.08"S
+    Poço Isidoro Garcez           Rio Tavares                                Rua Isidoro Garcez, 576
+                                                  Longitude: 48°28'13.60"O
+                                   Lagoa da        Latitude: 27°36'28.46"S   Rua Deputado Waldemar
+    Poço Village
+                                   Conceição      Longitude: 48°28'22.68"O Salles
+                                                   Latitude: 27°39'28.94"S   Rod. Dr. Antônio Luiz
+    Poço Pamplona 1               Rio Tavares
+                                                  Longitude: 48°29'16.07"O Moura Gonzaga
+                                                   Latitude: 27°39′23.216″S  Rod. Dr. Antônio Luiz
+    Poço Pamplona 2               Rio Tavares
+                                                  Longitude: 48°29′7.242″O Moura Gonzaga
+                                                   Latitude: 27°38′37.338″S  Rod. Dr. Antônio Luiz
+    Poço Cruz de Malta            Rio Tavares
+                                                  Longitude: 48°28′32.146″O Moura Gonzaga
+                                                   Latitude: 27°40′23.264″S
+    Poço Pau de Canela             Campeche                                 R. Pau de Canela
+                                                  Longitude: 48°29′6.706″O
+                                                   Latitude: 27°42′3.978″S
+    Poço Ecovila                   Campeche                                 R. Heloisa Rojo Machado
+                                                  Longitude: 48°29′47.839″O
+*OBS.: Utiliza-se o termo vazão estimada para as captações em poços em função das interferências que o lençol
+freático pode sofrer e em função das variações de demanda.
+
+1.3.4. Sistema de Bombeamento
+
+O SAA Costa Sul/Leste possui boosters e Estações de Recalque de Água Tratada (ERAT),
+mostrados, respectivamente, nos Quadros 5 e 6.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                     6/32
+
+
+                                                                                                                38
+                         Quadro 5 - Informações dos boosters do SAA Costa Sul/Leste.
+
+          Booster                    Bairro               Coordenadas                     Rua
+
+
+
+
+                                                                                                                Pág. 07 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                                                                Rodovia Jornalista
+                                                     Latitude: 27°36'36.56"S    Manoel de Menezes
+  Booster Barra da Lagoa         Barra da Lagoa
+                                                    Longitude: 48°26'27.72"O    (SC-406), ao lado do
+                                                                                n.º 74.
+
+                                                     Latitude: 27°38'19.59"S    Rodovia Dr. Antônio
+  Booster Canto da Lagoa        Canto da Lagoa
+                                                    Longitude: 48°28'26.42"O    Luiz Moura Gonzaga.
+
+                                                                                Rua Francisca Luiza
+  Booster Canto dos                                  Latitude: 27°35'56.45"S
+                               Canto dos Araçás                                 Vieira, em frente ao
+  Araçás                                             Longitude: 48°28'8.08"O
+                                                                                número n.º 30.
+
+  Booster Lagoa da                                   Latitude: 27°35'56.42"S    Servidão Antônio
+                              Lagoa da Conceição
+  Conceição                                         Longitude: 48°28'13.53"O    Jacques, n.º 80.
+
+  Booster Estrada do                                 Latitude: 27°35'16.25"S    Estrada Sertão do
+                              Lagoa da Conceição
+  Assopro                                           Longitude: 48°28'39.69"O    Assopro.
+
+                                                     Latitude: 27°42'13.63"S    Rua João Agostinho
+  Booster Bandeirante           Ribeirão da Ilha
+                                                    Longitude: 48°31'45.92"O    Vieira, n.º 1.
+
+  Booster Sertão do                                  Latitude: 27°44'37.73"S    Estrada Francisco
+                                Ribeirão da Ilha
+  Ribeirão                                          Longitude: 48°33'27.88"O    Thomas dos Santos.
+
+  Booster Fortaleza da                               Latitude: 27°35'8.15"S     Rua Laurindo José de
+                                 Barra da Lagoa
+  Barra                                             Longitude: 48°25'56.13"O    Souza, n.º 597.
+
+                                                     Latitude: 27°41'22.23"S
+  Booster Tapera                     Tapera                                     Rodovia Açoriana.
+                                                    Longitude: 48°33'37.23"O
+
+  Booster Paulo Avelino                               Latitude: 27°42'23.2"S    Servidão Paulo Avelino
+                                Ribeirão da Ilha
+  Vieira                                             Longitude: 48°33'24.5"O    Vieira
+
+                                                      Latitude: 27°37'01.9"S    Rua Laurindo Januário
+  Booster Tamanduá
+              Lagoa da Conceição
+                                                     Longitude: 48°29'02.7"O    da Silveira n.º 2642
+
+
+                         Quadro 6 - Informações das ERAT´s do SAA Costa Sul/Leste
+
+            ERAT                     Bairro              Coordenadas                    Rua
+
+    ERAT ETA Lagoa do             ETA Lagoa         Latitude: 27°43'45.54"S;
+                                                                               Rodovia SC-406
+    Peri                            do Peri        Longitude: 48°30'32.30"O
+
+    ERAT Unidade de                                 Latitude: 27°41'40.94"S
+    Tratamento do                  Campeche                                    Rua Tereza Lopes
+                                                   Longitude: 48°29'56.74"O
+    Campeche - Poços
+
+
+1.3.5. Reservação
+
+A reservação apresenta capacidade total de 9.600 m³, distribuídos de acordo com o Quadro 7.
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                    7/32
+
+
+                                                                                                               39
+                                Quadro 7 - Informações dos reservatórios.
+
+       Reservatórios         Capacidade (m³)       Logradouro/Bairro                   Coordenadas
+ Reservatório ETA Lagoa                        Rodovia Francisco Thomaz
+
+
+
+
+                                                                                                             Pág. 08 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                                                               Latitude: 27°43'46.69"S
+ do Peri – Reservatório de         500         dos Santos (SC-406) / ETA
+                                                                              Longitude: 48°30'31.37"O
+ Contato                                       LAGOA DO PERI
+ Reservatório Unidade de                       Rua Tereza Lopes /              Latitude: 27°41'40.94"S
+                                   100
+ Tratamento do Campeche                        Campeche                       Longitude: 48°29'56.74"O
+ Reservatório Morro das                        Rua Ambrósio João               Latitude: 27°42'35.75"S
+                                  5.000
+ Pedras                                        Silveira/Morro das Pedras      Longitude: 48°30'40.18"O
+ Reservatório Ribeirão da                      Rua Projetada / Ribeirão        Latitude: 27°42'9.61"S
+                                  1.000
+ Ilha                                          da Ilha                        Longitude: 48°32'51.23"O
+ Reservatório Canto da                         Servidão Pedro José             Latitude: 27°38'0.63"S
+                                  2.000
+ Lagoa                                         Ferreira/Canto da Lagoa        Longitude: 48°28'29.74"O
+ Reservatório Barra da                         Rodovia Jornalista Manoel       Latitude: 27°35'47.54"S
+                                  1.000
+ Lagoa                                         de Menezes/Barra da Lagoa      Longitude: 48°26'8.64"O
+
+
+
+2. IDENTIFICAÇÃO DOS RESPONSÁVEIS
+
+2.1. Estação de Tratamento de Água (ETA)
+
+O técnico responsável pelo setor de operação e manutenção de ETAs da SRM/SOMAG
+(incluindo o tratamento de água no SAA Costa Sul/Leste) é o Engenheiro Leandro Valente
+Nicolau, que pode ser encontrado no seguinte endereço:
+
+                            CASAN – SRM – GOPS – SOMAG
+                Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                                 Telefone: (48) 3221-5707
+                              E-mail: le107280@casan.com.br
+
+2.2. Redes de Abastecimento de Água
+
+O técnico responsável pela operação e manutenção das redes de água do SAA Costa Sul/Leste
+é Rodrigo Henrique, que pode ser encontrado no seguinte endereço:
+
+                       CASAN – Unidade Operacional Costa Sul/Leste
+             Rod. Baldicero Filomeno, n.º 106, Ribeirão da Ilha – Florianópolis/SC
+                                  Telefone (48) 3237-9468
+                               E-mail: rhenrique@casan.com.br
+
+2.3. Unidade Operacional Costa Sul/Leste
+
+O técnico responsável por coordenar a Unidade Operacional Costa Sul/Leste é Rodrigo
+Henrique, que pode ser encontrado no seguinte endereço:
+
+                       CASAN – Unidade Operacional Costa Sul Leste
+            Rod. Baldicero Filomeno, n.º 106 – Ribeirão da Ilha – Florianópolis/SC
+                                  Telefone (48) 3237-9468
+                               E-mail: rhenrique@casan.com.br
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                 8/32
+
+
+                                                                                                            40
+2.4. Agência Regional de Florianópolis
+
+O técnico responsável por coordenar a Agência Regional de Florianópolis é o Engenheiro
+
+
+
+
+                                                                                               Pág. 09 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+Francisco José Guedes Pimentel, que pode ser encontrado no seguinte endereço:
+
+                          CASAN – SRM – Agência Florianópolis
+                Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                                 Telefone (48) 3221-5710
+                              E-mail: fpimentel@casan.com.br
+
+2.5. Gerente de Operação
+
+O técnico responsável pela Gerência de Operação da SRM é o Engenheiro Guilherme
+Cardoso Vieira, que pode ser encontrado no seguinte endereço:
+
+                                  CASAN – SRM – GOPS
+                Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                         Telefone (48) 3221-5718 / (48) 98415-3090
+                               E-mail: gvieira@casan.com.br
+
+2.6. Superintendente Regional – Grande Florianópolis
+
+O atual Superintendente da Região Metropolitana da Grande Florianópolis, à qual pertence o
+SAA Costa Sul/Leste, é o Engenheiro Filipe Alcioni Silva, que pode ser encontrado no
+seguinte endereço:
+
+                                      CASAN – SRM
+                Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                         Telefone (48) 3221-5860 / (48) 98439-2338
+                               E-mail: fisilva@casan.com.br
+
+2.7. Diretoria de Operação e Expansão (DO)
+
+O atual Diretor de Operação e Expansão (DO) é o Engenheiro Pedro Joel Horstmann, que
+pode ser encontrado no seguinte endereço:
+
+                     CASAN - Diretoria de Operação e Meio Ambiente
+                Rua Quinze de Novembro, n.º 230, Balneário – Florianópolis/SC
+                         Telefone (48) 3221-5880 / (48) 98407-9488
+                                E-mail: pjoel@casan.com.br
+
+2.8. Identificação do Representante Legal da CASAN
+
+O presidente da CASAN, atualmente, é Edson Moritz Martins da Silva, que pode ser
+encontrado no seguinte endereço:
+
+                          CASAN – Matriz - Diretoria da Presidência
+                       Rua Emílio Blum n.° 83, Centro – Florianópolis/SC
+                                   Telefone: (48) 3221-5000
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste   9/32
+
+
+                                                                                              41
+3. METODOLOGIA
+
+Foram identificados possíveis eventos ou situações de riscos potenciais no Sistema de
+
+
+
+
+                                                                                                              Pág. 10 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+Abastecimento Costa Sul/Leste, capazes de provocar prejuízos ao meio ambiente ou à
+comunidade local. Para tanto, técnicas de brainstorming e writestorming foram utilizadas.
+Estas técnicas consistem em um método no qual um grupo de pessoas se reúne e se utiliza de
+diferentes pensamentos e ideias para que possam chegar a um denominador comum, eficaz e
+com qualidade para levar o trabalho adiante. Desta forma, foi elencado o que cada membro
+identificou.
+
+Depois da identificação dos eventos foi realizada a Análise Quantitativa dos Riscos,
+utilizando-se escalas de probabilidade e impacto. A escala de probabilidade utilizada, que
+consiste nas chances de ocorrência, foi classificada utilizando-se o Quadro 8, considerando-se
+principalmente a experiência dos colaboradores envolvidos na operação.
+
+                                     Quadro 8 – Escala de Probabilidade
+
+    Classificação     Muito Baixa            Baixa              Média          Alta     Muito Alta
+        Peso               0,1                0,3                0,5           0,7         0,9
+
+Do mesmo modo a escala de impacto, utilizada para quantificar os efeitos dos eventos caso
+estes ocorram, foi classificada conforme o Quadro 9.
+
+                                        Quadro 9 - Escala de Impacto
+
+    Classificação     Muito Baixo            Baixo              Médio          Alto     Muito Alto
+        Peso               0,05               0,1                0,2           0,4         0,8
+
+Depois de realizada esta identificação, foi elaborada a Análise Qualitativa dos Riscos, sendo
+que esta análise tem como principal objetivo classificar todos os riscos mediante levantamento
+de probabilidade de ocorrência e o impacto destes, de forma a viabilizar a priorização
+individualizada ou de grupos afins em função dos objetivos do projeto. Isto permite o foco nos
+riscos prioritários, objetivando aumentar as chances de atendimento aos eventos relacionados
+neste trabalho. Com isto obteve-se a matriz de vulnerabilidade auxiliar (P x I), para a
+determinação dos patamares de graduação de riscos (3 patamares), conforme apresentado no
+Quadro 10. A partir destas determinações calculou-se o ranking de classificação dos riscos.
+
+                                    Quadro 10 – Matriz de Vulnerabilidade
+
+                                                     Impactos
+                                                                   Ameaças
+           Probabilidade
+                                      0,05             0,1              0,2      0,4       0,8
+                0,9                   0,05             0,09             0,18     0,36     0,72
+                0,7                   0,04             0,07             0,14     0,28     0,56
+                0,5                   0,03             0,05             0,10     0,20     0,40
+                0,3                   0,02             0,03             0,06     0,12     0,24
+                0,1                   0,01             0,01             0,02     0,04     0,08
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                 10/32
+
+
+                                                                                                             42
+Após todas as análises foram elaboradas respostas para cada risco levantado, considerando-se
+nesta etapa apenas as medidas preventivas. Diante deste novo panorama, considerando-se as
+ações de prevenção, realizou-se uma nova Análise Qualitativa, utilizando-se as mesmas
+
+
+
+
+                                                                                                 Pág. 11 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+técnicas e ferramentas (a mesma matriz de vulnerabilidade).
+
+Por fim, após a nova Análise Qualitativa, são levantadas as ações corretivas a serem
+tomadas quando da ocorrência de um evento. Desta forma, conclui-se a metodologia de
+elaboração do plano.
+
+
+4. PLANO DE EMERGÊNCIA E CONTINGÊNCIA
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atuam na operação do SAA Costa Sul/Leste, subsidiando o processo de tomada de
+decisão com elementos previamente planejados.
+4.1. Riscos
+
+Os riscos estão associados a evento ou condição hipotética que proporciona efeitos negativos.
+No Quadro 11 serão apresentadas a identificação, a classificação qualitativa com e sem as
+ações preventivas (são 3 patamares de riscos, associados a 3 cores), e as respostas
+(preventivas e corretivas) aos riscos elencados para o SAA Costa Sul/Leste.
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste   11/32
+
+
+                                                                                                43
+                                                                                                                                                                                                          Pág. 12 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                   Quadro 11 - Identificação dos Riscos
+                          Classificação Qualitativa dos Riscos                                 Respostas aos Riscos – Ações Preventivas                                   Contingência
+        Evento de Ameaça
+Rankº                                                  Probab.                                                                   Probab.
+        Incluindo Causa               Local                    Impacto   PxI                Resposta                Estratégia           Impacto   PxI                 Ações Corretivas
+                                                         (%)                                                                       (%)
+          Raiz e Efeito
+
+                                                                                                                                                          Divulgar através da mídia a situação em que
+                                                                                                                                                          o sistema se encontra;
+                                                                                                                                                          Solicitar economia de água à população;
+        Aumento da quantidade de chuvas                                         Manter as fontes alternativas                                             Realizar manobras operacionais e controlar
+  1     prejudicando a qualidade da água e               0,90    0,80    0,72   prontas para operar; buscar novas    Mitigar      0,90    0,20     0,18   as pressões; implantar sistema de rodízio de
+        reduzindo a disponibilidade de água tratada                             alternativas de abastecimento.                                            distribuição de água; acionar caminhões-pipa
+                                                                                                                                                          para o abastecimento conforme critérios de
+                                                                                                                                                          prioridade e necessidade;
+                                                                                                                                                          Utilizar fontes de água alternativas.
+
+
+                               ETA e
+                                                         0,10    0,80    0,08                                                     0,10    0,80     0,08
+                               Bombeamento
+        Invasão e                                                                                                                                         Acionar a equipe de vigilância e/ou Polícia –
+
+
+
+
+                                                                                                                                                                                                          00032085/2024 e o código P04Z5WR6.
+                                                                                Manter cercamento, placas,
+        vandalismos nas                                                                                                                                   190;
+  2                            Reservatórios             0,90    0,80    0,72   iluminação, vigilância e/ou          Mitigar      0,30    0,80     0,24
+        unidades                                                                                                                                          Solicitar ao setor responsável a reparação do
+                                                                                sinalização.
+        operacionais                                                                                                                                      dano causado.
+                               Captação                  0,70    0,80    0,56                                                     0,30    0,80     0,24
+
+
+
+                                                                                Manutenção da captação;
+                                                                                Manter as fontes de água                                                  Divulgar através da mídia a situação em que
+                                                                                alternativas prontas para operar;                                         o sistema se encontra;
+                                                                                Implantar ações de combate às                                             Solicitar economia de água à população;
+                                                                                perdas no sistema; realizar                                               Realizar manobras operacionais e controlar
+        Diminuição da disponibilidade de água
+  3                                                      0,70    0,80    0,56   campanhas de consumo                 Mitigar      0,30    0,80     0,24   as pressões; implantar sistema de rodízio de
+        bruta causando falta da água
+                                                                                consciente nas mídias;                                                    distribuição de água; acionar caminhões-pipa
+                                                                                Participar dos programas de                                               para o abastecimento conforme critérios de
+                                                                                Proteção dos Mananciais a serem                                           prioridade e necessidade;
+                                                                                desenvolvidos pelo Órgão Gestor                                           Utilizar fontes de água alternativas.
+                                                                                da Água no estado.
+
+
+
+
+                                               Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                            12/32
+
+
+                                                                                                                                                                                                             44
+                                                                                                                                                                                           Pág. 13 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                                                                           Parar a captação de água do manancial
+                                                                                                                                           afetado, descartar a água bruta já captada
+                                                                                                                                           (em adução);
+                                                                                                                                           Avaliar a possível contaminação (visita in
+                                                                                                                                           loco, coleta de água para análise);
+                                                                       Participar dos programas de
+                                                                                                                                           Em caso de confirmação de contaminação
+                                                                       Proteção dos Mananciais a serem
+                                                                                                                                           informar as autoridades e população;
+    Contaminação dos mananciais a montante                             desenvolvidos pelo Órgão Gestor
+4                                               0,50    0,80    0,40                                        Mitigar   0,50   0,80   0,40   Avaliar a possibilidade de realização de
+    da captação de água bruta                                          da Água no estado;
+                                                                                                                                           rodízio enquanto o manancial estiver
+                                                                       Buscar novas alternativas de
+                                                                                                                                           comprometido;
+                                                                       abastecimento.
+                                                                                                                                           Monitorar a sua qualidade até a recuperação
+                                                                                                                                           total da qualidade da água;
+                                                                                                                                           Acionar caminhões-pipa conforme critérios
+                                                                                                                                           de prioridade e necessidade;
+                                                                                                                                           Utilizar fontes de água alternativas.
+
+                                                                       Manter a política de treinamento
+                                                                                                                                           Remanejar as equipes de trabalho, convocar
+    Falta de equipe de manutenção causando                             de servidores; Escala de plantão e
+5                                               0,70    0,40    0,28                                        Mitigar   0,30   0,40   0,12   servidores em folga e/ou solicitar servidores
+    demora nos reparos a serem executados                              sobreaviso conforme temporada e
+                                                                                                                                           de outros setores/agências.
+                                                                       demanda de serviço.
+
+                                                                       Manter a política de treinamento                                    Executar manutenção corretiva;
+
+
+
+
+                                                                                                                                                                                           00032085/2024 e o código P04Z5WR6.
+                                                                       de servidores; manter estoque de                                    Divulgar através da mídia a situação em que
+                                                                       materiais e peças mais                                              o sistema se encontra;
+                                                                       comumente empregados;                                               Solicitar economia de água à população;
+    Rompimento de adutora de água causando                             Instalação de registros de                                          Realizar manobras operacionais e controlar
+6                                               0,30    0,80    0,24                                        Mitigar   0,10   0,80   0,08
+    falta de água                                                      manobra;                                                            as pressões; implantar sistema de rodízio de
+                                                                       Manutenção preventiva em                                            distribuição de água; acionar caminhões-pipa
+                                                                       registros de manobras; instalar                                     para o abastecimento conforme critérios de
+                                                                       sistema de supervisão e                                             prioridade e necessidade;
+                                                                       automação do SAA.                                                   Utilizar fontes de água alternativas.
+                                                                       Monitorar estruturas com                                            Parar fluxo de água para a unidade e isolar;
+                                Reservatórios
+                                                                       frequência mínima anual,                                            Se possível, desviar unidade até que seja
+                                de grande        0,3     0,8    0,24                                                  0,3    0,8    0,24
+                                                                       analisando possíveis danos                                          recuperada (interligação de chegada com
+                                porte
+                                                                       estruturais;                                                        saída);
+                                                                       Sempre que identificado e                                           Comunicar órgãos externos necessários
+    Rompimento de
+7                                                                      necessário, realizar intervenções    Mitigar                        (defesa civil, corpo de bombeiros, polícia
+    reservatório
+                                Reservatórios                          nas unidades para corrigir                                          militar, dentre outros);
+                                de pequeno       0,3     0,4    0,12   problemas estruturais ou                       0,3    0,4    0,12   Se necessário, auxiliar na remoção da
+                                porte                                  problemas que possam causar                                         população atendida;
+                                                                       danos à unidade;                                                    Levantar possíveis danos a terceiros
+                                                                       Acompanhar atividades próximas                                      causados pelo rompimento da unidade e
+
+
+                                      Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                      13/32
+
+
+                                                                                                                                                                                              45
+                                                                                                                                                                                            Pág. 14 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                       à unidade que possam causar                                         iniciar processo de indenização e outros
+                                                                       danos.                                                              apoios que forem necessários à população
+                                                                                                                                           atingida (limpeza e recuperação de moradias
+                                                                                                                                           afetadas);
+                                                                                                                                           Auxiliar na recuperação da área afetada;
+                                                                                                                                           Se necessário e possível, realizar rodízio no
+                                                                                                                                           abastecimento; se necessário, acionar
+                                                                                                                                           caminhões pipa para auxílio no
+                                                                                                                                           abastecimento prioritário;
+                                                                                                                                           Verificar a possibilidade de instalação
+                                                                                                                                           provisória de unidade de reservação, e iniciar
+                                                                                                                                           processo de recuperação da unidade ou
+                                                                                                                                           instalação de nova unidade.
+
+                                                                                                                                           Parar fluxo de água para a unidade e isolar;
+                                                                                                                                           Se possível, desviar unidade até que seja
+                                                                                                                                           recuperada (interligação de chegada com
+                                                                                                                                           saída);
+                                                                       Monitorar unidades;
+                                                                                                                                           Levantar danos e, caso necessário, prestar
+                                                                       Se identificados danos à fibra,
+                                                                                                                                           apoio a moradores afetados e auxiliar na
+                                                                       proceder reparo (quando possível)
+                                 Reservatórios                                                                                             recuperação de áreas afetadas;
+                                                                       ou substituir;
+                                 de fibra                                                                                                  Se necessário e possível, realizar rodízio no
+
+
+
+
+                                                                                                                                                                                            00032085/2024 e o código P04Z5WR6.
+                                                 0,5     0,1    0,05   Sempre que possível, priorizar a              0,5     0,1    0,05
+                                 (até 25 m³                                                                                                abastecimento para manter abastecimento; se
+                                                                       instalação em PRFVR e/ou outros
+                                 spray-up)                                                                                                 necessário, acionar caminhões pipa para
+                                                                       materiais mais resistentes (aço
+                                                                                                                                           auxílio no abastecimento prioritário;
+                                                                       inox, dentre outros).
+                                                                                                                                           Verificar a possibilidade de instalação
+                                                                                                                                           provisória de unidade de reservação, e iniciar
+                                                                                                                                           processo de recuperação da unidade ou
+                                                                                                                                           instalação de nova unidade.
+
+
+                                                                                                                                           Estabelecer contato com o almoxarifado,
+                                                                       Manter estoque material e                                           para viabilizar o equipamento ou material
+    Falta de equipamentos ou materiais                                 equipamento para manutenção                                         necessário;
+8                                                0,50   0,40    0,20                                       Mitigar   0,10    0,40   0,04
+    impossibilitando a manutenção do sistema                           mais comumente empregados;                                          Realizar contratação direta de novos
+                                                                       Melhorar a gestão de contratos.                                     equipamentos/materiais/serviços em caráter
+                                                                                                                                           de emergência.
+
+
+
+
+                                      Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                      14/32
+
+
+                                                                                                                                                                                               46
+                                                                                                                                                                                              Pág. 15 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                                                                              Executar manutenção corretiva;
+                                                                                                                                              Divulgar através da mídia a situação em que
+                                                                                                                                              o sistema se encontra;
+                                                                                                                                              Solicitar economia de água à população;
+     Rompimento do fundo do filtro                                        Revisão periódica da ETA;                                           realizar manobras operacionais e controlar as
+9                                                  0,50    0,40    0,20                                     Mitigar   0,10      0,40   0,04
+     prejudicando a qualidade da água tratada                             Manter equipe de manutenção.                                        pressões; implantar sistema de rodízio de
+                                                                                                                                              distribuição de água.
+                                                                                                                                              Acionar caminhões-pipa para o
+                                                                                                                                              abastecimento conforme critérios de
+                                                                                                                                              prioridade e necessidade.
+
+
+                                                                                                                                              Quando houver vazamento, avaliar ocasião
+                                                                                                                                              e se necessário, vestir EPI e realizar
+                                                                                                                                              contenção do vazamento, conforme
+                                                                          Manter equipamentos em boas                                         treinamento. Ainda, quando houver, abrir
+                                                                          condições uso;                                                      portas e janelas para dispersar o gás;
+                                                                          Manter kits de manutenção nos                                       Em caso de vítimas, acionar socorro
+                                                                          locais;                                                             médico e, quando possível, afastar vítima
+                                                                          Treinar             operadores                                      do local;
+
+
+
+
+                                                                                                                                                                                              00032085/2024 e o código P04Z5WR6.
+                                                                          continuamento sobre a operação                                      Após contido o vazamento, manter
+                                                                          dos sistemas;                                                       ventilação no local e monitorar dispersão
+                                                                          Manter ventilação nas salas de                                      do gás cloro. Se necessário, acionar corpo
+                                                                          cloração;                                                           de bombeiros e/ou defesa civil (avaliar
+                                                                          Dispor cilindros de forma                                           quantidade de gás vazado e dispersão, bem
+10   Acidente/vazamento cloro gás                   0,3     0,4    0,12                                     Mitigar   0,3       0,2    0,06
+                                                                          adequada        e     conforme                                      como se há habitações próximas à ETA);
+                                                                          orientação das FISPQs.                                              Avaliar o que foi atingido pelo vazamento
+                                                                                                                                              e iniciar processo de recuperação;
+                                                                          Dispor de EPIs e EPCs
+                                                                          (máscaras      de    respiração                                     Acionar empresa para checar equipamentos
+                                                                          autônomas e alarmes de                                              e corrigir problema para reiniciar operação
+                                                                          vazamentos, onde houver) em                                         plena (se possível, manter operação parcial
+                                                                          boas condições de uso. Manter                                       da cloração por gás ou verificar se é
+                                                                          operadores treinados para agir                                      possível dosar outro produto para
+                                                                          em situações emergenciais;                                          desinfecção);
+                                                                                                                                              Se necessário parar operação da ETA,
+                                                                                                                                              executar plano de comunicação com
+                                                                                                                                              população e órgãos externos e observar
+                                                                                                                                              possíveis intermitências no sistema.
+
+
+
+
+                                         Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                      15/32
+
+
+                                                                                                                                                                                                 47
+                                                                                                                                                                                         Pág. 16 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                                                                          Na ocorrência de vazamentos ou
+                                                                                                                                          rompimentos de tinas, observar se há ou
+                                                                       Manter equipamentos em boas                                        não contenção. No caso da existência da
+                                                                       condições uso;                                                     contenção, observar se a bacia abrigou o
+                                                                                                                                          volume vazado. Neste caso, manter
+                                                                       Implantar bacias de contenção
+                                                                                                                                          dosagem do produto químico e o
+                                                                       para as tinas de produtos
+                                                                                                                                          tratamento, e iniciar processo de
+                                                                       químicos, bem como manter
+                                                                                                                                          substituição da tina rompida (se necessário,
+                                                                       tinas abrigadas do sol;
+                                                                                                                                          acionar     caminhão      autovácuo     para
+                                                                       Onde      houver     bacia    de                                   transferência do produto, quando possível);
+                                                                       contenção, observar/implantar
+                                                                                                                                          Em caso de não haver contenção ou esta
+                                                                       drenos de fundo e manter bacias
+                                                                                                                                          for insuficiente, avaliar a possibilidade de
+                                                                       esgotadas;
+                                                                                                                                          manter dosagem, se possível, ou parar
+     Acidente/vazamento com demais produtos                            Treinar               operadores
+11                                              0,3     0,4    0,12                                        Mitigar   0,3    0,2    0,06   momentaneamente. Em caso de parada, em
+     químicos                                                          continuamente sobre dosagem e                                      que está sujeita a parada da ETA, iniciar
+                                                                       preparação      de      soluções,                                  processos de comunicação externa. Avaliar
+                                                                       evitando acidentes;                                                extensão do vazamento e, quando atingir
+                                                                       Sempre que observadas fissuras                                     solo e vegetação, providenciar processo de
+                                                                       ou outros danos nas tinas,                                         recuperação, conforme orientação ou
+                                                                       solicitar       a        imediata                                  acompanhamento de órgão ambiental. Caso
+                                                                       substituição;                                                      atinja apenas áreas impermeáveis e/ou
+
+
+
+
+                                                                                                                                                                                         00032085/2024 e o código P04Z5WR6.
+                                                                      Dispor de EPIs e EPCs em boas                                       internas, iniciar processo de sucção do
+                                                                      condições de uso e treinar                                          produto e limpeza das áreas atingidas.
+                                                                      operadores sobre seu correto                                        Repor tinas e produtos e retomar dosagem;
+                                                                      uso.                                                                Caso haja vítimas, acionar socorro médico
+                                                                                                                                          e acompanhar atendimento.
+
+                                                                      Manter a política de treinamento
+                                                                      de servidores;
+                                                                      Manter estoque de materiais e
+                                                                                                                                          Executar manutenção corretiva;
+                         Diâmetro de até 150                          peças mais comumente
+                                               0,70    0,20    0,14                                                  0,50   0,20   0,10   Dependendo do tempo de intermitência no
+                         mm                                           empregados;
+     Rompimento de                                                                                                                        abastecimento de água, informar sobre o
+                                                                      Especificar materiais de boa
+     rede de                                                                                                                              ocorrido nos canais de comunicação da
+                                                                      qualidade durante processo de
+12   distribuição                                                                                          Mitigar                        CASAN (site e 0800), e/ou divulgar através
+                                                                      aquisição;
+     causando falta de                                                                                                                    das mídias (casos graves);
+                                                                      Fiscalizar as obras em execução;
+     água                                                                                                                                 Acionar caminhões-pipa para o
+                                                                      Realizar o cadastro de rede;
+                                                                                                                                          abastecimento conforme critérios de
+                         Diâmetro de 150 a                            Instalar sistema de supervisão e
+                                               0,50    0,40    0,20                                                  0,10   0,40   0,04   prioridade e necessidade.
+                         300 mm                                       automação do SAA.
+
+
+
+
+                                     Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                      16/32
+
+
+                                                                                                                                                                                            48
+                                                                                                                                                                                           Pág. 17 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                                                                             No ambiente externo à CASAN: acionar a
+                                                                                                                                             concessionária de energia;
+                                                                                                                                             No ambiente interno da CASAN: executar
+                           Bombeamento e
+                                                  0,30    0,10    0,03                                                0,30     0,10   0,03   manutenção;
+                           Rede de Distribuição
+                                                                                                                                             Em casos prolongados de falta de energia,
+                                                                                                                                             divulgar através da mídia a situação em
+     Interrupção do                                                                                                                          que o sistema se encontra;
+                                                                         Manter equipe de manutenção;
+     fornecimento de                                                                                                                         Solicitar economia de água à população;
+                                                                         Instalação de geradores nas
+13   energia elétrica                                                                                       Mitigar                          Realizar manobras operacionais e
+                                                                         principais unidades; Ter gerador
+     causando falta de                                                                                                                       controlar as pressões; implantar sistema de
+                                                                         móvel.
+     água no Sistema                                                                                                                         rodízio de distribuição de água (1);
+                                                                                                                                             Acionar caminhões-pipa para o
+                                                                                                                                             abastecimento conforme critérios de
+                           Captação e ETA         0,10    0,80    0,08                                                0,10     0,80   0,08   prioridade e necessidade;
+                                                                                                                                             Buscar novas alternativas de
+                                                                                                                                             abastecimento;
+                                                                                                                                             Contratar gerador.
+
+
+
+
+                                                                                                                                                                                           00032085/2024 e o código P04Z5WR6.
+                                                                                                                                             Executar manutenção corretiva;
+                                                                                                                                             Dependendo do tempo de intermitência no
+                           Bombeamento e                                                                                                     abastecimento de água, informar sobre o
+                                                  0,50    0,10    0,05                                                0,10     0,10   0,01   ocorrido nos canais de comunicação da Cia
+                           Rede de Distribuição
+     Falha de                                                                                                                                (site e 0800), e/ou divulgar através das
+     equipamentos                                                                                                                            mídias (casos graves);
+                                                                         Manter equipe de manutenção;
+     eletromecânicos                                                                                                                         Acionar caminhões-pipa para o
+                                                                         Manter estoque de equipamentos
+14   causando falta e/ou                                                                                    Mitigar                          abastecimento conforme critérios de
+                                                                         mais comumente empregados;
+     alteração da                                                                                                                            prioridade e necessidade;
+                                                                         Ter equipamentos reservas.
+     qualidade da água                                                                                                                       Estabelecer contato com o almoxarifado,
+     no Sistema                                                                                                                              para viabilizar o equipamento ou material
+                           Captação e ETA         0,30    0,10    0,03                                                0,10     0,80   0,08   necessário;
+                                                                                                                                             Realizar contratação direta de novos
+                                                                                                                                             equipamentos/materiais / serviços em
+                                                                                                                                             caráter de emergência.
+
+
+
+
+                                        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                     17/32
+
+
+                                                                                                                                                                                              49
+4.2. Responsabilidades
+
+Apresenta-se para melhor visualização e funcionalidade do Plano de Emergência e
+
+
+
+
+                                                                                                     Pág. 18 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+Contingência, os fluxogramas com os grupos de eventos de modo a orientar a comunicação e
+as responsabilidades quando houver ocorrências. As Figuras 1 a 6 mostram, respectivamente,
+os fluxogramas referentes aos Grupos I a V.
+
+   •   Grupo I: respostas a falhas eletromecânicas;
+   •   Grupo II: respostas a problemas operacionais (vazamento de adutoras e redes de
+       distribuição, rompimentos de estruturas, comunicação com equipes eletromecânicas);
+   •   Grupo III: respostas a falhas no suprimento de materiais;
+   •   Grupo IV: respostas a falhas de contrato com terceiros (CELESC, caminhão-pipa, etc.);
+   •   Grupo V: respostas a fatores extraordinários (estiagem, invasão e vandalismo, e
+       contaminação acidental).
+   •   Grupo VI: respostas a problemas estruturais.
+                  Fluxograma 1 - Grupo I – respostas a falhas eletromecânicas (evento 11)
+
+                                                Ocorrência
+                                                 Grupo I
+
+
+
+
+                                                Operador /
+                                                 Servidor
+
+
+
+
+                                              Chefe do Setor
+                                            (SOMAG / SEOPA)
+
+
+
+
+                                                  GOPS
+
+
+
+
+                                                  Equipe
+                                             Eletromecânica
+
+
+
+
+                                                   Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste        18/32
+
+
+                                                                                                    50
+        Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste
+
+
+                                                                                                                                                                                               Fluxograma 2 – Grupo II - respostas a problemas operacionais (eventos 5, 6, 8 e 9)
+
+
+
+
+        19/32
+
+
+
+
+51   Pág. 19 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                   Fluxograma 3 - Grupo III – respostas a falhas no suprimento (evento 7)
+
+
+
+
+                                                                                                     Pág. 20 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                     Ocorrência
+                                      Grupo III
+
+
+
+
+                                     Operador /
+                                      Servidor
+
+
+
+
+                                    Chefe do setor
+                                  (SOMAG / SEOPA)
+
+
+
+
+                                     Tem no
+                                                                Almoxarifado
+                                  almoxarifado da     S
+                                                                   / GSU
+                                     CASAN?
+
+
+                                         N
+
+                                                            Realizar processo de
+                                     É possível                   compra /
+                                                     N
+                                     comprar?                Providenciar junto
+                                                                    GSU
+
+                                         S
+
+
+                                  Realizar compra
+                                       direta
+
+
+
+
+                                        Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste        20/32
+
+
+                                                                                                    52
+             Fluxograma 4 – Grupo IV - respostas a falhas de contrato com terceiros (evento 10)
+
+
+
+
+                                                                                                             Pág. 21 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                      Ocorrência
+                                       Grupo IV
+
+
+
+
+                        Cliente                        Servidor
+
+
+
+
+                                                       SEOPA /             Informar quadro de
+                      0800 e site
+                                                       SOMAG                 avisos da CASAN
+
+
+
+
+                                                   Acionar a CELESC
+
+
+
+
+                                                     Acompanhar a
+                                                       correção
+
+
+
+
+                                                    Verificação nas
+                                                     unidades de
+                                                    bombeamento
+
+
+
+
+                                                                                Repassar a equipe
+                                                    Tudo funcionou?    N
+                                                                                 eletromecânica
+
+
+                                                          S
+
+
+                                                         Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                21/32
+
+
+                                                                                                            53
+                            Fluxograma 5 – Grupo V - respostas a fatores extraordinários (1, 2, 3 e 4)
+
+                Ocorrência                                                                                           Ocorrência
+                 Grupo V
+
+
+
+
+                                                                                                                                                                   Pág. 22 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                                                                                                      Grupo V
+         (Estiagem / Precipitação
+                                                                                                               (Invasão e vandalismo)
+                 intensa)
+
+
+
+
+               Operador /
+                Servidor
+                                                                                                                                        Acionar a equipe de
+                                                                                                                     Operador /
+                                                                                                                                        vigilância 24 horas e
+                                                                                                                      Servidor
+                                                                                                                                               a polícia
+           Controle de Vazão e
+                pressão
+
+
+
+
+                Alterou                                                                                            Chefia do setor
+     N        produção ou                                                                                         (SOMAG/SEOPA)
+              qualidade de
+                 água?
+
+
+                    S
+
+
+                                    Incluir no quadro de
+                  GOPS
+                                      avisos da CASAN
+                                                                                                                Houve alteração na
+                                                                             Providenciar ações
+                                                                                                  S             qualidade de água e
+                                                                                 corretivas
+                                                                                                                  abastecimento?
+
+                                      Ativar sistemas
+                  SRM                  alternativos e
+                                      caminhões pipa                                                                     N
+
+
+                                                                                                                         Fim
+                                    Procedimentos para
+               Diretoria
+                                        informar a
+              Operacional
+                                        população.
+
+
+
+
+                   Fim
+
+
+                                                                                Ocorrência
+                                                                                 Grupo V
+                                                                             (Contaminação do
+                                                                                manancial)
+
+
+
+
+                                                                                Operador /
+                                                                                 Servidor
+
+
+
+
+                                                                              Chefia do setor
+
+
+
+
+                                                         Ativar sistemas
+                                                                                                      Parar a captação
+                                                          alternativos e           GOPS
+                                                                                                       imediatamente
+                                                         caminhões pipa
+
+
+
+
+                                                                                   SRM
+
+
+
+
+                                                                                                  Procedimentos para
+                                                        Procedimentos para
+                                                                                 Diretoria            informar a
+                                                           avaliação do
+                                                                                Operacional       população e órgãos
+                                                            manancial
+                                                                                                         afins.
+
+
+
+                                                            Manancial
+                                                  N         voltou às
+                                                            condições
+                                                            originais?
+
+
+
+
+                                                                    S              Fim
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                                                                      22/32
+
+
+                                                                                                                                                                  54
+4.2.1. Lista de Contatos Internos
+
+O Quadro 12 mostra a lista os contatos telefônicos das unidades da Companhia que atuam
+
+
+
+
+                                                                                                                  Pág. 23 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+diretamente para a execução do Plano de Emergência e Contingência do SAA Costa Sul Leste.
+                                   Quadro 12 - Contatos telefônicos internos.
+
+                      Unidades da CASAN                                         Telefones para contato
+ DO                                                                                (48) 3221-5880
+
+ Superintendência Regional Metropolitana - SRM                           (48) 3221-5871 / (48) 98407-9488
+
+ Gerência Operacional SRM/GOPS                                           (48) 3221-5718 / (48) 98409-8586
+
+ Setor de Operação de Manutenção de Água GOPS/SOMAG                      (48) 3221-5707 / (48) 98419-9733
+
+ Setor de Controle de Qualidade de Água e Esgoto GOPS/SEQAE              (48) 3221-5728 / (48) 98419-9742
+
+ Unidade Operacional Costa Sul Leste                                     (48) 3237-9468 / (48) 98419-9477
+
+ Agência Florianópolis                                                   (48) 3221-5710 / (48) 99981-4675
+
+
+4.2.2. Lista de Contatos Externos
+
+O Quadro 13 mostra a lista das organizações e instituições oficiais que devem ser
+comunicadas no caso da ocorrência de algum evento identificado na matriz de riscos.
+                                  Quadro 13 - Contatos telefônicos externos.
+
+                              Contato externo                          Telefones para contato
+                                  CELESC                                    (48) 3271-8293
+                            Corpo de Bombeiros                                    193
+                                                                            (48) 3248-5888
+                                                                            (48) 9132-7527
+                    Empresa de Vigilância Embrasil                          (48) 7811-8899
+                                                                            (48) 9105-2376
+                                                                            (48) 7811-8699
+                                    IMA                                     (48) 3216-1700
+                            VISA Florianópolis                              (48) 3212-3913
+                               Polícia Militar                           190 / (48) 3229-6000
+                         Polícia Rodoviária Estadual                     198 / (48) 3271 2300
+                         Polícia Rodoviária Federal                      191 / (48) 3288 0250
+                                  ARESC                                     (48) 3665-4350
+                                   SAMU                                           192
+                                 UNIMED                                     0800 645 0550
+
+
+4.3. Estrutura Organizacional de Resposta
+
+A CASAN possui as seguintes entradas de ocorrência para os seus clientes:
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                     23/32
+
+
+                                                                                                                 55
+   a) Atendimento presencial nas unidades da CASAN;
+   b) Central telefônica (0800 643 0195). A central telefônica (Call Center) funciona 24
+      horas por dia, sete dias por semana;
+
+
+
+
+                                                                                                 Pág. 24 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+   c) Sistema Fale Conosco (clientes são atendidos por e-mail);
+   d) Aplicativo de telefone celular.
+
+O atendimento presencial funciona nos seguintes endereços em Florianópolis:
+
+  •    CIAC Canasvieiras – Rua José Rosa, n.° 408 – Canasvieiras - Florianópolis;
+  •    CIAC Rio Tavares – Rod. Antônio Luiz Moura Gonzaga, n.º 4737 – Rio Tavares -
+       Florianópolis;
+  •    CIAC Continente – Rua João Evangelista da Costa - 827- Coloninha - Florianópolis;
+  •    CIAC Lagoa da Conceição - Rua Crisógono Vieira da Cruz, S/N – Lagoa da
+       Conceição - Florianópolis;
+  •    Agência de Florianópolis - Rua Saldanha Marinho, n.º 374 - Centro - Florianópolis.
+
+Quando o cliente entra em contato com a CASAN em horário comercial, o atendente registra
+as ocorrências por região no sistema da CASAN SCI, que após são verificadas online pelo
+responsável na Agência/Unidade Operacional. As informações de vazamentos recebidas via
+aplicativo também são registradas no SCI. Além disso, quando ocorrerem outras reclamações
+da mesma área em um tempo relativamente curto, ou em outros casos de notável relevância,
+os atendentes além de registrarem a ocorrência informam ao seu coordenador, que tem
+autonomia para entrar diretamente em contato com o Chefe da Agência/Unidade Operacional
+ou do Setor de Operação.
+
+Em ambos os casos, após ciente do ocorrido, o Chefe da Agência/Unidade Operacional
+desloca a sua equipe de manutenção para o local para tentar solucionar o problema. Todas as
+equipes vão a campo com telefone celular para as comunicações que se fizerem necessárias.
+Ao chegar ao local, a equipe informa a gravidade da ocorrência ao Chefe da Agência/Unidade
+Operacional, que poderá fazer um registro no quadro de aviso, disponível online para todos os
+atendentes do Call Center. Assim, pode-se informar à população o problema ocorrido e o
+tempo necessário para saná-lo.
+
+Quando a equipe de manutenção não possui os recursos necessários para resolver o problema,
+informam-se as limitações ao Chefe da Agência/Unidade Operacional, que dará as orientações
+e tomará as devidas providências, inclusive avisar o ocorrido ao Call Center. Além disso, no
+caso de o Chefe da Agência/Unidade Operacional não possuir os recursos humanos, técnicos,
+e/ou estruturais necessários para a solução do problema, este solicitará apoio ao Gerente de
+Operação e/ou ao Superintendente Regional.
+
+Para o caso específico de problemas em equipamentos eletromecânicos, a equipe de
+manutenção irá informar o Chefe da Agência/Unidade Operacional e este acionará os
+eletrotécnicos e os técnicos de mecânica. Há uma orientação para solicitar prioritariamente o
+eletrotécnico, visto que na grande maioria dos ocorridos o problema é elétrico. Há uma equipe
+de eletrotécnicos disponível 24h/dia.
+
+Em casos mais graves (como acidentes com adutoras, por exemplo), deve-se informar com
+urgência as chefias superiores, que tomarão as providencias para a adoção das medidas
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste   24/32
+
+
+                                                                                                56
+paliativas cabíveis, como aluguel de geradores, envio de caminhões pipa, informativos na
+mídia, entre outros.
+
+
+
+
+                                                                                                 Pág. 25 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+Se o ocorrido for fora de horário comercial, o procedimento inicial será o mesmo na Central
+0800, mas o coordenador de Call Center acionará o técnico de Triagem de Plantão, que
+comunicará o Chefe da Agência/Unidade Operacional. Se o problema for constatado até as
+22h, aciona-se a equipe de manutenção. Caso contrário, o Chefe da Agência/Unidade
+Operacional desloca-se até o local da ocorrência, e se necessário procede a manobra de
+registros e/ou comunica o Gerente de Operação e/ou o Superintendente Regional, conforme a
+gravidade da ocorrência. No dia seguinte, a equipe de manutenção vai ao local para efetuar os
+reparos necessários, repetindo-se os procedimentos já descritos anteriormente.
+
+A Figura 1 mostra o organograma com a estrutura organizacional dos procedimentos de
+resposta do plano de emergências.
+                           Figura 1 - Organograma dos procedimentos-resposta.
+
+
+
+
+4.4. Medidas de Racionamento de Água
+
+Em alguns casos de diminuição da quantidade de água tratada disponível, seja por problemas
+na qualidade do tratamento de água ou mesmo por questões relacionadas à disponibilidade de
+água bruta, ações corretivas são tomadas conforme a disponibilidade de água para
+distribuição, entre essas:
+
+   •   Manobras operacionais com a finalidade de atender usuários com necessidades
+       prioritárias (hospitais, escolas, etc.) e controlar a pressão nas partes baixas para
+       viabilizar o abastecimento das zonas com cotas topográficas elevadas e pontas de rede;
+   •   Informes nas redes sociais, internet e demais meios de comunicação para a
+       colaboração da população no consumo consciente da água;
+   •   Rodízio no abastecimento de água 12 por 12 horas. A região um (1) composta pelos
+       bairros Lagoa da Conceição, Porto da Lagoa, Barra da Lagoa, Rio Tavares e Carianos
+       a região dois (2) formada por Ribeirão da Ilha, Tapera, Armação, Morro das Pedras, e
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste   25/32
+
+
+                                                                                                57
+       Campeche. Ressalva-se que dependendo da disponibilidade de água pode ser alterado
+       a região de abastecimento e/ou intervalo do rodízio.
+
+
+
+
+                                                                                                Pág. 26 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+Assim sendo, e considerando-se que a NBR 5626/1998 - Instalação predial de água fria
+preconiza o emprego de reservação de água nas instalações prediais para no mínimo 1 (um)
+dia de consumo normal, pode-se mitigar ou mesmo não sofrer com problemas de falta de água
+em caso de diminuição da produção de água tratada.
+
+4.4.1. Diretrizes para Suspensão do Fornecimento de Água
+
+As suspensões no fornecimento de água podem ser ocasionadas por ocorrências programadas
+e não programados. Os fatores programados são aqueles necessários para a manutenção e
+melhoria do sistema de abastecimento de água. Os não programados, por sua vez, são aqueles
+advindos de eventos externos, como rompimentos de rede, defeitos nos bombeamentos,
+quedas de energia, dentre outros.
+
+Para os eventos programados, a suspensão deve ser comunicada previamente pelo quadro de
+avisos e informada à agência reguladora e à população com o motivo, horário previsto para
+início e fim das atividades, bem como o tempo médio previsto de duração e as regiões que
+serão afetadas. Após o procedimento, deverá ser emitido alerta de normalidade através dos
+canais oficiais da companhia.
+
+Sempre que possível e necessário, deverá ser adotada medidas que mitiguem os problemas de
+desabastecimento durante as atividades programadas, sobretudo em locais de extrema
+necessidade como unidades de saúde, presídios e unidades escolares. A necessidade da
+adoção destas medidas deverá ser avaliada em relação a duração da atividade e as
+possibilidades de atendimento do abastecimento alternativo.
+
+Os eventos não programados devem ser comunicados seguindo as diretrizes da resolução 156
+da ARESC, dentro dos eventos elencados nesta mesma resolução, e devem ser avaliados pelos
+técnicos da companhia em relação a necessidade de suspensão do abastecimento.
+
+Todo evento não programado que gerar perturbações no abastecimento de água, como a
+total suspensão do abastecimento, deverá ser relatado e registrado em relatório de
+comunicação de evento que deverá ser posteriormente avaliado pelos técnicos da companhia
+para futuras revisões deste PEC e deverá, também, ser encaminhado à ARESC para
+apreciação deste órgão.
+
+A comunicação durante a suspensão do abastecimento por evento não programado deverá ser
+feita primeiramente à população, informando ao quadro de avisos com motivo da suspensão,
+tempo previsto para regularização do abastecimento e as localidades atingidas. Se possível e
+necessário, deverá ser feita comunicação em outros canais oficiais da companhia. Em seguida,
+deve ser comunicado a ARESC, com as mesmas informações. Após regularização, deve ser
+elaborado relatório sobre o evento e este também deverá ser encaminhado a ARESC.
+
+4.5. Pontos Críticos do Sistema Costa Sul/Leste
+
+Consideraram-se como pontos críticos os estabelecimentos de saúde públicos localizados na
+área de abrangência do Sistema Costa Sul/Leste. Sugere-se que estes pontos sejam
+priorizados no abastecimento com caminhão-pipa, em caso de falta d´água. Outros pontos
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste   26/32
+
+
+                                                                                               58
+de mesma relevância poderão ser incluídos nesta listagem, conforme decisão das chefias
+imediatas. O Quadro 14 mostra a listagem de pontos críticos na área de abrangência do SAA
+Costa Sul/Leste.
+
+
+
+
+                                                                                                             Pág. 27 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+                                   Quadro 14 - Listagem de Pontos Críticos.
+
+                    Local                                    Endereço                     Contato
+
+  Centro de Saúde Barra da Lagoa               Rua Altamiro Barcelos Dutra, 659        (48) 3232-3302
+
+  Centro de Saúde Canto da Lagoa               Rua Laurindo J. da Silveira, 2.507      (48) 3232-6121
+                                               Estrada Geral Costa da Lagoa,
+  Centro de Saúde Costa da Lagoa                                                       (48) 3335-3119
+                                               Ponto 16
+  Centro de Saúde Lagoa da Conceição           Rua João Pacheco da Costa, 255          (48) 3232-0639
+                                               Rua Severiano FirminoMartins, 69
+  Centro de Saúde Alto Ribeirão                                                        (48) 3233-3989
+                                               Lote 3
+  Centro de Saúde Armação                      Rodovia SC-406, 6.074                   (48) 3389-5014
+  Centro de Saúde Caeira da Barra do Sul       Rodovia Baldicero Filomeno, 19795       (48) 3237-6239
+  Centro de Saúde Campeche                     Rua da Capela, s/n.º                    (48) 3237-4524
+                                               Rua do Conselho Comunitário da
+  Centro de Saúde Fazenda do Rio Tavares                                               (48) 3233-4347
+                                               Fazenda Rio Tavares s/n.º
+  Centro de Saúde Morro das Pedras             Rodovia SC-406, 1685                    (48) 3237-9013
+  Centro de Saúde Pântano do Sul               Rua Abelardo Otacílio Gomes, s/n.º      (48) 3237-7032
+  Centro de Saúde Policlínica Sul e UPA
+                                               Rodovia SC 405, 682                     (48) 3239-1701
+  Sul da Ilha
+  Centro de Saúde Ribeirão da Ilha             Rua João José D'Avila, s/n.º            (48) 3337-5997
+  Centro de Saúde Rio Tavares                  R. Silvio Lopes Araújo, 41              48) 3232-6118
+  Centro de Saúde Tapera                       Rua das Areias, s/n.º                   (48) 3338-4531
+
+
+4.6. Relatório de Comunicação
+
+Do momento da ocorrência de eventos operacionais que venham a perturbar o funcionamento
+do SAA Costa Sul/Leste, deverá ser realizado o preenchimento do relatório de ocorrências,
+informando em detalhes a ocorrência do evento, o seu início e fim. É necessário também
+atentar-se aos períodos de comunicação apresentados na resolução n.° 156 de 15 de abril de
+2020 da ARESC.
+
+4.7. Peças, Equipamentos e Contratos de Serviços
+
+As peças e equipamentos em estoque são mantidos em diversos almoxarifados da CASAN,
+além dos mais próximos da Unidade Operacional Costa Sul/Leste. Assim sendo, todos os
+materiais virão do quantitativo geral da CASAN, que compreende materiais e equipamentos
+diversos e em grandes quantidades e que poderá ser disponibilizado para fins consultivos
+mediante solicitação formal da ARESC. Estes materiais ficam disponíveis à agência e
+possíveis de consulta através dos softwares de gerenciamento de estoque ou em consulta à
+Gerência de Suprimentos (GSU) através do telefone (48) 3381-2302 ou diretamente ao
+almoxarifado responsável pela Unidade Operacional Costa Sul Leste através do telefone (48)
+3258-9068.
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste                27/32
+
+
+                                                                                                            59
+Os contratos para gerador de energia, caminhão-pipa, dentre outros, não são documentos fixos
+e mudam recorrentemente. Estes, assim como a listagem de materiais e equipamentos, podem
+ser solicitados pela ARESC através de solicitação formal sempre que entender necessário.
+
+
+
+
+                                                                                                    Pág. 28 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6.
+5. RECOMENDAÇÕES
+
+O Plano de Emergência e Contingência foi formulado com o objetivo de ser uma ferramenta
+dinâmica. Sendo assim, este deve ser atualizado periodicamente, observando o prazo máximo
+de dois anos a partir da data de publicação da primeira versão e, na medida em que os
+equipamentos e procedimentos operacionais passarem por atualizações e ampliação da
+capacidade de atendimento. Após estas revisões, os colaboradores envolvidos na operação do
+SAA Costa Sul/Leste devem ser devidamente informados e treinados.
+
+
+6. GLOSSÁRIO
+
+Brainstorming – Técnica de dinâmica de grupo, desenvolvida para explorar a potencialidade
+criativa de um indivíduo ou de um grupo, colocando-a a serviço de objetivos pré-
+determinados.
+Contingência – Medida a ser tomada ou usada somente se certos eventos ocorrerem, desde
+que haja alertas suficientes para acioná-los.
+Emergência – Quando há uma situação crítica ou algo iminente, com ocorrência de perigo;
+incidente; imprevisto.
+Evento – Risco ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+Matriz de vulnerabilidade – Matriz de graduação da probabilidade versus impacto de risco.
+Impacto – Feito sobre o objetivo do trabalho, se o evento de risco ocorrer e/ou estimativa do
+que a ocorrência do risco vai produzir.
+Rank – Classificação dos riscos por ordem de grandeza do (PxI).
+Risco – Evento ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+Writestorming – Técnica semelhante ao brainstorming, mas cada participante escreve quais
+são as suas ideias, então os papéis são colocados juntos e todas as ideias pertencem ao grupo,
+evitando ou minimizando ao máximo a possibilidade de comentários inapropriados.
+
+
+7. APROVAÇÃO
+
+
+
+ EDSON MORITZ                                             Eng.º PEDRO JOEL HORSTMANN
+ Diretor-Presidente                                       Diretor de Operação e Expansão
+
+
+
+
+Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste       28/32
+
+
+                                                                                                   60
+                                                                                                                                                                                             8. ANEXOS
+
+
+
+
+          Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste
+
+
+
+
+                                                                                                                                 Figura 2 - Localização das unidades de tratamento do SCSL
+
+
+
+
+          29/32
+
+
+
+
+     Pág. 29 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+61   00032085/2024 e o código P04Z5WR6.
+          Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste
+
+
+
+
+                                                                                                                                    Figura 3 - Localização dos poços do SCSL
+
+
+
+
+          30/32
+
+
+
+
+     Pág. 30 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+62   00032085/2024 e o código P04Z5WR6.
+          Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste
+
+
+
+
+                                                                                                                                    Figura 4 - Localização dos bombeamentos do SCSL
+
+
+
+
+          31/32
+
+
+
+
+     Pág. 31 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+63   00032085/2024 e o código P04Z5WR6.
+          Plano de Emergência e Contingência Operacional - SAA Florianópolis – Costa Sul/Leste
+
+
+
+
+                                                                                                                                    Figura 5 - Localização dos reservatórios do SCSL
+
+
+
+
+          32/32
+
+
+
+
+     Pág. 32 de 32 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+64   00032085/2024 e o código P04Z5WR6.
+                                 Assinaturas do documento
+
+
+                                      Código para verificação: P04Z5WR6
+
+
+Este documento foi assinado digitalmente pelos seguintes signatários nas datas indicadas:
+
+
+     PEDRO JOEL HORSTMANN (CPF: 573.XXX.949-XX) em 11/04/2024 às 16:58:22
+     Emitido por: "SGP-e", emitido em 20/07/2021 - 08:54:07 e válido até 20/07/2121 - 08:54:07.
+     (Assinatura do sistema)
+
+
+
+     EDSON MORITZ MARTINS DA SILVA (CPF: 290.XXX.239-XX) em 15/04/2024 às 10:20:34
+     Emitido por: "SGP-e", emitido em 03/04/2023 - 08:42:46 e válido até 03/04/2123 - 08:42:46.
+     (Assinatura do sistema)
+
+
+
+
+Para verificar a autenticidade desta cópia, acesse o link https://sgpe.casan.com.br/portal-externo/conferencia-
+documento/Q0FTQU5fMV8wMDAzMjA4NV8zMjA4NV8yMDI0X1AwNFo1V1I2 ou o site
+https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00032085/2024 e o código P04Z5WR6 ou
+aponte a câmera para o QR Code presente nesta página para realizar a conferência.
+

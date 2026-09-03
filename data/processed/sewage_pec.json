@@ -1,0 +1,377 @@
+{
+ "eee": [
+  {
+   "code": "SES-FLS-EEE010",
+   "name": "EEE I2 -",
+   "size": "M",
+   "lat": -27.5961818,
+   "lon": -48.5689757
+  },
+  {
+   "code": "SES-FLS-EEE023",
+   "name": "SES-FLS-EEE023",
+   "size": "G",
+   "lat": -27.6021915,
+   "lon": -48.5753966
+  },
+  {
+   "code": "SES-FLS-EEE011",
+   "name": "EEE Bento",
+   "size": "P",
+   "lat": -27.6080596,
+   "lon": -48.5759058
+  },
+  {
+   "code": "SES-FLS-EEE016",
+   "name": "EEE J4 –",
+   "size": "G",
+   "lat": -27.6128674,
+   "lon": -48.5836654
+  },
+  {
+   "code": "SES-FLS-EEE015",
+   "name": "EEE J3 – Bar",
+   "size": "M",
+   "lat": -27.6169906,
+   "lon": -48.5929273
+  },
+  {
+   "code": "SES-FLS-EEE012",
+   "name": "EEE J2 – Bom",
+   "size": "M",
+   "lat": -27.6125394,
+   "lon": -48.5966817
+  },
+  {
+   "code": "SES-FLS-EEE013",
+   "name": "EEE J2A –",
+   "size": "P",
+   "lat": -27.6114747,
+   "lon": -48.5967066
+  },
+  {
+   "code": "SES-FLS-EEE018",
+   "name": "EEE J5B",
+   "size": "P",
+   "lat": -27.602623,
+   "lon": -48.5969067
+  },
+  {
+   "code": "SES-FLS-EEE021",
+   "name": "EEE PC1A",
+   "size": "P",
+   "lat": -27.5929348,
+   "lon": -48.5702695
+  },
+  {
+   "code": "SES-FLS-EEE022",
+   "name": "EEE PC1A1",
+   "size": "P",
+   "lat": -27.591254,
+   "lon": -48.572172
+  },
+  {
+   "code": "SES-FLS-EEE007",
+   "name": "EEE Felipe",
+   "size": "M",
+   "lat": -27.585899,
+   "lon": -48.5924647
+  },
+  {
+   "code": "SES-FLS-EEE009",
+   "name": "EEE GH",
+   "size": "G",
+   "lat": -27.580414,
+   "lon": -48.5769904
+  },
+  {
+   "code": "SES-SJE-EEE010",
+   "name": "EEE GB",
+   "size": "G",
+   "lat": -27.5604647,
+   "lon": -48.6162926
+  },
+  {
+   "code": "SES-SJE-EEE011",
+   "name": "EEE SJ1 -",
+   "size": "G",
+   "lat": -27.5956988,
+   "lon": -48.6055975
+  },
+  {
+   "code": "SES-SJE-EEE001",
+   "name": "EEE Cohab",
+   "size": "P",
+   "lat": -27.5769811,
+   "lon": -48.6222881
+  },
+  {
+   "code": "SES-SJE-EEE002",
+   "name": "EEE SJC",
+   "size": "G",
+   "lat": -27.6070459,
+   "lon": -48.6243922
+  },
+  {
+   "code": "SES-SJE-EEE003",
+   "name": "EEE SJ4",
+   "size": "M",
+   "lat": -27.6032475,
+   "lon": -48.6187948
+  },
+  {
+   "code": "SES-SJE-EEE004",
+   "name": "EEE SJ3",
+   "size": "M",
+   "lat": -27.6018487,
+   "lon": -48.6103335
+  },
+  {
+   "code": "SES-SJE-EEE005",
+   "name": "EEE                                 Rua Renê Novaes",
+   "size": "M",
+   "lat": -27.6009194,
+   "lon": -48.6424008
+  },
+  {
+   "code": "SES-SJE-EEE006",
+   "name": "SES-SJE-EEE006",
+   "size": "M",
+   "lat": -27.6028319,
+   "lon": -48.6470367
+  },
+  {
+   "code": "SES-SJE-EEE007",
+   "name": "EEE SJ2",
+   "size": "P",
+   "lat": -27.6013536,
+   "lon": -48.6062894
+  },
+  {
+   "code": "SES-SJE-EEE008",
+   "name": "EEE SJH",
+   "size": "G",
+   "lat": -27.5876876,
+   "lon": -48.6113395
+  },
+  {
+   "code": "SES-SJE-EEE009",
+   "name": "EEE Ceniro",
+   "size": "M",
+   "lat": -27.5760738,
+   "lon": -48.6548498
+  },
+  {
+   "code": "SES-FLS-EEE018",
+   "name": "EEE J5B",
+   "size": "M",
+   "lat": -27.602623,
+   "lon": -48.5969067
+  },
+  {
+   "code": "SES-FLS-EEE019",
+   "name": "EEE J5B1",
+   "size": "P",
+   "lat": -27.6059172,
+   "lon": -48.5898223
+  },
+  {
+   "code": "SES-FLS-EEE017",
+   "name": "EEE J5A",
+   "size": "P",
+   "lat": -27.6086597,
+   "lon": -48.5957781
+  },
+  {
+   "code": "SES-SJE-EEE025",
+   "name": "EEE Caminho",
+   "size": "P",
+   "lat": -27.5719253,
+   "lon": -48.6533848
+  },
+  {
+   "code": "SES-FLS-EEE008",
+   "name": "EEE Morro da",
+   "size": "P",
+   "lat": -27.5993233,
+   "lon": -48.5760639
+  },
+  {
+   "code": "SES-FLS-EEE020",
+   "name": "EEE J5E",
+   "size": "P",
+   "lat": -27.5956064,
+   "lon": -48.5905575
+  },
+  {
+   "code": "SES-FLS-EEE003",
+   "name": "EEE J5F",
+   "size": "P",
+   "lat": -27.5894861,
+   "lon": -48.602169
+  },
+  {
+   "code": "SES-FLS-EEE102",
+   "name": "EEE Monte",
+   "size": "P",
+   "lat": -27.5930708,
+   "lon": -48.5983092
+  },
+  {
+   "code": "SES-FLS-EEE104",
+   "name": "EEE Irmã",
+   "size": "P",
+   "lat": -27.5826093,
+   "lon": -48.5940951
+  },
+  {
+   "code": "SES-SJE-EEE028",
+   "name": "EEE JB4",
+   "size": "P",
+   "lat": -27.5565548,
+   "lon": -48.6580989
+  },
+  {
+   "code": "SES-SJE-EEE026",
+   "name": "EEE JB1",
+   "size": "M",
+   "lat": -27.5565262,
+   "lon": -48.6563449
+  },
+  {
+   "code": "SES-SJE-EEE027",
+   "name": "EEE JB3",
+   "size": "M",
+   "lat": -27.5577105,
+   "lon": -48.657054
+  },
+  {
+   "code": "SES-SJE-EEE030",
+   "name": "EEE PAC 1",
+   "size": "P",
+   "lat": -27.5696108,
+   "lon": -48.6743934
+  },
+  {
+   "code": "SES-SJE-EEE031",
+   "name": "EEE PAC 2",
+   "size": "P",
+   "lat": -27.5704874,
+   "lon": -48.6702831
+  },
+  {
+   "code": "SES-SJE-EEE032",
+   "name": "EEE PAC 3",
+   "size": "M",
+   "lat": -27.5635908,
+   "lon": -48.6557905
+  },
+  {
+   "code": "SES-SJE-EEE016",
+   "name": "EEE Recanto",
+   "size": "P",
+   "lat": -27.56763,
+   "lon": -48.6660522
+  },
+  {
+   "code": "SES-SJE-EEE012",
+   "name": "EEE SJ M1",
+   "size": "P",
+   "lat": -27.6382989,
+   "lon": -48.6329129
+  },
+  {
+   "code": "SES-SJE-EEE013",
+   "name": "EEE SJ M2.1",
+   "size": "P",
+   "lat": -27.6309789,
+   "lon": -48.630478
+  },
+  {
+   "code": "SES-SJE-EEE014",
+   "name": "EEE SJ M2.2",
+   "size": "M",
+   "lat": -27.6264903,
+   "lon": -48.6310549
+  },
+  {
+   "code": "SES-SJE-EEE015",
+   "name": "EEE SJ M3",
+   "size": "P",
+   "lat": -27.622034,
+   "lon": -48.6303454
+  },
+  {
+   "code": "SES-SJE-EEE018",
+   "name": "EEE SJA",
+   "size": "M",
+   "lat": -27.6174339,
+   "lon": -48.6274668
+  },
+  {
+   "code": "SES-SJE-EEE019",
+   "name": "EEE SJB",
+   "size": "M",
+   "lat": -27.6100324,
+   "lon": -48.6271092
+  },
+  {
+   "code": "SES-SJE-EEE017",
+   "name": "EEE E1 -",
+   "size": "G",
+   "lat": -27.5794914,
+   "lon": -48.6144025
+  },
+  {
+   "code": "SES-SJE-EEE035",
+   "name": "EEE SJF",
+   "size": "G",
+   "lat": -27.5747239,
+   "lon": -48.6199388
+  },
+  {
+   "code": "SES-SJE-EEE020",
+   "name": "EEE Vila",
+   "size": "G",
+   "lat": -27.5868371,
+   "lon": -48.6812459
+  },
+  {
+   "code": "SES-SJE-EEE021",
+   "name": "EEE Vila",
+   "size": "G",
+   "lat": -27.5816213,
+   "lon": -48.680289
+  },
+  {
+   "code": "SES-SJE-EEE034",
+   "name": "EEE Lisboa 1",
+   "size": "M",
+   "lat": -27.5701976,
+   "lon": -48.6805608
+  },
+  {
+   "code": "SES-SJE-EEE033",
+   "name": "EEE Lisboa 2",
+   "size": "P",
+   "lat": -27.5709135,
+   "lon": -48.6761378
+  },
+  {
+   "code": "SES-SJE-EEE022",
+   "name": "EEE Lisboa 3",
+   "size": "M",
+   "lat": -27.5695053,
+   "lon": -48.6779533
+  }
+ ],
+ "ete": [
+  {
+   "name": "ETE Potecas",
+   "lat": -27.569,
+   "lon": -48.654,
+   "note": "PEC SES Continental: Rua Francisco Torquato, Potecas; new ETE Potecas under construction (R$270M)"
+  }
+ ],
+ "source": "CASAN PEC SES Continental (São José-Florianópolis)"
+}

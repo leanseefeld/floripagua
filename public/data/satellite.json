@@ -1,0 +1,10 @@
+{
+ "bounds": {
+  "north": -27.29368922485239,
+  "south": -27.95559100464254,
+  "west": -48.955078125,
+  "east": -48.33984375
+ },
+ "proj": "web-mercator tile grid z13",
+ "source": "Esri World Imagery (Esri, Maxar, Earthstar Geographics, and the GIS User Community)"
+}

@@ -1,0 +1,12 @@
+{
+ "count": 24364,
+ "vertices": 148610,
+ "format": "u32 count; per bldg: u8 nverts,u8 kind,u16 height*10,f32 clon,f32 clat, nverts*(i16 dlon_microdeg,i16 dlat_microdeg)",
+ "kinds": {
+  "0": "residential/other",
+  "1": "commercial/apartments",
+  "2": "industrial",
+  "3": "institutional"
+ },
+ "source": "OpenStreetMap via Overpass, ODbL"
+}

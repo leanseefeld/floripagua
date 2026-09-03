@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Água da Grande Florianópolis – visualização 3D</title>
+<link rel="stylesheet" href="./src/ui/style.css" />
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3 2 8.5 12 14l10-5.5L12 3Zm-8 9.5-2 1.1L12 19l10-5.4-2-1.1-8 4.4-8-4.4Z"/></symbol>
+  <symbol id="i-legend" viewBox="0 0 24 24"><path d="M4 5h4v4H4V5Zm6 1h10v2H10V6ZM4 10h4v4H4v-4Zm6 1h10v2H10v-2ZM4 15h4v4H4v-4Zm6 1h10v2H10v-2Z"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 15h-2v-6h2v6Zm0-8h-2V7h2v2Z"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7L8 5Z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M6 5h4v14H6V5Zm8 0h4v14h-4V5Z"/></symbol>
+  <symbol id="i-reset" viewBox="0 0 24 24"><path d="M12 5V2L7 6l5 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7Z"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15.5 4 7.5 12l8 8 1.4-1.4L10.3 12l6.6-6.6L15.5 4Z"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="M8.5 4 7.1 5.4l6.6 6.6-6.6 6.6L8.5 20l8-8-8-8Z"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><path d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.5-2-3.4-2.4 1a7.6 7.6 0 0 0-1.7-1L15 3.6H9l-.3 2.5a7.6 7.6 0 0 0-1.7 1l-2.4-1-2 3.4L4.6 11a7.6 7.6 0 0 0 0 2l-2 1.5 2 3.4 2.4-1a7.6 7.6 0 0 0 1.7 1L9 20.4h6l.3-2.5a7.6 7.6 0 0 0 1.7-1l2.4 1 2-3.4-2-1.5ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m12 8 8 8-1.4 1.4L12 10.8l-6.6 6.6L4 16l8-8Z"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m12 16-8-8 1.4-1.4L12 13.2l6.6-6.6L20 8l-8 8Z"/></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L12 13.4l-6.3 6.3-1.4-1.4L10.6 12 4.3 5.7l1.4-1.4L12 10.6l6.3-6.3 1.4 1.4Z"/></symbol>
+</svg>
+<div id="app">
+  <canvas id="gl"></canvas>
+  <div id="labels"></div>
+  <header id="topbar">
+    <div id="brand"><span class="t1">Grande Florianópolis</span><span class="t2">Abastecimento de água · 3D</span></div>
+    <nav id="tools" class="btn-group">
+      <button class="btn" data-pop="layers"><svg><use href="#i-layers"/></svg><span>Camadas</span></button>
+      <button class="btn" data-pop="legend"><svg><use href="#i-legend"/></svg><span>Legenda</span></button>
+      <button class="btn" data-pop="about"><svg><use href="#i-info"/></svg><span>Sobre</span></button>
+    </nav>
+  </header>
+  <section class="sheet" id="pop-layers" hidden></section>
+  <section class="sheet" id="pop-legend" hidden></section>
+  <section class="sheet" id="pop-about" hidden></section>
+  <section class="sheet" id="pop-settings" hidden></section>
+  <footer id="story">
+    <div class="story-head">
+      <button class="btn play" id="play" aria-label="Rodar / pausar (segure para 5×)"><svg><use href="#i-play"/></svg><span class="x5">5×</span></button>
+      <div class="when"><div class="when-day" id="clockDay"></div><div class="when-time" id="clockTime"></div></div>
+      <div id="chips"></div>
+      <button class="btn ghost" id="storyToggle" aria-label="Expandir / recolher"><svg><use href="#i-down"/></svg></button>
+    </div>
+    <div class="story-body">
+      <div class="scenario-row">
+        <label class="select-wrap"><span class="eyebrow">Cenário</span><select id="scenario"></select></label>
+        <button class="btn ghost" id="settingsBtn" title="Parâmetros da recarga"><svg><use href="#i-gear"/></svg></button>
+      </div>
+      <div class="transport">
+        <button class="btn ghost" id="reset" title="Reiniciar"><svg><use href="#i-reset"/></svg></button>
+        <div id="track"><div class="track-fill"></div><div class="track-head"></div><div class="track-marks"></div></div>
+        <select id="speed" title="Velocidade"><option value="300">5 min/s</option><option value="900" selected>15 min/s</option><option value="1800">30 min/s</option><option value="3600">1 h/s</option><option value="7200">2 h/s</option></select>
+      </div>
+      <div class="event-card" id="eventCard">
+        <button class="btn ghost" id="prevEv" title="Evento anterior"><svg><use href="#i-prev"/></svg></button>
+        <div class="event-main"><div class="eyebrow" id="evCount"></div><div class="event-when" id="evWhen"></div><div class="event-text" id="evText"></div></div>
+        <button class="btn ghost" id="nextEv" title="Próximo evento"><svg><use href="#i-next"/></svg></button>
+      </div>
+      <div class="event-dots" id="evDots"></div>
+    </div>
+  </footer>
+  <div id="popup" hidden></div>
+  <div id="attrib">Esri World Imagery · ESA WorldCover · © OpenStreetMap · AWS Terrain Tiles · CASAN (PEC)</div>
+  <div id="loading"><div class="spinner"></div><div id="loadingText">Carregando relevo…</div></div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

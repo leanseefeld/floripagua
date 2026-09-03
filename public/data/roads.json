@@ -1,0 +1,16 @@
+{
+ "count": 6617,
+ "points": 56228,
+ "classes": {
+  "motorway": 0,
+  "trunk": 1,
+  "primary": 2,
+  "secondary": 3,
+  "tertiary": 4,
+  "motorway_link": 5,
+  "trunk_link": 5,
+  "primary_link": 5
+ },
+ "format": "u32 count; per way: u32 npts,u8 class, npts*(f32 lon,f32 lat)",
+ "source": "OpenStreetMap via Overpass, ODbL"
+}

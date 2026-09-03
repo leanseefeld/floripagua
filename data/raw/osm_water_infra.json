@@ -1,0 +1,3893 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-02T23:39:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 542080063,
+  "lat": -27.6000824,
+  "lon": -48.5182857,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Lanchonete FEESC"
+  }
+},
+{
+  "type": "node",
+  "id": 1438403618,
+  "lat": -27.6008664,
+  "lon": -48.5178354,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lanchonete do CETEC"
+  }
+},
+{
+  "type": "node",
+  "id": 1600672354,
+  "lat": -27.5891716,
+  "lon": -48.5845178,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Rua Antonieta de Barros, 588 (03)",
+    "network": "SIM",
+    "network:wikidata": "Q48877834",
+    "network:wikipedia": "pt:Sistema Integrado de Mobilidade (Florianópolis)",
+    "operator": "Consórcio Fênix",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 1904305014,
+  "lat": -27.6021866,
+  "lon": -48.5230164,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lanchonete do CED",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1904305015,
+  "lat": -27.6026097,
+  "lon": -48.5231129,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lanchonete do CFH"
+  }
+},
+{
+  "type": "node",
+  "id": 2000757381,
+  "lat": -27.5679400,
+  "lon": -48.8054304,
+  "tags": {
+    "amenity": "restaurant",
+    "capacity": "80",
+    "contact:phone": "+55 48 3277-0270",
+    "cuisine": "regional",
+    "name": "Lanchonete Central",
+    "opening_hours": "Mo-Sa 07:00-14:30,11:00-14:30",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2083714224,
+  "lat": -27.4942484,
+  "lon": -48.5042527,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 2083714392,
+  "lat": -27.4967707,
+  "lon": -48.5074220,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 2510762407,
+  "lat": -27.4827354,
+  "lon": -48.8188265,
+  "tags": {
+    "government": "water_utility_company",
+    "name": "Casan",
+    "office": "government"
+  }
+},
+{
+  "type": "node",
+  "id": 3798581789,
+  "lat": -27.6009151,
+  "lon": -48.6423698,
+  "tags": {
+    "man_made": "water_well",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "node",
+  "id": 3901453693,
+  "lat": -27.7370458,
+  "lon": -48.7568281,
+  "tags": {
+    "man_made": "water_works",
+    "name": "Ponto de Captação de Pilões"
+  }
+},
+{
+  "type": "node",
+  "id": 4538582074,
+  "lat": -27.5689709,
+  "lon": -48.6135259,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 4639666302,
+  "lat": -27.8455306,
+  "lon": -48.5889736,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Sorveteria e Lanchonete do Papagaio"
+  }
+},
+{
+  "type": "node",
+  "id": 4830874518,
+  "lat": -27.4272578,
+  "lon": -48.5650376,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Lanchonete Vó Lurdes"
+  }
+},
+{
+  "type": "node",
+  "id": 5125447560,
+  "lat": -27.6934345,
+  "lon": -48.6640370,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 5125447573,
+  "lat": -27.4873619,
+  "lon": -48.6498575,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 5445180173,
+  "lat": -27.5801724,
+  "lon": -48.5080571,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 6257491700,
+  "lat": -27.5944039,
+  "lon": -48.5616008,
+  "tags": {
+    "amenity": "clinic",
+    "name": "Saúde de Atleta Medicina Esportiva",
+    "phone": "+55 48 99147 3348",
+    "website": "http://saudedeatleta.com.br"
+  }
+},
+{
+  "type": "node",
+  "id": 6354579139,
+  "lat": -27.6450151,
+  "lon": -48.7123650,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 6354579140,
+  "lat": -27.6439767,
+  "lon": -48.7110212,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 6386066018,
+  "lat": -27.6868838,
+  "lon": -48.7788553,
+  "tags": {
+    "name": "Casan",
+    "office": "water_utility"
+  }
+},
+{
+  "type": "node",
+  "id": 6565199046,
+  "lat": -27.5560403,
+  "lon": -48.6399077,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 6565199047,
+  "lat": -27.5559995,
+  "lon": -48.6398458,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 6848809934,
+  "lat": -27.5942031,
+  "lon": -48.5811473,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "burger",
+    "name": "Bar e Lanchonete do Chico"
+  }
+},
+{
+  "type": "node",
+  "id": 7012072766,
+  "lat": -27.4310761,
+  "lon": -48.4580415,
+  "tags": {
+    "amenity": "ice_cream",
+    "internet_access": "wlan",
+    "name": "Sorvete Mania",
+    "outdoor_seating": "yes",
+    "phone": "+55 48 3733-6235"
+  }
+},
+{
+  "type": "node",
+  "id": 8295126232,
+  "lat": -27.3272549,
+  "lon": -48.7429391,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "Estação de Captação de Água",
+    "operator": "SAMAE",
+    "pumping_station": "water",
+    "substance": "water"
+  }
+},
+{
+  "type": "node",
+  "id": 8836546175,
+  "lat": -27.6216056,
+  "lon": -48.6376553,
+  "tags": {
+    "addr:street": "Rua Benjamin Gerlach",
+    "amenity": "fast_food",
+    "name": "Lanchonete Shalom"
+  }
+},
+{
+  "type": "node",
+  "id": 9005316565,
+  "lat": -27.5882982,
+  "lon": -48.5057846,
+  "tags": {
+    "name": "Tapete Persa",
+    "shop": "carpet"
+  }
+},
+{
+  "type": "node",
+  "id": 9008673137,
+  "lat": -27.5395873,
+  "lon": -48.5023360,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9015886257,
+  "lat": -27.6428510,
+  "lon": -48.7155750,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9026462122,
+  "lat": -27.6454879,
+  "lon": -48.4769207,
+  "tags": {
+    "man_made": "water_well"
+  }
+},
+{
+  "type": "node",
+  "id": 9075059130,
+  "lat": -27.6494795,
+  "lon": -48.7028861,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9082570321,
+  "lat": -27.5980004,
+  "lon": -48.5787347,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9085301569,
+  "lat": -27.6053357,
+  "lon": -48.6231950,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9085301705,
+  "lat": -27.6082105,
+  "lon": -48.6261206,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9085301754,
+  "lat": -27.6016016,
+  "lon": -48.6074558,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9116860560,
+  "lat": -27.5940188,
+  "lon": -48.5526462,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9122970217,
+  "lat": -27.6452033,
+  "lon": -48.6697218,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9175283471,
+  "lat": -27.4391121,
+  "lon": -48.4934029,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9178172650,
+  "lat": -27.6688941,
+  "lon": -48.6663300,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9178172675,
+  "lat": -27.6774469,
+  "lon": -48.6668193,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9307210253,
+  "lat": -27.5986553,
+  "lon": -48.4898570,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9588506358,
+  "lat": -27.7168905,
+  "lon": -48.8786821,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9611973204,
+  "lat": -27.4461417,
+  "lon": -48.4238886,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 9611973205,
+  "lat": -27.4464484,
+  "lon": -48.4240463,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9627524657,
+  "lat": -27.4338238,
+  "lon": -48.4520976,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9627836711,
+  "lat": -27.5951028,
+  "lon": -48.5504991,
+  "tags": {
+    "name": "Violeta Bella",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 9699456661,
+  "lat": -27.5719962,
+  "lon": -48.6803535,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 9758232457,
+  "lat": -27.6162331,
+  "lon": -48.6293721,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 9773440669,
+  "lat": -27.6456293,
+  "lon": -48.6676358,
+  "tags": {
+    "alt_name": "Praça 7 de Setembro",
+    "amenity": "taxi",
+    "name": "Praça Sete de Setembro"
+  }
+},
+{
+  "type": "node",
+  "id": 10577056845,
+  "lat": -27.6859306,
+  "lon": -48.7651352,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:housenumber": "51",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua Presidente Coutinho",
+    "addr:suburb": "Vila Becker",
+    "amenity": "restaurant",
+    "brewery": "various;yes",
+    "cuisine": "pizza;burger;regional;american",
+    "diet:meat": "yes",
+    "internet_access": "yes",
+    "name": "Pizzaria & Lanchonete JA",
+    "opening_hours": "Tu-Sa 18:00-00:00",
+    "phone": "+55 48 3245-3753"
+  }
+},
+{
+  "type": "node",
+  "id": 10577493671,
+  "lat": -27.6847746,
+  "lon": -48.7697881,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua Santana",
+    "addr:suburb": "Centro",
+    "amenity": "fast_food",
+    "brewery": "yes",
+    "name": "Bar & Lanchonete Renato e Gustavo",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 10577493672,
+  "lat": -27.6846860,
+  "lon": -48.7695515,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua Santana",
+    "addr:suburb": "Centro",
+    "amenity": "fast_food",
+    "cuisine": "regional;burger;sandwich;seafood;hot_dog",
+    "diet:fish": "yes",
+    "diet:meat": "yes",
+    "diet:non-vegetarian": "yes",
+    "name": "Lanchonete & Petiscaria Explosão de Sabor"
+  }
+},
+{
+  "type": "node",
+  "id": 10577991433,
+  "lat": -27.6907721,
+  "lon": -48.7757244,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua João Jacinto Machado",
+    "addr:suburb": "Sul do Rio",
+    "clothes": "women;men;children",
+    "name": "Salete Modas",
+    "shop": "clothes"
+  }
+},
+{
+  "type": "node",
+  "id": 10578955739,
+  "lat": -27.6880388,
+  "lon": -48.7634253,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua Presidente Coutinho",
+    "addr:suburb": "Sul do Rio",
+    "man_made": "wastewater_plant",
+    "name": "ETE CASAN",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 10762354211,
+  "lat": -27.4831109,
+  "lon": -48.4092137,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11117415471,
+  "lat": -27.6230058,
+  "lon": -48.7623878,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11144715481,
+  "lat": -27.5977123,
+  "lon": -48.5492407,
+  "tags": {
+    "name": "Casa da Literatura Catarinense Poeta Cruz e Sousa",
+    "tourism": "museum",
+    "website": "https://cultura.sc.gov.br/espacos/casa-da-literatura-catarinense"
+  }
+},
+{
+  "type": "node",
+  "id": 11163382779,
+  "lat": -27.6729082,
+  "lon": -48.6799224,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11361252434,
+  "lat": -27.4219039,
+  "lon": -48.4323761,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 11585022628,
+  "lat": -27.6913838,
+  "lon": -48.7767751,
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua Olíbio Hahn",
+    "addr:suburb": "Sul do Rio",
+    "man_made": "pumping_station",
+    "name": "ETE Casan",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 12109137418,
+  "lat": -27.7007723,
+  "lon": -48.8154495,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Lanchonete Israel"
+  }
+},
+{
+  "type": "node",
+  "id": 12169675537,
+  "lat": -27.7294025,
+  "lon": -48.5090390,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "ETA LAGOA DO PERI"
+  }
+},
+{
+  "type": "node",
+  "id": 12169732880,
+  "lat": -27.6947039,
+  "lon": -48.4991177,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "ETA Campeche - CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 12169764534,
+  "lat": -27.6994036,
+  "lon": -48.5468491,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "Booster Ribeirô - CASAN",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 12169776763,
+  "lat": -27.6633146,
+  "lon": -48.5452596,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "Booster Tapera 2",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 12169780804,
+  "lat": -27.6894853,
+  "lon": -48.5603191,
+  "tags": {
+    "man_made": "pumping_station",
+    "name": "Booster Tapera",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "node",
+  "id": 12223026213,
+  "lat": -27.6123222,
+  "lon": -48.6294640,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 12256261578,
+  "lat": -27.6989223,
+  "lon": -48.8176389,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Restaurante e Lanchonete Águas Mornas"
+  }
+},
+{
+  "type": "node",
+  "id": 12763113994,
+  "lat": -27.6558371,
+  "lon": -48.6834284,
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "node",
+  "id": 13095397061,
+  "lat": -27.7046359,
+  "lon": -48.5085365,
+  "tags": {
+    "addr:street": "Rodovia Francisco Magno Vieira",
+    "mobile": "+55 48 98427 4173",
+    "name": "AgroPet Planeta Animal",
+    "phone": "+55 48 3238 2540",
+    "shop": "pet",
+    "website": "https://www.agropecuariaplanetaanimal.com.br/"
+  }
+},
+{
+  "type": "node",
+  "id": 13111287170,
+  "lat": -27.6079322,
+  "lon": -48.6338538,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 13116656153,
+  "lat": -27.4909800,
+  "lon": -48.4142965,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "node",
+  "id": 13135242433,
+  "lat": -27.5647338,
+  "lon": -48.6134566,
+  "tags": {
+    "government": "public_service",
+    "name": "Casan Almoxarifado Central",
+    "office": "government",
+    "phone": "+55 48 3279 9100",
+    "website": "https://www.casan.com.br/#0"
+  }
+},
+{
+  "type": "node",
+  "id": 13256963315,
+  "lat": -27.3249548,
+  "lon": -48.5456684,
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank",
+    "operator": "Samae"
+  }
+},
+{
+  "type": "node",
+  "id": 13423707342,
+  "lat": -27.4386320,
+  "lon": -48.4854888,
+  "tags": {
+    "air_conditioning": "yes",
+    "email": "reservas@seteilhas.com.br",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Hotel Sete Ilhas",
+    "phone": "+5548999470275",
+    "tourism": "hotel",
+    "website": "https://seteilhas.com.br"
+  }
+},
+{
+  "type": "node",
+  "id": 13568422502,
+  "lat": -27.8351638,
+  "lon": -48.5960820,
+  "tags": {
+    "name": "Nete Semijóias e Acessórios",
+    "shop": "fashion_accessories"
+  }
+},
+{
+  "type": "node",
+  "id": 13733190826,
+  "lat": -27.5870391,
+  "lon": -48.5822084,
+  "tags": {
+    "bus": "yes",
+    "name": "Rua Professora Antonieta de Barros",
+    "network": "SIM",
+    "network:wikidata": "Q48877834",
+    "network:wikipedia": "pt:Sistema Integrado de Mobilidade (Florianópolis)",
+    "operator": "Consórcio Fênix",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13733190827,
+  "lat": -27.5870739,
+  "lon": -48.5821827,
+  "tags": {
+    "bus": "yes",
+    "highway": "bus_stop",
+    "name": "Rua Professora Antonieta de Barros",
+    "network": "SIM",
+    "network:wikidata": "Q48877834",
+    "network:wikipedia": "pt:Sistema Integrado de Mobilidade (Florianópolis)",
+    "operator": "Consórcio Fênix",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 13733190828,
+  "lat": -27.5890991,
+  "lon": -48.5845573,
+  "tags": {
+    "bus": "yes",
+    "name": "Rua Professora Antonieta de Barros, 588",
+    "network": "SIM",
+    "network:wikidata": "Q48877834",
+    "network:wikipedia": "pt:Sistema Integrado de Mobilidade (Florianópolis)",
+    "operator": "Consórcio Fênix",
+    "public_transport": "stop_position"
+  }
+},
+{
+  "type": "node",
+  "id": 13735840393,
+  "lat": -27.7284966,
+  "lon": -48.8114635,
+  "tags": {
+    "man_made": "water_works",
+    "material": "concrete",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "node",
+  "id": 13735840394,
+  "lat": -27.6883222,
+  "lon": -48.7044355,
+  "tags": {
+    "man_made": "water_works",
+    "name": "Casan Estação de Tratamento de Água",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "node",
+  "id": 13863577218,
+  "lat": -27.5417126,
+  "lon": -48.5038788,
+  "tags": {
+    "government": "administrative",
+    "name": "Gabinete do Governador",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 10492722,
+  "center": {
+    "lat": -27.6088125,
+    "lon": -48.5433049
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "trunk",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "Túnel Deputada Antonieta de Barros",
+    "oneway": "yes",
+    "ref": "SC-401",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 35164653,
+  "center": {
+    "lat": -27.6086398,
+    "lon": -48.5431910
+  },
+  "tags": {
+    "bicycle": "no",
+    "highway": "trunk",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "Túnel Deputada Antonieta de Barros",
+    "oneway": "yes",
+    "ref": "SC-401",
+    "surface": "asphalt",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 97888103,
+  "center": {
+    "lat": -27.5954014,
+    "lon": -48.5758146
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Francisco Machado de Souza",
+    "sidewalk:both": "yes",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 120045506,
+  "center": {
+    "lat": -27.5912679,
+    "lon": -48.5880895
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "yes",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 120247863,
+  "center": {
+    "lat": -27.5858240,
+    "lon": -48.5809163
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "yes",
+    "sidewalk:both": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 127585783,
+  "center": {
+    "lat": -27.6511269,
+    "lon": -48.5174895
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete Maria Pereira"
+  }
+},
+{
+  "type": "way",
+  "id": 131466955,
+  "center": {
+    "lat": -27.5915798,
+    "lon": -48.5406918
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Travessa Elisabete de Melo Pereira",
+    "oneway": "no",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 131617189,
+  "center": {
+    "lat": -27.5904538,
+    "lon": -48.5588437
+  },
+  "tags": {
+    "alt_name": "Rua Henriqueta Grundler da Costa",
+    "highway": "footway",
+    "name": "Servidão Henriqueta Grundler da Costa",
+    "source:alt_name": "IBGE",
+    "source:name": "PMF;survey"
+  }
+},
+{
+  "type": "way",
+  "id": 146835863,
+  "center": {
+    "lat": -27.5877484,
+    "lon": -48.5829787
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 153589179,
+  "center": {
+    "lat": -27.6857201,
+    "lon": -48.5399582
+  },
+  "tags": {
+    "description": "Grande Açude em L da Fazenda da UFSC",
+    "intermittent": "no",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 158620458,
+  "center": {
+    "lat": -27.4526422,
+    "lon": -48.4114922
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Professora Rosemari Eliete Nunes",
+    "postal_code": "88058-345",
+    "source:name": "Lei CMF 733/2002 (localização do IBGE)"
+  }
+},
+{
+  "type": "way",
+  "id": 159119767,
+  "center": {
+    "lat": -27.5941957,
+    "lon": -48.5384743
+  },
+  "tags": {
+    "building": "yes",
+    "building:material": "brick",
+    "historic": "yes",
+    "man_made": "water_tower",
+    "operator": "Casan",
+    "start_date": "1910-05"
+  }
+},
+{
+  "type": "way",
+  "id": 163333869,
+  "center": {
+    "lat": -27.5016459,
+    "lon": -48.4571356
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Servidão Eliete Vieira de Melo",
+    "narrow": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 163495068,
+  "center": {
+    "lat": -27.4618042,
+    "lon": -48.4477809
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Maria Odete Mendes"
+  }
+},
+{
+  "type": "way",
+  "id": 167880639,
+  "center": {
+    "lat": -27.5980297,
+    "lon": -48.6506041
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta Pierri Leal",
+    "old_name": "Rua 28",
+    "old_name1": "Rua C1"
+  }
+},
+{
+  "type": "way",
+  "id": 167926653,
+  "center": {
+    "lat": -27.5987335,
+    "lon": -48.6405873
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Isolete Maria Hinkel Farias",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "way",
+  "id": 167926654,
+  "center": {
+    "lat": -27.6024036,
+    "lon": -48.6414198
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Bernadete Vill Vigarani"
+  }
+},
+{
+  "type": "way",
+  "id": 171893891,
+  "center": {
+    "lat": -27.7833998,
+    "lon": -48.5364620
+  },
+  "tags": {
+    "alt_name": "Servidão 7 Estrelas",
+    "highway": "service",
+    "name": "Servidão Sete Estrelas",
+    "narrow": "yes",
+    "service": "alley",
+    "source:name": "survey"
+  }
+},
+{
+  "type": "way",
+  "id": 189826741,
+  "center": {
+    "lat": -27.7017893,
+    "lon": -48.8161760
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Bernadete Goulart",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "way",
+  "id": 193808445,
+  "center": {
+    "lat": -27.5842436,
+    "lon": -48.5925332
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Professora Julieta Nicolich da Costa",
+    "sidewalk:both": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 194271273,
+  "center": {
+    "lat": -27.5906376,
+    "lon": -48.5730755
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 194271278,
+  "center": {
+    "lat": -27.5913653,
+    "lon": -48.5716560
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "cycleway:right": "lane",
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 201386745,
+  "center": {
+    "lat": -27.5951996,
+    "lon": -48.5692180
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 201629827,
+  "center": {
+    "lat": -27.4415125,
+    "lon": -48.5136141
+  },
+  "tags": {
+    "building": "yes",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 204582064,
+  "center": {
+    "lat": -27.6417418,
+    "lon": -48.7135038
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete Truppel dos Santos"
+  }
+},
+{
+  "type": "way",
+  "id": 205628533,
+  "center": {
+    "lat": -27.6288647,
+    "lon": -48.6494467
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Carlos Napoleão"
+  }
+},
+{
+  "type": "way",
+  "id": 205638129,
+  "center": {
+    "lat": -27.5877374,
+    "lon": -48.6000397
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Professora Marieta Barbosa Ribeiro",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 206289959,
+  "center": {
+    "lat": -27.5797010,
+    "lon": -48.6230063
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Bernadete Hermes"
+  }
+},
+{
+  "type": "way",
+  "id": 207724024,
+  "center": {
+    "lat": -27.6661118,
+    "lon": -48.6547056
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Gorete Ramos"
+  }
+},
+{
+  "type": "way",
+  "id": 208798240,
+  "center": {
+    "lat": -27.5919522,
+    "lon": -48.6028690
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Maria Salete Dutra",
+    "narrow": "yes",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 209607748,
+  "center": {
+    "lat": -27.5995076,
+    "lon": -48.6159876
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "highway": "residential",
+    "name": "Rua Sete de Setembro",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 217213946,
+  "center": {
+    "lat": -27.6768673,
+    "lon": -48.6828021
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete da Silva Santos"
+  }
+},
+{
+  "type": "way",
+  "id": 224871898,
+  "center": {
+    "lat": -27.6824512,
+    "lon": -48.7644526
+  },
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "40",
+    "name": "Rua Salete Broering Becker",
+    "old_name": "Rua 587",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 224886961,
+  "center": {
+    "lat": -27.6772928,
+    "lon": -48.6652481
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Janete Marilda de Souza"
+  }
+},
+{
+  "type": "way",
+  "id": 228463563,
+  "center": {
+    "lat": -27.6234221,
+    "lon": -48.6365899
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Antonieta de Carvalho Petry"
+  }
+},
+{
+  "type": "way",
+  "id": 231404382,
+  "center": {
+    "lat": -27.5061341,
+    "lon": -48.6427271
+  },
+  "tags": {
+    "alt_name": "Rua 17 de Maio",
+    "highway": "residential",
+    "name": "Rua Dezessete de Maio",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 231695095,
+  "center": {
+    "lat": -27.5075762,
+    "lon": -48.6488837
+  },
+  "tags": {
+    "highway": "tertiary",
+    "name": "Rua Julieta Ferreira",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 232916122,
+  "center": {
+    "lat": -27.4827741,
+    "lon": -48.6570583
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Bernadete Carvalho",
+    "oneway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 254882882,
+  "center": {
+    "lat": -27.5962325,
+    "lon": -48.5692160
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 262362022,
+  "center": {
+    "lat": -27.3639632,
+    "lon": -48.5571480
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Ivete Monteiro Teixeira"
+  }
+},
+{
+  "type": "way",
+  "id": 262362872,
+  "center": {
+    "lat": -27.3609066,
+    "lon": -48.5540968
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Alcionete Anália Flores",
+    "narrow": "yes",
+    "old_name": "Rua 272"
+  }
+},
+{
+  "type": "way",
+  "id": 262363625,
+  "center": {
+    "lat": -27.3664015,
+    "lon": -48.5613000
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete Eteuvina Costa",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "way",
+  "id": 267229796,
+  "center": {
+    "lat": -27.7290902,
+    "lon": -48.5087898
+  },
+  "tags": {
+    "man_made": "water_works",
+    "name": "Casan Lagoa do Peri"
+  }
+},
+{
+  "type": "way",
+  "id": 269158618,
+  "center": {
+    "lat": -27.6000914,
+    "lon": -48.5562161
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação de Tratamento de Esgoto Insular",
+    "operator": "Casan",
+    "short_name": "ETE Insular"
+  }
+},
+{
+  "type": "way",
+  "id": 286807151,
+  "center": {
+    "lat": -27.5770879,
+    "lon": -48.6707307
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta da Silva Melo",
+    "oneway": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 312090286,
+  "center": {
+    "lat": -27.4318889,
+    "lon": -48.4342542
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação de Tratamento de Esgoto",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 316661290,
+  "center": {
+    "lat": -27.4421577,
+    "lon": -48.5110038
+  },
+  "tags": {
+    "man_made": "water_works"
+  }
+},
+{
+  "type": "way",
+  "id": 351217815,
+  "center": {
+    "lat": -27.4959219,
+    "lon": -48.6527265
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Rua Sete de Setembro",
+    "oneway": "yes",
+    "related_law:url": "http://leismunicipa.is/gcbnf"
+  }
+},
+{
+  "type": "way",
+  "id": 351225009,
+  "center": {
+    "lat": -27.5079993,
+    "lon": -48.6412887
+  },
+  "tags": {
+    "alt_name": "Rua 17 de Maio",
+    "highway": "residential",
+    "lanes": "2",
+    "name": "Rua Dezessete de Maio",
+    "oneway": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 365555456,
+  "center": {
+    "lat": -27.5834899,
+    "lon": -48.5776338
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:both": "no",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 367130264,
+  "center": {
+    "lat": -27.5965800,
+    "lon": -48.6894985
+  },
+  "tags": {
+    "bridge": "yes",
+    "hgv": "no",
+    "highway": "residential",
+    "lanes": "1",
+    "layer": "1",
+    "name": "Rua Julieta Paulina Vieira",
+    "narrow": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 367130265,
+  "center": {
+    "lat": -27.5950172,
+    "lon": -48.6892188
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta Paulina Vieira",
+    "narrow": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 368365650,
+  "center": {
+    "lat": -27.7370617,
+    "lon": -48.6363559
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Antonieta Corrêa",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 390485998,
+  "center": {
+    "lat": -27.5854774,
+    "lon": -48.7171969
+  },
+  "tags": {
+    "bridge": "yes",
+    "bridge:name": "Ponte da Padaria",
+    "highway": "residential",
+    "layer": "1",
+    "name": "Travessa Maria Bernadete Constante"
+  }
+},
+{
+  "type": "way",
+  "id": 390485999,
+  "center": {
+    "lat": -27.5862886,
+    "lon": -48.7174122
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Travessa Maria Bernadete Constante"
+  }
+},
+{
+  "type": "way",
+  "id": 400254016,
+  "center": {
+    "lat": -27.9183672,
+    "lon": -48.9517924
+  },
+  "tags": {
+    "layer": "-2",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Bolivia-Brazil Gas Pipeline",
+    "name:es": "Gasoducto Bolivia-Brasil",
+    "name:pt": "Gasoduto Bolívia-Brasil",
+    "network": "transmission",
+    "operator": "Transportadora Brasileira Gasoduto Bolívia-Brasil S.A.",
+    "substance": "gas",
+    "website": "https://www.tbg.com.br/"
+  }
+},
+{
+  "type": "way",
+  "id": 400254026,
+  "center": {
+    "lat": -27.7045345,
+    "lon": -48.9171216
+  },
+  "tags": {
+    "layer": "-2",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Bolivia-Brazil Gas Pipeline",
+    "name:es": "Gasoducto Bolivia-Brasil",
+    "name:pt": "Gasoduto Bolívia-Brasil",
+    "network": "transmission",
+    "operator": "Transportadora Brasileira Gasoduto Bolívia-Brasil S.A.",
+    "substance": "gas",
+    "website": "https://www.tbg.com.br/"
+  }
+},
+{
+  "type": "way",
+  "id": 400254108,
+  "center": {
+    "lat": -27.4590709,
+    "lon": -48.7710474
+  },
+  "tags": {
+    "layer": "-2",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "Bolivia-Brazil Gas Pipeline",
+    "name:es": "Gasoducto Bolivia-Brasil",
+    "name:pt": "Gasoduto Bolívia-Brasil",
+    "network": "transmission",
+    "operator": "Transportadora Brasileira Gasoduto Bolívia-Brasil S.A.",
+    "substance": "gas",
+    "website": "https://www.tbg.com.br/"
+  }
+},
+{
+  "type": "way",
+  "id": 403646468,
+  "center": {
+    "lat": -27.4426593,
+    "lon": -48.5107312
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 403646469,
+  "center": {
+    "lat": -27.4423236,
+    "lon": -48.5105958
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 403646470,
+  "center": {
+    "lat": -27.4424753,
+    "lon": -48.5106421
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 416811233,
+  "center": {
+    "lat": -27.4463770,
+    "lon": -48.6359305
+  },
+  "tags": {
+    "man_made": "water_works"
+  }
+},
+{
+  "type": "way",
+  "id": 416821783,
+  "center": {
+    "lat": -27.6052685,
+    "lon": -48.5187462
+  },
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 418859034,
+  "center": {
+    "lat": -27.6094996,
+    "lon": -48.5382358
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 418859040,
+  "center": {
+    "lat": -27.6091556,
+    "lon": -48.5383057
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 418859044,
+  "center": {
+    "lat": -27.6101407,
+    "lon": -48.5381446
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 420493000,
+  "center": {
+    "lat": -27.5819009,
+    "lon": -48.6984047
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 420493001,
+  "center": {
+    "lat": -27.5769194,
+    "lon": -48.6970502
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 434917826,
+  "center": {
+    "lat": -27.4973768,
+    "lon": -48.7178010
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Nila Henriqueta Fernandes",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "way",
+  "id": 443825889,
+  "center": {
+    "lat": -27.5680070,
+    "lon": -48.6542933
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação de Tratamento de Esgoto Potecas",
+    "operator": "Casan",
+    "short_name": "ETE Potecas"
+  }
+},
+{
+  "type": "way",
+  "id": 451650789,
+  "center": {
+    "lat": -27.7026567,
+    "lon": -48.5475339
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank",
+    "material": "concrete",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 459607527,
+  "center": {
+    "lat": -27.4968603,
+    "lon": -48.6467851
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Rua Sete de Setembro",
+    "related_law:url": "http://leismunicipa.is/gcbnf",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 460123982,
+  "center": {
+    "lat": -27.5356590,
+    "lon": -48.6447048
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Elizabete da Silva Moura"
+  }
+},
+{
+  "type": "way",
+  "id": 463332389,
+  "center": {
+    "lat": -27.4828653,
+    "lon": -48.6556614
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Bernadete Carvalho"
+  }
+},
+{
+  "type": "way",
+  "id": 465038279,
+  "center": {
+    "lat": -27.5509329,
+    "lon": -48.6374687
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Maria Elizabete Marques de Matos"
+  }
+},
+{
+  "type": "way",
+  "id": 467833003,
+  "center": {
+    "lat": -27.3204648,
+    "lon": -48.5755556
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Neuzete Luz de Azevedo Righi"
+  }
+},
+{
+  "type": "way",
+  "id": 471322090,
+  "center": {
+    "lat": -27.6000808,
+    "lon": -48.5561922
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 471322092,
+  "center": {
+    "lat": -27.6002743,
+    "lon": -48.5563044
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 471322094,
+  "center": {
+    "lat": -27.6005859,
+    "lon": -48.5560608
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 471322095,
+  "center": {
+    "lat": -27.6002685,
+    "lon": -48.5558770
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 471322097,
+  "center": {
+    "lat": -27.6004260,
+    "lon": -48.5555223
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 471322100,
+  "center": {
+    "lat": -27.5998687,
+    "lon": -48.5554320
+  },
+  "tags": {
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 481807459,
+  "center": {
+    "lat": -27.4955983,
+    "lon": -48.6454197
+  },
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 482130276,
+  "center": {
+    "lat": -27.5888793,
+    "lon": -48.5843319
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 490935895,
+  "center": {
+    "lat": -27.5992288,
+    "lon": -48.5253388
+  },
+  "tags": {
+    "description": "Reservatório da Casa de Estudante - UFSC",
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 518668847,
+  "center": {
+    "lat": -27.4302070,
+    "lon": -48.4439589
+  },
+  "tags": {
+    "description": "Caixa d'água",
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 524952023,
+  "center": {
+    "lat": -27.5911292,
+    "lon": -48.4932699
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "cuisine": "barbecue",
+    "name": "Chuleta na Tábua"
+  }
+},
+{
+  "type": "way",
+  "id": 553646376,
+  "center": {
+    "lat": -27.6370272,
+    "lon": -48.7088238
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Maria Anibalete de Souza",
+    "old_name": "Servidão Ana Maria Linhares Lochs"
+  }
+},
+{
+  "type": "way",
+  "id": 554770969,
+  "center": {
+    "lat": -27.6663724,
+    "lon": -48.6763797
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Servidão Julieta Soares",
+    "narrow": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 554925894,
+  "center": {
+    "lat": -27.6827050,
+    "lon": -48.6979595
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Marieta Andrade Pires de Macedo"
+  }
+},
+{
+  "type": "way",
+  "id": 567168959,
+  "center": {
+    "lat": -27.6803882,
+    "lon": -48.7488599
+  },
+  "tags": {
+    "man_made": "water_works"
+  }
+},
+{
+  "type": "way",
+  "id": 586403719,
+  "center": {
+    "lat": -27.3764183,
+    "lon": -48.6970832
+  },
+  "tags": {
+    "description": "Itajaí - Biguaçu",
+    "layer": "-2",
+    "location": "underground",
+    "man_made": "pipeline",
+    "name": "OPASC 8",
+    "operator": "Petrobras Transporte SA",
+    "operator:short": "Transpetro",
+    "substance": "oil"
+  }
+},
+{
+  "type": "way",
+  "id": 587869653,
+  "center": {
+    "lat": -27.3092716,
+    "lon": -48.6358953
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 609587228,
+  "center": {
+    "lat": -27.6093532,
+    "lon": -48.5141237
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "description": "40 KL de água",
+    "man_made": "storage_tank",
+    "material": "concrete",
+    "operator": "Acquaville"
+  }
+},
+{
+  "type": "way",
+  "id": 614360670,
+  "center": {
+    "lat": -27.5938219,
+    "lon": -48.5739461
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Francisco Machado de Souza",
+    "narrow": "yes",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 614360671,
+  "center": {
+    "lat": -27.5943197,
+    "lon": -48.5745456
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Francisco Machado de Souza",
+    "sidewalk:both": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 614360672,
+  "center": {
+    "lat": -27.5948133,
+    "lon": -48.5751246
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Francisco Machado de Souza",
+    "oneway": "yes",
+    "sidewalk:both": "yes",
+    "surface": "sett"
+  }
+},
+{
+  "type": "way",
+  "id": 627470343,
+  "center": {
+    "lat": -27.5917461,
+    "lon": -48.6045286
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Rua Maria Salete Dutra",
+    "narrow": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 656910890,
+  "center": {
+    "lat": -27.5887431,
+    "lon": -48.5982087
+  },
+  "tags": {
+    "government": "public_service",
+    "name": "Casan",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 656910891,
+  "center": {
+    "lat": -27.5887678,
+    "lon": -48.5976912
+  },
+  "tags": {
+    "building": "storage_tank",
+    "content": "water",
+    "man_made": "storage_tank",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 657255162,
+  "center": {
+    "lat": -27.8827196,
+    "lon": -48.5867360
+  },
+  "tags": {
+    "building": "yes",
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 657921055,
+  "center": {
+    "lat": -27.5916794,
+    "lon": -48.6856725
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta Henriqueta da Silva"
+  }
+},
+{
+  "type": "way",
+  "id": 657921056,
+  "center": {
+    "lat": -27.5877768,
+    "lon": -48.6844349
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Henriqueta Deolinda da Silva"
+  }
+},
+{
+  "type": "way",
+  "id": 664657152,
+  "center": {
+    "lat": -27.5951515,
+    "lon": -48.5691061
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "cycleway:right": "lane",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 664657153,
+  "center": {
+    "lat": -27.5966841,
+    "lon": -48.5696202
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 665874257,
+  "center": {
+    "lat": -27.5731271,
+    "lon": -48.6819491
+  },
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "40",
+    "maxweight": "20",
+    "name": "Rua Odete Natalina Andrade",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 678531534,
+  "center": {
+    "lat": -27.4846333,
+    "lon": -48.6493012
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Isolete Costa"
+  }
+},
+{
+  "type": "way",
+  "id": 685976295,
+  "center": {
+    "lat": -27.6005068,
+    "lon": -48.5273189
+  },
+  "tags": {
+    "building": "storage_tank",
+    "content": "water",
+    "ele": "65",
+    "man_made": "storage_tank",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 690898272,
+  "center": {
+    "lat": -27.5977079,
+    "lon": -48.5492556
+  },
+  "tags": {
+    "addr:city": "Florianópolis",
+    "addr:housenumber": "270",
+    "addr:street": "Praça XV de Novembro",
+    "addr:suburb": "Centro",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Casa da Literatura Catarinense Poeta Cruz e Sousa",
+    "roof:material": "roof_tiles",
+    "roof:shape": "hipped",
+    "website": "https://cultura.sc.gov.br/espacos/casa-da-literatura-catarinense"
+  }
+},
+{
+  "type": "way",
+  "id": 691077340,
+  "center": {
+    "lat": -27.5854472,
+    "lon": -48.7167395
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Travessa Maria Bernadete Constante"
+  }
+},
+{
+  "type": "way",
+  "id": 699456107,
+  "center": {
+    "lat": -27.6178750,
+    "lon": -48.6669091
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Rua Profeta Isaías",
+    "narrow": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 740497713,
+  "center": {
+    "lat": -27.4579818,
+    "lon": -48.3971941
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 746661799,
+  "center": {
+    "lat": -27.7057926,
+    "lon": -48.5008706
+  },
+  "tags": {
+    "addr:street": "Rua Jardim dos Eucaliptos",
+    "amenity": "kindergarten",
+    "name": "Creche Poeta Cruz e Souza"
+  }
+},
+{
+  "type": "way",
+  "id": 763100995,
+  "center": {
+    "lat": -27.5848409,
+    "lon": -48.5502266
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação Casan Beira mar Norte",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 774716048,
+  "center": {
+    "lat": -27.3900832,
+    "lon": -48.6203244
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete Marques Rodrigues",
+    "old_name": "Rua 419.2",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 775135339,
+  "center": {
+    "lat": -27.5826935,
+    "lon": -48.7338161
+  },
+  "tags": {
+    "location": "overground",
+    "man_made": "pipeline",
+    "substance": "water",
+    "usage": "penstock",
+    "waterway": "pressurised"
+  }
+},
+{
+  "type": "way",
+  "id": 790445234,
+  "center": {
+    "lat": -27.6117093,
+    "lon": -48.6665944
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Carmem Salete Lemes"
+  }
+},
+{
+  "type": "way",
+  "id": 799534880,
+  "center": {
+    "lat": -27.8359137,
+    "lon": -48.5978055
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Elizabete Souza"
+  }
+},
+{
+  "type": "way",
+  "id": 809600340,
+  "center": {
+    "lat": -27.5815778,
+    "lon": -48.5321425
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Servidão Ivonete Colombo Batista",
+    "narrow": "yes",
+    "service": "alley"
+  }
+},
+{
+  "type": "way",
+  "id": 809600341,
+  "center": {
+    "lat": -27.5818116,
+    "lon": -48.5318954
+  },
+  "tags": {
+    "highway": "path",
+    "informal": "yes",
+    "name": "Servidão Ivonete Colombo Batista"
+  }
+},
+{
+  "type": "way",
+  "id": 814259740,
+  "center": {
+    "lat": -27.6900210,
+    "lon": -48.5558539
+  },
+  "tags": {
+    "highway": "residential",
+    "lanes": "2",
+    "lit": "yes",
+    "name": "Servidão Iliete Terezinha da Silva",
+    "narrow": "yes",
+    "sidewalk:both": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 827882487,
+  "center": {
+    "lat": -27.5118488,
+    "lon": -48.4857006
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Deonete Maria Homem"
+  }
+},
+{
+  "type": "way",
+  "id": 833954618,
+  "center": {
+    "lat": -27.3337469,
+    "lon": -48.6854121
+  },
+  "tags": {
+    "highway": "unclassified",
+    "loc_name": "Rua do Fogo",
+    "name": "Rua Maria Eliete Carvalho",
+    "old_name": "Estrada Geral do Fogo",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 927064993,
+  "center": {
+    "lat": -27.5935152,
+    "lon": -48.5736171
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Poeta Francisco Machado de Souza",
+    "narrow": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 933924203,
+  "center": {
+    "lat": -27.5962597,
+    "lon": -48.5694718
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 937336486,
+  "center": {
+    "lat": -27.5156290,
+    "lon": -48.7700868
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Bernadete Schmitt"
+  }
+},
+{
+  "type": "way",
+  "id": 975325065,
+  "center": {
+    "lat": -27.5916179,
+    "lon": -48.5716820
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "cycleway:right": "lane",
+    "highway": "primary",
+    "lanes": "2",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:left": "yes",
+    "sidewalk:right": "no",
+    "surface": "asphalt",
+    "turn:lanes": "left|through"
+  }
+},
+{
+  "type": "way",
+  "id": 975325154,
+  "center": {
+    "lat": -27.5917372,
+    "lon": -48.6040208
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Servidão Maria Salete Dutra",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 975528262,
+  "center": {
+    "lat": -27.5928022,
+    "lon": -48.5702820
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 975528265,
+  "center": {
+    "lat": -27.5920260,
+    "lon": -48.5710615
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 975528266,
+  "center": {
+    "lat": -27.5918713,
+    "lon": -48.5715221
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:both": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 975779273,
+  "center": {
+    "lat": -27.5814721,
+    "lon": -48.5775122
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "cycleway:right": "lane",
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:both": "yes",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 975779274,
+  "center": {
+    "lat": -27.5819112,
+    "lon": -48.5773544
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "secondary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "30",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt",
+    "turn:lanes": "||merge_to_left"
+  }
+},
+{
+  "type": "way",
+  "id": 975779275,
+  "center": {
+    "lat": -27.5861215,
+    "lon": -48.5773536
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt",
+    "turn:lanes": "slight_left|slight_left|slight_right"
+  }
+},
+{
+  "type": "way",
+  "id": 975779276,
+  "center": {
+    "lat": -27.5850176,
+    "lon": -48.5779048
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "bicycle": "use_sidepath",
+    "foot": "use_sidepath",
+    "highway": "secondary",
+    "lanes": "1",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "source:name": "Lei Municipal 7990/2009",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 982055156,
+  "center": {
+    "lat": -27.5867600,
+    "lon": -48.5819101
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "no",
+    "sidewalk:left": "yes",
+    "sidewalk:right": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 982055164,
+  "center": {
+    "lat": -27.5899343,
+    "lon": -48.5859084
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "no",
+    "sidewalk:left": "yes",
+    "sidewalk:right": "separate",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 984542876,
+  "center": {
+    "lat": -27.5922429,
+    "lon": -48.5406905
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Travessa Elisabete de Melo Pereira",
+    "oneway": "yes",
+    "sidewalk": "left",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 985673481,
+  "center": {
+    "lat": -27.5902885,
+    "lon": -48.5583317
+  },
+  "tags": {
+    "alt_name": "Rua Henriqueta Grundler da Costa",
+    "handrail": "yes",
+    "highway": "steps",
+    "incline": "up",
+    "name": "Servidão Henriqueta Grundler da Costa",
+    "source:alt_name": "IBGE",
+    "source:name": "PMF;survey"
+  }
+},
+{
+  "type": "way",
+  "id": 986386774,
+  "center": {
+    "lat": -27.5911774,
+    "lon": -48.5717078
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 986386777,
+  "center": {
+    "lat": -27.5942437,
+    "lon": -48.5694283
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "no",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 986386778,
+  "center": {
+    "lat": -27.5937346,
+    "lon": -48.5696157
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "60",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "sidewalk": "right",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 987216307,
+  "center": {
+    "lat": -27.5994716,
+    "lon": -48.5300931
+  },
+  "tags": {
+    "building": "storage_tank",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 995238449,
+  "center": {
+    "lat": -27.7511025,
+    "lon": -48.7083359
+  },
+  "tags": {
+    "name": "Ribeirão Cachoeira das Sete Braças",
+    "waterway": "stream"
+  }
+},
+{
+  "type": "way",
+  "id": 1006258696,
+  "center": {
+    "lat": -27.6799426,
+    "lon": -48.7508354
+  },
+  "tags": {
+    "content": "water",
+    "height": "20",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045340,
+  "center": {
+    "lat": -27.5717468,
+    "lon": -48.4282064
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "name": "Tanque 3",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045344,
+  "center": {
+    "lat": -27.5718763,
+    "lon": -48.4282644
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "name": "Tanque 4",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045346,
+  "center": {
+    "lat": -27.5718825,
+    "lon": -48.4279097
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "name": "Tanque 2",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045351,
+  "center": {
+    "lat": -27.5719857,
+    "lon": -48.4278762
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045352,
+  "center": {
+    "lat": -27.5720415,
+    "lon": -48.4279731
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "name": "Tanque 5",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1024045353,
+  "center": {
+    "lat": -27.5719415,
+    "lon": -48.4277720
+  },
+  "tags": {
+    "landuse": "reservoir",
+    "name": "Tanque 1",
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1044614314,
+  "center": {
+    "lat": -27.4389964,
+    "lon": -48.4196333
+  },
+  "tags": {
+    "building": "storage_tank",
+    "content": "water",
+    "man_made": "storage_tank",
+    "roof:shape": "pyramidal"
+  }
+},
+{
+  "type": "way",
+  "id": 1045130537,
+  "center": {
+    "lat": -27.5968440,
+    "lon": -48.5540010
+  },
+  "tags": {
+    "addr:housenumber": "345",
+    "addr:street": "Rua Francisco Tolentino",
+    "amenity": "food_court",
+    "building": "yes",
+    "check_date": "2026-07-18",
+    "name": "Lanchonete Amarelinha"
+  }
+},
+{
+  "type": "way",
+  "id": 1045346539,
+  "center": {
+    "lat": -27.6067190,
+    "lon": -48.5169828
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "description": "40 KL de água",
+    "man_made": "storage_tank",
+    "material": "plastic",
+    "operator": "Acquaville"
+  }
+},
+{
+  "type": "way",
+  "id": 1046963581,
+  "center": {
+    "lat": -27.4347534,
+    "lon": -48.4557702
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1062229842,
+  "center": {
+    "lat": -27.4411152,
+    "lon": -48.4147190
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação de Tratamento de Esgoto Ingleses",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 1065342210,
+  "center": {
+    "lat": -27.5967228,
+    "lon": -48.6895323
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta Paulina Vieira",
+    "narrow": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1067004568,
+  "center": {
+    "lat": -27.5918057,
+    "lon": -48.5717264
+  },
+  "tags": {
+    "alt_name": "Avenida Beira Mar Continental",
+    "cycleway:right": "lane",
+    "destination": "Beira Mar Continental",
+    "highway": "primary",
+    "lanes": "1",
+    "name": "Avenida Cláudio Alvin Barbosa (Poeta Zininho)",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk:left": "no",
+    "sidewalk:right": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1134648391,
+  "center": {
+    "lat": -27.6904924,
+    "lon": -48.7753927
+  },
+  "tags": {
+    "addr:city": "Santo Amaro da Imperatriz",
+    "addr:postcode": "88140-000",
+    "addr:street": "Rua João Jacinto Machado",
+    "addr:suburb": "Sul do Rio",
+    "amenity": "pub",
+    "building": "yes",
+    "name": "Bar & Lanchonete Alves",
+    "opening_hours": "Mo-Sa 08:00-22:00",
+    "smoking": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 1137322873,
+  "center": {
+    "lat": -27.4860251,
+    "lon": -48.6539439
+  },
+  "tags": {
+    "highway": "service",
+    "name": "Servidão Julieta Vieira",
+    "narrow": "yes",
+    "service": "alley",
+    "source:name": "IBGE"
+  }
+},
+{
+  "type": "way",
+  "id": 1193678581,
+  "center": {
+    "lat": -27.3896604,
+    "lon": -48.6233400
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Odete Marques Rodrigues",
+    "old_name": "Rua 419.1",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1273531152,
+  "center": {
+    "lat": -27.8885152,
+    "lon": -48.5890438
+  },
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 1333775009,
+  "center": {
+    "lat": -27.7099208,
+    "lon": -48.5110485
+  },
+  "tags": {
+    "capacity": "5000L",
+    "content": "water",
+    "man_made": "storage_tank",
+    "material": "reinforced_concrete",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 1344925919,
+  "center": {
+    "lat": -27.5713951,
+    "lon": -48.7568916
+  },
+  "tags": {
+    "addr:housenumber": "2084",
+    "addr:street": "Rua Antônio José Raulino",
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Restaurante e Lanchonete Cunha",
+    "opening_hours": "Mo-Sa 08:00-18:00; PH off",
+    "phone": "+55 48 3378 0012"
+  }
+},
+{
+  "type": "way",
+  "id": 1360448616,
+  "center": {
+    "lat": -27.3368725,
+    "lon": -48.8898385
+  },
+  "tags": {
+    "natural": "water",
+    "water": "reservoir"
+  }
+},
+{
+  "type": "way",
+  "id": 1371657562,
+  "center": {
+    "lat": -27.5907442,
+    "lon": -48.5872330
+  },
+  "tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "40",
+    "name": "Rua Professora Antonieta de Barros",
+    "oneway": "no",
+    "sidewalk": "both",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1418441918,
+  "center": {
+    "lat": -27.4977291,
+    "lon": -48.6410695
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Rua Sete de Setembro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1418441919,
+  "center": {
+    "lat": -27.4975345,
+    "lon": -48.6423166
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "highway": "secondary",
+    "lanes": "2",
+    "name": "Rua Sete de Setembro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1418441920,
+  "center": {
+    "lat": -27.4975208,
+    "lon": -48.6424119
+  },
+  "tags": {
+    "alt_name": "Rua 7 de Setembro",
+    "bridge": "yes",
+    "highway": "secondary",
+    "lanes": "2",
+    "layer": "1",
+    "name": "Rua Sete de Setembro",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1419008916,
+  "center": {
+    "lat": -27.5535043,
+    "lon": -48.5063469
+  },
+  "tags": {
+    "addr:city": "Florianópolis",
+    "addr:street": "Rodovia João Paulo",
+    "addr:suburb": "João Paulo",
+    "man_made": "wastewater_plant",
+    "name": "ETE João Paulo",
+    "operator": "CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 1420273221,
+  "center": {
+    "lat": -27.5599821,
+    "lon": -48.6391811
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1421890694,
+  "center": {
+    "lat": -27.5388906,
+    "lon": -48.5041774
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1425416655,
+  "center": {
+    "lat": -27.5788712,
+    "lon": -48.5357111
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1425469401,
+  "center": {
+    "lat": -27.5802793,
+    "lon": -48.5408933
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1425469402,
+  "center": {
+    "lat": -27.5803269,
+    "lon": -48.5410859
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1426302337,
+  "center": {
+    "lat": -27.5533729,
+    "lon": -48.4961303
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 1426302338,
+  "center": {
+    "lat": -27.5546621,
+    "lon": -48.4961184
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "Esgoto/CASAN"
+  }
+},
+{
+  "type": "way",
+  "id": 1426521513,
+  "center": {
+    "lat": -27.5941325,
+    "lon": -48.6476594
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1426521514,
+  "center": {
+    "lat": -27.5945160,
+    "lon": -48.6477309
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427207601,
+  "center": {
+    "lat": -27.5542685,
+    "lon": -48.4378109
+  },
+  "tags": {
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427207602,
+  "center": {
+    "lat": -27.5543035,
+    "lon": -48.4375972
+  },
+  "tags": {
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427207604,
+  "center": {
+    "lat": -27.5540627,
+    "lon": -48.4376338
+  },
+  "tags": {
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427207605,
+  "center": {
+    "lat": -27.5550030,
+    "lon": -48.4377286
+  },
+  "tags": {
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427700971,
+  "center": {
+    "lat": -27.5357762,
+    "lon": -48.6495684
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427700972,
+  "center": {
+    "lat": -27.5356445,
+    "lon": -48.6495913
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427700973,
+  "center": {
+    "lat": -27.5357041,
+    "lon": -48.6495522
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1427715422,
+  "center": {
+    "lat": -27.5213504,
+    "lon": -48.6415353
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1428766740,
+  "center": {
+    "lat": -27.5410273,
+    "lon": -48.5175055
+  },
+  "tags": {
+    "addr:street": "Estrada Haroldo Soares Glavan",
+    "government": "government",
+    "name": "Reservatório de Água Tratada Cacupé 2",
+    "office": "government",
+    "short_name": "Reservatório Cacupé 2"
+  }
+},
+{
+  "type": "way",
+  "id": 1428883896,
+  "center": {
+    "lat": -27.5047508,
+    "lon": -48.6506895
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1442836875,
+  "center": {
+    "lat": -27.5887134,
+    "lon": -48.5981733
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1444587425,
+  "center": {
+    "lat": -27.5963688,
+    "lon": -48.6894628
+  },
+  "tags": {
+    "highway": "residential",
+    "name": "Rua Julieta Paulina Vieira",
+    "narrow": "yes",
+    "surface": "paving_stones"
+  }
+},
+{
+  "type": "way",
+  "id": 1449401411,
+  "center": {
+    "lat": -27.4463809,
+    "lon": -48.4811944
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1463554302,
+  "center": {
+    "lat": -27.5896854,
+    "lon": -48.6031683
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Praça Andréia Dolisete dos Santos"
+  }
+},
+{
+  "type": "way",
+  "id": 1481584193,
+  "center": {
+    "lat": -27.4425999,
+    "lon": -48.5109817
+  },
+  "tags": {
+    "building": "yes",
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1493448630,
+  "center": {
+    "lat": -27.6007515,
+    "lon": -48.5557122
+  },
+  "tags": {
+    "building": "storage_tank",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1531744132,
+  "center": {
+    "lat": -27.4036191,
+    "lon": -48.4270691
+  },
+  "tags": {
+    "addr:street": "Avenida Luiz Boiteux Piazza",
+    "man_made": "pumping_station",
+    "name": "EEE B03 Cachoeira",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 1531802107,
+  "center": {
+    "lat": -27.4008903,
+    "lon": -48.4163394
+  },
+  "tags": {
+    "addr:street": "Avenida Tom Traugott Wildi",
+    "man_made": "pumping_station",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 1531802108,
+  "center": {
+    "lat": -27.4009539,
+    "lon": -48.4162116
+  },
+  "tags": {
+    "capacity": "100",
+    "content": "water",
+    "man_made": "storage_tank",
+    "material": "metal",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 1531802109,
+  "center": {
+    "lat": -27.3988849,
+    "lon": -48.4163918
+  },
+  "tags": {
+    "man_made": "water_tower"
+  }
+},
+{
+  "type": "way",
+  "id": 1531802120,
+  "center": {
+    "lat": -27.4009956,
+    "lon": -48.4162083
+  },
+  "tags": {
+    "capacity": "100",
+    "content": "water",
+    "man_made": "storage_tank",
+    "material": "metal",
+    "operator": "Casan"
+  }
+},
+{
+  "type": "way",
+  "id": 1531974728,
+  "center": {
+    "lat": -27.3934781,
+    "lon": -48.4172422
+  },
+  "tags": {
+    "content": "water",
+    "man_made": "storage_tank"
+  }
+},
+{
+  "type": "way",
+  "id": 1540270798,
+  "center": {
+    "lat": -27.5385050,
+    "lon": -48.6401822
+  },
+  "tags": {
+    "government": "public_service",
+    "name": "Casan",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 1543062916,
+  "center": {
+    "lat": -27.5710693,
+    "lon": -48.6872838
+  },
+  "tags": {
+    "addr:housenumber": "7038",
+    "addr:street": "Rua Antônio Jovita Duarte",
+    "amenity": "school",
+    "contact:facebook": "https://www.facebook.com/people/EEB-Valdete-Luci-Martins-Porto/100064067074052/",
+    "education": "school",
+    "email": "eebvaldetelmporto@sed.sc.gov.br",
+    "name": "Escola Valdete Luci Martins Porto",
+    "official_name": "Escola de Educação Básica Valdete Luci Martins Porto",
+    "phone": "+55 48 3665 5792",
+    "religion": "none",
+    "short_name": "EEB Valdete Luci Martins Porto"
+  }
+},
+{
+  "type": "way",
+  "id": 1550829227,
+  "center": {
+    "lat": -27.6784699,
+    "lon": -48.7671467
+  },
+  "tags": {
+    "highway": "residential",
+    "maxspeed": "40",
+    "name": "Rua Salete Broering Becker",
+    "old_name": "Rua 587",
+    "oneway": "no",
+    "sidewalk:both": "separate"
+  }
+},
+{
+  "type": "relation",
+  "id": 13331167,
+  "center": {
+    "lat": -27.4464084,
+    "lon": -48.5029854
+  },
+  "tags": {
+    "man_made": "wastewater_plant",
+    "name": "Estação de Tratamento de Esgotos de Jurerê Internacional",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 20453323,
+  "center": {
+    "lat": -27.5870565,
+    "lon": -48.5821955
+  },
+  "tags": {
+    "name": "Rua Professora Antonieta de Barros",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+},
+{
+  "type": "relation",
+  "id": 20453324,
+  "center": {
+    "lat": -27.5891353,
+    "lon": -48.5845376
+  },
+  "tags": {
+    "name": "Rua Antonieta de Barros, 588",
+    "public_transport": "stop_area",
+    "type": "public_transport"
+  }
+}
+
+  ]
+}

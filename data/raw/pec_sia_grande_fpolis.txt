@@ -1,0 +1,2490 @@
+                                                                                              Pág. 01 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                        PLANO DE EMERGÊNCIA E
+                CONTINGÊNCIA OPERACIONAL (PEC)
+
+          SISTEMA INTEGRADO DE FLORIANÓPOLIS (SIF)
+
+                      - SIA GRANDE FLORIANÓPOLIS -
+
+
+
+Revisão     Data                 Descrição                         Responsável
+  Nº
+  00      2020/2021    Adaptação do PEC à resolução          Gerência de Operação da
+                              156 da ARESC                       Superintendência
+                                                            Metropoliana e Gerência de
+                                                              Políticas Operacionais
+  01       09/2023         Revisão da matriz risco,      Gerência de Políticas Operacionais
+                        responsáveis e atualização das
+                                  unidades
+
+
+
+
+                                     Setembro/2023
+
+
+
+
+                                                                                              5
+                                                                   SUMÁRIO
+
+1. INTRODUÇÃO.................................................................................................................................3
+
+
+
+
+                                                                                                                                                              Pág. 02 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+   1.1. Objetivo........................................................................................................................................ 3
+      1.1.1. Objetivos Específicos ........................................................................................................... 3
+        1.1.2. Relação Deste Plano com Outros Planos Correlatos ............................................................ 3
+    1.2. Descrição do SIA ......................................................................................................................... 4
+    1.3. Localização/Descrição das Instalações do Sistema Integrado da Grande Florianópolis........... 4
+       1.3.1. Captação Superficial do Rio Pilões ...................................................................................... 4
+        1.3.2. Captação Superficial do Rio Cubatão ................................................................................... 5
+        1.3.3. ETA José Pedro Horstmann (Morro dos Quadros) - tratamento convencional com filtração
+        direta ascendente ............................................................................................................................ 5
+        1.3.4. Captação Superficial Córrego Ana D’Ávila (Morro do Quilombo) ..................................... 6
+        1.3.5. Captação Superficial Cachoeira do Assopra (Lagoa da Conceição) .................................... 6
+        1.3.6. Captação Superficial do Rio Tavares ................................................................................... 6
+        1.3.7. Captação Superficial do Rio Pau do Barco (Monte Verde) .................................................. 7
+        1.3.8. Sistema de Bombeamento .................................................................................................... 7
+2. IDENTIFICAÇÃO DOS RESPONSÁVEIS ................................................................................. 15
+   2.1. Estação de Tratamento de Água (ETA) ..................................................................................... 15
+   2.2. Redes De Abastecimento De Água ............................................................................................. 15
+   2.3. Agências ..................................................................................................................................... 16
+   2.4. Gerente de Operação ................................................................................................................. 17
+   2.5. Superintendente Regional – Grande Florianópolis ................................................................... 17
+   2.6. Diretoria de Operação e Expansão (DO) .................................................................................. 17
+   2.7. Identificação do Representante Legal da CASAN ..................................................................... 18
+3. METODOLOGIA ........................................................................................................................... 18
+4. PLANO DE CONTINGÊNCIA E EMERGÊNCIA ..................................................................... 19
+   4.1. Riscos ......................................................................................................................................... 19
+   4.2. Responsabilidades ..................................................................................................................... 26
+      4.2.1. Lista de Contatos Internos .................................................................................................. 31
+        4.2.2. Lista de Contatos Externos ................................................................................................. 31
+    4.3. Estrutura Organizacional de Resposta ...................................................................................... 32
+       4.3.1 Estrutura Organizacional de Divulgação de Evento Crítico ................................................ 34
+    4.4. Medidas de Racionamento de Água ........................................................................................... 36
+       4.4.1. Diretrizes para Suspensão do Fornecimento de Água ........................................................ 37
+   4.5. Pontos Críticos do SIA Grande Florianópolis ........................................................................... 37
+   4.6. Relatório de Comunicação ........................................................................................................ 39
+   4.7. Peças, Equipamentos e Contratos de Serviços .......................................................................... 39
+5. RECOMENDAÇÕES ..................................................................................................................... 39
+6. GLOSSÁRIO ................................................................................................................................... 40
+7. APROVAÇÃO ................................................................................................................................. 40
+
+
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                                                                     2/48
+
+
+                                                                                                                                                              6
+1. INTRODUÇÃO
+
+Este documento apresenta um Plano de Emergência e Contingência (PEC) elaborado por
+técnicos da própria Companhia Catarinense de Águas e Saneamento (CASAN)
+
+
+
+
+                                                                                               Pág. 03 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+especificamente para o Sistema Integrado de Abastecimento de Água (SIA) da Grande
+Florianópolis. A metodologia de construção do Plano, assim como todos os detalhes de sua
+implantação e manutenção, é também abordada neste trabalho. O Plano de Emergência e
+Contingência se justifica ela necessidade de haver uma orientação profissionalizada e
+planejada de situações reconhecidas pelos profissionais da CASAN como potenciais
+RISCOS ao funcionamento do sistema e ao meio ambiente.
+
+1.1. Objetivo
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atua na operação do SIA, subsidiando o processo de tomada de decisão com elementos
+previamente planejados. Desta forma, seu objetivo é fornecer um conjunto de diretrizes e
+informações visando à adoção de procedimentos lógicos, técnicos e administrativos,
+estruturados de forma a propiciar resposta rápida e eficiente em situações emergenciais.
+
+1.1.1. Objetivos Específicos
+
+  •    Restringir ao máximo os impactos dos riscos potenciais identificados;
+  •    Evitar que os aspectos ambientais se transformem em impactos e extrapolem os limites
+       de segurança estabelecidos;
+  •    Antecipar que situações externas ao evento contribuam para o seu agravamento;
+  •    Apresentar a estruturação dos procedimentos corretivos a serem tomados quando da
+       ocorrência de um evento.
+
+1.1.2. Relação Deste Plano com Outros Planos Correlatos
+
+Este plano de Emergência e Contingência está estritamente relacionado a outros instrumentos
+legais responsáveis pela garantia da prestação do serviço de abastecimento de água. Um
+destes instrumentos é o Plano Municipal Integrado de Saneamento Básico do município de
+Florianópolis, instituído pela Lei Ordinária n.º 9.400, de 25 de novembro de 2013. No PMSB
+estão instituídas as ações de emergências e contingências para conter eventos de ameaça, e
+estas ações por sua vez estão abordadas neste PEC, porém no formato específico na
+Resolução 156 da Agência Reguladora de Serviços Públicos de Santa Catarina (ARESC).
+
+Desta forma, sempre que houver atualizações do PMSB de Florianópolis, este PEC deverá ser
+revisto a fim de atender as possíveis demandas do município. No âmbito municipal há outro
+importante instrumento legal, a Lei Ordinária n.º 7.474, de 19 de novembro de 2007. Esta Lei
+dispõe sobre a Política Municipal de Saneamento Básico, e é a lei que criou o Conselho
+Municipal de Saneamento Básico. É importante ressaltar, também, que é necessária a
+articulação entre o Plano Municipal de Saneamento Básico e o Plano Diretor vigente no
+Município de Florianópolis.
+
+Este plano de Emergência e Contingência também deve estar relacionado ao Plano Municipal
+de Saneamento Básico do Município de São José. No PMSB de São José estão instituídas as
+ações de emergências e contingências para conter eventos de ameaça, e estas ações por sua
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)        3/48
+
+
+                                                                                               7
+vez estão abordadas neste PEC, porém no formato específico na resolução 156 da Agência
+Reguladora de Serviços Públicos de Santa Catarina.
+
+Este Plano de Emergência e Contingência também está estritamente relacionado ao Plano
+
+
+
+
+                                                                                             Pág. 04 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Municipal de Saneamento Básico do Município de Biguaçu, instituído pela Lei
+Complementar n.º 6, de 5 de dezembro de 2007. No PMSB estão instituídas as ações para
+emergências e contingências visando conter eventos de ameaça, e estas ações por sua vez
+estão abordadas neste PEC, porém no formato específico na Resolução 156 da ARESC. Este
+Plano de Emergência e Contingência também deve estar relacionado ao Plano Municipal de
+Saneamento Básico do Município de Santo Amaro da Imperatriz.
+
+É importante ressaltar que sempre que houver atualizações dos Planos Municipais de
+Saneamento Básico dos municípios abrangidos pelo Sistema Integrado de Abastecimento da
+Grande Florianópolis este PEC deverá ser revisto a fim de atender as possíveis demandas
+dos municípios.
+
+1.2. Descrição do SIA
+
+O presente estudo refere-se ao plano de emergência do Sistema de Abastecimento Integrado
+de Água da Grande Florianópolis, denominado SIA Grande Florianópolis. São abastecidos
+por este sistema os seguintes municípios: Santo Amaro da Imperatriz, São José, Biguaçu,
+Florianópolis (parcialmente) e Palhoça (não operado pela CASAN).
+
+A principal Estação de Tratamento de Água (ETA) do SIA Grande Florianópolis – ETA José
+Pedro Horstmann (Morro dos Quadros) - possui capacidade máxima de 3000 L/s e
+compreende:
+
+  •    Captação Superficial do Rio Pilões;
+  •    Captação Superficial do Rio Cubatão;
+  •    ETA José Pedro Horstmann (Morro dos Quadros), com tratamento convencional com
+       floculação, decantação e filtração ascendente;
+  •    Para o município de Florianópolis, em específico, há também as seguintes captações:
+       Captação Superficial do Córrego Ana D’Ávila (Morro do Quilombo - Itacorubi)
+       (utilizado apenas em situações emergenciais);
+  •    Captação Superficial do Córrego da Lagoa (Lagoa da Conceição);
+  •    Captação Superficial do o Rio Pau do Barco (Monte Verde) (utilizado apenas em
+       situações emergenciais);
+  •    Captação Superficial do Rio Tavares (desativado).
+
+Também fazem parte do SIA da Grande Florianópolis reservatórios, estações de recalque,
+boosters, adutoras para o transporte e as redes de distribuição de água.
+
+1.3. Localização/Descrição das Instalações do Sistema Integrado da Grande Florianópolis
+
+1.3.1. Captação Superficial do Rio Pilões
+
+A Captação do Rio Pilões é a principal captação do Sistema Integrado da Grande
+Florianópolis e está localizado na Unidade de Conservação da Serra do Tabuleiro. A água
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)      4/48
+
+
+                                                                                             8
+captada é conduzida por gravidade até a ETA Morro dos Quadros. A Figura 1 mostra a
+Captação do Rio Pilões.
+
+Coordenadas Geográficas:
+
+
+
+
+                                                                                           Pág. 05 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+         o    Latitude: 27º44’13.47” S;
+         o    Longitude: 48º45’24.43” O.
+                                    Figura 1 – Captação do Rio Pilões
+
+
+
+
+1.3.2. Captação Superficial do Rio Cubatão
+
+O Rio Cubatão, apesar de ter uma maior área de drenagem que o Rio Pilões (ainda o tem
+como afluente), atualmente, é captado menor volume devido a necessidade de bombeamento à
+ETA Morro dos Quadros. O manancial do Rio Pilões tem água de melhor qualidade e menor
+custo operacional. A Figura 2 mostra a Captação do Rio Cubatão.
+
+Coordenadas Geográficas:
+
+         o    Latitude: 27º41’30.65” S;
+         o    Longitude: 48º42’21.55” O.
+                                   Figura 2 – Captação do Rio Cubatão
+
+
+
+
+1.3.3. ETA José Pedro Horstmann (Morro dos Quadros) - tratamento convencional com
+filtração direta ascendente
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)     5/48
+
+
+                                                                                           9
+A ETA Morro dos Quadros é a maior estação de tratamento de água que a CASAN possui,
+com capacidade máxima de tratamento de 3000 L/s.
+
+
+
+
+                                                                                              Pág. 06 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+A ETA se localiza na Rua Ivo João da Silva, s/n, bairro Aririu, Palhoça - SC. O acesso é
+autorizado apenas a funcionários da CASAN e a entrada é monitorada 24 horas por dia, sete
+dias por semana, por meio de vigilância eletrônica e por profissionais habilitados.
+
+O tratamento é composto por coagulação, floculação, decantação, filtração, correção de pH,
+desinfecção e fluoretação. Esta ETA opera 24 h/dia com operadores da CASAN. O telefone
+de contato da ETA é (48) 3342-0735.
+
+Coordenadas Geográficas:
+
+         o    Latitude: 27º41’18.52” S;
+         o    Longitude: 48º42’13.63” O.
+
+1.3.4. Captação Superficial Córrego Ana D’Ávila (Morro do Quilombo)
+
+A captação superficial do Córrego Ana D’Ávila fez parte do primeiro sistema de
+abastecimento público de água de Florianópolis, inaugurado em 1910. Está localizada no
+Morro do Quilombo, é utilizada apenas em situações emergenciais.
+
+Coordenadas Geográficas:
+
+         o    Latitude: 27º34’26.10” S;
+         o    Longitude: 48º29’23.16” O.
+
+1.3.5. Captação Superficial Cachoeira do Assopra (Lagoa da Conceição)
+
+Juntamente com a captação superficial do Córrego Ana D’Ávila, a captação superficial do
+Córrego da Lagoa fez parte do primeiro sistema de abastecimento público de água de
+Florianópolis, inaugurado em 1910. Está localizada no alto do morro da Lagoa da
+Conceição abastecendo as residências situadas no morro e também reforça o abastecimento
+do bairro Itacorubi.
+
+Coordenadas Geográficas:
+
+         o    Latitude: 27º35’14.27” S;
+         o    Longitude: 48º28’38.38” O.
+
+1.3.6. Captação Superficial do Rio Tavares
+
+A captação superficial do Rio Tavares foi construída como um sistema de reforço em 922.
+Atualmente, encontra-se desativada.
+
+Coordenadas Geográficas:
+
+         o    Latitude: 27º33’42.62” S;
+         o    Longitude: 48º29’23.33” O.
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)      6/48
+
+
+                                                                                             10
+1.3.7. Captação Superficial do Rio Pau do Barco (Monte Verde)
+
+A captação superficial do Rio Pau do Barco está localizada no Bairro Monte Verde e é
+
+
+
+
+                                                                                                            Pág. 07 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+utilizada apenas em situações emergenciais.
+
+Coordenadas Geográficas:
+
+         o     Latitude: 27º38’43.09” S;
+         o     Longitude: 48º30’21.95” O.
+
+1.3.8. Sistema de Bombeamento
+
+O Sistema de bombeamento do Município de Florianópolis apresenta Estações de Recalque de
+Água Tratada – ERAT’s e boosters. As informações dos mesmos são mostradas pelo Quadro 1.
+
+               Quadro 1 - Informações dos sistemas de bombeamento do Sistema Integrado da
+                             Grande Florianópolis – Município de Florianópolis.
+
+Sistema de bombeamento                  Bairro                Coordenadas                   Rua
+                                                        Latitude: 27°35’34.92"S
+ERAT R1                                 Centro                                       Rua Major Costa
+                                                       Longitude: 48°32’23.34”O
+                                                        Latitude: 27°32’27.8"S       Rodovia Haroldo
+ERAT Cacupé                             Cacupé
+                                                       Longitude: 48°31’03.0”O      Soares Glavan, 960
+                                                        Latitude: 27°35’54.56"S
+ERAT Morro da Caixa                    Capoeiras                                    Avenida Ivo Silveira
+                                                       Longitude: 48°34’41.40”O
+                                                         Latitude: 27°36’10.1"S      Rua Maestro Aldo
+ERAT Aldo Krieger                   Córrego Grande                                    Krieger, ao lado
+                                                        Longitude: 48°29’53.2”O
+                                                                                       número 335
+                                                        Latitude: 27°33’34.71"S      Servidão Ademir
+ERAT Caiobig                          João Paulo
+                                                       Longitude: 48°30’51.77”O       Guimarães, 178
+                                                        Latitude: 27°35’43.23"S        Rua Custódio
+ERAT R8 (Pastinho)                  Saco dos Limões
+                                                       Longitude: 48°32’11.57”O       Fermino Vieira
+                                                        Latitude: 27°36’58.63"S     Rua Manoel Sérgio
+ERAT Servidão Catarina              Saco dos Limões
+                                                       Longitude: 48°31’32.35”O          Vieira
+                                                        Latitude: -27°32′52.231″
+ERAT Aldo Luz (Itaguaçu)               Itaguaçu                                     Rua Aldo Luz, 136
+                                                        Longitude: 48°35'25.8"O
+                                                         Latitude: 27°32′52.231″   Rua Lírio da Paz com
+                                       Lot. Vila
+ERAT Lot. Vila Cachoeira                                                               Rua Girassol
+                                       Cachoeira        Longitude: 48°29′41.683″
+                                                                                         Dourado
+                                                         Latitude: 27°36'20.60"S
+ERAT Vila Aparecida                    Coqueiros                                    Rua Fermino Costa
+                                                        Longitude: 48°35'06.99"O
+                                                         Latitude: 27°34'33.67"S    Rua Joaquim Costa,
+Booster Joaquim Costa I               Agronômica
+                                                        Longitude: 48°32'14.14"O     frente ao nº 102
+                                                        Latitude: 27°34'45.55"S     Rua Joaquim Costa,
+Booster Joaquim Costa II              Agronômica
+                                                        Longitude: 48°32'4.84"O       frente ao 610
+                                                                                    Rodovida Haroldo
+                                                         Latitude: 27°32'6.39"S
+Booster Cacupé SC-401                   Cacupé                                     Soares Glavan, trevo
+                                                        Longitude: 48°30'39.94"O
+                                                                                       com SC-401
+
+                                                         Latitude: 27°32’14.1"S      Rodovia Haroldo
+Booster Servidão Valmir Leonidas        Cacupé          Longitude: 48°30’45.6”O     Soares Glavan, 330
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                     7/48
+
+
+                                                                                                           11
+Sistema de bombeamento                  Bairro                Coordenadas                  Rua
+
+                                                                                   Avenida Cesar Seara,
+                                                         Latitude: 27°36'14.63"S
+
+
+
+
+                                                                                                            Pág. 08 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Booster Tercasa                        Carvoeira                                   em frente ao número
+                                                        Longitude: 48°31'29.36"O
+                                                                                           285
+                                                         Latitude: 27°35'00.04"S     Rua Armandino
+Booster Ernesto Stodiek                 Centro
+                                                        Longitude: 48°32'22.56"O        Gonzaga
+                                                         Latitude: 27°35'47.25"S
+Booster Nova Descoberta                 Centro                                     Rua Nova Descoberta
+                                                        Longitude: 48°32'20.73"O
+                                                         Latitude: 27°35’11.95"S   Rua Doutor Djalma
+Booster Morumbi                         Centro
+                                                       Longitude: 48°32’25.26”O     Moellman, 288
+
+                                                         Latitude: 27°36’23.79"S
+Booster Mocotó                          Centro                                       Rua 13 de Maio
+                                                       Longitude: 48°32’40.55”O
+                                                                                    Avenida do Antão,
+                                                         Latitude: 27°34'59.9"S
+Booster Avenida do Antão                Centro                                     em frente ao número
+                                                        Longitude: 48°32'17.5"O
+                                                                                           200
+                                                         Latitude: 27°35'15.2"S
+Booster TV Cultura                      Centro                                      Avenida do Antão
+                                                        Longitude: 48°32'11.5"O
+                                                                                    Rua Maria Juliana
+                                                         Latitude: 27°36'35.8"S
+Booster Maria Juliana Cordeiro      Córrego Grande                                  Cordeiro, em frente
+                                                        Longitude: 48°30'19.5"O
+                                                                                        ao nº 105
+
+                                                         Latitude: 27°35’59.65"S       Rua Capitão
+Booster Capitão Américo             Córrego Grande                                  Américo, em frente
+                                                       Longitude: 48°30’33.01”O       ao número 28
+                                                                                     Rua Sebastião
+Booster Sebastião Laurentino da                          Latitude: 27°36’30.14"S   Laurentino da Silva,
+                                    Córrego Grande
+Silva                                                  Longitude: 48°30’17.57”O    em frente ao número
+                                                                                          1001
+
+                                                         Latitude: 27°36’05.1"S     Rua Maestro Aldo
+Booster Maestro Aldo Krieger        Córrego Grande                                 Krieger, em frente ao
+                                                        Longitude: 48°29’58.9”O        número 138
+                                      Costeira do        Latitude: 27°37'47.15"S   Servidão Guarani, em
+Booster Servidão Guarani
+                                       Pirajubaé        Longitude: 48°31'24.30"O    frente ao número 29
+                                                                                      Servidão Ana
+Booster Ana Maria Bernardo            Costeira do        Latitude: 27°37'23.47"S
+                                                                                   Bernardo, em frente
+(Dona Aninha)                          Pirajubaé        Longitude: 48°31'30.46"O
+                                                                                     ao número 102
+                                      Costeira do        Latitude: 27°38'03.0"S       Servidão José
+Booster Kumakola I
+                                       Pirajubaé        Longitude: 48°31'19.7"O       Kumakola, 129
+                                                                                      Servidão José
+                                      Costeira do        Latitude: 27°38'03.4"S
+Booster Kumakola II                                                                Kumakola, em frente
+                                       Pirajubaé        Longitude: 48°31'16.7"O
+                                                                                     ao número 190
+                                                                                    Avenida Juscelino
+                                                         Latitude: 27°35'47.2"S
+Booster Jucelino Kubitschek             Estreito                                     Kubitschek de
+                                                        Longitude: 48°34'30.3"O
+                                                                                        Oliveira
+                                                         Latitude: 27°34'58.26"S    Rua do Quilombo,
+Booster Quilombo                       Itacorubi
+                                                        Longitude: 48°29'45.23"O          358
+                                                         Latitude: 27°35'18.54"S       Servidão da
+Booster das Palmeiras                  Itacorubi
+                                                        Longitude: 48°29'39.63"O      Palmeiras, 97
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                     8/48
+
+
+                                                                                                           12
+Sistema de bombeamento                    Bairro              Coordenadas                  Rua
+
+                                                         Latitude: 27°35'51.54"S
+Booster Costa Azul                       Itacorubi                                 Rua Admar Gonzaga
+
+
+
+
+                                                                                                               Pág. 09 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                        Longitude: 48°29'29.73"O
+
+Booster Itacorubi I (Booster                             Latitude: 27°34'25.12"S    Rua Coronel Luiz
+                                         Itacorubi
+Feliciano Martins Vieira)                               Longitude: 48°30'39.44"O     Caldeira, 282
+
+                                                                                   Rua Pastor William
+Booster Itacorubi II (Booster                            Latitude: 27°34'42.66"S
+                                         Itacorubi                                  Richard Schisler
+Antônio Joaquim de Freitas)                             Longitude: 48°30'17.98"O
+                                                                                      Filho, 1213
+
+                                                         Latitude: 27°35'6.18"S       Rua Rodrigo
+Booster Recanto Verde                    Itacorubi
+                                                        Longitude: 48°29'49.70"O   Rampinelli Jeremias
+
+                                                         Latitude: 27°34'15.36"S   Parque Tecnológico
+Booster Tecnópolis                      João Paulo
+                                                        Longitude: 48°30'43.29"O        Alfa, S/N
+
+                                                                                   Rua Professor Aníbal
+                                                         Latitude: 27°36'43.51"S
+Booster Aníbal Nunes Pires             José Mendes                                    Nunes Pires, em
+                                                        Longitude: 48°32'41.88"O
+                                                                                   frente ao número 140
+                                                                                       Rua Vereador
+                                                         Latitude: 27°36'33.94"S
+Booster Frederico Veras                  Pantanal                                     Frederico Veras,
+                                                        Longitude: 48°30'59.43"O
+                                                                                   frente ao número 413
+Booster Antônio Francisco da                            Latitude: 27°36'30.77"S        Rua Antônio
+                                         Pantanal
+Silveira                                                Longitude: 48°31'9.50"O    Francisco da Silveira
+                                                         Latitude: 27°36'16.24"S   Rua Protenor Vidal,
+Booster Protenor Vidal                   Pantanal
+                                                        Longitude: 48°30'55.91"O    ao lado casa nº 43
+                                                                                     Rua Deputado
+                                                         Latitude: 27°36'38.3"S
+Booster Cereja                           Pantanal                                  Antônio Edu Vieira,
+                                                        Longitude: 48°31'26.6"O
+                                                                                          464
+                                                         Latitude: 27°36'55.3"S     Servidão Jesus de
+Booster Servidão Catarina             Saco dos Limões
+                                                        Longitude: 48°31'34.7"O        Nazaré, 85
+
+                                                         Latitude: 27°35'53.80"S       Servidão da
+Booster Felicidade I                  Saco dos Limões
+                                                        Longitude: 48°31'58.24"O       Felicidade, 7
+
+                                                         Latitude: 27°35'46.31"S   Rua General Vieira
+Booster Felicidade II (Transcaeira)       Centro
+                                                        Longitude: 48°31'56.21"O      da Rosa, 15
+
+                                                         Latitude: 27°29'31.63"S   Rodovia José Carlos
+Booster Sc-401 I - Sambaqui            Saco Grande
+                                                        Longitude: 48°30'14.97"O     Daux (SC-401)
+
+                                                         Latitude: 27°29'32.09"S   Rodovia José Carlos
+Booster Sc-401- II – SIF               Saco Grande
+                                                        Longitude: 48°30'15.31"O     Daux (SC-401)
+
+                                                         Latitude: 27°29'22.30"S    Rodovia Rafael da
+Booster Rua das Ostras                   Sambaqui
+                                                        Longitude: 48°32'15.27"O    Rocha Pires, 2958
+
+                                                         Latitude: 27°29'20.38"S    Rua Isid Dutra, em
+Booster Isid Dutra I                     Sambaqui
+                                                        Longitude: 48°31'17.54"O   frente ao número 723
+
+                                                         Latitude: 27°29'25.56"S    Rodovia Rafael da
+Booster Antônio Carneiro                 Sambaqui                                  Rocha Pires, ao lado
+                                                        Longitude: 48°31'54.29"O
+                                                                                     do número 2279
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                        9/48
+
+
+                                                                                                              13
+Sistema de bombeamento                  Bairro                Coordenadas                   Rua
+                                                                                    Rua Isid Dutra, 249,
+                                                         Latitude: 27°29'33.25"S     em frente NEIM
+
+
+
+
+                                                                                                             Pág. 10 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Booster Isid Dutra                     Sambaqui
+                                                        Longitude: 48°31'25.25"O     Maria Salomé dos
+                                                                                           Santos
+                                                         Latitude: 27°35'0.13"S     Rua Álvaro Ramos,
+Booster Álvaro Ramos                   Trindade
+                                                        Longitude: 48°31'38.85"O            146
+                                                         Latitude: 27°35'58.5"S     Rua Marcus Aurélio
+Booster Serrinha                       Trindade                                     Homem, ao lado do
+                                                        Longitude: 48°31'48.1"O
+                                                                                     Reservatório R9
+Booster José Francisco Dias Areia                        Latitude: 27°35'10.81"S
+                                       Trindade                                       Rua Nilo Mussi
+(Booster Nilo Mussi)                                    Longitude: 48°31'41.85"O
+                                                         Latitude: 27°35'9.31"S           Servidão
+Booster Servidão Solidariedade         Trindade                                     Solidariedade, frente
+                                                        Longitude: 48°31'47.84"O
+                                                                                         ao nº 539
+Booster Saco dos Limões (EEE                            Latitude: 27°36′35.960″S    Av. Pref. Waldemar
+                                    Saco dos Limões
+Túnel)                                                  Longitude: 48°32′18.442″           Vieira
+Booster Protenor Vidal 2 (Rua da                        Latitude: 27°36′26.482″S       Rua Protenor
+                                       Pantanal
+Rosa)                                                  Longitude: 48°30′47.002″O     Vidal/Rua da Rosa
+                                                        Latitude: 27°36′26.482″S
+Booster Morro da lagoa                 Itacorubi                                          SC-404
+                                                       Longitude: 48°30′47.002″O
+
+
+As informações referentes aos Sistemas de Bombeamento do município de São José são
+mostradas no Quadro 2.
+
+ Quadro 2 - Informações dos sistemas de bombeamento do SIA Grande Florianópolis – Município de São José.
+
+Sistema de bombeamento                  Bairro                Coordenadas                   Rua
+                                                         Latitude: 27°34'16.46"S      Servidão Olaires
+ERAT Pedregal                           Ipiranga
+                                                        Longitude: 48°38'34.81"O      Maria dos Santos
+                                                                                     Rua Docilício Luz,
+                                                         Latitude: 27°36'1.66"S
+ERAT Morro Do Avaí                     São Luiz                                     em frente ao número
+                                                        Longitude: 48°37'43.18"O
+                                                                                            275
+                                                         Latitude: 48°38′11.180″    Rua Henrique Alvim
+ERAT Metropolitana                      Serraria
+                                                        Longitude: 27°32′56.660″          Correia
+                                      Bosque das         Latitude: 27°35'04.43"S
+Erat Bosquinho (associação)                                                         Rua das Mangueiras
+                                       Mansões          Longitude: 48°37'32.21"O
+                                      Bosque das         Latitude: 27°35'5.52"S
+Booster Bosque Das Mansões I                                                         Rua das Laranjeiras
+                                       Mansões          Longitude: 48°37'41.85"O
+                                      Bosque das         Latitude: 27°35'18.02"S
+Booster Bosque Das Mansões II                                                        Rua das Laranjeiras
+                                       Mansões          Longitude: 48°37'49.24"O
+                                                         Latitude: 27°32'56.66"S    Rua Henrique Alvim
+Booster Metropolitana                   Areias
+                                                        Longitude: 48°38'11.18"O         Correia
+                                                         Latitude: 27°36'48.53"S
+Booster Irineu Comelli                  Centro                                       Rua Irineu Comelli
+                                                        Longitude: 48°38'14.83"O
+                                                        Latitude: 27°36'53.53"S    Alameda Flamboyant,
+Booster Flamboyant                      Centro
+                                                        Longitude: 48°38'4.74"O            24
+                                                         Latitude: 27°35'11.5"S      Próxima à Rua Zita
+Booster Colônia Santana             Colônia Santana
+                                                        Longitude: 48°41'57.3"O       Althoff Koerich
+
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                    10/48
+
+
+                                                                                                            14
+Sistema de bombeamento                  Bairro                Coordenadas                  Rua
+
+                                                                                   Rua Jorge José Kells,
+                                                         Latitude: 27°34'40.27"S
+
+
+
+
+                                                                                                            Pág. 11 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Booster Santa Catarina                 Forquilhas                                  em frente ao número
+                                                        Longitude: 48°40'49.87"O
+                                                                                            54
+                                                         Latitude: 27°34'47.40"S      Rua Aristides
+Booster Aristides Schmitz              Forquilhas
+                                                        Longitude: 48°40'38.68"O        Schmitz
+                                                                                    Rua João José da
+                                                         Latitude: 27°35'36.54"S
+Booster Forquilinhas                  Forquilinha                                   Silva, próximo ao
+                                                        Longitude: 48°38'42.94"O
+                                                                                       número 234
+                                   Jardim Cidade de      Latitude: 27°34'16.38"S
+Booster Solemar                                                                      Rua Célio Veiga
+                                     Florianópolis      Longitude: 48°37'45.76"O
+                                                         Latitude: 27°35'25.48"S   Rua Francelina D. de
+Booster Bosque Das Mansões I            Roçado
+                                                        Longitude: 48°37'38.61"O          Jesus
+                                                         Latitude: 27°35'27.50"S   Rua Francelina D. de
+Booster Bosque Das Mansões II           Roçado
+                                                        Longitude: 48°37'47.43"O        Jesus, 520
+                                      Bosque das         Latitude: 27°35'8.26"S
+Booster Bosque das Mansões III                                                      Rua das Laranjeiras
+                                       Mansões          Longitude: 48°37'10.81"O
+                                      Bosque das         Latitude: 27°35'07.02"S
+Booster Bosque das Mansões IV                                                        Rua das Azaleias
+                                       Mansões          Longitude: 48°37'23.41"O
+                                     Fazenda Santo      Latitude: 27°37'14.86"S     Rua João Rosilvio
+Booster Morro do Céu
+                                        Antônio         Longitude: 48°38'6.71"O       Pereira, 199
+                                                         Latitude: 27°32'37.05"S   Rua Adélia Schröeder
+Booster Canaã                           Serraria
+                                                        Longitude: 48°37'48.89"O       Pontes, 199
+                                                         Latitude: 27°32'31.32"S    Rua João Izídio de
+Booster José Nitro                      Serraria
+                                                        Longitude: 48°38'47.72"O       Souza, 356
+                                                         Latitude: 27°33'59.4"S      Rua Francisco
+Booster Potecas                         Potecas
+                                                        Longitude: 48°39'12.4"O     Torquarto da Rosa
+                                                        Latitude: 27°34′8.854″S
+Booster Alto Forquilhas              Forquilhinhas                                  Rua Jovita Duarte
+                                                       Longitude: 48°41′19.622″O
+                                                        Latitude: 27°33′40.601″S   Rua Olívia Maria da
+Booster Loteamento Alta Vista           Potecas
+                                                        Longitude: 48°39′9.600″O          Silva
+                                                        Latitude: 27°35′2.796″ S
+Booster Cecilia São Pia             Colônia Santana                                Rua Cecilia São Pia
+                                                        Longitude: 48°43′7.511″O
+
+Booster Altos de São José 1 (GSP      Bosque das        Latitude: 27°35′24.511″S     Rua Francelina
+1)                                     Mansões         Longitude: 48°37′38.683″O    Domingos de Jesus
+
+Booster Altos de São José 2 (GSP      Bosque das        Latitude: 48°37′39.785″S     Rua Francelina
+2)                                     Mansões         Longitude: 27°35′21.354″O    Domingos de Jesus
+
+
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                   11/48
+
+
+                                                                                                           15
+As informações referentes aos Sistemas de Bombeamento do município de Biguaçu são
+mostradas no Quadro 3.
+
+ Quadro 3 - Informações dos sistemas de bombeamento do SIA Grande Florianópolis – Município de Biguaçu.
+
+
+
+
+                                                                                                           Pág. 12 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Sistema de bombeamento                  Bairro                Coordenadas                  Rua
+
+                                                         Latitude: 27°31'14.95"S
+ERAT Biguaçu (Janaína)                  Serraria                                    Rua das Hortências
+                                                        Longitude: 48°38'22.46"O
+                                                         Latitude: 27°31'15.33"S    Rua das Hortências,
+ERAT Chácara Fabiana                Jardim Janaína
+                                                        Longitude: 48°38'28.78"O            444
+                                                         Latitude: 27°27'51.6"S    Av. Dona Santina C.
+Booster Saudade                         Saudade
+                                                        Longitude: 48°40'42.4"O           da Silva
+                                                         Latitude: 27°30'43.05"S       Rua Antônio
+Booster Bela Vista I                   Bela Vista
+                                                        Longitude: 48°39'24.00"O        Teodoro, 8
+                                                         Latitude: 27°31'00.2"S       Rua Maria Ana
+Booster Bela Vista II                  Bela Vista
+                                                        Longitude: 48°39'50.2"O        Francisco, s/n
+                                                         Latitude: 27°30'12.81"S     Rua Manoel J. de
+Booster Boa Vista                      Boa Vista
+                                                        Longitude: 48°39'43.07"O      Oliveira, nº 376
+                                                         Latitude: 27°31'40.7"S       Rua Antônio A.
+Booster Antônio Alberto Correa        Bom Viver
+                                                        Longitude: 48°38'47.0"O         Corrêa, 57
+                                                         Latitude: 27°32'7.23"S    Rua Amaro Damásio,
+Booster Damásio                       Bom Viver
+                                                        Longitude: 48°38'8.42"O             414
+                                                         Latitude: 27°32'22.56"S    Rua Manoel Nunes
+Booster Manoel Nunes Freitas           Bom viver
+                                                        Longitude: 48°38'55.18"O        Freitas, 220
+                                                         Latitude: 27°29'15.08"S   Marginal BR101/Rua
+Booster Três Riachos                   Cachoeira
+                                                        Longitude: 48°39'7.77"O         13 de Maio
+                                                         Latitude: 27°30'35.20"S     Rua Aldo Alfredo
+Booster Aldo Alfredo Fermiano           Fundos
+                                                        Longitude: 48°39'43.19"O      Fermiano, 299
+                                                                                      Rua Homero de
+                                                         Latitude: 27°31'38.90"S
+Booster Barreira do Germano             Fundos                                       Miranda Gomes,
+                                                        Longitude: 48°38'55.60"O
+                                                                                           2065
+                                                        Latitude: 27°28'53.94"S     Rua Arthur João de
+Booster Jardim Anápolis 1           Jardim Anápolis
+                                                       Longitude: 48°39'37.81"O          Souza, 59
+                                                        Latitude: 27°28'42.37"S      Rua José Antenor
+Booster Jardim Anápolis 2           Jardim Anápolis
+                                                       Longitude: 48°39'39.10"O         Resende, 2
+                                                        Latitude: 27°31'14.04"S       Rua Hilda Ana
+Booster Hilda Ana Machado           Jardim Janaína
+                                                        Longitude: 48°39'1.16"O       Machado, 319
+                                                         Latitude: 27°29'6.68"S    Rua Maria Gama de
+Booster Tibúrcio                     Rio Caveiras
+                                                       Longitude: 48°39'20.72"O          Jesus, 21
+                                                         Latitude: 27°28'26.2"S     Rua Maria Braulina
+Booster Braulina                     Três Riachos
+                                                        Longitude: 48°39'51.9"O           da Silva
+Booster Loteamento Cecília                              Latitude: 27°29'43.21"S     Rua Arnaldo Bunn,
+                                     Universitários
+Zimmermann                                             Longitude: 48°39'48.82"O             S/N
+                                                         Latitude: 27°33'1.12"S
+Booster Tarumã                          Potecas                                    Rua do Pau Brasil, 2
+                                                       Longitude: 48°39'47.05"O
+                                       Lot. Santa       Latitude: 27°29′50.888″S    Rua Maria Euvira
+Booster Ecoville
+                                        Catarina       Longitude: 48°43′8.951″O      Walter Goedert
+                                                        Latitude: 27°29′58.452″S      Rua Ananias
+Booster Ananias Martendal            Universitários
+                                                       Longitude: 48°39′30.636″O       Martendal
+                                                        Latitude: 27°29′12.779″S   Rua Três de Outubro
+Booster Marina Setúbal                   Prado
+                                                       Longitude: 48°39′1.505″O
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                   12/48
+
+
+                                                                                                          16
+ Sistema de bombeamento                        Bairro               Coordenadas                     Rua
+
+                                                               Latitude: 27°31′41.124″S      Loteamento Altos do
+ Booster Altos do Jardim                      Fundos
+                                                               Longitude: 48°39′5.548″O       Jardim – Rua s/n
+
+
+
+
+                                                                                                                       Pág. 13 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+ As informações referentes aos Sistemas de Bombeamento do município de Santo Amaro da
+ Imperatriz são mostradas no Quadro 4.
+
+           Quadro 4 – Informações dos sistemas de bombeamento do SIA Grande Florianópolis –
+                               Município de Santo Amaro da Imperatriz
+
+Sistema de bombeamento                Bairro                    Coordenadas                        Rua
+                                                           Latitude: 27°41'5.29"S           Rua Frei Dalvino
+Booster São João                      Centro
+                                                         Longitude: 48°46'47.91"O           Munaretto, nº 202
+                                                          Latitude: 27°41'39.37"S          Rua Manoel Emílio
+Booster Morro do Fabrício       Morro do Fabrício
+                                                         Longitude: 48°46'38.75"O                Campos
+                                                          Latitude: 27°38'25.89"S         Rua Presidente Castelo
+Booster Pagará                        Pagará
+                                                         Longitude: 48°45'37.46"O              Branco, S/N
+                                                           Latitude: 27°41'5.73"S
+Booster Embratel                   São Francisco                                           Rua João Jacinto Lohn
+                                                          Longitude: 48°46'7.90"O
+Booster Nossa Senhora das                                 Latitude: 27°41'43.92"S         Rua Paulo Cesar Kloppel
+                                   Vila Santana
+Dores                                                    Longitude: 48°45'33.66"O                   13
+                                                          Latitude: 27°41′27.499″S          Rua Mauri Josino de
+Booster Morro Queimado            Morro Queimado
+                                                         Longitude: 48°46′0.300″O                Campos
+                                                          Latitude: 27°41′46.550″S          Rua Vereador Gerci
+Booster Três Voltas                   Centro
+                                                         Longitude: 48°47′19.208″O               Querino
+                                                          Latitude: 27°40′33.650″S
+Booster da Varginha                  Varginha                                               Rua Procópio Lohn
+                                                         Longitude: 48°47′1.633″O
+                                                          Latitude: 27°41′49.520″S
+Booster Canto dos Mainofos           Fabrício                                             Rua Jacob José Ventura
+                                                         Longitude: 48°46′46.639″O
+                                                          Latitude: 27°41′9.456″S
+Booster São João 2                   São João                                                  Rua São João
+                                                         Longitude: 48°47′12.815″O
+
+
+ Atualmente, a reservação apresenta capacidade total equivalente a 49.105 m³ (reservatórios
+ em operação). O Quadro 5 mostra as informações dos reservatórios do Sistema Integrado de
+ Abastecimento da Grande Florianópolis de forma detalhada.
+
+                      Quadro 5 - Informações dos reservatórios do SIA Grande Florianópolis.
+ Município         Reservatório       Capacidade             Logradouro/Bairro                 Coordenadas
+                                                        Rua Ivo João da Silva (ETA
+Localizado na                                                                        Latitude: 27°41’16.01"S
+              Pulmão                 7500 m³            Cubatão – SIA da Grande
+ETA Cubatão                                                                          Longitude: 48°42’10.27"O
+                                                        Florianópolis)
+                                                        Rua Ivo João da Silva (ETA
+Localizado na                                                                        Latitude: 27°41’16.01"S
+              Tanque de Contato      500 m³             Cubatão – SIA da Grande
+ETA Cubatão                                                                          Longitude: 48°42’10.27"O
+                                                        Florianópolis)
+                                                        Rua General Vieira da Rosa   Latitude:27°35’39.19"S
+Florianópolis   R0 - Centro          2000 m³
+                                                        (Centro)                     Longitude: 48°32'18.11"O
+                                                                                     Latitude: 27°35’34.93"S
+Florianópolis   R1 – Major Costa     1.000 m³           Rua Major Costa (Centro)     Longitude: 48°32'22.35"O
+
+
+
+ Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                              13/48
+
+
+                                                                                                                      17
+                R2 – Morro da                    Rua Clementino de Brito           Latitude:27°35’55.03"S
+Florianópolis                         2.000 m³
+                Caixa                            (Capoeiras)                       Longitude: 48°34'46.17"O
+                                                 Rua Ivo Reis Montenegro           Latitude: 27°36’39.93"S
+Florianópolis   R3 – Itaguaçu         2.000 m³
+
+
+
+
+                                                                                                               Pág. 14 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                 (Coqueiros)                       Longitude: 48°35'21.74"O
+                                                 Rua Luiz Carlos Prestes           Latitude:27°35’19.55"S
+Florianópolis   R4 – Monte Cristo     4.000 m³
+                                                 (Jardim Atlântico)                Longitude: 48°35'51.51"O
+                                                 Rua Rodolfo Manoel Bento          Latitude:27°36’1.81"S
+Florianópolis   R6 – Carvoeira        2.000 m³
+                                                 (Carvoeira)                       Longitude: 48°31'38.47"O
+                                                 Rua Marco Aurélio Homem           Latitude:27°35’58.04"S
+Florianópolis   R7 – Serrinha         2.000 m³
+                                                 (Serrinha)                        Longitude: 48°31'48.37"O
+                                                 Rua Custódio Fermino Vieira       Latitude:27°35’43.23"S
+Florianópolis   R8 – Caeira           200 m³
+                                                 (Centro)                          Longitude: 48°32'11.57"O
+                                                 Rua 25 de Novembro                Latitude:27°36’0.67"S
+Florianópolis   R9 - Serrinha         5.000 m³
+                                                 (Serrinha)                        Longitude: 48°31'42.33"O
+                Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’21.39"S
+Florianópolis                         150 m³
+                Cacupé 1                         Glavan (Cacupé)                   Longitude: 48°31'3.20"O
+                Reservatório                     Rodovia Haroldo Soares            Latitude:27°32’27.86"S
+Florianópolis                         50 m³
+                Cacupé 2                         Glavan (Cacupé)                   Longitude: 48°31'3.21"O
+                Reservatório                     Loteamento Caiobig (Saco          Latitude:27°33’37.60"S
+Florianópolis                         200 m³
+                Caiobig                          Grande)                           Longitude: 48°30'24.75"O
+                Reservatório Sul                 Rua Doutor Percy João de          Latitude:27°35’27.68"S
+Florianópolis                         100 m³
+                Brasil                           Borba (Trindade)                  Longitude: 48°31'41.24"O
+                Reservatório                     Rua Júlia D’Barreto               Latitude:27°36’27.66"S
+Florianópolis                         100 m³
+                Tercasa                          (Carvoeira)                       Longitude: 48°31'44.19"O
+                Reservatório                                                       Latitude:27°34’38.75"S
+Florianópolis                         75 m³      Rua da Represa (Itacorubi)
+                Quilombo                                                           Longitude: 48°29'36.74"O
+                Reservatório Monte                                                 Latitude:27°33’39.38"S
+Florianópolis                         200 m³     Rua do Marfin (Monte Verde)
+                Verde 1                                                            Longitude: 48°29'26.33"O
+                Reservatório Monte                                                 Latitude: 27°33'39.38"S
+Florianópolis                         200 m³     Rua do Marfin (Monte Verde)
+                Verde 2                                                            Longitude: 48°29'26.33"O
+                Reservatório Costa               Rua Admar Gonzaga                 Latitude:27°35’58.72"S
+Florianópolis                         50 m³
+                Azul                             (Itacorubi)                       Longitude: 48°29'35.71"O
+                Reservatório
+                                                 Rua Maestro Aldo Krieger          Latitude:27°36’17.6"S
+Florianópolis   Maestro Aldo          10 m³
+                                                 (Córrego Grande)                  Longitude: 48°29'44.3"O
+                Krieger
+                Reservatório
+                                                 Rua Maestro Aldo Krieger          Latitude:27°36’17.6"S
+Florianópolis   Maestro Aldo          10 m³
+                                                 (Córrego Grande)                  Longitude: 48°29'44.3"O
+                Krieger
+                Reservatório Vila                Loteamento Parque da              Latitude:27°32’53.48"S
+Florianópolis                         50 m³
+                Cachoeira                        Figueira (Saco Grande)            Longitude: 48°29'20.22"O
+                Reservatório                     Avenida do Antão (Morro da        Latitude:27°35’11.93"S
+Florianópolis                         50 m³
+                Morumbi                          Cruz)                             Longitude: 48°32'14.49"O
+                Reservatório Caeira              Rua Custódio Fermino Vieira       Latitude:27°35’47.16"S
+Florianópolis                         30 m³
+                Saco dos Limões                  (Saco dos Limões)                 Longitude: 48°32'7.77"O
+                                                 Rua Irineu Comelli (Fazenda       Latitude: 27°36’43.57"S
+São José        R1 - Irineu Comelli 1.000 m³
+                                                 do Max)                           Longitude: 48°38'7.68"O
+                                                 Rua Irineu Comelli (Fazenda       Latitude: 27°36’43.57"S
+São José        R1 - Irineu Comelli 1.000 m³
+                                                 do Max)                           Longitude: 48°38'7.68"O
+                                                                                   Latitude: 27°36’43.57"S
+                                                 Rua Irineu Comelli (Fazenda
+São José        R1 - Irineu Comelli 1.000 m³                                       Longitude: 48°38'7.68"O
+                                                 do Max)
+
+
+ Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                      14/48
+
+
+                                                                                                              18
+                R2 – Centro                      Rua Vergílio Espíndola            Latitude: 27°36’50.00"S
+São José                             500 m³
+                Histórico                        (Centro)                          Longitude: 48°37'43.71"O
+                                                 Rua Ver. Arthur Mariano           Latitude: 27°35’40.11"S
+São José        R3 – Forquilinhas 1 5.000 m³
+
+
+
+
+                                                                                                               Pág. 15 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                 (Forquilinhas)                    Longitude: 48°38'51.76"O
+                                                 Rua Ver. Arthur Mariano           Latitude: 27°35'40.34"S
+São José        R3 – Forquilinhas 2 2.500 m³
+                                                 (Forquilinhas)                    Longitude: 48°38'51.53"O
+                                                 Rua Guilherme Jacob Bruch         Latitude: 27°34’30.42"S
+São José        Barreiros            5.000 m³
+                                                 (Barreiros)                       Longitude: 48°37'51.27"O
+                                                                                   Latitude:27°35’33.9"S
+São José        São Luiz             150 m³      Rua Docilício Luz (São Luiz)
+                                                                                   Longitude: 48°37'58.9"O
+                                                 Rua Doutor Eurico Rauen           Latitude: 27°34’54.1"S
+São José        Colônia Santana I    150 m³
+                                                 (Colônia Santana)                 Longitude: 48°42'56.7"O
+                                                 Rua Osmar Conceição               Latitude:27°35’03.1"S
+São José        Colônia Santana II   80 m³
+                                                 (Colônia Santana)                 Longitude: 48°42'57.7"O
+                                                                                   Latitude:27°31’16.79"S
+Biguaçu         R1 – Jardim Janaína 2500 m³      Rua das Hortências (Janaína)
+                                                                                   Longitude: 48°38'29.60"O
+                R2 – Chácara                                                       Latitude: 27°31’16.79"S
+Biguaçu                              10 m³       Rua das Hortências (Janaína)
+                Fabiana                                                            Longitude: 48°38'29.60"O
+                R3 – Morro Boa                   Rua Vidal Mendes (Morro           Latitude:27°30’12.15"S
+Biguaçu                              30 m³
+                Vista                            Boa Vista)                        Longitude: 48°40'3.63"O
+                Loteamento Santa                                                   Latitude: 27°29'51.75"S
+Biguaçu                              100 m³      Lot. Santa Catarina
+                Catarina                                                           Longitude: 48°43'2.19"O
+Biguaçu (não
+                                                                                   Latitude: 27°27'59.27"S
+está em         Res. rua Bertoldo    100 m³      Encruzilhada
+                                                                                   Longitude: 48°41'6.83"O
+operação)
+Santo Amaro                                      Rua Francisco Pedro Kunen         Latitude: 27°41’29.18"S
+                R1 – Centro          360 m³
+da Imperatriz                                    (Centro)                          Longitude: 48°46'51.47"O
+Santo Amaro     R2 – Caldas da                   Rua Princesa Leopoldina           Latitude:27°43’42.32"S
+                                     150 m³
+da Imperatriz   Imperatriz                       (Caldas da Imperatriz)            Longitude: 48°48'41.60"O
+
+
+
+ 2. IDENTIFICAÇÃO DOS RESPONSÁVEIS
+
+ 2.1. Estação de Tratamento de Água (ETA)
+
+ O técnico responsável pelo setor de operação e manutenção de ETAs da SRM/SOMAG
+ (incluindo o tratamento de água) é Leandro Valente Nicolau, que pode ser encontrado no
+ seguinte endereço:
+
+                               CASAN – SRM – GOPS - SOMAG
+                Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                                    Telefone: (48) 3221-5707
+                                 E-mail: le107280@casan.com.br
+
+ 2.2. Redes De Abastecimento De Água
+
+ • Florianópolis
+
+ O técnico responsável pela operação e manutenção das redes de água de Florianópolis é
+ Felipe Golin Neri, que pode ser encontrado no seguinte endereço:
+
+ Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                      15/48
+
+
+                                                                                                              19
+                               CASAN – SRM – SEOPA
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                               Telefone: (48) 3221-5731
+
+
+
+
+                                                                                              Pág. 16 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                              E-mail: fneri@casan.com.br
+
+• São José
+
+O técnico responsável pela operação e manutenção das redes de água de São José é o Valerio
+Manoel Leal, que pode ser encontrado no seguinte endereço:
+
+                             CASAN – SRM – Agência São José
+                   Rua Joaquim Vaz, n.º 1390, Praia Comprida – São José/SC
+                                 Telefone: (48) 3381-3621
+                                E-mail: vleal@casan.com.br
+
+• Biguaçu
+
+O técnico responsável pela operação e manutenção das redes de água de Biguaçu é Marcelo
+Osvaldo Nascimento, que pode ser encontrado no seguinte endereço:
+
+                                CASAN – SRM – Agência Biguaçu
+                               Rua Lucio Born, n.º 85 – Biguaçu/SC
+                                    Telefone: (48) 3243-1055
+                               E-mail: monascimento@casan.com.br
+
+• Santo Amaro da Imperatriz
+
+O técnico responsável pela operação e manutenção das redes de água de Santo Amaro da
+Imperatriz é Ricardo Rachadel, que pode ser encontrado no seguinte endereço:
+
+                    CASAN – SRM – Agência Santo Amaro da Imperatriz
+                Rua Vereador Augusto Bruggemann, n.º 5404 - Ed. Marcos Paula
+                                 Telefone (48) 3245-1150
+                              E-mail: rrachadel@casan.com.br
+
+2.3. Agências
+
+• Florianópolis
+
+O técnico responsável por coordenar a Agência Regional de Florianópolis é Francisco José
+Guedes Pimentel, que pode ser encontrado no seguinte endereço:
+
+                          CASAN – SRM – Agência Florianópolis
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                                Telefone: (48) 3221-5710
+                             E-mail: fpimentel@casan.com.br
+
+• São José
+
+O técnico responsável por coordenar a Agência de São José é Ramon Coelho, que pode ser
+encontrado no seguinte endereço:
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)     16/48
+
+
+                                                                                             20
+                             CASAN – SRM – Agência São José
+                   Rua Joaquim Vaz, n.º 1390, Praia Comprida – São José/SC
+                                 Telefone: (48) 3381-3616
+
+
+
+
+                                                                                              Pág. 17 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                               E-mail: racoelho@casan.com.br
+
+• Biguaçu
+
+O técnico responsável por coordenar a Agência de Biguaçu é Carlos Alberto Coutinho, que
+pode ser encontrado no seguinte endereço:
+
+                               CASAN – SRM – Agência Biguaçu
+                               Rua Lucio Born, n.º 85 – Biguaçu/SC
+                                    Telefone: (48) 3243-3108
+                                E-mail: ccoutinho@casan.com.br
+
+• Santo Amaro da Imperatriz
+
+O técnico responsável por coordenar a Agência de Santo Amaro da Imperatriz é Moises
+Francisco Martendal, que pode ser encontrado no seguinte endereço:
+
+                    CASAN – SRM – Agência Santo Amaro da Imperatriz
+               Rua: Vereador Augusto Bruggemann, n.º 5404 - Ed. Marcos Paula
+                                 Telefone: (48) 3245-1150
+                               E-mail: moises@casan.com.br
+
+2.4. Gerente de Operação
+
+O técnico responsável pela Gerência de Operação da SRM é Guilherme Cardoso Vieira, que
+pode ser encontrado no seguinte endereço:
+
+                                 CASAN – SRM – GOPS
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                        Telefone: (48) 3221-5718 / (48) 98415-3090
+                              E-mail: gvieira@casan.com.br
+
+2.5. Superintendente Regional – Grande Florianópolis
+
+O atual superintendente da Região Metropolitana da Grande Florianópolis, à qual pertence o
+SIA Grande Florianópolis, é o Engenheiro Filipe Alcioni Silva, que pode ser encontrado no
+seguinte endereço:
+
+                                      CASAN – SRM
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                        Telefone: (48) 3221-5860 / (48) 98439-2338
+                               E-mail: fisilva@casan.com.br
+
+2.6. Diretoria de Operação e Expansão (DO)
+
+O atual Diretor de Operação e Expansão (DO) é o Pedro Joel Horstmann, que pode ser
+encontrado no seguinte endereço:
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)     17/48
+
+
+                                                                                             21
+                     CASAN – Diretoria de Operação e Meio Ambiente
+            Rua Quinze de Novembro, n.º 230, Bairro Balneário – Florianópolis/SC
+                               Telefone: (48) 3221-5802
+
+
+
+
+                                                                                                        Pág. 18 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+2.7. Identificação do Representante Legal da CASAN
+
+O atual Diretor-Presidente da CASAN é Edson Moritz Martins da Silva, que pode ser
+encontrado no seguinte endereço:
+
+                          CASAN – Matriz – Diretoria da Presidência
+                       Rua Emílio Blum, n.º 83, Centro – Florianópolis/SC
+                                   Telefone: (48) 3221-5020
+
+
+3. METODOLOGIA
+
+Foram identificados possíveis eventos ou situações de riscos potenciais no Sistema Integrado
+de Abastecimento de Água da Grande Florianópolis, capazes de provocar prejuízos ao meio
+ambiente ou à comunidade local. Para tanto, técnicas de brainstorming e writestorming foram
+utilizadas. Estas técnicas consistem em um método no qual um grupo de pessoas se reúne e se
+utiliza de diferentes pensamentos e ideias para que possam chegar a um denominador comum,
+eficaz e com qualidade para levar o trabalho adiante. Desta forma, foi elencado o que cada
+membro identificou.
+
+Depois da identificação dos eventos foi realizada a Análise Quantitativa dos Riscos,
+utilizando-se escalas de probabilidade e impacto. A escala de probabilidade utilizada, que
+consiste nas chances de ocorrência, foi classificada utilizando-se o Quadro 6, considerando-se
+principalmente a experiência dos colaboradores envolvidos na operação.
+
+                                   Quadro 6 – Escala de Probabilidade
+    Classificação    Muito Baixa         Baixa           Média             Alta   Muito Alta
+        Peso              0,1             0,3              0,5              0,7      0,9
+
+Do mesmo modo a escala de impacto, utilizada para quantificar os efeitos dos eventos caso
+estes ocorram, foi classificada conforme mostra o Quadro 7.
+
+                                      Quadro 7 - Escala de Impacto
+    Classificação    Muito Baixo         Baixo           Médio             Alto   Muito Alto
+        Peso             0,05             0,1              0,2              0,4      0,8
+
+Depois de realizada esta identificação, foi elaborada a Análise Qualitativa dos Riscos, sendo
+que esta análise tem como principal objetivo classificar todos os riscos mediante levantamento
+de probabilidade de ocorrência e o impacto destes, de forma a viabilizar a priorização
+individualizada ou de grupos afins em função dos objetivos do projeto. Isto permite o foco nos
+riscos prioritários, objetivando aumentar as chances de atendimento aos eventos relacionados
+neste trabalho. Com isto obteve-se a matriz de vulnerabilidade auxiliar (P x I), para a
+determinação dos patamares de graduação de riscos (3 patamares), conforme mostra o Quadro
+8. A partir destas determinações calculou-se o ranking de classificação dos riscos.
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)                18/48
+
+
+                                                                                                       22
+                                  Quadro 8 – Matriz de Vulnerabilidade
+                                                Impactos
+
+
+
+
+                                                                                                     Pág. 19 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                              Ameaças
+           Probabilidade
+                                    0,05           0,1          0,2           0,4     0,8
+                0,9                 0,05          0,09         0,18           0,36   0,72
+                0,7                 0,04          0,07         0,14           0,28   0,56
+                0,5                 0,03          0,05         0,10           0,20   0,40
+                0,3                 0,02          0,03         0,06           0,12   0,24
+                0,1                 0,01          0,01         0,02           0,04   0,08
+
+Após todas as análises foram elaboradas respostas para cada risco levantado, considerando-se
+nesta etapa apenas as medidas preventivas. Diante deste novo panorama, considerando-se as
+ações de prevenção, realizou-se uma nova Análise Qualitativa, utilizando- se as mesmas
+técnicas e ferramentas (a mesma matriz de vulnerabilidade).
+
+Por fim, após a nova Análise Qualitativa, são levantadas as ações corretivas a serem tomadas
+quando da ocorrência de um evento. Desta forma, conclui-se a metodologia de elaboração do plano.
+
+
+4. PLANO DE CONTINGÊNCIA E EMERGÊNCIA
+
+O Plano de Emergência e Contingência visa definir as responsabilidades de cada elemento
+que atuam na operação do SIA, subsidiando o processo de tomada de decisão com elementos
+previamente planejados.
+
+4.1. Riscos
+
+Os riscos estão associados a evento ou condição hipotética que proporciona efeitos negativos.
+No Quadro 9 será apresentada a identificação, a classificação qualitativa com e sem as ações
+preventivas (são 3 patamares de riscos, associados a 3 cores) e as respostas (preventivas e
+corretivas) aos riscos elencados para o SIA da Grande Florianópolis.
+
+
+
+
+Plano de Emergência e Contingência Operacional - SIA Grande Florianópolis (SIF)             19/48
+
+
+                                                                                                    23
+                                                                                                                                                                                                           Pág. 20 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                                                                                   Quadro 9 – Identificação dos Riscos
+                Classificação Qualitativa dos Riscos                                   Respostas aos Riscos – Ações Preventivas                                       Contingência
+    Evento de Ameaça
+                                         Probab.   Impact                                                                  Probab. Impact
+     Incluindo Causa        Local                           PXI                    Resposta                   Estratégia                    PXI                     Ações Corretivas
+                                           (%)       o                                                                       (%)     o
+       Raiz e Efeito
+
+                                                                                                                                                   Divulgar através da mídia a situação em que o
+                                                                   Manutenção      das    duas    captações
+                                                                                                                                                   sistema se encontra;
+                                                                   principais do SIA Florianópolis;
+                                                                                                                                                   Solicitar economia de água à população;
+    Aumento da quantidade de chuvas                                Revisão periódica da ETA;
+                                                                                                                                                   Realizar manobras operacionais e controlar as
+    prejudicando a qualidade da água e                             Manter as fontes de água alternativas
+1                                          0,90     0,80    0,72                                               Mitigar      0,90    0,20    0,18   pressões;
+    reduzindo a disponibilidade de                                 prontas para operar.
+                                                                                                                                                   Implantar sistema de rodízio de distribuição de água.
+    água tratada                                                   Participar dos programas de Proteção
+                                                                                                                                                   Acionar caminhões-pipa para o abastecimento
+                                                                   dos Mananciais a serem desenvolvidos
+                                                                                                                                                   conforme critérios de prioridade e necessidade;
+                                                                   pelo Órgão Gestor da Água no estado
+                                                                                                                                                   Utilizar fontes de água alternativas.
+
+                                                                   Monitorar estruturas com frequência                                             Parar fluxo de água para a unidade e isolar;
+                                                                   mínima anual, analisando possíveis                                              Se possível, desviar unidade até que seja recuperada
+                                                                   danos estruturais;                                                              (interligação de chegada com saída);
+
+
+
+
+                                                                                                                                                                                                           00084155/2023 e o código C9TE42O2.
+                                                                   Sempre que identificado e necessário,                                           Comunicar órgãos externos necessários (defesa civil,
+                        Reservatórios                              realizar intervenções nas unidades para                                         corpo de bombeiros, polícia militar, dentre outros);
+                        de grande          0,3      0,8     0,24   corrigir problemas estruturais ou           Mitigar      0,3     0,8     0,24   Se necessário, auxiliar na remoção da população
+                        porte                                      problemas que possam causar danos à                                             atendida;
+                                                                   unidade;                                                                        Levantar possíveis danos a terceiros causados pelo
+                                                                   Acompanhar atividades próximas à                                                rompimento da unidade e iniciar processo de
+                                                                   unidade que possam causar danos.                                                indenização e outros apoios que forem necessários à
+                                                                                                                                                   população atingida (limpeza e recuperação de
+    Rompimento de
+2                                                                                                                                                  moradias afetadas);
+    reservatório                                                   Monitorar estruturas com frequência
+                                                                                                                                                   Auxiliar na recuperação da área afetada;
+                                                                   mínima anual, analisando possíveis
+                                                                                                                                                   Se necessário e possível, realizar rodízio no
+                                                                   danos estruturais;
+                                                                                                                                                   abastecimento; Se necessário, acionar caminhões
+                                                                   Sempre que identificado e necessário,
+                                                                                                                                                   pipa para auxílio no abastecimento prioritário;
+                        Reservatórios                              realizar intervenções nas unidades para
+                                                                                                                                                   Verificar a possibilidade de instalação provisória de
+                        de pequeno         0,3      0,4     0,12   corrigir problemas estruturais ou           Mitigar      0,3     0,4     0,12
+                                                                                                                                                   unidade de reservação, e iniciar processo de
+                        porte                                      problemas que possam causar danos à
+                                                                                                                                                   recuperação da unidade ou instalação de nova
+                                                                   unidade;
+                                                                                                                                                   unidade.
+                                                                   Acompanhar atividades próximas à
+                                                                   unidade que possam causar danos.
+
+
+
+
+                                         Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                      20/48
+
+
+                                                                                                                                                                                                              24
+                                                                                                                                                                                                             Pág. 21 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                Classificação Qualitativa dos Riscos                                   Respostas aos Riscos – Ações Preventivas                                         Contingência
+    Evento de Ameaça
+                                         Probab.   Impact                                                                    Probab. Impact
+     Incluindo Causa         Local                          PXI                    Resposta                     Estratégia                    PXI                     Ações Corretivas
+                                           (%)       o                                                                         (%)     o
+       Raiz e Efeito
+
+                                                                                                                                                     Parar fluxo de água para a unidade e isolar;
+                                                                                                                                                     Se possível, desviar unidade até que seja recuperada
+                                                                                                                                                     (interligação de chegada com saída);
+                                                                   Monitorar unidades;                                                               Levantar danos e, caso necessário, prestar apoio a
+                                                                   Se identificados danos à fibra, proceder                                          moradores afetados e auxiliar na recuperação de
+                         Reservatórios                             reparo (quando possível) ou substituir;                                           áreas afetadas;
+                         de fibra (até                             Sempre que possível, priorizar a                                                  Se necessário e possível, realizar rodízio no
+                                           0,5      0,1     0,05                                                 Mitigar      0,5     0,1     0,05
+                         25 m³ spray-                              instalação em PRFVR e/ou outros                                                   abastecimento para manter abastecimento; Se
+                         up)                                       materiais mais resistentes (aço inox,                                             necessário, acionar caminhões pipa para auxílio no
+                                                                   dentre outros).                                                                   abastecimento prioritário;
+                                                                                                                                                     Verificar a possibilidade de instalação provisória de
+                                                                                                                                                     unidade de reservação, e iniciar processo de
+                                                                                                                                                     recuperação da unidade ou instalação de nova
+                                                                                                                                                     unidade.
+                         ETA e
+
+
+
+
+                                                                                                                                                                                                             00084155/2023 e o código C9TE42O2.
+                         Bombeament        0,10     0,80    0,08   Manter unidades identificadas, pintadas,                   0,10    0,80    0,08
+    Invasão e            o                                         iluminadas e com dispositivos de                                                  Acionar a equipe de vigilância e/ou Polícia – 190;
+    vandalismos nas
+3                        Reservatórios     0,90     0,80    0,72   segurança     implantados     (cerca/tela,    Mitigar      0,30    0,80    0,24   Solicitar ao setor responsável a reparação do dano
+    unidades
+                                                                   portão e cadeado);                                                                causado.
+    operacionais
+                                                                   Se necessário manter vigilância.
+                         Captação          0,70     0,80    0,56                                                              0,30    0,80    0,24
+
+                                                                   Manutenção      das     duas     captações
+                                                                   principais do SIA Florianópolis;
+                                                                                                                                                     Divulgar através da mídia a situação em que o
+                                                                   Manter as fontes de água alternativas
+                                                                                                                                                     sistema se encontra;
+                                                                   prontas para operar;
+                                                                                                                                                     Solicitar economia de água à população;
+                                                                   Implantar ações de combate às perdas no
+                                                                                                                                                     Realizar manobras operacionais e controlar as
+                                                                   sistema;
+    Diminuição da disponibilidade de                                                                                                                 pressões;
+4                                          0,70     0,80    0,56   Realizar campanhas de consumo                 Mitigar      0,30    0,80    0,24
+    água bruta causando falta da água                                                                                                                Se possível e necessário implantar sistema de rodízio
+                                                                   consciente nas mídias;
+                                                                                                                                                     de distribuição de água;
+                                                                   Buscar      novas      alternativas     de
+                                                                                                                                                     Acionar caminhões-pipa para o abastecimento
+                                                                   abastecimento;
+                                                                                                                                                     conforme critérios de prioridade e necessidade;
+                                                                   Participar dos programas de Proteção
+                                                                                                                                                     Utilizar fontes de água alternativas.
+                                                                   dos Mananciais a serem desenvolvidos
+                                                                   pelo Órgão Gestor da Água no estado.
+
+
+                                         Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                        21/48
+
+
+                                                                                                                                                                                                                25
+                                                                                                                                                                                                            Pág. 22 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                Classificação Qualitativa dos Riscos                                   Respostas aos Riscos – Ações Preventivas                                         Contingência
+    Evento de Ameaça
+                                         Probab.   Impact                                                                   Probab. Impact
+     Incluindo Causa        Local                           PXI                    Resposta                    Estratégia                    PXI                      Ações Corretivas
+                                           (%)       o                                                                        (%)     o
+       Raiz e Efeito
+
+                                                                                                                                                    Parar a captação de água do manancial afetado,
+                                                                                                                                                    descartar a água bruta já captada (em adução);
+                                                                                                                                                    Avaliar a possível contaminação (visita in loco,
+                                                                   Manutenção      das    duas     captações                                        coleta de água para análise);
+                                                                   principais do SIA Florianópolis;                                                 Em caso de confirmação de contaminação informar
+    Contaminação dos mananciais a                                  Manter plano de monitoramento da                                                 as autoridades e a população;
+5   montante da captação de água           0,50     0,80    0,40   qualidade da água bruta e tratada;           Mitigar      0,50    0,80    0,40   Avaliar a possibilidade de realização de rodízio
+    bruta                                                          Participar dos programas de Proteção                                             enquanto o manancial estiver comprometido;
+                                                                   dos Mananciais a serem desenvolvidos                                             Monitorar a sua qualidade até a recuperação total da
+                                                                   pelo Órgão Gestor da Água no estado.                                             qualidade da água;
+                                                                                                                                                    Acionar caminhões-pipa para o abastecimento
+                                                                                                                                                    conforme critérios de prioridade e necessidade;
+                                                                                                                                                    Utilizar fontes de água alternativas.
+
+
+
+
+                                                                                                                                                                                                            00084155/2023 e o código C9TE42O2.
+                                                                   Manter a política de treinamento de
+    Falta de equipe de manutenção                                  servidores;                                                                      Remanejar as equipes de trabalho, convocar
+6   causando demora nos reparos a          0,70     0,40    0,28   Elaborar escala de plantão e sobreaviso      Mitigar      0,30    0,40    0,12   servidores em folga e/ou solicitar servidores de
+    serem executados                                               conforme temporada e demanda de                                                  outros setores/agências.
+                                                                   serviço.
+
+                                                                   Manter a política de treinamento de                                              Executar manutenção corretiva;
+                                                                   servidores;                                                                      Divulgar através da mídia a situação em que o
+                                                                   Manter estoque de materiais e peças                                              sistema se encontra;
+                                                                   mais comumente empregados;                                                       Solicitar economia de água à população;
+    Rompimento de adutora de água
+7                                          0,30     0,80    0,24   Instalação de registros de manobra;          Mitigar      0,10    0,80    0,08   Realizar manobras operacionais e controlar as
+    causando falta de água
+                                                                   Manutenção preventiva em registros de                                            pressões;
+                                                                   manobra;                                                                         Implantar sistema de rodízio de distribuição de água;
+                                                                   Instalar sistema de supervisão e                                                 Acionar caminhões-pipa para o abastecimento
+                                                                   automação do SAA.                                                                conforme critérios de prioridade e necessidade.
+
+                                                                                                                                                    Estabelecer contato com o almoxarifado, para
+                                                                   Manter estoque de material e
+    Falta de equipamentos ou materiais                                                                                                              viabilizar o equipamento ou material necessário;
+                                                                   equipamento para manutenção mais
+8   impossibilitando a manutenção do       0,50     0,40    0,20                                                Mitigar      0,10    0,40    0,04   Realizar      contratação   direta     de      novos
+                                                                   comumente empregados;
+    sistema                                                                                                                                         equipamentos/materiais/serviços em caráter de
+                                                                   Melhorar a gestão de contratos.
+                                                                                                                                                    emergência.
+
+
+                                         Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                       22/48
+
+
+                                                                                                                                                                                                               26
+                                                                                                                                                                                                             Pág. 23 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                 Classificação Qualitativa dos Riscos                                  Respostas aos Riscos – Ações Preventivas                                         Contingência
+     Evento de Ameaça
+                                         Probab.   Impact                                                                    Probab. Impact
+      Incluindo Causa        Local                          PXI                    Resposta                     Estratégia                    PXI                     Ações Corretivas
+                                           (%)       o                                                                         (%)     o
+        Raiz e Efeito
+                                                                                                                                                     Isolar unidade (suspender abastecimento);
+                                                                                                                                                     Comunicar a população, solicitando a não utilização
+                                                                   Realizar manutenções periódicas das                                               da água tratada;
+                                                                   estruturas;                                                                       Comunicar órgãos externos;
+                                                                   Realizar a limpeza dos reservatórios com                                          Expurgar rede após abastecimento e realizar
+                                                                   frequência mínima anual;                                                          higienização (descarga após normalidade do
+                                                                   Manter unidades identificadas, pintas,                                            reservatório);
+                         Reservatórios     0,3      0,8     0,24                                                 Mitigar      0,1     0,8     0,08
+                                                                   iluminadas e com dispositivos de                                                  Limpar e higienizar unidade;
+                                                                   segurança     implantados     (cerca/tela,                                        Auxiliar moradias na higienização dos reservatórios,
+                                                                   portão e cadeado);                                                                conforme necessidade.
+     Alteração da                                                  Manter tela nos suspiros e tampa em                                               Durante desabastecimento
+     qualidade da água                                             condição adequada.                                                                Acionar caminhões pipa;
+9
+     tratada no                                                                                                                                      Se possível e necessário, realizar rodízio no
+     abastecimento                                                                                                                                   abastecimento.
+                                                                                                                                                     Comunicar a população, solicitando a não utilização
+                                                                                                                                                     da água tratada;
+
+
+
+
+                                                                                                                                                                                                             00084155/2023 e o código C9TE42O2.
+                                                                   Manter rede pressurizada;                                                         Expurgar rede e realizar higienização (descarga de
+                                                                   Manter boas práticas na manutenção de                                             rede);
+                                                                   redes e remais (capeamento durante                                                Auxiliar moradias na higienização dos reservatórios,
+                         Rede              0,5      0,2     0,10                                                 Mitigar      0,3     0,2     0,06
+                                                                   abertura, descargas após consertos e                                              conforme necessidade.
+                                                                   rompimentos, despressurizar durante                                               Durante desabastecimento
+                                                                   consertos).                                                                       Acionar caminhões pipa;
+                                                                                                                                                     Se possível e necessário, realizar rodízio no
+                                                                                                                                                     abastecimento.
+
+                                                                                                                                                     Executar manutenção corretiva;
+                                                                   Manter a política de treinamento de                                               Divulgar através da mídia a situação em que o
+                                                                   servidores;                                                                       sistema se encontra;
+     Rompimento de estrutura na ETA                                Realizar manutenções preventivas e                                                Solicitar economia de água à população;
+10   prejudicando a qualidade da água      0,50     0,40    0,20   melhorias     na     ETA     conforme         Mitigar      0,10    0,40    0,04   Realizar manobras operacionais e controlar as
+     tratada                                                       necessidade;                                                                      pressões;
+                                                                   Revisão periódica da ETA;                                                         Implantar sistema de rodízio de distribuição de água;
+                                                                   Manter equipe de manutenção.                                                      Acionar caminhões-pipa para o abastecimento
+                                                                                                                                                     conforme critérios de prioridade e necessidade.
+
+
+
+
+                                         Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                        23/48
+
+
+                                                                                                                                                                                                                27
+                                                                                                                                                                                                          Pág. 24 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                  Classificação Qualitativa dos Riscos                                Respostas aos Riscos – Ações Preventivas                                       Contingência
+     Evento de Ameaça
+                                          Probab.   Impact                                                                Probab. Impact
+      Incluindo Causa          Local                         PXI                  Resposta                   Estratégia                    PXI                     Ações Corretivas
+                                            (%)       o                                                                     (%)     o
+        Raiz e Efeito
+                                                                                                                                                  Executar manutenção corretiva;
+                                                                    Manter a política de treinamento de
+                                                                                                                                                  Executar manobras na rede de distribuição para
+                            Diâmetro de                             servidores;
+                                            0,70     0,20    0,14                                                          0,50    0,20    0,10   garantir o abastecimento, se possível.
+                            até 150 mm                              Manter estoque de materiais e peças
+                                                                                                                                                  Dependendo do tempo de intermitência no
+     Rompimento de                                                  mais comumente empregados;
+                                                                                                                                                  abastecimento de água, informar sobre o ocorrido
+     rede de distribuição                                           Especificar materiais de boa qualidade
+11                                                                                                            Mitigar                             nos canais de comunicação da Cia (site e 0800), e/ou
+     causando falta de                                              durante processo de aquisição;
+                                                                                                                                                  divulgar através das mídias (casos graves);
+     água                                                           Fiscalizar as obras em execução;
+                            Diâmetro de                                                                                                           Acionar caminhões-pipa para o abastecimento
+                                                                    Realizar o cadastro de rede;
+                            150 a 300       0,50     0,40    0,20                                                          0,10    0,40    0,04   conforme critérios de prioridade e necessidade.
+                                                                    Instalar sistema de supervisão e
+                            mm                                                                                                                    Após o conserto, seguir protocolo de descarga de
+                                                                    automação do SAA.
+                                                                                                                                                  rede e comunicar reabastecimento.
+                                                                                                                                                  No ambiente externo à CASAN: acionar a
+                                                                                                                                                  concessionária de energia;
+                                                                                                                                                  No ambiente interno da CASAN: executar
+                            Bombeament                                                                                                            manutenção da CASAN;
+                                            0,30     0,10    0,03                                                          0,30    0,10    0,03
+
+
+
+
+                                                                                                                                                                                                          00084155/2023 e o código C9TE42O2.
+                            o                                                                                                                     Em casos prolongados de falta de energia, divulgar
+     Interrupção do                                                 Manter equipe de manutenção;                                                  através da mídia a situação em que o sistema se
+     fornecimento de                                                Instalação de geradores nas principais                                        encontra;
+12   energia elétrica                                               unidades;                                 Mitigar                             Solicitar economia de água à população;
+     causando falta de                                              Ter gerador móvel.                                                            Realizar manobras operacionais e controlar as
+     água no Sistema                                                                                                                              pressões;
+                                                                                                                                                  Implantar sistema de rodízio de distribuição de água;
+                            Captação e                                                                                                            Acionar caminhões-pipa para o abastecimento
+                                            0,10     0,80    0,08                                                          0,10    0,80    0,08
+                            ETA                                                                                                                   conforme critérios de prioridade e necessidade;
+                                                                                                                                                  Buscar novas alternativas de abastecimento;
+                                                                                                                                                  Contratar gerador.
+
+
+
+
+                                          Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                    24/48
+
+
+                                                                                                                                                                                                             28
+                                                                                                                                                                                                       Pág. 25 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+                  Classificação Qualitativa dos Riscos                               Respostas aos Riscos – Ações Preventivas                                      Contingência
+     Evento de Ameaça
+                                         Probab.    Impact                                                              Probab. Impact
+      Incluindo Causa         Local                          PXI                 Resposta                  Estratégia                    PXI                     Ações Corretivas
+                                           (%)        o                                                                   (%)     o
+        Raiz e Efeito
+
+
+
+
+                                                                                                                                                Executar manutenção corretiva;
+                           Bombeament                                                                                                           Dependendo do tempo de intermitência no
+                                           0,50      0,10    0,05                                                        0,10    0,10    0,01   abastecimento de água, informar sobre o ocorrido
+     Falha de              o
+                                                                    Manter equipe de manutenção;                                                nos canais de comunicação da Cia (site e 0800), e/ou
+     equipamentos
+                                                                    Realizar manutenção periódica dos                                           divulgar através das mídias (casos graves);
+     eletromecânicos
+                                                                    equipamentos;                                                               Acionar caminhões-pipa para o abastecimento
+13   causando falta e/ou                                                                                    Mitigar
+                                                                    Manter estoque de equipamentos mais                                         conforme critérios de prioridade e necessidade;
+     alteração da
+                                                                    comumente empregados;                                                       Estabelecer contato com o almoxarifado, para
+     qualidade da água
+                                                                    Ter equipamentos reservas.                                                  viabilizar o equipamento ou material necessário;
+     no Sistema
+                                                                                                                                                Realizar      contratação     direta    de     novos
+                                                                                                                                                equipamentos/materiais /serviços em caráter de
+                           Captação e
+                                           0,30      0,10    0,03                                                        0,10    0,80    0,08   emergência.
+                           ETA
+
+
+
+
+                                                                                                                                                                                                       00084155/2023 e o código C9TE42O2.
+
+
+
+
+                                         Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis (SIF)                                   25/48
+
+
+                                                                                                                                                                                                          29
+4.2. Responsabilidades
+
+Apresentamos para uma melhor visualização e funcionalidade do Plano de Emergência e
+
+
+
+
+                                                                                            Pág. 26 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Contingência, os fluxogramas com os grupos de eventos de modo a orientar a comunicação e
+as responsabilidades quando houver ocorrências.
+
+  •    Grupo I: Respostas a falhas eletromecânicas;
+  •    Grupo II: Respostas a falhas operacionais (vazamentos de adutoras e redes de
+       distribuição, rompimentos de estruturas, comunicação com equipes eletromecânica);
+  •    Grupo III: Respostas a falhas no suprimento de materiais;
+  •    Grupo IV: Respostas a falhas de contrato com terceiros (Celesc/Cerbranorte,
+       caminhão-pipa, etc.);
+  •    Grupo V: Respostas a fatores extraordinários (estiagem, invasão e vandalismo e
+       contaminação acidental).
+
+
+                                              Ocorrência
+                                               Grupo I
+
+
+
+
+                                              Operador /
+                                               Servidor
+
+
+
+
+                                             Chefe do Setor
+                                           (SOMAG / SEOPA)
+
+
+
+
+                                                 GOPS
+
+
+
+
+                                                 Equipe
+                                            Eletromecânica
+
+
+
+
+                                                  Fim
+
+
+                                  Fluxograma 1 – Fluxograma Grupo I
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis          26/48
+
+
+                                                                                           30
+                                                                                                                                                   SRM
+                                                                                    Fluxograma 2 – Fluxogramas Grupo II
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        27/48
+
+
+
+
+31   Pág. 27 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                                                    Fluxograma 3 – Fluxograma Grupo III
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        28/48
+
+
+
+
+32   Pág. 28 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                                                    Fluxograma 4 – Fluxogramas Grupo IV
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        29/48
+
+
+
+
+33   Pág. 29 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                                                                                                         SRM
+
+
+
+
+                                                                                                                        SRM
+
+
+
+
+                                                                                    Fluxograma 5 – Fluxograma Grupo V
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        30/48
+
+
+
+
+34   Pág. 30 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+4.2.1. Lista de Contatos Internos
+
+O Quadro 10 mostra a lista os contatos telefônicos das principais unidades orgânicas da
+
+
+
+
+                                                                                                              Pág. 31 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Companhia que atuam diretamente para a execução do Plano de Emergência e Contingência do
+SIA da Grande Florianópolis.
+
+                                Quadro 10 – Contatos telefônicos internos
+
+                        Unidades da CASAN                              Telefones para contato
+
+     DO                                                           (48) 3221-5802 / (48) 98407-9488
+
+     Superintendência Regional Metropolitana - SRM                (48) 3221-5860 / (48) 98439-2338
+
+     Gerência Operacional SRM/GOPS                                (48) 3221-5718 / (48) 98415-3090
+
+     Setor de Operação de Manutenção de Água GOPS/SOMAG                     (48) 3221-5741
+
+     ETA Morro dos Quadros                                                  (48) 3342-2237
+     Setor de Controle de Qualidade de Água e Esgoto
+                                                                            (48) 3342-2237
+     GOPS/SEQAE
+     Florianópolis/SEOPA                                          (48) 3221-5731 / (48) 98407-8277
+
+     São José/SEOPA                                                         (48) 3381-3621
+
+     Agência Biguaçu                                              (48) 3243-3108 / (48) 98407-9513
+
+     Agência Santo Amaro da Imperatriz                                      (48) 3245-1150
+
+     Agência São José                                                       (48) 3381-3616
+
+     Agência Florianópolis                                                  (48) 3221-5710
+
+
+
+4.2.2. Lista de Contatos Externos
+
+O Quadro 11 mostra a lista das organizações e instituições oficiais que devem ser
+comunicadas no caso da ocorrência de algum evento identificado na matriz de riscos.
+
+                                Quadro 11 – Contatos telefônicos externos
+
+    Contatos externos                                               Telefones para contato
+
+    CELESC                                                              (48) 3271-8293
+
+    Corpo de Bombeiros                                                       193
+                                                                        (48) 3248-5888
+                                                                        (48) 9132-7527
+    Empresa de Vigilância Embrasil                                      (48) 7811-8899
+                                                                        (48) 9105-2376
+                                                                        (48) 7811-8699
+    IMA                                                                 (48) 3216-1700
+
+
+
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                            31/48
+
+
+                                                                                                             35
+    Contatos externos                                               Telefones para contato
+                                                                       1
+    1                                                                   (48) 3212-3913
+      VISA Florianópolis
+
+
+
+
+                                                                                                      Pág. 32 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+    2                                                                     3212-3916
+      VISA São José                                                    2
+    3                                                                   (48) 3288-4301
+      VISA Santo Amaro da Imperatriz                                   3
+    4                                                                   (48) 3245-4368
+      VISA Biguaçu                                                     4
+                                                                        (48) 3039-8462
+                                                                              190
+    Polícia Militar
+                                                                       (48) 3229-6000
+
+    Polícia Rodoviária Estadual                                      198 /(48) 3271 2300
+
+    Polícia Rodoviária Federal                                       191/(48) 3288 0250
+
+    SAMU                                                                     192
+
+    UNIMED                                                             0800-645 0550
+
+
+4.3. Estrutura Organizacional de Resposta
+
+A CASAN possui quatro entradas de ocorrência para os seus clientes, sendo elas:
+  a) O atendimento presencial nas unidades da CASAN;
+  b) Uma central telefônica (0800 643 0195). A central telefônica (Call Center) funciona
+     24 horas por dia, sete dias por semana.
+  c) O sistema Fale Conosco (clientes são atendidos por e-mail);
+  d) Aplicativo de telefone celular.
+
+O atendimento presencial funciona nos seguintes endereços no SIA Grande Florianópolis:
+
+    •   CIAC Canasvieiras - Rua José Rosa, n° 408 - Canasvieiras - Florianópolis;
+    •   CIAC Rio Tavares - Rod. Antônio Luiz Moura Gonzaga, 4737 - Rio Tavares -
+        Florianópolis;
+    •   CIAC Continente - Rua João Evangelista da Costa - 827 - Coloninha - Florianópolis;
+    •   CIAC Lagoa da Conceição - Rua Crisógono Vieira da Cruz, S/N - Lagoa da
+        Conceição - Florianópolis;
+    •   Agência de Florianópolis - Rua Saldanho Marinho, 374 - Centro - Florianópolis;
+    •   Agência Regional de São José - Rua Joaquim Vaz - 1390 - Centro São José;
+    •   Agência Regional Biguaçu - Rua Lucio Born, n.º85 - Centro - Biguaçu;
+    •   Ag. Reg. Santo Amaro da Imperatriz - Rua: Vereador Augusto Bruggemann - 5 404 -
+        Centro - Santo Amaro da Imperatriz.
+
+Quando o cliente entra em contato com a CASAN em horário comercial, o atendente registra
+as ocorrências por região no sistema da CASAN SCI, que após são verificadas online pelo
+responsável na agência. As informações de vazamentos recebidas via aplicativo também são
+registradas no SCI. Além disso, quando ocorrerem outras reclamações da mesma área em um
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                    32/48
+
+
+                                                                                                     36
+tempo relativamente curto, ou em outros casos de notável relevância, os atendentes além de
+registrarem a ocorrência informam ao seu coordenador, que tem autonomia para entrar
+diretamente em contato com o Chefe da Agência/UO ou do Setor de Operação.
+
+
+
+
+                                                                                                 Pág. 33 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+Em ambos os casos, após ciente do ocorrido, o Chefe da Agência desloca a sua equipe de
+manutenção para o local para tentar solucionar o problema. Todas as equipes vão a campo
+com telefone celular para as comunicações que se fizerem necessárias. Ao chegar ao local, a
+equipe informa a gravidade da ocorrência ao Chefe da Agência/UO, que poderá fazer um
+registro no quadro de aviso, disponível online para todos os atendentes do Call Center.
+Assim, pode-se informar à população o problema ocorrido e o tempo necessário para saná-lo.
+
+Quando a equipe de manutenção não possui os recursos necessários para resolver o problema,
+informam-se as limitações ao Chefe da Agência/UO, que dará as orientações e tomará as
+devidas providências, inclusive avisar o ocorrido ao Call Center. Além disso, no caso de o
+Chefe da Agência/UO não possuir os recursos humanos, técnicos, e/ou estruturais necessários
+para a solução do problema, este solicitará apoio ao Gerente de Operação e/ou ao
+Superintendente Regional.
+
+Para o caso específico de problemas em equipamentos eletromecânicos, a equipe de
+manutenção informará o Chefe da Agência/UO e este acionará os eletrotécnicos e os técnicos
+de mecânica. Há uma orientação para solicitar prioritariamente o eletrotécnico, visto que na
+grande maioria dos ocorridos o problema é elétrico. Há uma equipe de eletrotécnicos
+disponível 24h/dia.
+
+Em casos mais graves (como acidentes com adutoras, por exemplo), deve-se informar com
+urgência as chefias superiores, que tomarão as providencias para a adoção das medidas
+paliativas cabíveis, como aluguel de geradores, envio de caminhões pipa, informativos na
+mídia, entre outros.
+
+Se o ocorrido for fora de horário comercial, o procedimento inicial será o mesmo na Central
+0800, mas o coordenador de Call Center acionará o técnico de Triagem de Plantão, que
+comunicará o Chefe da Agência/UO. Se o problema for constatado até as 22h, aciona-se a
+equipe de manutenção. Caso contrário, o Chefe da Agência desloca-se até o local da
+ocorrência, e se necessário procede a manobra de registros e/ou comunica o Gerente de
+Operação e/ou o Superintendente Regional, conforme a gravidade da ocorrência. No dia
+seguinte, a equipe de manutenção vai ao local para efetuar os reparos necessários, repetindo-
+se os procedimentos já descritos anteriormente.
+
+A Figura 3 mostra o organograma com a estrutura organizacional dos procedimentos de
+resposta do plano de emergências.
+
+
+
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis              33/48
+
+
+                                                                                                37
+                                     Figura 3 - Organograma dos procedimentos-resposta
+
+
+
+
+                                                                                                                                 Pág. 34 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+     4.3.1 Estrutura Organizacional de Divulgação de Evento Crítico
+
+     A fim de promover a boa comunicação intersetorial dentro da CASAN, principalmente a
+     respeito da comunicação de eventos críticos entre as áreas e da CASAN com a população,
+     criou-se o quadro de diretrizes para divulgação de eventos críticos, abordando as áreas
+     interessadas e os tipos de comunicação que deverão ser feitos. Neste quadro é abordado o
+     evento, delimitado seu limite crítico, o tipo de comunicação que deve ser feito de acordo o
+     limite crítico do evento, os materiais e métodos adotados na comunicação e os agentes
+     envolvidos, seguindo ordem de abordagem. O último agente é a Assessoria de Comunicação
+     Social, que realizará a divulgação externa dos eventos, considerando as informações da área
+     técnica:
+
+                                            Quadro 12 – Comunicação de eventos
+                                                                                           MATERIAIS E
+    EVENTO               LIMITE CRÍTICO               TIPO DE COMUNICAÇÃO                    MÉTODOS              AGENTES
+                                                                                       Apenas informativo;
+        Baixa                                                                          Em        caso      de
+                                                   Alerta de estiagem e Solicitação de
+  disponibilidade                                                                      indisponibilidade
+                    Nível abaixo do normal (Sem    uso consciente.                                            Agência informa
+hídrica na captação                                                                    hídrica causada por
+                    recuperação considerável por   Em caso de problemas com conflito                          para GOPS; GOPS
+  (estiagem; seca;                                                                     conflito de uso da
+                    mais de 5 dias)                de uso da água, informar o                                 informa ACS.
+ conflito pelo uso                                                                     água, levantar fotos e
+                                                   problema e as medidas tomadas.
+      da água)                                                                         informações         do
+                                                                                       problema.
+
+
+
+
+      Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                                   34/48
+
+
+                                                                                                                                38
+                                                                                             MATERIAIS E
+   EVENTO                LIMITE CRÍTICO               TIPO DE COMUNICAÇÃO                     MÉTODOS                 AGENTES
+                                                  Alerta de estiagem grave,
+                                                                                         Relatos e fotos dos
+                                                  solicitação de economia, alerta para
+                                                                                         níveis do manancial.
+
+
+
+
+                                                                                                                                        Pág. 35 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                                  possível racionamento (caso tenha
+                                                                                         Em caso de
+                    Nível muito abaixo do normal entrado em rodízio, detalhar as                                  Agência informa
+                                                                                         indisponibilidade
+                    (lâmina d'água não verte; Sem localidades envolvidas, bem como                                para GOPS; GOPS
+                                                                                         hídrica causada por
+                    recuperação por mais de 10    os horários do rodízio). Informar                               informa GPO, se
+                                                                                         conflito de uso da
+                    dias; captação reduzida)      medidas de enfrentamento. Em caso                               necessário, e ACS.
+                                                                                         água, levantar fotos e
+                                                  de problemas com conflito de uso
+                                                                                         informações do
+                                                  da água, informar o problema e as
+                                                                                         problema.
+                                                  medidas tomadas.
+                                                                                         Relato de estiagem;
+                                                  Alerta de estiagem grave,              Informações
+                                                  solicitação de economia,               pluviométricas; Fotos
+                    Nível extremamente baixo;     informações sobre racionamento         do manancial.
+                                                                                                                  Agência informa
+                    (Lâmina d'água muito abaixo tais como: Localidades envolvidas,       Em        caso      de
+                                                                                                                  para GOPS; GOPS
+                    do vertedor; Sem recuperação horários dos rodízios. Informar         indisponibilidade
+                                                                                                                  informa GPO, se
+                    por mais de 20 dias; Captação medidas de enfrentamento. Em caso      hídrica causada por
+                                                                                                                  necessário, e ACS.
+                    reduzida; falta d'água)       de problemas com conflito de uso       conflito de uso da
+                                                  da água, informar o problema e as      água, levantar fotos e
+                                                  medidas tomadas.                       informações         do
+                                                                                         problema.
+                                                                                                                  Agência informa
+                                                                                                                  Call Center se
+                                                                                                                  achar necessário,
+                                                                                         Relato informativo
+                    Rede (causando falta de água    Comunicação com Call Center                                   agência deve
+                                                                                         com dados solicitados
+                    localizada)                     CASAN                                                         solicitar à GOPS
+                                                                                         pelo Call Center.
+                                                                                                                  que solicite à ACS
+                                                                                                                  emissão de
+                                                                                                                  comunicação
+                                                                                                                  Agência informa
+                                                    Comunicação com Call Center          Relato informativo       Call Center;
+                                                    CASAN;                               com dados solicitados    Agência deve
+                    Rede (Causando falta de água
+                                                    Alerta de falta d'água em rádios e   pelo Call Center;        solicitar à GOPS
+                    geral)
+                                                    mídias sociais;                      Fotos da manutenção,     que solicite à ACS
+                                                    Solicitação de economia.             se possível.             emissão de
+                                                                                                                  comunicação.
+Rompimentos na                                                                                                    Agência informa
+  distribuição                                      Comunicação com Call Center          Relato informativo       Call Center;
+                    Adutoras de pequeno e médio     CASAN;                               com dados solicitados    Agência deve
+                    porte (causando falta de água   Alerta de falta d'água em rádios e   pelo Call Center;        solicitar à GOPS
+                    significativa)                  mídias sociais;                      Fotos da manutenção,     que solicite à ACS
+                                                    Solicitação de economia.             se possível.             emissão de
+                                                                                                                  comunicação.
+                                                                                         Relato informativo
+                                                                                         com dados solicitados    Agência informa
+                                                    Comunicação com Call Center          pelo Call Center;        Call Center;
+                    Adutoras de grande porte        CASAN;                               Fotos da manutenção,     Agência deve
+                    (Causando falta de água geral   Alerta de falta d'água em rádios e   se possível;             solicitar à GOPS
+                    e/ou muito significativa)       mídias sociais;                      Em caso de rodízio       que solicite à ACS
+                                                    Solicitação de economia.             informar: Localidades    emissão de
+                                                                                         envolvidas, horários     comunicação.
+                                                                                         dos rodízios.
+
+                                                                                         Relatos sobre o
+                                                    Comunicar órgãos interessados;       acidente;                Agência informa
+                    Aumento súbito da turbidez
+  Problemas na                                      Emitir alerta à população com        Fazer fotos e vídeos;    para GOPS;
+                    (ocasionando paralização do
+qualidade da água                                   motivo da suspensão ou redução de    Em caso de rodízio       GOPS informa
+                    sistema e/ou diminuição
+      bruta                                         água tratada fornecida em rádios e   informar: Localidades    GPO, se
+                    brusca de vazão)
+                                                    mídias.                              envolvidas, horários     necessário, e ACS.
+                                                                                         dos rodízios.
+
+
+
+
+     Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                                          35/48
+
+
+                                                                                                                                       39
+                                                                                      MATERIAIS E
+ EVENTO             LIMITE CRÍTICO              TIPO DE COMUNICAÇÃO                     MÉTODOS                AGENTES
+                                                                                  Relatos sobre o
+                                             Comunicar órgãos interessados;       acidente;                 Agência informa
+               Despejo de poluentes e/ou
+
+
+
+
+                                                                                                                                  Pág. 36 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                                             Emitir alerta à população com        Fazer fotos e vídeos;     para GOPS;
+               contaminantes (ocasionando
+                                             motivo da suspensão ou redução de    Em caso de rodízio        GOPS informa
+               paralização do sistema e/ou
+                                             água tratada fornecida em rádios e   informar: Localidades     GPO, se
+               diminuição brusca de vazão)
+                                             mídias.                              envolvidas, horários      necessário, e ACS.
+                                                                                  dos rodízios.
+                                                                                  Relatos sobre o
+                                            Comunicar órgãos interessados;                                  Agência informa
+                                                                                  acidente;
+               Contaminação no reservatório Emitir alerta à população com                                   para GOPS;
+                                                                                  Em caso de rodízio
+               ocasionando suspensão do     motivo da suspensão ou redução do                               GOPS informa
+                                                                                  informar: Localidades
+               fornecimento de água         fornecimento de água em rádios e                                GPO, se
+                                                                                  envolvidas, horários
+                                            mídias.                                                         necessário, e ACS.
+                                                                                  dos rodízios.
+
+Reservatório                                 Comunicação interna para                                       Agência informa
+                                                                                  Relatos sobre o
+                                             mobilização de funcionários para                               para GOPS; GOPS
+                                                                                  acidente; Fazer fotos e
+                                             atuarem na contenção do evento;                                informa GPO, se
+               Rompimento do reservatório                                         vídeos;
+                                             Comunicar órgãos interessados;                                 necessário, e ACS.
+               ocasionando paralização do                                         Em caso de rodízio
+                                             Emitir alerta à população com                                  Chefias
+               abastecimento                                                      informar: Localidades
+                                             motivo da suspensão ou redução do                              comunicam e
+                                                                                  envolvidas, horários
+                                             fornecimento de água em rádios e                               mobilizam
+                                                                                  dos rodízios.
+                                             mídias.                                                        subordinados.
+
+
+
+  4.4. Medidas de Racionamento de Água
+
+  Em alguns casos de diminuição da quantidade de água tratada disponível, seja por problemas
+  na qualidade do tratamento de água ou mesmo por questões relacionadas à disponibilidade de
+  água bruta, ações corretivas são tomadas conforme a disponibilidade de água para
+  distribuição, entre essas:
+
+       •   Manobras operacionais com a finalidade de atender usuários com necessidades
+           prioritárias (hospitais, escolas, etc.) e controlar a pressão nas partes baixas para
+           viabilizar o abastecimento das zonas com cotas topográficas elevadas e pontas de rede;
+       •   Informes nas redes sociais, internet e demais meios de comunicação para a
+           colaboração da população no consumo consciente da água;
+       •   Rodízio no abastecimento de água na Grande Florianópolis (12 horas sem
+           fornecimento por 36 horas com fornecimento de água) conforme quadro exemplo
+           abaixo. Ressalva-se que dependendo da disponibilidade de água pode ser alterado a
+           região de abastecimento e/ou intervalo do rodízio.
+
+                       Figura 4 – Rodízio Abastecimento de Água na Grande Florianópolis
+
+
+
+
+   Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                                      36/48
+
+
+                                                                                                                                 40
+Assim sendo, e considerando-se que a NBR 5626/1998 - Instalação predial de água fria
+preconiza o emprego de reservação de água nas instalações prediais para no mínimo 1 (um)
+dia de consumo normal, pode-se mitigar ou mesmo não sofrer com problemas de falta de água
+
+
+
+
+                                                                                                Pág. 37 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+em caso de diminuição da produção de água tratada.
+
+4.4.1. Diretrizes para Suspensão do Fornecimento de Água
+
+As suspensões no fornecimento de água podem ser ocasionadas por ocorrências programadas
+e não programados. Os fatores programados são aqueles necessários para a manutenção e
+melhoria do sistema de abastecimento de água. Os não programados, por sua vez, são aqueles
+advindos de eventos externos, como rompimentos de rede, defeitos nos bombeamentos,
+quedas de energia, dentre outros.
+
+Para os eventos programados, a suspensão deve ser comunicada previamente pelo quadro de
+avisos e informada à agência reguladora e à população com o motivo, horário previsto para
+início e fim das atividades, bem como o tempo médio previsto de duração e as regiões que
+serão afetadas. Após o procedimento, deverá ser emitido alerta de normalidade através dos
+canais oficiais da companhia.
+
+Sempre que possível e necessário, deverá ser adotada medidas que mitiguem os problemas de
+desabastecimento durante as atividades programadas, sobretudo em locais de extrema
+necessidade como unidades de saúde, presídios e unidades escolares. A necessidade da
+adoção destas medidas deverá ser avaliada em relação a duração da atividade e as
+possibilidades de atendimento do abastecimento alternativo.
+
+Os eventos não programados devem ser comunicados seguindo as diretrizes da resolução 156
+da ARESC, dentro dos eventos elencados nesta mesma resolução, e devem ser avaliados pelos
+técnicos da companhia em relação a necessidade de suspensão do abastecimento.
+
+Todo evento não programado que gerar perturbações no abastecimento de água, como a
+total suspensão do abastecimento, deverá ser relatado e registrado em relatório de
+comunicação de evento que deverá ser posteriormente avaliado pelos técnicos da companhia
+para futuras revisões deste PEC e deverá, também, ser encaminhado à ARESC para
+apreciação deste órgão.
+
+A comunicação durante a suspensão do abastecimento por evento não programado deverá ser
+feita primeiramente à população, informando ao quadro de avisos com motivo da suspensão,
+tempo previsto para regularização do abastecimento e as localidades atingidas. Se possível e
+necessário, deverá ser feita comunicação em outros canais oficiais da companhia. Em seguida,
+deve ser comunicado a ARESC, com as mesmas informações. Após regularização, deve ser
+elaborado relatório sobre o evento e este também deverá ser encaminhado a ARESC.
+
+4.5. Pontos Críticos do SIA Grande Florianópolis
+
+Consideraram-se como pontos críticos os estabelecimentos de saúde públicos, escolas e
+presídios localizados na área de abrangência do SIA. Sugere-se que estes pontos sejam
+priorizados no abastecimento com caminhão-pipa, em caso de falta d´água. Outros pontos de
+mesma relevância poderão ser incluídos nesta listagem, conforme decisão das chefias
+imediatas. O Quadro 13 mostra a listagem de pontos críticos na área de abrangência do SIA.
+
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis             37/48
+
+
+                                                                                               41
+                                 Quadro 13 - Listagem de Pontos Críticos
+
+            Local                            Endereço                         Cidade        Telefone
+
+
+
+
+                                                                                                            Pág. 38 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+  Presídio Biguaçu             Rua Hermógenes Prazeres, 49 - Centro.          Biguaçu       4009-9450
+
+  Cadeia Pública -             Rua Delminda Silveira, 900 -
+                                                                            Florianópolis   3333-0024
+  Penitenciária Estadual       Agronômica.
+
+  Casa de Saúde e
+                               Rua Bocaiúva, 72 - Centro.                   Florianópolis   3222-2611
+  Maternidade São Sebastião
+
+  Hospital Baia Sul            Rua Menino Deus, 63 - Centro.                Florianópolis   2107-2222
+
+  Hospital CEPON               Rua General Bittencourt, 326 – Centro.       Florianópolis   3212-1500
+
+  Hospital Comandante Lara
+                               Rua Major Costa, 221 - Centro.               Florianópolis   3229-6500
+  Ribas (Polícia Militar)
+
+  Hospital Custódia            Rua Delminda Silveira, 300 -
+                                                                            Florianópolis   3333-2493
+  Tratamento Psiquiátrico      Agronômica.
+
+  Hospital de Caridade         Rua Menino Deus, 376 - Centro.               Florianópolis   3221-7500
+
+  Hospital de Guarnição
+                               Rua Silva Jardim, 441 - Centro.              Florianópolis   3025-4814
+  do Exército
+
+                               Rua Santa Rita de Cássia, 1665 -
+  Hospital Florianópolis                                                    Florianópolis   3271-1500
+                               Estreito.
+
+  Hospital Governador
+                               Rua Irmã Benwarda, s/n - Centro.             Florianópolis   3251-7000
+  Celso Ramos
+
+  Hospital Infantil Joana
+                               Rua Rui Barbosa, 152 - Agronômica.           Florianópolis   3251-9000
+  de Gusmão
+
+  Hospital Nereu Ramos         Rua Rui Barbosa, 800 - Agronômica.           Florianópolis   3216-9300
+
+  Hospital Saint Patrick -     Rua General Acastro de Campos, 153 -
+                                                                            Florianópolis   3028-7800
+  Oem Hostpitais               Centro.
+
+  Hospital Universitário
+                               Rua Profª Maria Flora Pausewang, s/n -
+  Polydoro Ernani de São                                                    Florianópolis   3721-9100
+                               Trindade.
+  Thiago (HU)
+
+  Ilha Hospital e              Rua Dep. Antônio Edu Vieira, 1414.
+                                                                            Florianópolis   3234-0770
+  Maternidade                  Pantanal.
+
+  Maternidade Carlos
+                               Av. Hercilio Luz, 1302 - Centro.             Florianópolis   3224-3099
+  Correa
+
+  Maternidade Carmela
+                               Rua Irmã Benwarda, 208 - Centro.             Florianópolis   3251-7500
+  Dutra
+
+  Maternidade Clínica          Rua Álvaro Soares de Oliveira, 117 -
+                                                                            Florianópolis   3271-4400
+  Santa Helena                 Itaguaçu.
+
+
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                          38/48
+
+
+                                                                                                           42
+  Unimed Centro                Rua Madalena Barbi, 204 - Centro.            Florianópolis   3216-8222
+
+  Hospital São Francisco                                                    Santo Amaro
+
+
+
+
+                                                                                                            Pág. 39 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+                               Rua Tereza Cristina, 181 - Centro.                           3245-1212
+  de Assis                                                                  da Imperatriz
+
+                               Estrada Geral São Pedro - Colônia
+  Hospital Colônia Santana                                                    São José      3214-8000
+                               Santana.
+
+  Hospital Regional de         Rua Adolfo Donato da Silva, s/n -
+                                                                              São José      3271-9000
+  São José                     Praia Comprida.
+
+                               Rua Lídio Antônio de Matos, 362 -
+  Unimed Kobrasol                                                             São José      3381-8300
+                               Kobrasol.
+
+
+4.6. Relatório de Comunicação
+
+Do momento da ocorrência de eventos operacionais que venham a perturbar o
+funcionamento do SIA, deverá ser realizado o preenchimento do relatório de ocorrências,
+informando em detalhes a ocorrência do evento, o início e fim do evento. É necessário
+também atentar-se aos períodos de comunicação apresentados na resolução N° 156 de 15 de
+abril de 2020 da ARESC.
+
+4.7. Peças, Equipamentos e Contratos de Serviços
+
+As peças e equipamentos em estoque são mantidos em diversos almoxarifados da CASAN.
+Assim sendo, todos os materiais virão do quantitativo geral da CASAN, que compreende
+materiais e equipamentos diversos e em grandes quantidades, e que poderão ser
+disponibilizados para fins consultivos mediante solicitação formal da ARESC. Estes materiais
+ficam disponíveis às agências e passíveis de consulta através dos softwares de gerenciamento
+de estoque; em consulta à Gerência de Suprimentos (GSU), através do telefone (48) 3381-
+2302; diretamente ao almoxarifado responsável, através do telefone (48) 3258-9068; ou
+diretamente com as Agências:
+
+    •   Agência Florianópolis: através do telefone (48) 3221-5710;
+
+    •   Agência São José: através do telefone (48) 3381-3627;
+
+    •   Agência Biguaçu: através do telefone (48) 3243-1055;
+
+    •   Agência Santo Amaro da Imperatriz: através do telefone (48) 3245-1150.
+
+Os contratos para gerador de energia, caminhão-pipa, dentre outros não são documentos fixos
+e mudam recorrentemente. Estes, assim como a listagem de materiais e equipamentos, podem
+ser solicitados pela ARESC através de solicitação formal sempre que entender necessário.
+
+
+5. RECOMENDAÇÕES
+
+O Plano de Emergência e Contingência foi formulado com o objetivo de ser uma ferramenta
+dinâmica. Sendo assim, este deve ser atualizado periodicamente, observando o prazo máximo
+de dois anos a partir da data de publicação da primeira versão e, na medida em que os
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                          39/48
+
+
+                                                                                                           43
+equipamentos e procedimentos operacionais passarem por atualizações e ampliação da
+capacidade de atendimento. Após estas revisões, os colaboradores envolvidos na operação do
+SIA devem ser devidamente informados e treinados.
+
+
+
+
+                                                                                                  Pág. 40 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2.
+6. GLOSSÁRIO
+
+Brainstorming – Técnica de dinâmica de grupo, desenvolvida para explorar a potencialidade
+criativa de um indivíduo ou de um grupo, colocando-a a serviço de objetivos pré-
+determinados.
+
+Contingência – Medida a ser tomada ou usada somente se certos eventos ocorrerem, desde
+que haja alertas suficientes para acioná-los.
+
+Emergência – Quando há uma situação crítica ou algo iminente, com ocorrência de perigo;
+incidente; imprevisto.
+
+Evento – Risco ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+
+Matriz de vulnerabilidade – Matriz de graduação da probabilidade versus impacto de risco.
+
+Impacto – Feito sobre o objetivo do trabalho, se o evento de risco ocorrer e/ou estimativa do
+que a ocorrência do risco vai produzir.
+
+Rank – Classificação dos riscos por ordem de grandeza do (PxI).
+
+Risco – Evento ou condição incerta, mas previsível, que possivelmente causa efeito negativo.
+
+Writestorming – Técnica semelhante ao brainstorming, mas cada participante escreve quais
+são as suas ideias, então os papéis são colocados juntos e todas as ideias pertencem ao grupo,
+evitando ou minimizando ao máximo a possibilidade de comentários inapropriados.
+
+
+7. APROVAÇÃO
+
+
+
+EDSON MORITZ                                            Eng.º PEDRO JOEL HORSTMANN
+Diretor-Presidente                                      Diretor de Operação e Expansão
+
+
+
+
+Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis                40/48
+
+
+                                                                                                 44
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        41/48
+
+
+
+     Pág. 41 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+45   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        42/48
+
+
+
+     Pág. 42 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+46   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        43/48
+
+
+
+     Pág. 43 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+47   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        44/48
+
+
+
+     Pág. 44 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+48   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        45/48
+
+
+
+     Pág. 45 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+49   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        46/48
+
+
+
+     Pág. 46 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+50   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        47/48
+
+
+
+     Pág. 47 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+51   00084155/2023 e o código C9TE42O2.
+        Plano de Emergência e Contingência Operacional – SIA Grande Florianópolis
+
+
+
+
+        48/48
+
+
+
+     Pág. 48 de 48 - Documento assinado digitalmente. Para conferência, acesse o site https://sgpe.casan.com.br/portal-externo e informe o processo CASAN
+52   00084155/2023 e o código C9TE42O2.
+                                 Assinaturas do documento
+
+
+                                      Código para verificação: C9TE42O2
+
+
+Este documento foi assinado digitalmente pelos seguintes signatários nas datas indicadas:
+
+
+     PEDRO JOEL HORSTMANN (CPF: 573.XXX.949-XX) em 22/09/2023 às 14:21:22
+     Emitido por: "SGP-e", emitido em 20/07/2021 - 08:54:07 e válido até 20/07/2121 - 08:54:07.
+     (Assinatura do sistema)
+
+
+
+     EDSON MORITZ MARTINS DA SILVA (CPF: 290.XXX.239-XX) em 22/09/2023 às 17:12:40
+     Emitido por: "SGP-e", emitido em 03/04/2023 - 08:42:46 e válido até 03/04/2123 - 08:42:46.
+     (Assinatura do sistema)
+
+
+
+
+Para verificar a autenticidade desta cópia, acesse o link https://sgpe.casan.com.br/portal-externo/conferencia-
+documento/Q0FTQU5fMV8wMDA4NDE1NV84NDE1NV8yMDIzX0M5VEU0Mk8y ou o site
+https://sgpe.casan.com.br/portal-externo e informe o processo CASAN 00084155/2023 e o código C9TE42O2 ou
+aponte a câmera para o QR Code presente nesta página para realizar a conferência.
+
