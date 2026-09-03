@@ -1,6 +1,6 @@
 # Água da Grande Florianópolis – visualização 3D e simulação
 
-Visualização 3D (Three.js, imagens de satélite Esri, relevo AWS Terrain Tiles a 34 m no núcleo urbano, cobertura do solo ESA WorldCover) do sistema de abastecimento de água da Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu e Santo Amaro da Imperatriz): captações, ETAs, adutoras, reservatórios, elevatórias, zonas de atendimento e ligações prediais imaginárias ("estilo Cities Skylines"), com relevo real e edificações do OpenStreetMap. Inclui um simulador de falhas com a reconstituição do rompimento da adutora de 1.200 mm na BR‑282 (Palhoça) em 31/08/2026 e do processo de recarga gradual da rede após o conserto (02–03/09/2026). Funciona em desktop e celular.
+Visualização 3D (Three.js, imagens de satélite Esri, relevo AWS Terrain Tiles a 34 m no núcleo urbano, cobertura do solo ESA WorldCover) do sistema de abastecimento de água da Grande Florianópolis (Florianópolis, São José, Palhoça, Biguaçu e Santo Amaro da Imperatriz): captações, ETAs, adutoras, reservatórios, elevatórias, zonas de atendimento (partição do tecido urbano por bairro) e ligações prediais imaginárias ("estilo Cities Skylines"), com relevo real e edificações do OpenStreetMap. Inclui um simulador de falhas com a reconstituição do rompimento da adutora de 1.200 mm na BR‑282 (Palhoça) em 31/08/2026 e do processo de recarga gradual da rede após o conserto (02–03/09/2026). Funciona em desktop e celular.
 
 ## Rodar
 

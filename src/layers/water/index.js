@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { loadJSON } from '../../core/data.js';
+import { toXZ, fromXZ } from '../../core/geo.js';
 import { WaterModel } from './model.js';
 import { buildScenarios } from './scenarios.js';
 import netData from './network.json';
@@ -19,7 +20,7 @@ export const waterLayer = {
     this.model = new WaterModel({ net: netData, routes, places: ctx.places, buildings: ctx.buildings, app });
     this.scenarios = buildScenarios(this.model);
     this.group = new THREE.Group(); this.group.name = 'water'; app.scene.add(this.group);
-    this._buildPipes(); this._buildNodes(); this._buildZones(); this._buildConnections(); this._segZones();
+    this._buildPipes(); this._buildNodes(); await this._buildZones(); this._buildConnections(); this._segZones();
     this.applyState();
   },
   setVisible(v) { this.group.visible = v; for (const L of this.nodeLabels) L.visible = v && this.opts.labels; if (!v) this.ctx.roads.tint(() => null); else this.applyState(); },
@@ -74,19 +75,58 @@ export const waterLayer = {
       this.nodeLabels.push(label);
     }
   },
-  _buildZones() {
-    const app = this.ctx.app; this.zoneMeshes = [];
-    const g = new THREE.CircleGeometry(1, 36); g.rotateX(-Math.PI / 2);
-    const ring = new THREE.RingGeometry(0.93, 1, 48); ring.rotateX(-Math.PI / 2);
-    for (const z of this.model.zones) {
-      const r = Math.max(180, Math.min(1100, 120 + Math.sqrt(z.buildings.length + 4) * 55)); z.radius = r;
-      // overlay: no depth test so discs stay visible over hills; ring gives definition over imagery
-      const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: STATE_HEX.full, transparent: true, opacity: 0.26, depthWrite: false, depthTest: false }));
-      m.position.copy(app.pos(z.lon, z.lat, 4)); m.scale.set(r, 1, r); m.userData = { type: 'zone', id: z.id }; m.renderOrder = 15;
-      const rg = new THREE.Mesh(ring, new THREE.MeshBasicMaterial({ color: STATE_HEX.full, transparent: true, opacity: 0.85, depthWrite: false, depthTest: false }));
-      rg.position.copy(m.position); rg.scale.copy(m.scale); rg.renderOrder = 16; m.userData.ring = rg;
-      this.group.add(m, rg); app.pickables.push(m); this.zoneMeshes.push(m); z.mesh = m;
+  /**
+   * Zone footprints (heuristic v1): a 60 m raster over the urban area; a cell is "occupied" when ESA WorldCover says built-up
+   * or an OSM building falls within one cell of it. Each occupied cell goes to the nearest zone centre (≤ 2.5 km), so zones
+   * partition the occupied land without overlaps. Each zone is drawn as the union of its cells plus an outline along the
+   * partition boundary. (Improvement ideas: census tracts, pressure-zone maps, smoothing of the raster boundary.)
+   */
+  async _buildZones() {
+    const { app, dem, buildings } = this.ctx; const zones = this.model.zones;
+    let lc = null; try { lc = new Uint8Array(await (await fetch('./data/landcover.bin')).arrayBuffer()); } catch (e) { /* optional */ }
+    const CELL = 60, west = -48.90, east = -48.36, north = -27.35, south = -27.85;
+    const p0 = toXZ(west, north), p1 = toXZ(east, south); const nx = Math.ceil((p1.x - p0.x) / CELL), nz = Math.ceil((p1.z - p0.z) / CELL);
+    const occ = new Uint8Array(nx * nz);
+    const cellOf = (x, z) => [Math.floor((x - p0.x) / CELL), Math.floor((z - p0.z) / CELL)];
+    if (lc && dem.outer) { for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) { const ll = fromXZ(p0.x + (i + 0.5) * CELL, p0.z + (j + 0.5) * CELL); const g = dem.outer.gridOf(ll.lon, ll.lat); const gi = Math.floor(g.gx), gj = Math.floor(g.gy); if (gi < 0 || gj < 0 || gi >= dem.outer.w || gj >= dem.outer.h) continue; if (lc[gj * dem.outer.w + gi] === 50) occ[j * nx + i] = 1; } }
+    for (const bld of buildings) { const [i, j] = cellOf(bld.cx, bld.cz); for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const ii = i + di, jj = j + dj; if (ii >= 0 && jj >= 0 && ii < nx && jj < nz) occ[jj * nx + ii] = 1; } }
+    // nearest zone per occupied cell (bucketed)
+    const zp = zones.map(z => { const p = toXZ(z.lon, z.lat); return [p.x, p.z]; });
+    const B = 2500, bx = new Map(); const bk = (x, z) => (Math.floor(x / B) + 4096) * 8192 + Math.floor(z / B) + 4096;
+    zp.forEach((p, k) => { const key = bk(p[0], p[1]); (bx.get(key) || bx.set(key, []).get(key)).push(k); });
+    const owner = new Int16Array(nx * nz).fill(-1); const count = new Int32Array(zones.length);
+    for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
+      if (!occ[j * nx + i]) continue; const x = p0.x + (i + 0.5) * CELL, z = p0.z + (j + 0.5) * CELL; let best = -1, bd = 2500 * 2500;
+      for (let a = -1; a <= 1; a++) for (let c = -1; c <= 1; c++) { const arr = bx.get(bk(x + a * B, z + c * B)); if (!arr) continue; for (const k of arr) { const d = (zp[k][0] - x) ** 2 + (zp[k][1] - z) ** 2; if (d < bd) { bd = d; best = k; } } }
+      owner[j * nx + i] = best; if (best >= 0) count[best]++;
     }
+    // geometry: one fill mesh per zone (pickable) + one merged outline
+    this.zoneMeshes = []; const linePos = [], lineCol = []; this.zoneLineRanges = new Array(zones.length);
+    const hAt = (x, z) => { const ll = fromXZ(x, z); return app.elev(ll.lon, ll.lat) * app.exag + 3; };
+    const cellsOf = new Array(zones.length).fill(null).map(() => []);
+    for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) { const o = owner[j * nx + i]; if (o >= 0) cellsOf[o].push(i, j); }
+    for (let k = 0; k < zones.length; k++) {
+      const z = zones[k]; const cells = cellsOf[k]; z.cells = cells.length / 2; z.radius = Math.max(150, Math.sqrt(z.cells) * CELL * 0.6);
+      if (!cells.length) { z.mesh = null; this.zoneLineRanges[k] = [0, 0]; continue; }
+      const pos = new Float32Array(cells.length / 2 * 4 * 3), idx = []; let v = 0;
+      for (let c = 0; c < cells.length; c += 2) {
+        const i = cells[c], j = cells[c + 1]; const x0 = p0.x + i * CELL, z0 = p0.z + j * CELL;
+        const corners = [[x0, z0], [x0 + CELL, z0], [x0 + CELL, z0 + CELL], [x0, z0 + CELL]];
+        for (const [x, zz] of corners) { pos[v * 3] = x; pos[v * 3 + 1] = hAt(x, zz); pos[v * 3 + 2] = zz; v++; }
+        const b0 = v - 4; idx.push(b0, b0 + 2, b0 + 1, b0, b0 + 3, b0 + 2);
+        // outline edges where the neighbour belongs to someone else
+        const nb = [[i, j - 1, 0, 1], [i + 1, j, 1, 2], [i, j + 1, 2, 3], [i - 1, j, 3, 0]];
+        for (const [ni, nj, a, b2] of nb) { const oo = (ni < 0 || nj < 0 || ni >= nx || nj >= nz) ? -1 : owner[nj * nx + ni]; if (oo !== k) { linePos.push(corners[a][0], hAt(corners[a][0], corners[a][1]) + 1, corners[a][1], corners[b2][0], hAt(corners[b2][0], corners[b2][1]) + 1, corners[b2][1]); lineCol.push(0, 1, 0, 0, 1, 0); } }
+      }
+      const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(idx);
+      const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: STATE_HEX.full, transparent: true, opacity: 0.24, depthWrite: false, depthTest: false }));
+      m.userData = { type: 'zone', id: z.id }; m.renderOrder = 15; this.group.add(m); app.pickables.push(m); this.zoneMeshes.push(m); z.mesh = m;
+      this.zoneLineRanges[k] = [this.zoneLineRanges[k - 1]?.[1] ?? 0, linePos.length / 3];
+    }
+    // fix ranges for zones without cells (carry previous end)
+    let last = 0; for (let k = 0; k < zones.length; k++) { if (!zones[k].mesh) this.zoneLineRanges[k] = [last, last]; else { this.zoneLineRanges[k][0] = last; last = this.zoneLineRanges[k][1]; } }
+    const lg = new THREE.BufferGeometry(); lg.setAttribute('position', new THREE.Float32BufferAttribute(linePos, 3)); lg.setAttribute('color', new THREE.Float32BufferAttribute(lineCol, 3));
+    this.zoneLines = new THREE.LineSegments(lg, new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.9, depthTest: false })); this.zoneLines.renderOrder = 16; this.group.add(this.zoneLines);
   },
   _buildConnections() {
     // "Cities Skylines" style: imaginary service line from each building to the nearest street
@@ -112,7 +152,9 @@ export const waterLayer = {
       if (obj.material.emissive) { if (e.broken) { obj.material.color.setHex(0xff2d2d); obj.material.emissive.setHex(0x550000); } else if (e.open < 1 && !e.planned) { obj.material.color.setHex(obj.userData.baseColor).lerp(new THREE.Color(0x556677), 1 - e.open); obj.material.emissive.setHex(0x000000); } else { obj.material.color.setHex(obj.userData.baseColor); obj.material.emissive.setHex(0x000000); } }
     }
     for (const r of m.reservoirs) { const mesh = this.nodeMeshes.get(r.id); const lm = mesh?.userData.levelMesh; if (lm) { const s = mesh.scale; lm.scale.set(s.x * 1.02, Math.max(1, s.y * r.level), s.z * 1.02); lm.position.y = mesh.position.y - s.y / 2 + Math.max(1, s.y * r.level) / 2; lm.material.color.setHex(r.level > 0.35 ? 0x39c46b : r.level > 0.1 ? 0xffb020 : 0xff4d4f); } }
-    for (const z of m.zones) { z.mesh.material.color.setHex(STATE_HEX[z.served]); z.mesh.material.opacity = z.served === 'full' ? 0.22 : 0.42; z.mesh.visible = this.opts.zones; const rg = z.mesh.userData.ring; rg.material.color.setHex(STATE_HEX[z.served]); rg.material.opacity = z.served === 'full' ? 0.6 : 0.95; rg.visible = this.opts.zones; const rgb = z.served === 'full' ? null : STATE_RGB[z.served]; for (const bi of z.buildings) B.setState(bi, rgb, 0.8); }
+    const lc = this.zoneLines.geometry.attributes.color.array; const tmp = new THREE.Color();
+    m.zones.forEach((z, k) => { if (z.mesh) { z.mesh.material.color.setHex(STATE_HEX[z.served]); z.mesh.material.opacity = z.served === 'full' ? 0.2 : 0.42; z.mesh.visible = this.opts.zones; } const [s0, s1] = this.zoneLineRanges[k]; tmp.setHex(STATE_HEX[z.served]); const a = z.served === 'full' ? 0.75 : 1; for (let v = s0; v < s1; v++) { lc[v * 3] = tmp.r * a; lc[v * 3 + 1] = tmp.g * a; lc[v * 3 + 2] = tmp.b * a; } const rgb = z.served === 'full' ? null : STATE_RGB[z.served]; for (const bi of z.buildings) B.setState(bi, rgb, 0.8); });
+    this.zoneLines.geometry.attributes.color.needsUpdate = true; this.zoneLines.visible = this.opts.zones;
     B.commit();
     if (this.conn) { const arr = this.conn.geometry.attributes.color.array; for (let k = 0; k < this.connIndex.length; k++) { const z = this.ctx.buildings[this.connIndex[k]].zone; const c = z ? STATE_RGB[z.served] : [0.3, 0.6, 1]; const cc = z && z.served === 'full' ? [0.3, 0.6, 1] : c; for (let j = 0; j < 2; j++) { arr[k * 6 + j * 3] = cc[0]; arr[k * 6 + j * 3 + 1] = cc[1]; arr[k * 6 + j * 3 + 2] = cc[2]; } } this.conn.geometry.attributes.color.needsUpdate = true; this.conn.visible = this.opts.connections; }
     if (this.opts.mains) roads.tint(s => { const zi = this.segZone[s]; if (zi < 0) return null; const z = m.zones[zi]; return z.served === 'full' ? [0.25, 0.55, 1] : STATE_RGB[z.served]; }); else roads.tint(() => null);
@@ -139,7 +181,7 @@ export const waterLayer = {
   },
   zoneHtml(z) {
     const f = this.model.node(z.feeder);
-    return `<h3>Zona: ${z.name}</h3><span class="tag est">zona heurística</span><div>Atendida por: ${f.name}</div><div>Pop. estimada ${z.pop.toLocaleString('pt-BR')} · demanda ≈ ${Math.round(z.demand_lps)} L/s · ${z.buildings.length} edificações OSM · cota ≈ ${Math.round(z.elev)} m</div><div>Atendimento: <b style="color:${['#39c46b', '#ffb020', '#ff4d4f'][['full', 'low', 'none'].indexOf(z.served)]}">${Math.round(z.supply * 100)} %</b>${z.hoursOut > 0 ? ` · ${z.hoursOut.toFixed(1)} h sem água` : ''}</div><div class="note">Zona = bairro OSM ligado ao ponto de distribuição mais próximo; população municipal (IBGE 2022) rateada por nº de edificações.</div>`;
+    return `<h3>Zona: ${z.name}</h3><span class="tag est">zona heurística</span><div>Atendida por: ${f.name}</div><div>Pop. estimada ${z.pop.toLocaleString('pt-BR')} · demanda ≈ ${Math.round(z.demand_lps)} L/s · ${z.buildings.length} edificações OSM · cota ≈ ${Math.round(z.elev)} m</div><div>Atendimento: <b style="color:${['#39c46b', '#ffb020', '#ff4d4f'][['full', 'low', 'none'].indexOf(z.served)]}">${Math.round(z.supply * 100)} %</b>${z.hoursOut > 0 ? ` · ${z.hoursOut.toFixed(1)} h sem água` : ''}</div><div class="note">Zona = bairro OSM ligado ao ponto de distribuição mais próximo; área = células de 60 m ocupadas (WorldCover urbano + edificações OSM) mais próximas deste bairro (${z.cells || 0} células ≈ ${((z.cells || 0) * 0.36).toFixed(1)} km²); população municipal (IBGE 2022) rateada por nº de edificações.</div>`;
   },
   renderPanel(el) {
     const o = this.opts; const mk = (key, label, hint) => { const id = 'w_' + key; return `<div class="row"><label><input type="checkbox" id="${id}" ${o[key] ? 'checked' : ''}> ${label}</label>${hint ? `<span class="note">${hint}</span>` : ''}</div>`; };
