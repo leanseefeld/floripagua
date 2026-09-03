@@ -61,20 +61,22 @@ export function buildUI(ctx) {
   (() => {
     const head = $('.story-head'), body = $('.story-body'), inner = $('.story-inner');
     let sy = 0, active = false, decided = false, startExpanded = false, prog = 0, lastY = 0, lastT = 0, vel = 0;
-    const H = () => inner.scrollHeight + 12;
+    let H0 = 0; // content height captured at gesture start; the sheet may overshoot it by at most 10 % (rubber band)
+    const H = () => H0 || Math.min(inner.scrollHeight + 12, innerHeight * 0.6);
     const apply = (pr) => { prog = pr; body.style.gridTemplateRows = (H() * pr).toFixed(1) + 'px'; body.style.paddingBottom = (12 * pr).toFixed(1) + 'px'; const inset = 10 * (1 - pr); story.style.left = story.style.right = story.style.bottom = inset.toFixed(1) + 'px'; story.style.borderRadius = `22px 22px ${(18 * (1 - pr)).toFixed(1)}px ${(18 * (1 - pr)).toFixed(1)}px`; };
     const clear = () => { body.style.gridTemplateRows = ''; body.style.paddingBottom = ''; body.style.transition = ''; story.style.left = story.style.right = story.style.bottom = story.style.borderRadius = ''; };
-    const begin = (y, target) => { if (!app.mobile || target.closest('button,select,input,.chip')) return; active = true; decided = false; startExpanded = !story.classList.contains('collapsed'); sy = lastY = y; lastT = performance.now(); vel = 0; };
+    const begin = (y, target) => { if (!app.mobile || target.closest('button,select,input,.chip')) return; H0 = 0; H0 = H(); active = true; decided = false; startExpanded = !story.classList.contains('collapsed'); sy = lastY = y; lastT = performance.now(); vel = 0; };
     const move = (y) => {
       if (!active) return false; const dy = sy - y; // up = positive
       if (!decided) { if (Math.abs(dy) < 6) return false; if ((startExpanded && dy > 0) || (!startExpanded && dy < 0)) { active = false; return false; } decided = true; story.classList.add('dragging'); }
       const now = performance.now(); vel = 0.7 * vel + 0.3 * ((lastY - y) / Math.max(1, now - lastT)); lastY = y; lastT = now;
-      const maxPull = Math.min(H() * 0.6, 280); const k = Math.max(0, Math.min(1, Math.abs(dy) / maxPull));
-      apply(startExpanded ? 1 - k : k); return true;
+      const maxPull = Math.min(H() * 0.6, 280); const raw = Math.abs(dy) / maxPull;
+      const k = raw <= 1 ? raw : 1 + 0.08 * (1 - Math.exp(-(raw - 1) * 2)); // beyond full size: stiff, capped at ~+10 % of the whole sheet
+      apply(startExpanded ? Math.max(0, 1 - raw) : k); return true;
     };
     const end = () => {
       if (!active) return; active = false; if (!decided) return;
-      const expand = startExpanded ? !(prog < 0.5 || vel < -0.4) : (prog > 0.5 || vel > 0.4);
+      const expand = startExpanded ? !(prog < 0.5 || vel < -0.4) : (prog > 0.5 || vel > 0.4); prog = Math.min(prog, 1);
       story.classList.remove('dragging');
       body.style.transition = 'grid-template-rows .28s cubic-bezier(.2,.9,.25,1), padding-bottom .28s cubic-bezier(.2,.9,.25,1)';
       setTimeout(() => apply(expand ? 1 : 0), 0); // animate to the resting size, then hand over to the class-based layout
