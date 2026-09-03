@@ -68,31 +68,45 @@ export function buildUI(ctx) {
   })();
   $('#reset').onclick = () => { sim.playing = false; sim.seek(0); refresh(); };
   $('#speed').onchange = e => sim.speed = +e.target.value; sim.speed = 900;
-  $('#prevEv').addEventListener('click', (e) => { e.preventDefault(); stepEvent(-1); });
-  $('#nextEv').addEventListener('click', (e) => { e.preventDefault(); stepEvent(1); });
+  $('#prevEv').addEventListener('click', () => stepEvent(-1));
+  $('#nextEv').addEventListener('click', () => stepEvent(1));
   function togglePlay() { if (sim.t >= sim.scenario.duration_h - 1e-6) sim.seek(0); sim.playing = !sim.playing; refresh(); }
-  /** jump to the previous/next event boundary (pauses playback) */
-  function stepEvent(dir) {
-    const evs = sim.scenario.events; if (!evs.length) return; const t = sim.t;
-    sim.playing = false;
-    if (dir > 0) { const target = evs.find(e => e.t_h > t + 1e-6); if (target) sim.seek(target.t_h + 0.01); else sim.seek(sim.scenario.duration_h); }
-    else { const past = evs.filter(e => e.t_h < t - 0.05); const target = past[past.length - 1]; sim.seek(target ? target.t_h + 0.01 : 0); }
-    slideIn(dir); refresh();
-  }
-  /** slide the card content in from the direction of travel */
-  function slideIn(dir) { const m = $('.event-main'); m.classList.add(dir > 0 ? 'out-right' : 'out-left'); void m.offsetWidth; m.classList.remove('out-right', 'out-left'); m.style.transform = ''; m.style.opacity = ''; }
-  // swipe on the event card: left = next, right = previous
+  /** card index: 0 = intro (t=0), i = i-th event (last event whose time <= t) */
+  const idxAt = (t) => { const evs = sim.scenario.events; let i = 0; for (let k = 0; k < evs.length; k++) if (evs[k].t_h <= t + 1e-6) i = k + 1; return i; };
+  const goto = (i) => { const evs = sim.scenario.events; i = Math.max(0, Math.min(evs.length, i)); sim.playing = false; sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); };
+  /** step to the previous/next event card; does nothing at the ends */
+  function stepEvent(dir) { const i = idxAt(sim.t) + dir; if (i < 0 || i > sim.scenario.events.length) return; goto(i); }
+  // card carousel with weighted swipe: the finger has to travel ~35 % of the card width (or flick) to commit; otherwise it snaps back.
+  const cards = $('#cards'), carousel = $('#carousel');
+  let dragging = false;
+  function positionCards(dxPx = 0) { const i = idxAt(sim.t); cards.style.transform = `translateX(calc(${-i * 100}% + ${dxPx}px))`; }
   (() => {
-    const card = $('#eventCard'), main = $('.event-main'); let sx = 0, sy = 0, dx = 0, active = false, id = null;
-    card.addEventListener('pointerdown', e => { if (e.target.closest('button')) return; active = true; id = e.pointerId; sx = e.clientX; sy = e.clientY; dx = 0; card.classList.add('dragging'); main.style.transition = 'none'; });
-    card.addEventListener('pointermove', e => { if (!active || e.pointerId !== id) return; dx = e.clientX - sx; const dy = e.clientY - sy; if (Math.abs(dy) > Math.abs(dx) && Math.abs(dx) < 10) return; try { card.setPointerCapture(id); } catch (_) { /* synthetic */ } main.style.transform = `translateX(${dx * 0.45}px)`; main.style.opacity = String(Math.max(0.35, 1 - Math.abs(dx) / 260)); });
-    const finish = () => { if (!active) return; active = false; card.classList.remove('dragging'); main.style.transition = ''; if (Math.abs(dx) > 48) stepEvent(dx < 0 ? 1 : -1); else { main.style.transform = ''; main.style.opacity = ''; } dx = 0; };
-    card.addEventListener('pointerup', finish); card.addEventListener('pointercancel', finish);
+    let sx = 0, sy = 0, dx = 0, id = null, active = false, decided = false, lastX = 0, lastT = 0, vel = 0;
+    const band = (d, limit) => Math.sign(d) * limit * (1 - Math.exp(-Math.abs(d) / limit));
+    carousel.addEventListener('pointerdown', e => { if (sim.scenario.events.length === 0) return; active = true; decided = false; id = e.pointerId; sx = lastX = e.clientX; sy = e.clientY; dx = 0; vel = 0; lastT = performance.now(); });
+    carousel.addEventListener('pointermove', e => {
+      if (!active || e.pointerId !== id) return; const ddx = e.clientX - sx, ddy = e.clientY - sy;
+      if (!decided) { if (Math.abs(ddx) < 8 && Math.abs(ddy) < 8) return; if (Math.abs(ddy) > Math.abs(ddx)) { active = false; return; } decided = true; dragging = true; carousel.classList.add('dragging'); cards.classList.add('dragging'); try { carousel.setPointerCapture(id); } catch (_) {} }
+      const now = performance.now(); vel = 0.7 * vel + 0.3 * ((e.clientX - lastX) / Math.max(1, now - lastT)); lastX = e.clientX; lastT = now; dx = ddx;
+      const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
+      const blocked = (dx < 0 && i >= n) || (dx > 0 && i <= 0);
+      positionCards(blocked ? band(dx, W * 0.12) : band(dx, W * 0.55)); // edge: stiff rubber band, never commits
+    });
+    const finish = () => {
+      if (!active) return; active = false; carousel.classList.remove('dragging'); cards.classList.remove('dragging');
+      if (!decided) return; dragging = false;
+      const W = carousel.clientWidth, i = idxAt(sim.t), n = sim.scenario.events.length;
+      const dir = dx < 0 ? 1 : -1; const blocked = (dir > 0 && i >= n) || (dir < 0 && i <= 0);
+      const commit = !blocked && (Math.abs(dx) > W * 0.35 || (Math.abs(vel) > 0.6 && Math.abs(dx) > 40));
+      if (commit) goto(i + dir); else positionCards(0); // snap back = cancel, nothing changes in the simulation
+      dx = 0;
+    };
+    carousel.addEventListener('pointerup', finish); carousel.addEventListener('pointercancel', finish); carousel.addEventListener('lostpointercapture', finish);
   })();
   function flash() { const c = $('#eventCard'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
   let drag = false;
   const seekFromX = (x) => { const r = track.getBoundingClientRect(); const f = Math.max(0, Math.min(1, (x - r.left) / r.width)); sim.playing = false; sim.seek(f * sim.scenario.duration_h); refresh(); };
-  track.addEventListener('pointerdown', e => { if (e.target.classList.contains('mark')) return; drag = true; track.setPointerCapture(e.pointerId); seekFromX(e.clientX); });
+  track.addEventListener('pointerdown', e => { if (e.target.classList.contains('mark')) return; drag = true; try { track.setPointerCapture(e.pointerId); } catch (_) { /* synthetic */ } seekFromX(e.clientX); });
   track.addEventListener('pointermove', e => { if (drag) seekFromX(e.clientX); });
   track.addEventListener('pointerup', () => drag = false); track.addEventListener('pointercancel', () => drag = false);
   document.addEventListener('keydown', e => {
@@ -104,10 +118,13 @@ export function buildUI(ctx) {
   function loadScenario(id) {
     const s = simLayer.scenarios.find(x => x.id === id); if (!s) return; sel.value = id;
     sim.load(s, simLayer.model); sim.playing = false;
-    $('#evDots').innerHTML = s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i}"></i>`).join('');
-    $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => { sim.playing = false; const i = +d.dataset.i; const dir = s.events[i].t_h > sim.t ? 1 : -1; sim.seek(s.events[i].t_h + 0.01); slideIn(dir); refresh(); });
+    const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
+    cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
+    cards.classList.add('dragging'); positionCards(0); void cards.offsetWidth; cards.classList.remove('dragging');
+    $('#evDots').innerHTML = `<i data-i="0"></i>` + s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i + 1}"></i>`).join('');
+    $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => goto(+d.dataset.i));
     marks.innerHTML = s.events.map((ev, i) => `<div class="mark ${ev.apply ? 'key' : ''}" style="left:${(100 * ev.t_h / s.duration_h).toFixed(2)}%" data-i="${i}" title="${fmtDay(evDate(s, ev))} ${fmtTime(evDate(s, ev))}"></div>`).join('');
-    marks.querySelectorAll('.mark').forEach(m => m.addEventListener('pointerdown', (e) => { e.stopPropagation(); sim.playing = false; sim.seek(s.events[+m.dataset.i].t_h + 0.01); refresh(); flash(); }));
+    marks.querySelectorAll('.mark').forEach(m => m.addEventListener('pointerdown', (e) => { e.stopPropagation(); goto(+m.dataset.i + 1); }));
     $('#settingsBtn').style.display = /recarga|rompimento/.test(id) ? '' : 'none';
     if (id === 'rompimento_2026' || id.startsWith('recarga')) app.flyTo(app.pos(-48.64, -27.62), 20000, 48);
     refresh();
@@ -119,12 +136,12 @@ export function buildUI(ctx) {
     $('#play').innerHTML = icon(sim.playing ? 'i-pause' : (t >= s.duration_h - 1e-6 ? 'i-reset' : 'i-play'));
     const f = t / s.duration_h; track.querySelector('.track-fill').style.width = (100 * f).toFixed(2) + '%'; track.querySelector('.track-head').style.left = (100 * f).toFixed(2) + '%';
     marks.querySelectorAll('.mark').forEach((el, i) => el.classList.toggle('done', s.events[i].t_h <= t));
-    const past = s.events.filter(e => e.t_h <= t + 1e-6); const cur = past[past.length - 1];
-    if (cur) { $('#evWhen').innerHTML = `${fmtDay(evDate(s, cur))} <small>${fmtTime(evDate(s, cur))}</small>`; $('#evText').textContent = cur.label.replace(/^[^–]*–\s*/, ''); $('#evCount').textContent = `Evento ${past.length} de ${s.events.length}`; }
-    else { $('#evWhen').innerHTML = `${fmtDay(d)} <small>${fmtTime(d)}</small>`; $('#evText').textContent = s.description; $('#evCount').textContent = s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'; }
-    $('#prevEv').disabled = t <= 1e-6; $('#nextEv').disabled = t >= s.duration_h - 1e-6;
-    $('#evDots').querySelectorAll('i').forEach((d, i) => d.classList.toggle('on', cur === s.events[i]));
-    if (cur !== lastEv && sim.playing) { flash(); slideIn(1); } lastEv = cur;
+    const i = idxAt(t); const cur = i ? s.events[i - 1] : null;
+    if (!dragging) positionCards(0);
+    cards.querySelectorAll('.card').forEach((el, k) => el.classList.toggle('on', k === i));
+    $('#prevEv').classList.toggle('hidden', i <= 0); $('#nextEv').classList.toggle('hidden', i >= s.events.length);
+    $('#evDots').querySelectorAll('i').forEach((d, k) => d.classList.toggle('on', k === i));
+    if (cur !== lastEv && sim.playing) flash(); lastEv = cur;
     const st = m.stats;
     $('#chips').innerHTML = `<span class="chip" title="População sem água"><i style="background:var(--danger)"></i>${fmtK(st.popNone)}</span><span class="chip" title="Baixa pressão / parcial"><i style="background:var(--warn)"></i>${fmtK(st.popLow)}</span><span class="chip" title="Abastecimento normal"><i style="background:var(--ok)"></i>${fmtK(st.popFull)}</span><span class="chip dim" title="Índice heurístico de transiente (golpe de aríete)">⚡ ${st.surge.toFixed(2)}</span>`;
   }
