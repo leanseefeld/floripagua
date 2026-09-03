@@ -79,11 +79,11 @@ export function buildUI(ctx) {
     const evs = sim.scenario.events; i = Math.max(0, Math.min(evs.length, i)); sim.playing = false;
     const leaving = cards.querySelector('.card.on'); const all = cards.querySelectorAll('.card');
     all.forEach(el => { el.style.opacity = ''; el.classList.remove('leaving'); }); if (leaving) leaving.classList.add('leaving'); // the card swiped away fades
-    cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px))`; // optimistic: slide to the card now
+    cards.style.transform = `translateX(${-offsetFor(i)}px)`; // optimistic: slide to the card now
     pendingGoto = i;
     requestAnimationFrame(() => requestAnimationFrame(() => {
       if (pendingGoto !== i) return; pendingGoto = null;
-      sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); flash(); all.forEach(el => el.classList.remove('leaving'));
+      sim.seek(i === 0 ? 0 : evs[i - 1].t_h + 0.01); refresh(); all.forEach(el => el.classList.remove('leaving'));
     }));
   };
   /** step to the previous/next event card; does nothing at the ends */
@@ -91,7 +91,14 @@ export function buildUI(ctx) {
   // card carousel with weighted swipe: the finger has to travel ~35 % of the card width (or flick) to commit; otherwise it snaps back.
   const cards = $('#cards'), carousel = $('#carousel');
   let dragging = false;
-  function positionCards(dxPx = 0) { const i = idxAt(sim.t); cards.style.transform = `translateX(calc(${-i * 100}% - ${i * 12}px + ${dxPx}px))`; }
+  /** deck offset for card i: first card flush left, last card flush right, others left-aligned with the next card peeking */
+  function offsetFor(i) {
+    const W = carousel.clientWidth, n = cards.children.length; const cs = getComputedStyle(carousel);
+    const gap = parseFloat(cs.getPropertyValue('--gap')) || 16, peek = parseFloat(cs.getPropertyValue('--peek')) || 34; const cw = W - peek;
+    const maxX = Math.max(0, n * cw + (n - 1) * gap - W);
+    return Math.min(i * (cw + gap), maxX);
+  }
+  function positionCards(dxPx = 0) { cards.style.transform = `translateX(${(-offsetFor(idxAt(sim.t)) + dxPx).toFixed(1)}px)`; }
   (() => {
     // One gesture controller, two input paths: touch events (iOS Safari cancels pointer streams once it decides to scroll,
     // so we decide direction on the first touchmove and preventDefault from then on) and pointer events for mouse/pen.
@@ -130,7 +137,7 @@ export function buildUI(ctx) {
     carousel.addEventListener('pointermove', e => { if (e.pointerType === 'touch' || e.pointerId !== pid) return; if (move(e.clientX, e.clientY) === 'h') { try { carousel.setPointerCapture(pid); } catch (_) {} } });
     carousel.addEventListener('pointerup', e => { if (e.pointerType !== 'touch') end(); }); carousel.addEventListener('pointercancel', e => { if (e.pointerType !== 'touch') end(); });
   })();
-  function flash() { const c = $('#eventCard'); c.classList.remove('flash'); void c.offsetWidth; c.classList.add('flash'); }
+  function flash() { /* no visual flash: the card position itself is the signal */ }
   let drag = false;
   const seekFromX = (x) => { const r = track.getBoundingClientRect(); const f = Math.max(0, Math.min(1, (x - r.left) / r.width)); sim.playing = false; sim.seek(f * sim.scenario.duration_h); refresh(); };
   track.addEventListener('pointerdown', e => { if (e.target.classList.contains('mark')) return; drag = true; try { track.setPointerCapture(e.pointerId); } catch (_) { /* synthetic */ } seekFromX(e.clientX); });
@@ -148,6 +155,7 @@ export function buildUI(ctx) {
     const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
     cards.setAttribute('aria-live', 'polite'); cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
     cards.classList.add('dragging'); cards.style.transform = 'translateX(0px)'; void cards.offsetWidth; cards.classList.remove('dragging');
+    addEventListener('resize', () => positionCards(0), { passive: true });
     $('#evDots').innerHTML = `<i data-i="0"></i>` + s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i + 1}"></i>`).join('');
     $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => goto(+d.dataset.i));
     marks.innerHTML = s.events.map((ev, i) => `<div class="mark ${ev.apply ? 'key' : ''}" style="left:${(100 * ev.t_h / s.duration_h).toFixed(2)}%" data-i="${i}" title="${fmtDay(evDate(s, ev))} ${fmtTime(evDate(s, ev))}"></div>`).join('');
@@ -171,7 +179,10 @@ export function buildUI(ctx) {
     $('#evDots').querySelectorAll('i').forEach((d, k) => d.classList.toggle('on', k === i));
     if (cur !== lastEv && sim.playing) flash(); lastEv = cur;
     const st = m.stats;
-    $('#chips').innerHTML = `<span class="chip" title="População sem água"><i style="background:var(--danger)"></i>${fmtK(st.popNone)}</span><span class="chip" title="Baixa pressão / parcial"><i style="background:var(--warn)"></i>${fmtK(st.popLow)}</span><span class="chip" title="Abastecimento normal"><i style="background:var(--ok)"></i>${fmtK(st.popFull)}</span><span class="chip dim" title="Índice heurístico de transiente (golpe de aríete)">⚡ ${st.surge.toFixed(2)}</span>`;
+    const chip = (cls, dot, val, tip) => `<span class="chip ${cls}" tabindex="0" aria-label="${tip}: ${val}">${dot ? `<i style="background:${dot}"></i>` : ''}${val}<span class="tip" role="tooltip">${tip}</span></span>`;
+    const showing = [...$('#chips').querySelectorAll('.chip.show')].map(x => [...x.parentNode.children].indexOf(x));
+    $('#chips').innerHTML = chip('', 'var(--danger)', fmtK(st.popNone), 'Pessoas sem água agora') + chip('', 'var(--warn)', fmtK(st.popLow), 'Pessoas com baixa pressão ou abastecimento parcial') + chip('', 'var(--ok)', fmtK(st.popFull), 'Pessoas com abastecimento normal') + chip('dim', '', '⚡ ' + st.surge.toFixed(2), 'Índice heurístico de transiente (golpe de aríete) na rede');
+    $('#chips').querySelectorAll('.chip').forEach((el, i) => { if (showing.includes(i)) el.classList.add('show'); el.onclick = (e) => { e.stopPropagation(); const on = el.classList.contains('show'); $('#chips').querySelectorAll('.chip').forEach(x => x.classList.remove('show')); if (!on) { el.classList.add('show'); clearTimeout(el._t); el._t = setTimeout(() => el.classList.remove('show'), 2500); } }; });
   }
   sim.on('tick', refresh);
 
