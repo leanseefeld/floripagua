@@ -139,8 +139,14 @@ export function buildUI(ctx) {
   })();
   function flash() { /* no visual flash: the card position itself is the signal */ }
   let drag = false;
-  const seekFromX = (x) => { const r = track.getBoundingClientRect(); const f = Math.max(0, Math.min(1, (x - r.left) / r.width)); sim.playing = false; sim.seek(f * sim.scenario.duration_h); refresh(); };
-  track.addEventListener('pointerdown', e => { if (e.target.classList.contains('mark')) return; drag = true; try { track.setPointerCapture(e.pointerId); } catch (_) { /* synthetic */ } seekFromX(e.clientX); });
+  /** scrubbing locks onto events: the nearest event mark (or the start) is selected */
+  let scrubIdx = -1;
+  const seekFromX = (x) => {
+    const r = track.getBoundingClientRect(); const f = Math.max(0, Math.min(1, (x - r.left) / r.width)); const s = sim.scenario;
+    const pos = [0, ...s.events.map(e => e.t_h / s.duration_h)]; let best = 0; for (let k = 1; k < pos.length; k++) if (Math.abs(pos[k] - f) < Math.abs(pos[best] - f)) best = k;
+    if (best === scrubIdx) return; scrubIdx = best; sim.playing = false; sim.seek(best === 0 ? 0 : s.events[best - 1].t_h + 0.01); refresh();
+  };
+  track.addEventListener('pointerdown', e => { if (e.target.classList.contains('mark')) return; drag = true; scrubIdx = -1; try { track.setPointerCapture(e.pointerId); } catch (_) { /* synthetic */ } seekFromX(e.clientX); });
   track.addEventListener('pointermove', e => { if (drag) seekFromX(e.clientX); });
   track.addEventListener('pointerup', () => drag = false); track.addEventListener('pointercancel', () => drag = false);
   document.addEventListener('keydown', e => {
@@ -152,12 +158,10 @@ export function buildUI(ctx) {
   function loadScenario(id) {
     const s = simLayer.scenarios.find(x => x.id === id); if (!s) return; sel.value = id;
     sim.off('tick', refresh); // rebuild the timeline DOM first, then load the engine
-    const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? `Início · ${s.events.length} eventos` : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
-    cards.setAttribute('aria-live', 'polite'); cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}"><div class="eyebrow">Evento ${i + 1} de ${s.events.length}${ev.apply ? ' · muda a rede' : ''}</div><div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
+    const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? 'Início' : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
+    cards.setAttribute('aria-live', 'polite'); cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}">${ev.apply ? '<div class="eyebrow">Muda a rede</div>' : ''}<div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
     cards.classList.add('dragging'); cards.style.transform = 'translateX(0px)'; void cards.offsetWidth; cards.classList.remove('dragging');
     addEventListener('resize', () => positionCards(0), { passive: true });
-    $('#evDots').innerHTML = `<i data-i="0"></i>` + s.events.map((ev, i) => `<i class="${ev.apply ? 'key' : ''}" data-i="${i + 1}"></i>`).join('');
-    $('#evDots').querySelectorAll('i').forEach(d => d.onclick = () => goto(+d.dataset.i));
     marks.innerHTML = s.events.map((ev, i) => `<div class="mark ${ev.apply ? 'key' : ''}" style="left:${(100 * ev.t_h / s.duration_h).toFixed(2)}%" data-i="${i}" title="${fmtDay(evDate(s, ev))} ${fmtTime(evDate(s, ev))}"></div>`).join('');
     marks.querySelectorAll('.mark').forEach(m => m.addEventListener('pointerdown', (e) => { e.stopPropagation(); goto(+m.dataset.i + 1); }));
     sim.load(s, simLayer.model); sim.playing = false; sim.on('tick', refresh); lastEv = null;
@@ -172,11 +176,12 @@ export function buildUI(ctx) {
     $('#play').innerHTML = icon(sim.playing ? 'i-pause' : (t >= s.duration_h - 1e-6 ? 'i-reset' : 'i-play'));
     const f = t / s.duration_h; track.querySelector('.track-fill').style.width = (100 * f).toFixed(2) + '%'; track.querySelector('.track-head').style.left = (100 * f).toFixed(2) + '%';
     marks.querySelectorAll('.mark').forEach((el, i) => el.classList.toggle('done', !!s.events[i] && s.events[i].t_h <= t));
+    { const i0 = idxAt(t); const ev = i0 ? s.events[i0 - 1] : null; const pct = ev ? 100 * ev.t_h / s.duration_h : 0; const dd = ev ? evDate(s, ev) : new Date(s.start);
+      const lbl = $('#markLabel'); lbl.style.left = pct.toFixed(2) + '%'; lbl.innerHTML = `${fmtDay(dd)} <b>${fmtTime(dd)}</b>`; const r = track.clientWidth; lbl.style.transform = pct < 12 ? 'translateX(-15%)' : pct > 88 ? 'translateX(-85%)' : 'translateX(-50%)'; }
     const i = idxAt(t); const cur = i ? s.events[i - 1] : null;
     if (!dragging) positionCards(0);
     cards.querySelectorAll('.card').forEach((el, k) => el.classList.toggle('on', k === i));
     $('#prevEv').classList.toggle('hidden', i <= 0); $('#nextEv').classList.toggle('hidden', i >= s.events.length);
-    $('#evDots').querySelectorAll('i').forEach((d, k) => d.classList.toggle('on', k === i));
     if (cur !== lastEv && sim.playing) flash(); lastEv = cur;
     const st = m.stats;
     const chip = (cls, dot, val, tip) => `<span class="chip ${cls}" tabindex="0" aria-label="${tip}: ${val}">${dot ? `<i style="background:${dot}"></i>` : ''}${val}<span class="tip" role="tooltip">${tip}</span></span>`;

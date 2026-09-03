@@ -50,7 +50,7 @@
       </div>
       <div class="transport">
         <button class="btn ghost" id="reset" title="Reiniciar"><svg><use href="#i-reset"/></svg></button>
-        <div id="track"><div class="track-fill"></div><div class="track-head"></div><div class="track-marks"></div></div>
+        <div id="track"><div class="track-fill"></div><div class="track-head"></div><div class="track-marks"></div><div class="mark-label" id="markLabel"></div></div>
         <select id="speed" title="Velocidade"><option value="300">5 min/s</option><option value="900" selected>15 min/s</option><option value="1800">30 min/s</option><option value="3600">1 h/s</option><option value="7200">2 h/s</option></select>
       </div>
       <div class="event-card" id="eventCard">
@@ -58,7 +58,6 @@
         <div class="carousel" id="carousel"><div class="cards" id="cards"></div></div>
         <button class="btn ghost" id="nextEv" title="Próximo evento"><svg><use href="#i-next"/></svg></button>
       </div>
-      <div class="event-dots" id="evDots"></div>
     </div></div>
   </footer>
   <div id="popup" hidden></div>
