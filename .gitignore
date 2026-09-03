@@ -5,3 +5,4 @@ data/raw/osm_buildings.json
 data/raw/osm_roads.json
 *.pdf
 data/raw/tiles/
+data/raw/osm_landuse.json

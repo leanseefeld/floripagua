@@ -1,0 +1,14 @@
+{
+ "width": 2048,
+ "height": 2486,
+ "bounds": {
+  "north": -27.29368922485239,
+  "south": -27.95559100464254,
+  "west": -48.955078125,
+  "east": -48.33984375
+ },
+ "proj": "web-mercator rows (same grid as landcover.png)",
+ "encoding": "1 bit per cell, rows packed big-endian (numpy packbits axis=1), row stride = ceil(width/8) bytes",
+ "definition": "WorldCover built-up \u222a OSM landuse \u222a OSM buildings(+20 m), closing 3x3\u00d73, opening, minus water, minus sea",
+ "source": "ESA WorldCover 2021; OpenStreetMap (ODbL); AWS Terrain Tiles"
+}

@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import { loadJSON } from '../../core/data.js';
-import { toXZ, fromXZ } from '../../core/geo.js';
+import { toXZ, fromXZ, mercY } from '../../core/geo.js';
 import { WaterModel } from './model.js';
 import { buildScenarios } from './scenarios.js';
 import netData from './network.json';
@@ -82,49 +82,52 @@ export const waterLayer = {
    * partition boundary. (Improvement ideas: census tracts, pressure-zone maps, smoothing of the raster boundary.)
    */
   async _buildZones() {
-    const { app, dem, buildings } = this.ctx; const zones = this.model.zones;
-    let lc = null; try { lc = new Uint8Array(await (await fetch('./data/landcover.bin')).arrayBuffer()); } catch (e) { /* optional */ }
-    const CELL = 60, west = -48.90, east = -48.36, north = -27.35, south = -27.85;
-    const p0 = toXZ(west, north), p1 = toXZ(east, south); const nx = Math.ceil((p1.x - p0.x) / CELL), nz = Math.ceil((p1.z - p0.z) / CELL);
+    const { app } = this.ctx; const zones = this.model.zones;
+    // occupied-land mask preprocessed at 10 m (scripts/build_occupied.py): built-up ∪ landuse ∪ buildings, minus water/sea
+    const meta = await loadJSON('./data/occupied.json'); const bits = new Uint8Array(await (await fetch('./data/occupied.bin')).arrayBuffer());
+    const OW = meta.width, OH = meta.height, stride = Math.ceil(OW / 8); const bnd = meta.bounds; const y0 = mercY(bnd.north), y1 = mercY(bnd.south);
+    const F = app.lowPower ? 2 : 1; const nx = Math.floor(OW / F), nz = Math.floor(OH / F); // 30 m cells on desktop, 60 m on phones
+    const occAt = (i, j) => (bits[j * stride + (i >> 3)] >> (7 - (i & 7))) & 1;
     const occ = new Uint8Array(nx * nz);
-    const cellOf = (x, z) => [Math.floor((x - p0.x) / CELL), Math.floor((z - p0.z) / CELL)];
-    if (lc && dem.outer) { for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) { const ll = fromXZ(p0.x + (i + 0.5) * CELL, p0.z + (j + 0.5) * CELL); const g = dem.outer.gridOf(ll.lon, ll.lat); const gi = Math.floor(g.gx), gj = Math.floor(g.gy); if (gi < 0 || gj < 0 || gi >= dem.outer.w || gj >= dem.outer.h) continue; if (lc[gj * dem.outer.w + gi] === 50) occ[j * nx + i] = 1; } }
-    for (const bld of buildings) { const [i, j] = cellOf(bld.cx, bld.cz); for (let dj = -1; dj <= 1; dj++) for (let di = -1; di <= 1; di++) { const ii = i + di, jj = j + dj; if (ii >= 0 && jj >= 0 && ii < nx && jj < nz) occ[jj * nx + ii] = 1; } }
-    // nearest zone per occupied cell (bucketed)
+    for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) { let s = 0; for (let dj = 0; dj < F; dj++) for (let di = 0; di < F; di++) s += occAt(i * F + di, j * F + dj); if (s * 2 >= F * F) occ[j * nx + i] = 1; }
+    const lonOf = (i) => bnd.west + i / nx * (bnd.east - bnd.west), latOf = (j) => { const y = y0 + j / nz * (y1 - y0); return Math.atan(Math.sinh(Math.PI * (1 - 2 * y))) * 180 / Math.PI; };
+    // cell corner positions (ENU) cached per grid line
+    const X = new Float32Array(nx + 1), Z = new Float32Array(nz + 1);
+    for (let i = 0; i <= nx; i++) X[i] = toXZ(lonOf(i), bnd.north).x; for (let j = 0; j <= nz; j++) Z[j] = toXZ(bnd.west, latOf(j)).z;
+    // nearest zone per occupied cell (bucketed), ≤ 2.5 km
     const zp = zones.map(z => { const p = toXZ(z.lon, z.lat); return [p.x, p.z]; });
     const B = 2500, bx = new Map(); const bk = (x, z) => (Math.floor(x / B) + 4096) * 8192 + Math.floor(z / B) + 4096;
     zp.forEach((p, k) => { const key = bk(p[0], p[1]); (bx.get(key) || bx.set(key, []).get(key)).push(k); });
-    const owner = new Int16Array(nx * nz).fill(-1); const count = new Int32Array(zones.length);
+    const owner = new Int16Array(nx * nz).fill(-1);
     for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
-      if (!occ[j * nx + i]) continue; const x = p0.x + (i + 0.5) * CELL, z = p0.z + (j + 0.5) * CELL; let best = -1, bd = 2500 * 2500;
+      if (!occ[j * nx + i]) continue; const x = (X[i] + X[i + 1]) / 2, z = (Z[j] + Z[j + 1]) / 2; let best = -1, bd = 2500 * 2500;
       for (let a = -1; a <= 1; a++) for (let c = -1; c <= 1; c++) { const arr = bx.get(bk(x + a * B, z + c * B)); if (!arr) continue; for (const k of arr) { const d = (zp[k][0] - x) ** 2 + (zp[k][1] - z) ** 2; if (d < bd) { bd = d; best = k; } } }
-      owner[j * nx + i] = best; if (best >= 0) count[best]++;
+      owner[j * nx + i] = best;
     }
-    // geometry: one fill mesh per zone (pickable) + one merged outline
+    // geometry: one fill mesh per zone (pickable) + one merged outline along partition boundaries
     this.zoneMeshes = []; const linePos = [], lineCol = []; this.zoneLineRanges = new Array(zones.length);
-    const hAt = (x, z) => { const ll = fromXZ(x, z); return app.elev(ll.lon, ll.lat) * app.exag + 3; };
+    const hCache = new Map(); const hAt = (i, j) => { const k = j * (nx + 1) + i; let h = hCache.get(k); if (h === undefined) { const ll = fromXZ(X[i], Z[j]); h = app.elev(ll.lon, ll.lat) * app.exag + 3; hCache.set(k, h); } return h; };
     const cellsOf = new Array(zones.length).fill(null).map(() => []);
     for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) { const o = owner[j * nx + i]; if (o >= 0) cellsOf[o].push(i, j); }
+    const cellArea = ((X[1] - X[0]) * (Z[1] - Z[0])) / 1e6;
+    let lineStart = 0;
     for (let k = 0; k < zones.length; k++) {
-      const z = zones[k]; const cells = cellsOf[k]; z.cells = cells.length / 2; z.radius = Math.max(150, Math.sqrt(z.cells) * CELL * 0.6);
-      if (!cells.length) { z.mesh = null; this.zoneLineRanges[k] = [0, 0]; continue; }
-      const pos = new Float32Array(cells.length / 2 * 4 * 3), idx = []; let v = 0;
+      const z = zones[k]; const cells = cellsOf[k]; z.cells = cells.length / 2; z.area_km2 = z.cells * cellArea; z.radius = Math.max(150, Math.sqrt(z.area_km2 * 1e6 / Math.PI));
+      if (!cells.length) { z.mesh = null; this.zoneLineRanges[k] = [lineStart, lineStart]; continue; }
+      const pos = new Float32Array(cells.length / 2 * 4 * 3), idx = new Uint32Array(cells.length / 2 * 6); let v = 0, t = 0;
       for (let c = 0; c < cells.length; c += 2) {
-        const i = cells[c], j = cells[c + 1]; const x0 = p0.x + i * CELL, z0 = p0.z + j * CELL;
-        const corners = [[x0, z0], [x0 + CELL, z0], [x0 + CELL, z0 + CELL], [x0, z0 + CELL]];
-        for (const [x, zz] of corners) { pos[v * 3] = x; pos[v * 3 + 1] = hAt(x, zz); pos[v * 3 + 2] = zz; v++; }
-        const b0 = v - 4; idx.push(b0, b0 + 2, b0 + 1, b0, b0 + 3, b0 + 2);
-        // outline edges where the neighbour belongs to someone else
+        const i = cells[c], j = cells[c + 1];
+        const cs = [[i, j], [i + 1, j], [i + 1, j + 1], [i, j + 1]];
+        for (const [ci, cj] of cs) { pos[v * 3] = X[ci]; pos[v * 3 + 1] = hAt(ci, cj); pos[v * 3 + 2] = Z[cj]; v++; }
+        const b0 = v - 4; idx[t++] = b0; idx[t++] = b0 + 2; idx[t++] = b0 + 1; idx[t++] = b0; idx[t++] = b0 + 3; idx[t++] = b0 + 2;
         const nb = [[i, j - 1, 0, 1], [i + 1, j, 1, 2], [i, j + 1, 2, 3], [i - 1, j, 3, 0]];
-        for (const [ni, nj, a, b2] of nb) { const oo = (ni < 0 || nj < 0 || ni >= nx || nj >= nz) ? -1 : owner[nj * nx + ni]; if (oo !== k) { linePos.push(corners[a][0], hAt(corners[a][0], corners[a][1]) + 1, corners[a][1], corners[b2][0], hAt(corners[b2][0], corners[b2][1]) + 1, corners[b2][1]); lineCol.push(0, 1, 0, 0, 1, 0); } }
+        for (const [ni, nj, a, b2] of nb) { const oo = (ni < 0 || nj < 0 || ni >= nx || nj >= nz) ? -1 : owner[nj * nx + ni]; if (oo !== k) { const [ai, aj] = cs[a], [bi, bj] = cs[b2]; linePos.push(X[ai], hAt(ai, aj) + 1, Z[aj], X[bi], hAt(bi, bj) + 1, Z[bj]); lineCol.push(0, 1, 0, 0, 1, 0); } }
       }
-      const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(idx);
+      const g = new THREE.BufferGeometry(); g.setAttribute('position', new THREE.BufferAttribute(pos, 3)); g.setIndex(new THREE.BufferAttribute(idx, 1));
       const m = new THREE.Mesh(g, new THREE.MeshBasicMaterial({ color: STATE_HEX.full, transparent: true, opacity: 0.24, depthWrite: false, depthTest: false }));
       m.userData = { type: 'zone', id: z.id }; m.renderOrder = 15; this.group.add(m); app.pickables.push(m); this.zoneMeshes.push(m); z.mesh = m;
-      this.zoneLineRanges[k] = [this.zoneLineRanges[k - 1]?.[1] ?? 0, linePos.length / 3];
+      this.zoneLineRanges[k] = [lineStart, linePos.length / 3]; lineStart = linePos.length / 3;
     }
-    // fix ranges for zones without cells (carry previous end)
-    let last = 0; for (let k = 0; k < zones.length; k++) { if (!zones[k].mesh) this.zoneLineRanges[k] = [last, last]; else { this.zoneLineRanges[k][0] = last; last = this.zoneLineRanges[k][1]; } }
     const lg = new THREE.BufferGeometry(); lg.setAttribute('position', new THREE.Float32BufferAttribute(linePos, 3)); lg.setAttribute('color', new THREE.Float32BufferAttribute(lineCol, 3));
     this.zoneLines = new THREE.LineSegments(lg, new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.9, depthTest: false })); this.zoneLines.renderOrder = 16; this.group.add(this.zoneLines);
   },
@@ -181,7 +184,7 @@ export const waterLayer = {
   },
   zoneHtml(z) {
     const f = this.model.node(z.feeder);
-    return `<h3>Zona: ${z.name}</h3><span class="tag est">zona heurística</span><div>Atendida por: ${f.name}</div><div>Pop. estimada ${z.pop.toLocaleString('pt-BR')} · demanda ≈ ${Math.round(z.demand_lps)} L/s · ${z.buildings.length} edificações OSM · cota ≈ ${Math.round(z.elev)} m</div><div>Atendimento: <b style="color:${['#39c46b', '#ffb020', '#ff4d4f'][['full', 'low', 'none'].indexOf(z.served)]}">${Math.round(z.supply * 100)} %</b>${z.hoursOut > 0 ? ` · ${z.hoursOut.toFixed(1)} h sem água` : ''}</div><div class="note">Zona = bairro OSM ligado ao ponto de distribuição mais próximo; área = células de 60 m ocupadas (WorldCover urbano + edificações OSM) mais próximas deste bairro (${z.cells || 0} células ≈ ${((z.cells || 0) * 0.36).toFixed(1)} km²); população municipal (IBGE 2022) rateada por nº de edificações.</div>`;
+    return `<h3>Zona: ${z.name}</h3><span class="tag est">zona heurística</span><div>Atendida por: ${f.name}</div><div>Pop. estimada ${z.pop.toLocaleString('pt-BR')} · demanda ≈ ${Math.round(z.demand_lps)} L/s · ${z.buildings.length} edificações OSM · cota ≈ ${Math.round(z.elev)} m</div><div>Atendimento: <b style="color:${['#39c46b', '#ffb020', '#ff4d4f'][['full', 'low', 'none'].indexOf(z.served)]}">${Math.round(z.supply * 100)} %</b>${z.hoursOut > 0 ? ` · ${z.hoursOut.toFixed(1)} h sem água` : ''}</div><div class="note">Zona = bairro OSM ligado ao ponto de distribuição mais próximo; área = solo ocupado (WorldCover urbano ∪ uso do solo OSM ∪ edificações, sem água) mais próximo deste bairro (${z.cells || 0} células ≈ ${(z.area_km2 || 0).toFixed(1)} km²); população municipal (IBGE 2022) rateada por nº de edificações.</div>`;
   },
   renderPanel(el) {
     const o = this.opts; const mk = (key, label, hint) => { const id = 'w_' + key; return `<div class="row"><label><input type="checkbox" id="${id}" ${o[key] ? 'checked' : ''}> ${label}</label>${hint ? `<span class="note">${hint}</span>` : ''}</div>`; };
