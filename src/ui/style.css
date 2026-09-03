@@ -27,9 +27,24 @@ svg{width:20px;height:20px;fill:currentColor;flex:none}
 .btn-group .btn{box-shadow:none;border-color:transparent;height:36px}
 .btn-group .btn.active{border-color:transparent}
 .eyebrow{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+#scenarioBtn{display:grid;grid-template-columns:1fr auto;grid-template-areas:"eb eb" "nm ch";gap:0 8px;align-items:center;text-align:left;max-width:100%;background:var(--paper);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border:1px solid var(--edge);border-left:4px solid var(--accent);border-radius:12px;box-shadow:var(--shadow);padding:7px 10px 8px 12px;cursor:pointer;font:inherit;color:var(--ink)}
+#scenarioBtn:hover{background:rgba(255,255,255,.9)}
+#scenarioBtn .eyebrow{grid-area:eb;font-size:10px;color:var(--accent);margin-bottom:1px}
+#scenarioBtn .sc-name{grid-area:nm;font-weight:700;font-size:13px;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+#scenarioBtn .sc-chev{grid-area:ch;width:16px;height:16px;color:var(--ink3)}
+#scenarioBtn.active{background:var(--accent2);border-color:var(--accent)}
+.sheet.left{left:12px;right:auto;top:calc(126px + var(--sat));max-height:calc(100% - 300px)}
+.opt{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;width:100%;text-align:left;background:transparent;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:6px 0;cursor:pointer;font:inherit;color:var(--ink)}
+.opt:hover{background:rgba(15,26,43,.04)}
+.opt .dot{grid-row:span 2;width:18px;height:18px;border-radius:50%;border:2px solid var(--ink3);margin-top:2px}
+.opt b{font-size:14px}
+.opt span{font-size:12.5px;color:var(--ink2);line-height:1.4}
+.opt.on{border-color:var(--accent);background:var(--accent2)}
+.opt.on .dot{border-color:var(--accent);background:radial-gradient(circle,var(--accent) 0 5px,transparent 5px)}
 /* ---- top bar ---- */
 #topbar{position:absolute;top:0;left:0;right:0;display:flex;align-items:flex-start;justify-content:space-between;gap:10px;padding:calc(10px + var(--sat)) 12px 0;z-index:6;pointer-events:none}
 #topbar>*{pointer-events:auto}
+#topleft{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0;max-width:calc(100% - 160px)}
 #brand{display:flex;flex-direction:column;line-height:1.15;background:var(--paper);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border:1px solid var(--edge);border-radius:12px;padding:8px 12px;box-shadow:var(--shadow);min-width:0}
 #brand .t1{font-weight:800;font-size:14px;letter-spacing:-.01em;white-space:nowrap}#brand .t2{font-size:11px;color:var(--ink2)}
 /* ---- sheets / popovers ---- */
@@ -64,10 +79,7 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
 .story-body{padding:0 12px 12px;border-top:1px solid var(--line);clip-path:inset(0 0 0 0 round 0 0 18px 18px)}
 #story.collapsed .story-body{display:none}
 @media (max-width:799px){#story.collapsed .story-body{display:grid}}
-.scenario-row{display:flex;align-items:center;gap:8px;padding-top:10px}
-.select-wrap{flex:1;display:flex;flex-direction:column;gap:3px;min-width:0}
-.select-wrap select{width:100%}
-.transport{display:flex;align-items:center;gap:10px;margin-top:8px}
+.transport{display:flex;align-items:center;gap:10px;padding-top:10px}
 #track{position:relative;flex:1;height:50px;cursor:pointer;touch-action:none}
 #track::before{content:"";position:absolute;left:0;right:0;top:14px;height:4px;border-radius:2px;background:var(--line)}
 .track-fill{position:absolute;left:0;top:14px;height:4px;border-radius:2px;background:var(--accent);width:0;transition:width .32s cubic-bezier(.22,.8,.3,1)}
@@ -119,7 +131,10 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
 /* ---- mobile ---- */
 @media (max-width:799px){
   #topbar{padding:calc(8px + var(--sat)) 8px 0;gap:8px}
+  #topleft{gap:6px;max-width:calc(100% - 148px)}
   #brand{padding:7px 10px}#brand .t1{font-size:13px}#brand .t2{display:none}
+  #scenarioBtn{padding:6px 9px 7px 10px}#scenarioBtn .sc-name{font-size:12px}
+  .sheet.left{left:8px;right:8px;top:calc(112px + var(--sat));max-height:calc(100% - 240px)}
   .btn-group{flex:none}.btn-group .btn span{display:none}.btn-group .btn{width:40px;padding:0}
   .sheet{left:8px;right:8px;width:auto;top:calc(58px + var(--sat));max-height:calc(100% - 200px)}
   #story{left:10px;right:10px;bottom:10px;width:auto;transform:none;padding-bottom:var(--sab);transition:left .34s cubic-bezier(.2,.9,.25,1),right .34s cubic-bezier(.2,.9,.25,1),bottom .34s cubic-bezier(.2,.9,.25,1),border-radius .34s cubic-bezier(.2,.9,.25,1)}

@@ -12,15 +12,13 @@ export function buildUI(ctx) {
   const icon = (id) => `<svg><use href="#${id}"/></svg>`;
 
   // ---------- sheets ----------
-  const pops = ['layers', 'legend', 'about', 'settings'];
+  const pops = ['layers', 'legend', 'about', 'scenario'];
   function openPop(id) {
     for (const p of pops) { const el = $('#pop-' + p); el.hidden = p !== id ? true : !el.hidden; }
     document.querySelectorAll('[data-pop]').forEach(b => b.classList.toggle('active', b.dataset.pop === id && !$('#pop-' + id).hidden));
-    $('#settingsBtn').classList.toggle('active', id === 'settings' && !$('#pop-settings').hidden);
   }
-  const closePops = () => { for (const p of pops) $('#pop-' + p).hidden = true; document.querySelectorAll('[data-pop],#settingsBtn').forEach(b => b.classList.remove('active')); };
+  const closePops = () => { for (const p of pops) $('#pop-' + p).hidden = true; document.querySelectorAll('[data-pop]').forEach(b => b.classList.remove('active')); };
   document.querySelectorAll('[data-pop]').forEach(b => b.onclick = () => openPop(b.dataset.pop));
-  $('#settingsBtn').onclick = () => openPop('settings');
   $('#gl').addEventListener('pointerdown', closePops);
 
   function renderLayers() {
@@ -44,17 +42,20 @@ export function buildUI(ctx) {
   }
   function renderLegend() { $('#pop-legend').innerHTML = registry.layers.filter(l => l.legendHtml).map(l => `<h2>${l.name}</h2>${l.legendHtml()}`).join('') + `<h2>Cobertura do solo (ESA WorldCover)</h2><div class="legend"><span class="sw" style="background:#006400"></span><span>Floresta</span><span class="sw" style="background:#ffbb22"></span><span>Arbustos</span><span class="sw" style="background:#ffff4c"></span><span>Campo</span><span class="sw" style="background:#f096ff"></span><span>Agricultura</span><span class="sw" style="background:#fa0000"></span><span>Área urbana</span><span class="sw" style="background:#b4b4b4"></span><span>Solo exposto</span><span class="sw" style="background:#0064c8"></span><span>Água</span><span class="sw" style="background:#0096a0"></span><span>Áreas úmidas</span><span class="sw" style="background:#00cf75"></span><span>Mangue</span></div>`; }
   function renderAbout() { $('#pop-about').innerHTML = `<h2>Fontes</h2><div class="note">Unidades e coordenadas: Planos de Emergência e Contingência da CASAN (SIA Grande Florianópolis 2023; Costa Norte e Costa Sul/Leste 2024). Diâmetros e extensões: notícias da CASAN. Cronologia do rompimento de 31/08/2026: CASAN, ND Mais, NSC, TVBV. Relevo: AWS Terrain Tiles (z14 no núcleo urbano, ~34 m). Imagens: Esri World Imagery. Cobertura do solo: ESA WorldCover 2021. Edificações, vias e bairros: OpenStreetMap.</div><h2>Limitações</h2><div class="note">Traçados sem descrição pública são <b>estimados</b> (caminho de menor custo sobre relevo, vias e cobertura do solo) e desenhados mais transparentes. A simulação é um modelo de grafo com heurísticas, não hidráulico. População por zona rateada por edificações OSM. Detalhes em <code>docs/SOURCES.md</code> e <code>docs/IMPROVEMENTS.md</code>.</div><h2>Como navegar</h2><div class="note">Desktop: arrastar gira, botão direito/Shift move, roda aproxima. Celular: um dedo move, dois dedos inclinam e aproximam. Toque em tubos, unidades ou zonas para detalhes.</div><h2>Atalhos</h2><div class="note"><kbd>espaço</kbd> rodar/pausar · <kbd>←</kbd> <kbd>→</kbd> evento anterior/próximo · <kbd>[</kbd> <kbd>]</kbd> velocidade</div>`; }
-  function renderSettings() {
-    const p = simLayer.model.params; p.rampHours ??= 8; p.rampStages ??= 4;
-    $('#pop-settings').innerHTML = `<h2>Recarga gradual (após o reparo)</h2><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Duração da carga: <b id="rampHv">${p.rampHours}</b> h<input type="range" id="rampH" min="1" max="24" step="1" value="${p.rampHours}"></label></div><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Estágios de abertura: <b id="rampSv">${p.rampStages}</b><input type="range" id="rampS" min="1" max="8" step="1" value="${p.rampStages}"></label></div><div class="note">A adutora reparada é aberta em estágios (fração da capacidade) ao longo da duração escolhida; reservatórios reenchem com a sobra e as zonas mais altas só voltam quando o reservatório passa de 35 %.</div>`;
-    $('#rampH').oninput = e => { p.rampHours = +e.target.value; $('#rampHv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
-    $('#rampS').oninput = e => { p.rampStages = +e.target.value; $('#rampSv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
+  /** scenario sheet: pick what you are looking at, plus that scenario's parameters */
+  function renderScenario() {
+    const cur = sim.scenario?.id || simLayer.scenarios[0].id; const par = simLayer.model.params; par.rampHours ??= 8; par.rampStages ??= 4;
+    const tunable = /recarga|rompimento/.test(cur);
+    $('#pop-scenario').innerHTML = `<h2>Cenário</h2>` + simLayer.scenarios.map(s => `<button class="opt ${s.id === cur ? 'on' : ''}" data-id="${s.id}"><span class="dot"></span><b>${s.name}</b><span>${s.description}</span></button>`).join('')
+      + (tunable ? `<h2>Parâmetros da recarga</h2><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Duração da carga: <b id="rampHv">${par.rampHours}</b> h<input type="range" id="rampH" min="1" max="24" step="1" value="${par.rampHours}"></label></div><div class="row"><label style="flex:1;flex-direction:column;align-items:stretch">Estágios de abertura: <b id="rampSv">${par.rampStages}</b><input type="range" id="rampS" min="1" max="8" step="1" value="${par.rampStages}"></label></div><div class="note">A adutora reparada é aberta em estágios (fração da capacidade) ao longo da duração escolhida; reservatórios reenchem com a sobra e as zonas mais altas só voltam quando o reservatório passa de 35 %.</div>` : '');
+    $('#pop-scenario').querySelectorAll('.opt').forEach(b => b.onclick = () => { loadScenario(b.dataset.id); $('#pop-scenario').hidden = true; document.querySelectorAll('[data-pop]').forEach(x => x.classList.remove('active')); });
+    const rh = $('#rampH'), rs = $('#rampS');
+    if (rh) rh.oninput = e => { par.rampHours = +e.target.value; $('#rampHv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
+    if (rs) rs.oninput = e => { par.rampStages = +e.target.value; $('#rampSv').textContent = e.target.value; sim.invalidate(); sim.seek(sim.t); };
   }
 
   // ---------- story bar ----------
-  const story = $('#story'), sel = $('#scenario'), track = $('#track'), marks = track.querySelector('.track-marks');
-  sel.innerHTML = simLayer.scenarios.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
-  sel.onchange = () => loadScenario(sel.value);
+  const story = $('#story'), track = $('#track'), marks = track.querySelector('.track-marks');
   const setCollapsed = (c) => { story.classList.toggle('collapsed', c); story.classList.toggle('expanded', !c); $('#storyToggle').innerHTML = icon(c ? 'i-up' : 'i-down'); $('#storyToggle').setAttribute('aria-expanded', String(!c)); };
   $('#storyToggle').onclick = () => setCollapsed(!story.classList.contains('collapsed'));
   // pull gesture on the collapsed bar (phones): drag up to grow the sheet; release past half to expand, or return it to abort. Drag down on the head to collapse.
@@ -189,7 +190,8 @@ export function buildUI(ctx) {
   });
 
   function loadScenario(id) {
-    const s = simLayer.scenarios.find(x => x.id === id); if (!s) return; sel.value = id;
+    const s = simLayer.scenarios.find(x => x.id === id); if (!s) return;
+    $('#scenarioName').textContent = s.short || s.name.split(/\s+[–-]\s+|\s+\(/)[0];
     sim.off('tick', refresh); // rebuild the timeline DOM first, then load the engine
     const intro = `<div class="card intro"><div class="eyebrow">${s.events.length ? 'Início' : 'Regime permanente'}</div><div class="event-when">${fmtDay(new Date(s.start))} <small>${fmtTime(new Date(s.start))}</small></div><div class="event-text">${s.description}</div></div>`;
     cards.setAttribute('aria-live', 'polite'); cards.innerHTML = intro + s.events.map((ev, i) => `<div class="card ${ev.apply ? 'key' : ''}">${ev.apply ? '<div class="eyebrow">Muda a rede</div>' : ''}<div class="event-when">${fmtDay(evDate(s, ev))} <small>${fmtTime(evDate(s, ev))}</small></div><div class="event-text">${ev.label.replace(/^[^–]*–\s*/, '')}</div></div>`).join('');
@@ -198,7 +200,7 @@ export function buildUI(ctx) {
     marks.innerHTML = s.events.map((ev, i) => `<div class="mark ${ev.apply ? 'key' : ''}" style="left:${(100 * ev.t_h / s.duration_h).toFixed(2)}%" data-i="${i}" title="${fmtDay(evDate(s, ev))} ${fmtTime(evDate(s, ev))}"></div>`).join('');
     marks.querySelectorAll('.mark').forEach(m => m.addEventListener('pointerdown', (e) => { e.stopPropagation(); goto(+m.dataset.i + 1); }));
     sim.load(s, simLayer.model); sim.playing = false; sim.on('tick', refresh); lastEv = null;
-    $('#settingsBtn').style.display = /recarga|rompimento/.test(id) ? '' : 'none';
+    renderScenario();
     if (id === 'rompimento_2026' || id.startsWith('recarga')) app.flyTo(app.pos(-48.64, -27.62), 20000, 48);
     refresh();
   }
@@ -239,7 +241,7 @@ export function buildUI(ctx) {
   });
   app.on('pickNone', () => { popup.hidden = true; });
 
-  renderLayers(); renderLegend(); renderAbout(); renderSettings();
+  renderLayers(); renderLegend(); renderAbout();
   loadScenario('rompimento_2026');
   setCollapsed(app.mobile);
   return { loadScenario, refresh };

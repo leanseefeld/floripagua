@@ -6,10 +6,10 @@ export function buildScenarios(model) {
   const p = model.params;
   return [
     {
-      id: 'normal', name: 'Operação normal', description: 'Regime permanente com produção nominal. Use para explorar a rede.', start: '2026-09-04T00:00:00-03:00', duration_h: 48, events: []
+      id: 'normal', name: 'Operação normal', short: 'Operação normal', description: 'Regime permanente com produção nominal. Use para explorar a rede.', start: '2026-09-04T00:00:00-03:00', duration_h: 48, events: []
     },
     {
-      id: 'rompimento_2026', name: 'Rompimento da adutora – 31/08/2026 (reconstituição)',
+      id: 'rompimento_2026', name: 'Rompimento da adutora – 31/08/2026 (reconstituição)', short: 'Rompimento 31/08/2026',
       description: 'Adutora de 1.200 mm (≈70 % da água da ETA Cubatão) desloca-se e rompe na margem da BR-282, bairro Bela Vista, Palhoça, após chuvas intensas. Reconstituição por horários publicados (CASAN, ND Mais, TVBV, NSC).',
       start: '2026-08-31T00:00:00-03:00', duration_h: h(3, 23, 59),
       events: [
@@ -25,7 +25,7 @@ export function buildScenarios(model) {
       ]
     },
     {
-      id: 'recarga', name: 'Recarga gradual da rede (processo pós-reparo)',
+      id: 'recarga', name: 'Recarga gradual da rede (processo pós-reparo)', short: 'Recarga gradual',
       description: 'Começa no fim do conserto (qua 02/09 16h30) com reservatórios baixos. Simula limpeza → carga/pressurização por estágios de válvula → enchimento de reservatórios → retorno por cota. Ajuste horas e estágios no painel.',
       start: '2026-09-02T16:30:00-03:00', duration_h: 36,
       setup: m => { const e = m.edge(TRUNK); e.broken = false; e.open = 0; for (const r of m.reservoirs) if (r.system === 'sia' && r.id !== 'res_pulmao') r.level = 0.05; for (const z of m.zones) z.hoursOut = 0; },
@@ -36,7 +36,7 @@ export function buildScenarios(model) {
       ]
     },
     {
-      id: 'recarga_abrupta', name: 'Contraste: reabertura abrupta (não recomendado)',
+      id: 'recarga_abrupta', name: 'Contraste: reabertura abrupta (não recomendado)', short: 'Reabertura abrupta',
       description: 'Mesmo ponto de partida, mas a adutora é aberta de uma vez. Compare o índice heurístico de transiente (golpe de aríete) e a velocidade de retorno.',
       start: '2026-09-02T16:30:00-03:00', duration_h: 36,
       setup: m => { const e = m.edge(TRUNK); e.broken = false; e.open = 0; for (const r of m.reservoirs) if (r.system === 'sia' && r.id !== 'res_pulmao') r.level = 0.05; },
@@ -46,7 +46,7 @@ export function buildScenarios(model) {
       ]
     },
     {
-      id: 'manual', name: 'Cenário manual (clique em uma adutora para romper/reparar)',
+      id: 'manual', name: 'Cenário manual (clique em uma adutora para romper/reparar)', short: 'Manual',
       description: 'Estado permanente. Clique em qualquer tubo e use "Romper"/"Reparar" para testar outras falhas (ex.: adutoras de Pilões, ponte, Costa Norte).', start: '2026-09-04T00:00:00-03:00', duration_h: 72, events: []
     }
   ];

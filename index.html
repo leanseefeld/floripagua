@@ -25,7 +25,10 @@
   <canvas id="gl"></canvas>
   <div id="labels"></div>
   <header id="topbar">
-    <div id="brand"><span class="t1">Grande Florianópolis</span><span class="t2">Abastecimento de água · 3D</span></div>
+    <div id="topleft">
+      <div id="brand"><span class="t1">Grande Florianópolis</span><span class="t2">Abastecimento de água · 3D</span></div>
+      <button id="scenarioBtn" data-pop="scenario"><span class="eyebrow">Cenário</span><span class="sc-name" id="scenarioName"></span><svg class="sc-chev"><use href="#i-down"/></svg></button>
+    </div>
     <nav id="tools" class="btn-group">
       <button class="btn" data-pop="layers"><svg><use href="#i-layers"/></svg><span>Camadas</span></button>
       <button class="btn" data-pop="legend"><svg><use href="#i-legend"/></svg><span>Legenda</span></button>
@@ -35,7 +38,7 @@
   <section class="sheet" id="pop-layers" hidden></section>
   <section class="sheet" id="pop-legend" hidden></section>
   <section class="sheet" id="pop-about" hidden></section>
-  <section class="sheet" id="pop-settings" hidden></section>
+  <section class="sheet left" id="pop-scenario" hidden></section>
   <footer id="story">
     <div class="story-head">
       <button class="btn play" id="play" aria-label="Rodar / pausar (segure para 5×)"><svg><use href="#i-play"/></svg><span class="x5">5×</span></button>
@@ -44,10 +47,6 @@
       <button class="btn ghost" id="storyToggle" aria-label="Expandir / recolher"><svg><use href="#i-down"/></svg></button>
     </div>
     <div class="story-body"><div class="story-inner">
-      <div class="scenario-row">
-        <label class="select-wrap"><span class="eyebrow">Cenário</span><select id="scenario"></select></label>
-        <button class="btn ghost" id="settingsBtn" title="Parâmetros da recarga"><svg><use href="#i-gear"/></svg></button>
-      </div>
       <div class="transport">
         <button class="btn ghost" id="reset" title="Reiniciar"><svg><use href="#i-reset"/></svg></button>
         <div id="track"><div class="track-fill"></div><div class="track-head"></div><div class="track-marks"></div><div class="mark-label" id="markLabel"></div></div>
