@@ -57,6 +57,37 @@ export function buildUI(ctx) {
   sel.onchange = () => loadScenario(sel.value);
   const setCollapsed = (c) => { story.classList.toggle('collapsed', c); story.classList.toggle('expanded', !c); $('#storyToggle').innerHTML = icon(c ? 'i-up' : 'i-down'); $('#storyToggle').setAttribute('aria-expanded', String(!c)); };
   $('#storyToggle').onclick = () => setCollapsed(!story.classList.contains('collapsed'));
+  // pull gesture on the collapsed bar (phones): drag up to grow the sheet; release past half to expand, or return it to abort. Drag down on the head to collapse.
+  (() => {
+    const head = $('.story-head'), body = $('.story-body'), inner = $('.story-inner');
+    let sy = 0, active = false, decided = false, startExpanded = false, prog = 0, lastY = 0, lastT = 0, vel = 0;
+    const H = () => inner.scrollHeight + 12;
+    const apply = (pr) => { prog = pr; body.style.gridTemplateRows = (H() * pr).toFixed(1) + 'px'; body.style.paddingBottom = (12 * pr).toFixed(1) + 'px'; const inset = 10 * (1 - pr); story.style.left = story.style.right = story.style.bottom = inset.toFixed(1) + 'px'; story.style.borderRadius = `22px 22px ${(18 * (1 - pr)).toFixed(1)}px ${(18 * (1 - pr)).toFixed(1)}px`; };
+    const clear = () => { body.style.gridTemplateRows = ''; body.style.paddingBottom = ''; body.style.transition = ''; story.style.left = story.style.right = story.style.bottom = story.style.borderRadius = ''; };
+    const begin = (y, target) => { if (!app.mobile || target.closest('button,select,input,.chip')) return; active = true; decided = false; startExpanded = !story.classList.contains('collapsed'); sy = lastY = y; lastT = performance.now(); vel = 0; };
+    const move = (y) => {
+      if (!active) return false; const dy = sy - y; // up = positive
+      if (!decided) { if (Math.abs(dy) < 6) return false; if ((startExpanded && dy > 0) || (!startExpanded && dy < 0)) { active = false; return false; } decided = true; story.classList.add('dragging'); }
+      const now = performance.now(); vel = 0.7 * vel + 0.3 * ((lastY - y) / Math.max(1, now - lastT)); lastY = y; lastT = now;
+      const maxPull = Math.min(H() * 0.6, 280); const k = Math.max(0, Math.min(1, Math.abs(dy) / maxPull));
+      apply(startExpanded ? 1 - k : k); return true;
+    };
+    const end = () => {
+      if (!active) return; active = false; if (!decided) return;
+      const expand = startExpanded ? !(prog < 0.5 || vel < -0.4) : (prog > 0.5 || vel > 0.4);
+      story.classList.remove('dragging');
+      body.style.transition = 'grid-template-rows .28s cubic-bezier(.2,.9,.25,1), padding-bottom .28s cubic-bezier(.2,.9,.25,1)';
+      setTimeout(() => apply(expand ? 1 : 0), 0); // animate to the resting size, then hand over to the class-based layout
+      setTimeout(() => { clear(); setCollapsed(!expand); }, 320);
+    };
+    let tid = null;
+    head.addEventListener('touchstart', e => { if (e.touches.length !== 1) return; tid = e.touches[0].identifier; begin(e.touches[0].clientY, e.target); }, { passive: true });
+    head.addEventListener('touchmove', e => { const t = [...e.touches].find(t => t.identifier === tid); if (t && move(t.clientY)) e.preventDefault(); }, { passive: false });
+    head.addEventListener('touchend', end); head.addEventListener('touchcancel', end);
+    head.addEventListener('pointerdown', e => { if (e.pointerType !== 'touch') begin(e.clientY, e.target); });
+    head.addEventListener('pointermove', e => { if (e.pointerType !== 'touch' && active) { move(e.clientY); try { head.setPointerCapture(e.pointerId); } catch (_) {} } });
+    head.addEventListener('pointerup', e => { if (e.pointerType !== 'touch') end(); }); head.addEventListener('pointercancel', e => { if (e.pointerType !== 'touch') end(); });
+  })();
   // play: tap toggles; press-and-hold runs at 5x while held
   (() => {
     const btn = $('#play'); let timer = null, holding = false, baseSpeed = null;

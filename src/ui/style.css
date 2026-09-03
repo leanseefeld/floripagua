@@ -87,10 +87,10 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
 .cards{display:flex;gap:var(--gap);will-change:transform;transition:transform .32s cubic-bezier(.22,.8,.3,1)}
 
 .cards.dragging{transition:none}
-.card{flex:0 0 calc(100% - var(--peek));min-width:0;padding:12px 14px;touch-action:pan-y;background:rgba(255,255,255,.9);border-radius:14px;box-shadow:0 6px 18px rgba(8,15,30,.18),0 1px 2px rgba(8,15,30,.12);user-select:none;-webkit-user-select:none;transition:transform .15s,box-shadow .15s,opacity .12s}
+.card{flex:0 0 calc(100% - var(--peek));min-width:0;padding:12px 14px;touch-action:pan-y;background:rgba(255,255,255,.58);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);border:1px solid var(--edge);border-radius:14px;box-shadow:0 6px 18px rgba(8,15,30,.18),0 1px 2px rgba(8,15,30,.12);user-select:none;-webkit-user-select:none;transition:transform .15s,box-shadow .15s,opacity .12s}
 .card.leaving{opacity:.65}
 .carousel.pressed .card.on{transform:scale(.985);box-shadow:0 2px 6px rgba(8,15,30,.2)}
-.carousel{padding:6px 0 8px}
+.carousel{padding:6px 0 30px}
 .card.key .eyebrow{color:var(--danger)}
 .card.intro .eyebrow{color:var(--ink3)}
 .card .event-text{user-select:none;-webkit-user-select:none;touch-action:pan-y;overscroll-behavior:contain}
@@ -127,6 +127,8 @@ kbd{font:11px ui-monospace,monospace;background:var(--paper2);border:1px solid v
   #story .story-body{display:grid;grid-template-rows:0fr;padding-bottom:0;transition:grid-template-rows .34s cubic-bezier(.2,.9,.25,1),padding-bottom .34s cubic-bezier(.2,.9,.25,1);border-top-color:transparent}
   #story.expanded .story-body{grid-template-rows:1fr;padding-bottom:12px;border-top-color:var(--line)}
   #story .story-inner{min-height:0;overflow:visible;clip-path:inset(0 -60px 0 -60px)}
+  #story.dragging,#story.dragging .story-body{transition:none!important}
+  .story-head{touch-action:pan-x;cursor:grab}
   .carousel{--peek:34px;--gap:48px}
   #story .story-body{overflow:visible;clip-path:inset(0 0 0 0)}
   .sheet .btn,.story-body .btn{height:44px}.story-body .btn.ghost{width:44px}
