@@ -64,7 +64,7 @@ export function buildUI(ctx) {
     let sy = 0, active = false, decided = false, startExpanded = false, prog = 0, lastY = 0, lastT = 0, vel = 0;
     let H0 = 0; // content height captured at gesture start; the sheet may overshoot it by at most 10 % (rubber band)
     const H = () => H0 || Math.min(inner.scrollHeight + 12, innerHeight * 0.6);
-    const apply = (pr) => { prog = pr; body.style.gridTemplateRows = (H() * pr).toFixed(1) + 'px'; body.style.paddingBottom = (12 * pr).toFixed(1) + 'px'; const inset = 10 * (1 - pr); story.style.left = story.style.right = story.style.bottom = inset.toFixed(1) + 'px'; story.style.borderRadius = `22px 22px ${(18 * (1 - pr)).toFixed(1)}px ${(18 * (1 - pr)).toFixed(1)}px`; };
+    const apply = (pr) => { prog = pr; body.style.gridTemplateRows = (H() * pr).toFixed(1) + 'px'; body.style.paddingBottom = (12 * pr).toFixed(1) + 'px'; const inset = 10 * (1 - pr); story.style.left = story.style.right = story.style.bottom = inset.toFixed(1) + 'px'; story.style.borderRadius = `var(--r-story) var(--r-story) ${(24 * (1 - pr)).toFixed(1)}px ${(24 * (1 - pr)).toFixed(1)}px`; };
     const clear = () => { body.style.gridTemplateRows = ''; body.style.paddingBottom = ''; body.style.transition = ''; story.style.left = story.style.right = story.style.bottom = story.style.borderRadius = ''; };
     const begin = (y, target) => { if (!app.mobile || target.closest('button,select,input,.chip')) return; H0 = 0; H0 = H(); active = true; decided = false; startExpanded = !story.classList.contains('collapsed'); sy = lastY = y; lastT = performance.now(); vel = 0; };
     const move = (y) => {
